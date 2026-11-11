@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Islamic Law and Islamic Astronomy"
+title: "Dr. Sakirman, M.S.I."
 author_profile: true
 redirect_from:
   - /about/
