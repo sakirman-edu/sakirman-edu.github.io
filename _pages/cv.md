@@ -11,54 +11,77 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+* **Ph.D. in Islamic Studies**, UIN Walisongo Semarang, 2017–2020
+* **Master of Islamic Studies (M.S.I.)**, IAIN Walisongo Semarang, 2010–2012
+* **Bachelor of Islamic Law (S.H.I.)**, UIN Sunan Kalijaga Yogyakarta, 2005–2009
+
+Academic Profile
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Lecturer and Researcher**, UIN Jurai Siwo Lampung, Indonesia
+  * Faculty of Sharia and Graduate Program
+  * Fields: Islamic Law and Islamic Astronomy (*Ilmu Falak*)
+  * Teaching and supervision at undergraduate, master's, and doctoral levels
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research Expertise
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Islamic Astronomy (*Ilmu Falak*)
+* Crescent visibility and lunar observation
+* Twilight (*syafaq*) and sky brightness
+* Hisab–rukyat integration
+* Hijri calendar systems
+* Astronomical photometry and digital imaging
+* Islamic law and astronomical evidence
+* Maqāṣid al-sharī‘ah
+* Contemporary Islamic law
+* Islamic family law
+
+Current Research
+======
+
+My current research investigates the relationship between **twilight conditions, sky brightness, atmospheric conditions, and crescent visibility**, integrating observational astronomy, digital imaging, photometric analysis, and Islamic legal reasoning.
+
+A major objective of this research is to contribute to the development of **evidence-based crescent visibility criteria and scientifically informed Hijri calendar systems**.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+
+<ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+
+* Islamic Astronomy (*Ilmu Falak*)
+* Advanced Islamic Astronomy
+* Islamic Law
+* Philosophy of Islamic Law
+* Philosophy of Islamic Family Law
+* Contemporary Issues in Islamic Law
+* Islamic Studies Methodology
+* Philosophy of Science and Knowledge Integration
+* Zakat and Waqf Law
+* Human Rights in Islamic Family Law
+
+Editorial and Academic Service
 ======
-* Currently signed in to 43 different slack teams
+
+* Editor, **Istinbath: Jurnal Hukum**
+* Peer reviewer for academic journals and research programs
+* Supervisor and examiner of undergraduate, master's, and doctoral research
+* Academic activities in curriculum development, research supervision, scholarly publication, and journal management
+* Speaker and resource person in academic seminars, workshops, and scholarly forums
+
+Community and Astronomical Engagement
+======
+
+* Crescent Moon (*hilal*) observation and astronomical field research
+* Training and workshops on Islamic astronomy
+* Qibla direction measurement and verification
+* Astronomical consultation for Islamic religious practices
+* Community engagement related to Hijri calendar and Islamic astronomy
