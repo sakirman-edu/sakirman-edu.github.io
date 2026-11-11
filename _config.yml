@@ -22,7 +22,7 @@ repository               : "sakirman-edu/sakirman-edu.github.io"
 # The following control what appears as part of the author content on the sidebar.
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "sakirman-profile.jpg"
   name             : "Dr. Sakirman, M.S.I."
   pronouns         :
   bio              : "Researcher and lecturer in Islamic Law and Islamic Astronomy, focusing on crescent visibility, twilight (syafaq), hisab–rukyat, and Hijri calendar studies."
