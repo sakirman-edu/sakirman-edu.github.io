@@ -1,5 +1,5 @@
 ---
-title: "Main publications"
+title: "Main Publications"
 permalink: /main-publications/
 author_profile: true
 ---
