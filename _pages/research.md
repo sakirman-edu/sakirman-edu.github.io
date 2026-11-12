@@ -8,10 +8,12 @@ author_profile: true
 
 My research focuses on the intersection of **Islamic law and Islamic astronomy**, particularly the use of astronomical evidence in Islamic legal reasoning, lunar observation, and Hijri calendar determination. My work combines observational astronomy, digital imaging, photometric analysis, geographical information systems, and Islamic legal studies.
 
-<figure class="align-center">
-  <img src="{{ base_path }}/images/hilal-twilight.jpg" alt="Crescent visibility observation at twilight">
-  <figcaption>
-    Crescent visibility observation at twilight, illustrating one of the main themes of my research on <em>hilal</em>, sky brightness, and observational astronomy.
+<figure class="align-center" style="max-width: 760px; margin: 1.5rem auto;">
+  <img src="{{ base_path }}/images/hilal-twilight.jpg"
+       alt="Crescent visibility observation at twilight"
+       style="width:100%; height:auto;">
+  <figcaption style="font-size:0.9em; text-align:center; margin-top:0.5rem;">
+    Crescent visibility during twilight as part of observational research on <em>hilal</em> visibility and sky brightness.
   </figcaption>
 </figure>
 
@@ -43,10 +45,12 @@ My current research focuses on the relationship between **twilight conditions, s
 
 The roadmap below summarizes the broader trajectory of my research in crescent visibility, Islamic astronomy, lunar observation, Hijri calendar studies, and the integration of astronomical evidence with Islamic legal reasoning.
 
-<figure class="align-center">
-  <img src="{{ base_path }}/images/roadmap-penelitian-hilal.png" alt="Research roadmap on crescent visibility and Islamic astronomy">
-  <figcaption>
-    Research roadmap on crescent visibility, Islamic astronomy, and the development of evidence-based Hijri calendar studies.
+<figure class="align-center" style="max-width: 720px; margin: 1.5rem auto;">
+  <img src="{{ base_path }}/images/roadmap-penelitian-hilal.png"
+       alt="Research roadmap on crescent visibility and Islamic astronomy"
+       style="width:100%; height:auto;">
+  <figcaption style="font-size:0.9em; text-align:center; margin-top:0.5rem;">
+    Research roadmap on crescent visibility, Islamic astronomy, and evidence-based Hijri calendar studies.
   </figcaption>
 </figure>
 
