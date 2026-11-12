@@ -38,57 +38,44 @@ Research Expertise
 * Hijri calendar systems
 * Astronomical photometry and digital imaging
 * Islamic law and astronomical evidence
-* Maqāṣid al-sharī‘ah
-* Contemporary Islamic law
+* Maqāṣid al-sharī‘ah and contemporary Islamic law
 * Islamic family law
 
-Current Research
+Research Focus
 ======
 
-My current research investigates the relationship between **twilight conditions, sky brightness, atmospheric conditions, and crescent visibility**, integrating observational astronomy, digital imaging, photometric analysis, and Islamic legal reasoning.
+My current research focuses on the relationship between **twilight conditions, sky brightness, atmospheric conditions, and crescent visibility in tropical and low-latitude environments**. It integrates observational astronomy, digital imaging, photometric analysis, astronomical modeling, and Islamic legal reasoning to contribute to the development of **evidence-based crescent visibility criteria and scientifically informed Hijri calendar systems**.
 
-A major objective of this research is to contribute to the development of **evidence-based crescent visibility criteria and scientifically informed Hijri calendar systems**.
+For further information, see **[Research](/research/)**.
 
-Selected Research Projects
+Selected Publications
 ======
 
-* **Twilight and Crescent Visibility in Tropical Environments**  
-  Investigation of twilight conditions, sky brightness, and their influence on the visibility of the young crescent Moon in tropical and low-latitude environments.
-
-* **Digital Imaging and Photometric Analysis of the Crescent Moon**  
-  Application of digital imaging, aperture photometry, and image analysis to evaluate crescent brightness, background sky intensity, and observational contrast.
-
-* **Hisab–Rukyat Integration and Hijri Calendar Studies**  
-  Research on methodological convergence between astronomical calculation (*hisab*) and lunar observation (*rukyat*) for determining the beginning of Hijri months.
-
-* **Islamic Law and Astronomical Evidence**  
-  Examination of the relationship between empirical astronomical evidence, Islamic legal reasoning, and contemporary religious practices.
-
-Publications
-======
+{% assign sorted_publications = site.publications | sort: "date" | reverse %}
 
 <ul>
-{% for post in site.publications reversed %}
+{% for post in sorted_publications limit:7 %}
   {% include archive-single-cv.html %}
 {% endfor %}
 </ul>
 
+**[View all publications →](/publications/)**
+
 Teaching
 ======
 
+Selected teaching areas include:
+
 * Islamic Astronomy (*Ilmu Falak*)
-* Advanced Islamic Astronomy
-* Islamic Law
 * Philosophy of Islamic Law
-* Philosophy of Islamic Family Law
-* Contemporary Issues in Islamic Law
 * Contemporary Issues in Islamic Economics
-* Islamic Studies Methodology
-* Research Methodology
-* Philosophy of Science and Knowledge Integration
-* Zakat and Waqf Law
 * Human Rights in Islamic Family Law
+* Research Methodology
+* Zakat and Waqf Law
+* Philosophy of Science and Knowledge Integration
 * International Academic Writing and Publication
+
+**[View teaching portfolio →](/teaching/)**
 
 Editorial and Academic Service
 ======
@@ -107,4 +94,3 @@ Community and Astronomical Engagement
 * Qibla direction measurement and verification
 * Astronomical consultation for Islamic religious practices
 * Community engagement related to Hijri calendar determination
-* Dissemination of astronomical knowledge for Islamic religious practices
