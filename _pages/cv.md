@@ -94,3 +94,8 @@ Community and Astronomical Engagement
 * Qibla direction measurement and verification
 * Astronomical consultation for Islamic religious practices
 * Community engagement related to Hijri calendar determination
+
+Full Curriculum Vitae
+======
+
+For a more detailed academic profile, you can **[view or download my full Curriculum Vitae here](https://drive.google.com/file/d/1ZNSqKRWUKbAQ9FoTtXTOLo1yhw1XvGwd/view?usp=drive_link)**.
