@@ -23,6 +23,7 @@ Academic Profile
   * Faculty of Sharia and Graduate Program
   * Fields: Islamic Law and Islamic Astronomy (*Ilmu Falak*)
   * Teaching and supervision at undergraduate, master's, and doctoral levels
+* **Secretary, Doctoral Program in Islamic Studies (Ilmu Syariah)**, Graduate Program, UIN Jurai Siwo Lampung
 
 Research Expertise
 ======
