@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 
-* **Ph.D. in Islamic Studies**, UIN Walisongo Semarang, 2017–2020
+* **Doctorate in Islamic Studies**, UIN Walisongo Semarang, 2017–2020
 * **Master of Islamic Studies (M.S.I.)**, IAIN Walisongo Semarang, 2010–2012
 * **Bachelor of Islamic Law (S.H.I.)**, UIN Sunan Kalijaga Yogyakarta, 2005–2009
 
