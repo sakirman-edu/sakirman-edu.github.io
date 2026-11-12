@@ -8,7 +8,7 @@ date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
 ---
 
-Doctoral course in the **Islamic Studies / Islamic Law** program.
+Doctoral course in the **Doctoral Program in Islamic Studies (Ilmu Syariah)**.
 
 The course examines the philosophical foundations of Islamic law through the dimensions of **ontology, epistemology, and axiology**.
 
