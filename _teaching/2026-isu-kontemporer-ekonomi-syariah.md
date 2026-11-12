@@ -8,7 +8,7 @@ date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
 ---
 
-Doctoral course focusing on contemporary developments in **Islamic economics and Islamic economic law**.
+Doctoral course in the **Islamic Studies (Ilmu Syariah)** program, focusing on contemporary issues in **Islamic economics and Islamic economic law**.
 
 The course discusses the genealogy of *fiqh mu‘amalah*, maqāṣid-based economic thought, sharia governance, Islamic banking, capital markets, sukuk, digital economy, platform economy, transformation of contracts, financial inclusion, inequality, poverty, and distributive justice.
 
