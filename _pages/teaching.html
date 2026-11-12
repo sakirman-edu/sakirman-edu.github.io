@@ -7,6 +7,39 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+{% assign doctoral = site.teaching | where: "type", "Doctoral Course" | sort: "title" %}
+{% assign masters = site.teaching | where: "type", "Master's Course" | sort: "title" %}
+{% assign undergraduate = site.teaching | where: "type", "Undergraduate Course" | sort: "title" %}
+{% assign multi_level = site.teaching | where: "type", "Undergraduate and Graduate Course" | sort: "title" %}
+
+{% if doctoral.size > 0 %}
+<h2>Doctoral Courses</h2>
+
+{% for post in doctoral %}
   {% include archive-single.html %}
 {% endfor %}
+{% endif %}
+
+{% if masters.size > 0 %}
+<h2>Master's Courses</h2>
+
+{% for post in masters %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}
+
+{% if undergraduate.size > 0 %}
+<h2>Undergraduate Courses</h2>
+
+{% for post in undergraduate %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}
+
+{% if multi_level.size > 0 %}
+<h2>Undergraduate and Graduate Courses</h2>
+
+{% for post in multi_level %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}
