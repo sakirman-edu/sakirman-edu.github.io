@@ -4,7 +4,16 @@ permalink: /research/
 author_profile: true
 ---
 
+{% include base_path %}
+
 My research focuses on the intersection of **Islamic law and Islamic astronomy**, particularly the use of astronomical evidence in Islamic legal reasoning, lunar observation, and Hijri calendar determination. My work combines observational astronomy, digital imaging, photometric analysis, geographical information systems, and Islamic legal studies.
+
+<figure class="align-center">
+  <img src="{{ base_path }}/images/hilal-twilight.jpg" alt="Crescent visibility observation at twilight">
+  <figcaption>
+    Crescent visibility observation at twilight, illustrating one of the main themes of my research on <em>hilal</em>, sky brightness, and observational astronomy.
+  </figcaption>
+</figure>
 
 ## Research Areas
 
@@ -29,6 +38,17 @@ My broader research interests include **maqāṣid al-sharī‘ah, Islamic famil
 ## Current Research Focus
 
 My current research focuses on the relationship between **twilight conditions, sky brightness, atmospheric conditions, and crescent visibility in tropical and low-latitude environments**. It integrates observational astronomy, digital imaging, photometric analysis, astronomical modeling, and Islamic legal reasoning to contribute to the development of **evidence-based crescent visibility criteria and scientifically informed Hijri calendar systems**.
+
+## Research Roadmap
+
+The roadmap below summarizes the broader trajectory of my research in crescent visibility, Islamic astronomy, lunar observation, Hijri calendar studies, and the integration of astronomical evidence with Islamic legal reasoning.
+
+<figure class="align-center">
+  <img src="{{ base_path }}/images/roadmap-penelitian-hilal.png" alt="Research roadmap on crescent visibility and Islamic astronomy">
+  <figcaption>
+    Research roadmap on crescent visibility, Islamic astronomy, and the development of evidence-based Hijri calendar studies.
+  </figcaption>
+</figure>
 
 ## Selected Research Projects
 
