@@ -1,10 +1,10 @@
 # Main navigation
 
 main:
-  - title: "Main publications"
+  - title: "Main Publications"
     url: /main-publications/
 
-  - title: "Full publications"
+  - title: "Full Publications"
     url: /publications/
 
   - title: "Research"
