@@ -245,3 +245,52 @@ The course also introduces contemporary developments in astronomical instrumenta
 - **Observation Forms** — Coming soon
 - **Reading List** — Coming soon
 - **Reference Materials** — Coming soon
+- ## Lecture Gallery
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:15px; margin-top:1rem;">
+
+  <figure style="margin:0;">
+    <a href="/images/teaching/ilmu-falak/kuliah-01.jpg" target="_blank">
+      <img src="/images/teaching/ilmu-falak/kuliah-01.jpg"
+           alt="Ilmu Falak Lecture 1"
+           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+    </a>
+    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
+      Ilmu Falak Lecture
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <a href="/images/teaching/ilmu-falak/kuliah-02.jpg" target="_blank">
+      <img src="/images/teaching/ilmu-falak/kuliah-02.jpg"
+           alt="Ilmu Falak Lecture 2"
+           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+    </a>
+    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
+      Classroom Discussion
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <a href="/images/teaching/ilmu-falak/kuliah-03.jpg" target="_blank">
+      <img src="/images/teaching/ilmu-falak/kuliah-03.jpg"
+           alt="Ilmu Falak Lecture 3"
+           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+    </a>
+    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
+      Astronomical Practice
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <a href="/images/teaching/ilmu-falak/kuliah-04.jpg" target="_blank">
+      <img src="/images/teaching/ilmu-falak/kuliah-04.jpg"
+           alt="Ilmu Falak Lecture 4"
+           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+    </a>
+    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
+      Student Presentation
+    </figcaption>
+  </figure>
+
+</div>
