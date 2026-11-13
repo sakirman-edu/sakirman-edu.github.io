@@ -311,7 +311,7 @@ author_profile: true
 
     <div class="research-card">
 
-      <img src="{{ base_path }}/images/roadmap-penelitian-hilal.png"
+      <img src="{{ base_path }}/images/Picture11.png"
            alt="Astronomy for Islamic religious practices">
 
       <div class="research-card-content">
@@ -480,7 +480,6 @@ author_profile: true
   <p class="research-intro">
     Several questions guide the next phase of my research.
   </p>
-
 
   <div class="future-card">
 
