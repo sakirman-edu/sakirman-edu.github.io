@@ -119,6 +119,33 @@ author_profile: true
   font-weight: 700;
 }
 
+.method-image-box {
+  margin-top: 1.8rem;
+  border: 1px solid rgba(128,128,128,0.28);
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(128,128,128,0.035);
+}
+
+.method-image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.method-image-content {
+  padding: 1.1rem 1.25rem 1.25rem 1.25rem;
+}
+
+.method-image-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+}
+
+.method-image-content p {
+  line-height: 1.7;
+}
+
 .future-card {
   border: 1px solid rgba(128,128,128,0.28);
   border-radius: 10px;
@@ -319,8 +346,8 @@ author_profile: true
   <h2>From Observation to Legal Interpretation</h2>
 
   <p class="research-intro">
-    My research combines observational astronomy, quantitative analysis,
-    astronomical modeling, and Islamic legal reasoning.
+    My research combines observational astronomy, digital imaging,
+    quantitative image analysis, astronomical modeling, and Islamic legal reasoning.
   </p>
 
   <div class="method-box">
@@ -335,6 +362,12 @@ author_profile: true
 
       <div class="method-step">
         Image Acquisition
+      </div>
+
+      <div class="method-arrow">→</div>
+
+      <div class="method-step">
+        IRIS Image Processing
       </div>
 
       <div class="method-arrow">→</div>
@@ -360,6 +393,51 @@ author_profile: true
       <div class="method-step">
         Religious and Calendar Application
       </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="method-image-box">
+
+    <a href="{{ base_path }}/images/Analisis-IRIS.png"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <img src="{{ base_path }}/images/Analisis-IRIS.png"
+           alt="IRIS analysis of crescent Moon image during twilight">
+
+    </a>
+
+    <div class="method-image-content">
+
+      <h3>IRIS-Based Crescent Image Processing</h3>
+
+      <p>
+        One of the image-processing approaches used in my crescent visibility
+        research is <strong>IRIS</strong>, an astronomical image-processing
+        environment applied to digital images of the young crescent Moon
+        obtained under twilight conditions.
+      </p>
+
+      <p>
+        IRIS is used to process and analyze the faint crescent signal in the
+        presence of strong <em>syafaq</em> or twilight background illumination.
+        The processing is intended to improve the separation between the lunar
+        crescent signal and the surrounding sky background, allowing the
+        crescent to be examined more systematically despite interference from
+        twilight brightness.
+      </p>
+
+      <p style="margin-bottom:0;">
+        The processed images are subsequently used for photometric measurement,
+        comparison of crescent and sky-background intensity, and quantitative
+        contrast analysis. This approach supports the evaluation of crescent
+        detectability under varying twilight conditions and provides empirical
+        evidence for the development of scientifically grounded crescent
+        visibility criteria.
+      </p>
 
     </div>
 
