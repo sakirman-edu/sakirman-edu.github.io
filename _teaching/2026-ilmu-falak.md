@@ -1,7 +1,7 @@
 ---
 title: "Ilmu Falak"
 collection: teaching
-type: "Undergraduate and Graduate Course"
+type: "Undergraduate Course"
 permalink: /teaching/2026-ilmu-falak
 venue: "UIN Jurai Siwo Lampung"
 date: 2026-08-01
@@ -237,8 +237,6 @@ The course also introduces contemporary developments in astronomical instrumenta
 
 </div>
 
-## Additional Resources
-
 ## Learning Resources
 
 - <strong>RPS / Course Syllabus</strong> —
@@ -247,6 +245,7 @@ The course also introduces contemporary developments in astronomical instrumenta
      rel="noopener noreferrer">
     Download PDF
   </a>
+
 - **Practicum Guide** — Coming soon
 - **Astronomical Calculation Worksheets** — Coming soon
 - **Observation and Fieldwork Forms** — Coming soon
@@ -254,8 +253,8 @@ The course also introduces contemporary developments in astronomical instrumenta
 - **Reading List and References** — Coming soon
 - **Astronomical Software and Digital Tools** — Coming soon
 
-- 
 ## Lecture Gallery
+
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:15px; margin-top:1rem;">
 
   <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg" target="_blank" rel="noopener noreferrer">
@@ -299,12 +298,11 @@ The course also introduces contemporary developments in astronomical instrumenta
          alt="Ilmu Falak Lecture 7"
          style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
   </a>
-  
-   <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg" target="_blank" rel="noopener noreferrer">
+
+  <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-08.jpeg"
-         alt="Ilmu Falak Lecture 7"
+         alt="Ilmu Falak Lecture 8"
          style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
-     
   </a>
 
 </div>
