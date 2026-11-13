@@ -241,8 +241,12 @@ The course also introduces contemporary developments in astronomical instrumenta
 
 ## Learning Resources
 
-- **RPS / Course Syllabus** — Coming soon
-- **CPL and CPMK** — Coming soon
+- <strong>RPS / Course Syllabus</strong> —
+  <a href="/files/teaching/ilmu-falak/RPS_OBE_100_TEMPLATE_Ilmu_Falak.pdf"
+     target="_blank"
+     rel="noopener noreferrer">
+    Download PDF
+  </a>
 - **Practicum Guide** — Coming soon
 - **Astronomical Calculation Worksheets** — Coming soon
 - **Observation and Fieldwork Forms** — Coming soon
