@@ -239,12 +239,18 @@ The course also introduces contemporary developments in astronomical instrumenta
 
 ## Additional Resources
 
+## Learning Resources
+
 - **RPS / Course Syllabus** — Coming soon
+- **CPL and CPMK** — Coming soon
 - **Practicum Guide** — Coming soon
 - **Astronomical Calculation Worksheets** — Coming soon
-- **Observation Forms** — Coming soon
-- **Reading List** — Coming soon
-- **Reference Materials** — Coming soon
+- **Observation and Fieldwork Forms** — Coming soon
+- **Assignment and Assessment Rubrics** — Coming soon
+- **Reading List and References** — Coming soon
+- **Astronomical Software and Digital Tools** — Coming soon
+
+- 
 ## Lecture Gallery
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:15px; margin-top:1rem;">
 
