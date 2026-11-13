@@ -13,3 +13,161 @@ Course on **Ilmu Falak** and its application to Islamic religious practices.
 The course covers Hijri calendar determination, *hisab* and *rukyat*, crescent visibility, qibla direction, prayer times, solar and lunar phenomena, astronomical coordinates, and observational methods.
 
 The course also introduces contemporary developments in astronomical instrumentation, digital imaging, and the integration of astronomical evidence with Islamic legal reasoning.
+
+## Course Materials
+
+<div style="overflow-x:auto;">
+
+<table style="width:100%; border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th style="text-align:center; width:8%;">Meeting</th>
+      <th style="text-align:left; width:52%;">Topic</th>
+      <th style="text-align:center; width:20%;">Material</th>
+      <th style="text-align:center; width:20%;">Download</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td style="text-align:center;">1</td>
+      <td><strong>Pengantar Ilmu Falak</strong><br>
+      Ruang lingkup Ilmu Falak; sejarah perkembangan; kedudukan Ilmu Falak dalam studi Islam; hubungan astronomi dan fikih.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">2</td>
+      <td><strong>Dasar-Dasar Astronomi untuk Ilmu Falak</strong><br>
+      Bola langit; gerak semu harian dan tahunan; koordinat langit; horizon; ekuator; ekliptika; azimut; altitude.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">3</td>
+      <td><strong>Koordinat Geografis dan Astronomis</strong><br>
+      Lintang, bujur, deklinasi, asensio rekta, sudut waktu, dan penerapannya dalam perhitungan falak.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">4</td>
+      <td><strong>Penentuan Arah Kiblat</strong><br>
+      Konsep kiblat; azimut kiblat; metode trigonometri bola; rashdul qiblah; kompas; teodolit; GPS dan aplikasi digital.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">5</td>
+      <td><strong>Praktik Pengukuran Arah Kiblat</strong><br>
+      Simulasi dan praktik penentuan arah kiblat menggunakan metode astronomis dan instrumen lapangan.</td>
+      <td style="text-align:center;">Practicum</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">6</td>
+      <td><strong>Waktu Salat</strong><br>
+      Dasar astronomis waktu Zuhur, Asar, Magrib, Isya, dan Subuh; deklinasi Matahari; equation of time; tinggi Matahari.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">7</td>
+      <td><strong>Praktik Perhitungan dan Verifikasi Waktu Salat</strong><br>
+      Perhitungan manual dan digital; koreksi geografis; observasi; verifikasi jadwal waktu salat.</td>
+      <td style="text-align:center;">Practicum</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">8</td>
+      <td><strong>Ujian Tengah Semester (UTS)</strong><br>
+      Evaluasi konsep dasar, arah kiblat, dan waktu salat melalui tes atau praktik terstruktur.</td>
+      <td style="text-align:center;">Assessment</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">9</td>
+      <td><strong>Kalender Hijriah dan Sistem Penanggalan</strong><br>
+      Kalender lunar; kalender solar; kalender Hijriah; konversi kalender; siklus Bulan dan dasar penentuan awal bulan.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">10</td>
+      <td><strong>Hisab Awal Bulan Hijriah</strong><br>
+      Ijtimak; elongasi; tinggi hilal; umur Bulan; azimut; metode hisab hakiki dan kontemporer.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">11</td>
+      <td><strong>Rukyat Hilal dan Kriteria Visibilitas</strong><br>
+      Konsep rukyat; faktor atmosfer; kontras hilal; kriteria MABIMS; model visibilitas hilal; laporan observasi.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">12</td>
+      <td><strong>Praktik Observasi Hilal dan Dokumentasi</strong><br>
+      Persiapan observasi; pemilihan lokasi; instrumen; teleskop; kamera digital; dokumentasi; pencatatan hasil rukyat.</td>
+      <td style="text-align:center;">Practicum</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">13</td>
+      <td><strong>Gerhana Matahari dan Gerhana Bulan</strong><br>
+      Mekanisme gerhana; jenis gerhana; perhitungan dasar; observasi; aspek fikih dan pelaksanaan salat gerhana.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">14</td>
+      <td><strong>Instrumen Astronomi dan Digital Imaging</strong><br>
+      Teleskop; kamera; sensor; CCD/CMOS; aplikasi astronomi; fotografi hilal; pengolahan citra dan dokumentasi astronomis.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">15</td>
+      <td><strong>Integrasi Hisab, Rukyat, dan Hukum Islam</strong><br>
+      Hubungan bukti astronomis dan penalaran fikih; otoritas penetapan awal bulan; kalender Hijriah; isu kontemporer hisab-rukyat.</td>
+      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:center;">16</td>
+      <td><strong>Ujian Akhir Semester (UAS)</strong><br>
+      Evaluasi komprehensif atau presentasi proyek akhir terkait aplikasi Ilmu Falak.</td>
+      <td style="text-align:center;">Final Assessment</td>
+      <td style="text-align:center;"><em>Coming soon</em></td>
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+## Additional Resources
+
+- **RPS / Course Syllabus** — Coming soon
+- **Practicum Guide** — Coming soon
+- **Astronomical Calculation Worksheets** — Coming soon
+- **Observation Forms** — Coming soon
+- **Reading List** — Coming soon
+- **Reference Materials** — Coming soon
