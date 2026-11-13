@@ -289,5 +289,12 @@ The course also introduces contemporary developments in astronomical instrumenta
          alt="Ilmu Falak Lecture 7"
          style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
   </a>
+  
+   <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg" target="_blank" rel="noopener noreferrer">
+    <img src="/images/teaching/ilmu-falak/Kuliah-08.jpeg"
+         alt="Ilmu Falak Lecture 7"
+         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+     
+  </a>
 
 </div>
