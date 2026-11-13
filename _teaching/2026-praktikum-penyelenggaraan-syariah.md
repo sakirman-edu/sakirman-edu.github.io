@@ -45,7 +45,13 @@ The course provides practical training in **sharia-related public services and I
         Kedudukan, tugas, fungsi, struktur organisasi, jenis layanan KUA, hubungan KUA dengan Kementerian Agama, serta peran penghulu dan penyuluh agama.
       </td>
       <td style="text-align:center;">PPT / PDF</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
+      <td style="text-align:center;">
+  <a href="/files/teaching/praktikum-penyelenggaraan-syariah/pertemuan-02-makalah-praktikum.pdf"
+     target="_blank"
+     rel="noopener noreferrer">
+    <strong>Download PDF</strong>
+  </a>
+</td>
     </tr>
 
     <tr>
