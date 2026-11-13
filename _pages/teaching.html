@@ -7,39 +7,86 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign doctoral = site.teaching | where: "type", "Doctoral Course" | sort: "title" %}
-{% assign masters = site.teaching | where: "type", "Master's Course" | sort: "title" %}
+<div style="margin-bottom:2rem;">
+  <p style="font-size:1.05em; line-height:1.7; margin-bottom:0;">
+    Selected courses taught at undergraduate, master's, and doctoral levels,
+    covering Islamic law, Islamic family law, Islamic economics, research methodology,
+    Islamic astronomy, and contemporary Islamic studies.
+  </p>
+</div>
+
 {% assign undergraduate = site.teaching | where: "type", "Undergraduate Course" | sort: "title" %}
-{% assign multi_level = site.teaching | where: "type", "Undergraduate and Graduate Course" | sort: "title" %}
+{% assign masters = site.teaching | where: "type", "Master's Course" | sort: "title" %}
+{% assign doctoral = site.teaching | where: "type", "Doctoral Course" | sort: "title" %}
 
-{% if doctoral.size > 0 %}
-<h2>Doctoral Courses</h2>
+{% if undergraduate.size > 0 %}
+<section style="margin-bottom:2.75rem;">
 
-{% for post in doctoral %}
-  {% include archive-single.html %}
-{% endfor %}
+  <h2 style="
+    margin-top:0;
+    margin-bottom:1.25rem;
+    padding-bottom:0.5rem;
+    border-bottom:1px solid rgba(128,128,128,0.35);
+    font-weight:600;
+    letter-spacing:0.01em;">
+    Undergraduate Courses
+  </h2>
+
+  <div>
+    {% for post in undergraduate %}
+      <div style="margin-bottom:1.35rem;">
+        {% include archive-single.html %}
+      </div>
+    {% endfor %}
+  </div>
+
+</section>
 {% endif %}
 
 {% if masters.size > 0 %}
-<h2>Master's Courses</h2>
+<section style="margin-bottom:2.75rem;">
 
-{% for post in masters %}
-  {% include archive-single.html %}
-{% endfor %}
+  <h2 style="
+    margin-top:0;
+    margin-bottom:1.25rem;
+    padding-bottom:0.5rem;
+    border-bottom:1px solid rgba(128,128,128,0.35);
+    font-weight:600;
+    letter-spacing:0.01em;">
+    Master's Courses
+  </h2>
+
+  <div>
+    {% for post in masters %}
+      <div style="margin-bottom:1.35rem;">
+        {% include archive-single.html %}
+      </div>
+    {% endfor %}
+  </div>
+
+</section>
 {% endif %}
 
-{% if undergraduate.size > 0 %}
-<h2>Undergraduate Courses</h2>
+{% if doctoral.size > 0 %}
+<section style="margin-bottom:2rem;">
 
-{% for post in undergraduate %}
-  {% include archive-single.html %}
-{% endfor %}
-{% endif %}
+  <h2 style="
+    margin-top:0;
+    margin-bottom:1.25rem;
+    padding-bottom:0.5rem;
+    border-bottom:1px solid rgba(128,128,128,0.35);
+    font-weight:600;
+    letter-spacing:0.01em;">
+    Doctoral Courses
+  </h2>
 
-{% if multi_level.size > 0 %}
-<h2>Undergraduate and Graduate Courses</h2>
+  <div>
+    {% for post in doctoral %}
+      <div style="margin-bottom:1.35rem;">
+        {% include archive-single.html %}
+      </div>
+    {% endfor %}
+  </div>
 
-{% for post in multi_level %}
-  {% include archive-single.html %}
-{% endfor %}
+</section>
 {% endif %}
