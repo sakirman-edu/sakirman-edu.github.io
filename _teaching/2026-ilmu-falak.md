@@ -246,59 +246,10 @@ The course also introduces contemporary developments in astronomical instrumenta
 - **Reading List** — Coming soon
 - **Reference Materials** — Coming soon
 - ## Lecture Gallery
-
-## Lecture Gallery
-
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:15px; margin-top:1rem;">
-
   <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg" target="_blank" rel="noopener noreferrer">
-      <img src="/images/teaching/ilmu-falak/Kuliah-01.jpeg"
-           alt="Ilmu Falak Lecture 1"
-           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
-    </a>
-    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
-      Ilmu Falak Lecture
-    </figcaption>
-  </figure>
-
-  <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/Kuliah-02.jpeg" target="_blank" rel="noopener noreferrer">
-      <img src="/images/teaching/ilmu-falak/Kuliah-02.jpeg"
-           alt="Ilmu Falak Lecture 2"
-           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
-    </a>
-    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
-      Classroom Discussion
-    </figcaption>
-  </figure>
-
-  <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/Kuliah-03.jpeg" target="_blank" rel="noopener noreferrer">
-      <img src="/images/teaching/ilmu-falak/Kuliah-03.jpeg"
-           alt="Ilmu Falak Lecture 3"
-           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
-    </a>
-    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
-      Astronomical Practice
-    </figcaption>
-  </figure>
-
-  <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/Kuliah-04.jpeg" target="_blank" rel="noopener noreferrer">
-      <img src="/images/teaching/ilmu-falak/Kuliah-04.jpeg"
-           alt="Ilmu Falak Lecture 4"
-           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
-    </a>
-    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
-      Student Presentation
-    </figcaption>
-  </figure>
-
-  <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/Kuliah-05.jpeg" target="_blank" rel="noopener noreferrer">
-      <img src="/images/teaching/ilmu-falak/Kuliah-05.jpeg"
-           alt="Ilmu Falak Lecture 5"
+    <a href="/images/teaching/ilmu-falak/Kuliah-06.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="/images/teaching/ilmu-falak/Kuliah-06.jpeg"
+           alt="Ilmu Falak Lecture 6"
            style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
     </a>
     <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
@@ -306,4 +257,13 @@ The course also introduces contemporary developments in astronomical instrumenta
     </figcaption>
   </figure>
 
-</div>
+  <figure style="margin:0;">
+    <a href="/images/teaching/ilmu-falak/Kuliah-07.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="/images/teaching/ilmu-falak/Kuliah-07.jpeg"
+           alt="Ilmu Falak Lecture 7"
+           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+    </a>
+    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
+      Classroom and Astronomical Learning Activity
+    </figcaption>
+  </figure>
