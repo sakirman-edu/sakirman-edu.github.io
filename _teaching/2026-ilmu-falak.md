@@ -138,10 +138,16 @@ The course also introduces contemporary developments in astronomical instrumenta
       <td style="text-align:center;">9</td>
       <td>
         <strong>Kalender Hijriah dan Sistem Penanggalan</strong><br>
-        Kalender lunar; kalender solar; kalender Hijriah; konversi kalender; siklus Bulan; dan dasar penentuan awal bulan.
+        Kalender lunar; kalender solar; kalender Hijriah; konversi kalender; siklus Bulan; dan dasar penentuan awal bulan Hijriah.
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
+      <td style="text-align:center;">PDF</td>
+      <td style="text-align:center;">
+        <a href="/files/teaching/ilmu-falak/05-Dasar%20Penentuan%20Awal%20Bulan%20Hijriyah.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          <strong>Download PDF</strong>
+        </a>
+      </td>
     </tr>
 
     <tr>
@@ -158,10 +164,16 @@ The course also introduces contemporary developments in astronomical instrumenta
       <td style="text-align:center;">11</td>
       <td>
         <strong>Rukyat Hilal dan Kriteria Visibilitas</strong><br>
-        Konsep rukyat; faktor atmosfer; kontras hilal; kriteria MABIMS; model visibilitas hilal; dan laporan observasi.
+        Konsep rukyat; faktor atmosfer; kontras hilal; kriteria MABIMS; keunggulan dan kelemahan kriteria kalender MABIMS; model visibilitas hilal; dan laporan observasi.
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
+      <td style="text-align:center;">PDF</td>
+      <td style="text-align:center;">
+        <a href="/files/teaching/ilmu-falak/07-Keunggulan%20dan%20Kelemahan%20Kalender%20MABIMS.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          <strong>Download PDF</strong>
+        </a>
+      </td>
     </tr>
 
     <tr>
@@ -198,10 +210,16 @@ The course also introduces contemporary developments in astronomical instrumenta
       <td style="text-align:center;">15</td>
       <td>
         <strong>Integrasi Hisab, Rukyat, dan Hukum Islam</strong><br>
-        Hubungan bukti astronomis dan penalaran fikih; otoritas penetapan awal bulan; kalender Hijriah; dan isu kontemporer hisab-rukyat.
+        Hubungan bukti astronomis dan penalaran fikih; otoritas penetapan awal bulan; problem unifikasi kalender Hijriah; serta isu kontemporer hisab-rukyat.
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
+      <td style="text-align:center;">PDF</td>
+      <td style="text-align:center;">
+        <a href="/files/teaching/ilmu-falak/06-Problema%20Unifikasi%20Kalender%20Hijriyah.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          <strong>Download PDF</strong>
+        </a>
+      </td>
     </tr>
 
     <tr>
