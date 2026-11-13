@@ -247,11 +247,13 @@ The course also introduces contemporary developments in astronomical instrumenta
 - **Reference Materials** — Coming soon
 - ## Lecture Gallery
 
+## Lecture Gallery
+
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:15px; margin-top:1rem;">
 
   <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/kuliah-01.jpg" target="_blank">
-      <img src="/images/teaching/ilmu-falak/kuliah-01.jpg"
+    <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="/images/teaching/ilmu-falak/Kuliah-01.jpeg"
            alt="Ilmu Falak Lecture 1"
            style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
     </a>
@@ -261,8 +263,8 @@ The course also introduces contemporary developments in astronomical instrumenta
   </figure>
 
   <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/kuliah-02.jpg" target="_blank">
-      <img src="/images/teaching/ilmu-falak/kuliah-02.jpg"
+    <a href="/images/teaching/ilmu-falak/Kuliah-02.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="/images/teaching/ilmu-falak/Kuliah-02.jpeg"
            alt="Ilmu Falak Lecture 2"
            style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
     </a>
@@ -272,8 +274,8 @@ The course also introduces contemporary developments in astronomical instrumenta
   </figure>
 
   <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/kuliah-03.jpg" target="_blank">
-      <img src="/images/teaching/ilmu-falak/kuliah-03.jpg"
+    <a href="/images/teaching/ilmu-falak/Kuliah-03.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="/images/teaching/ilmu-falak/Kuliah-03.jpeg"
            alt="Ilmu Falak Lecture 3"
            style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
     </a>
@@ -283,13 +285,24 @@ The course also introduces contemporary developments in astronomical instrumenta
   </figure>
 
   <figure style="margin:0;">
-    <a href="/images/teaching/ilmu-falak/kuliah-04.jpg" target="_blank">
-      <img src="/images/teaching/ilmu-falak/kuliah-04.jpg"
+    <a href="/images/teaching/ilmu-falak/Kuliah-04.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="/images/teaching/ilmu-falak/Kuliah-04.jpeg"
            alt="Ilmu Falak Lecture 4"
            style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
     </a>
     <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
       Student Presentation
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0;">
+    <a href="/images/teaching/ilmu-falak/Kuliah-05.jpeg" target="_blank" rel="noopener noreferrer">
+      <img src="/images/teaching/ilmu-falak/Kuliah-05.jpeg"
+           alt="Ilmu Falak Lecture 5"
+           style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+    </a>
+    <figcaption style="text-align:center; font-size:0.85em; margin-top:5px;">
+      Ilmu Falak Learning Activity
     </figcaption>
   </figure>
 
