@@ -1,44 +1,257 @@
+---
+---
+
+/*
+ * Main stylesheet
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar"
+;
+
+
 /* =========================================
-   PUBLICATION CARDS
-   BORDER ONLY + SLIGHT LIFT
+   TOP NAVIGATION
 ========================================= */
 
-.publication-card,
-.fullpub-card {
-  transition:
-    transform 0.22s ease !important,
-    border-color 0.22s ease !important;
+.greedy-nav .visible-links a {
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
-.publication-card:hover,
-.fullpub-card:hover {
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus {
+  color: #00b8d9 !important;
+}
+
+.greedy-nav .visible-links a:hover::before,
+.greedy-nav .visible-links a:focus::before {
+  background: #00b8d9 !important;
+}
+
+
+/* =========================================
+   SIDEBAR LINKS
+========================================= */
+
+.author__urls a {
+  transition: color 0.2s ease;
+}
+
+.author__urls a:hover,
+.author__urls a:focus {
+  color: #00b8d9 !important;
+}
+
+.author__urls a:hover i,
+.author__urls a:focus i,
+.author__urls a:hover .fa,
+.author__urls a:focus .fa,
+.author__urls a:hover .fas,
+.author__urls a:focus .fas,
+.author__urls a:hover .fab,
+.author__urls a:focus .fab,
+.author__urls a:hover .ai,
+.author__urls a:focus .ai {
+  color: #00b8d9 !important;
+}
+
+
+/* =========================================
+   GENERAL LINKS
+========================================= */
+
+.page__content a,
+.archive a {
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.page__content a:hover,
+.page__content a:focus,
+.archive a:hover,
+.archive a:focus {
+  color: #00b8d9 !important;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.home-button,
+.publication-button,
+.publications-footer-button,
+.fullpub-button,
+.cv-download-button,
+.cv-tag,
+.fullpub-profile-link {
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.home-button:hover,
+.home-button:focus,
+.publication-button:hover,
+.publication-button:focus,
+.publications-footer-button:hover,
+.publications-footer-button:focus,
+.fullpub-button:hover,
+.fullpub-button:focus,
+.cv-download-button:hover,
+.cv-download-button:focus,
+.cv-tag:hover,
+.cv-tag:focus,
+.fullpub-profile-link:hover,
+.fullpub-profile-link:focus {
+  color: #00b8d9 !important;
   border-color: #00b8d9 !important;
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  transform: translateY(-3px) !important;
 }
 
 
 /* =========================================
-   TEACHING COURSE CARDS
+   HOMEPAGE CARDS
+========================================= */
+
+.home-link-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.home-link-card:hover {
+  border-color: #00b8d9 !important;
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   TEACHING CARDS
    BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
-.teaching-section .course-card,
-.course-grid .course-card,
 .course-card {
   transition:
-    transform 0.22s ease !important,
-    border-color 0.22s ease !important;
+    transform 0.22s ease,
+    border-color 0.22s ease;
 }
 
-.teaching-section .course-card:hover,
-.course-grid .course-card:hover,
 .course-card:hover {
   border-color: #00b8d9 !important;
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  transform: translateY(-3px) !important;
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   MAIN PUBLICATION CARDS
+   BORDER ONLY + SLIGHT LIFT
+========================================= */
+
+.publication-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.publication-card:hover {
+  border-color: #00b8d9 !important;
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   FULL PUBLICATION CARDS
+   BORDER ONLY + SLIGHT LIFT
+========================================= */
+
+.fullpub-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.fullpub-card:hover {
+  border-color: #00b8d9 !important;
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   PUBLICATION TITLES
+========================================= */
+
+.publication-title a,
+.fullpub-title a,
+.archive__item-title a {
+  transition: color 0.2s ease;
+}
+
+.publication-title a:hover,
+.publication-title a:focus,
+.fullpub-title a:hover,
+.fullpub-title a:focus,
+.archive__item-title a:hover,
+.archive__item-title a:focus {
+  color: #00b8d9 !important;
+}
+
+
+/* =========================================
+   CV CARDS
+========================================= */
+
+.cv-panel,
+.cv-item,
+.cv-summary-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.cv-panel:hover,
+.cv-item:hover,
+.cv-summary-card:hover {
+  border-color: #00b8d9 !important;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .course-card:hover,
+  .publication-card:hover,
+  .fullpub-card:hover,
+  .home-link-card:hover,
+  .cv-panel:hover,
+  .cv-item:hover,
+  .cv-summary-card:hover {
+    transform: none;
+  }
+
 }
