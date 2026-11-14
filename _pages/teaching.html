@@ -6,128 +6,102 @@ author_profile: true
 description: "Selected undergraduate, master's, and doctoral courses in Islamic law, Islamic astronomy, Islamic economics, and interdisciplinary Islamic studies."
 ---
 
-{% include base_path %}
-
 <style>
 .teaching-intro {
-  margin-bottom: 3rem;
-}
-
-.teaching-kicker {
-  font-size: 0.78em;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-weight: 700;
-  opacity: 0.75;
-  margin-bottom: 0.6rem;
+  margin: 0 0 2rem 0;
+  max-width: 850px;
 }
 
 .teaching-intro p {
-  font-size: 1.02em;
+  font-size: 1.02rem;
   line-height: 1.75;
-  max-width: 850px;
-  margin-bottom: 0;
+  margin-bottom: 0.8rem;
+}
+
+.teaching-kicker {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 0.35rem;
 }
 
 .teaching-section {
-  margin-bottom: 3.25rem;
+  margin-top: 2.5rem;
 }
 
-.teaching-section-header {
-  margin-bottom: 1.35rem;
-  padding-bottom: 0.6rem;
-  border-bottom: 1px solid rgba(128,128,128,0.32);
-}
-
-.teaching-section-header h2 {
-  margin-top: 0;
-  margin-bottom: 0.3rem;
-  font-weight: 600;
-}
-
-.teaching-section-header p {
-  margin: 0;
-  font-size: 0.92em;
-  line-height: 1.55;
-  opacity: 0.8;
+.teaching-section h2 {
+  margin-bottom: 1.1rem;
 }
 
 .course-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.2rem;
+  gap: 1rem;
 }
 
 .course-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 220px;
-  border: 1px solid rgba(128,128,128,0.28);
-  border-radius: 10px;
-  padding: 1.15rem 1.2rem;
-  background: rgba(128,128,128,0.035);
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  border-radius: 12px;
+  padding: 1.25rem 1.3rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: transparent;
 }
 
 .course-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(128,128,128,0.48);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 .course-level {
   display: inline-block;
-  width: fit-content;
-  border: 1px solid rgba(128,128,128,0.30);
-  border-radius: 999px;
-  padding: 0.18rem 0.55rem;
-  margin-bottom: 0.8rem;
-  font-size: 0.72em;
-  letter-spacing: 0.02em;
-  opacity: 0.9;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+  opacity: 0.68;
 }
 
 .course-card h3 {
-  margin-top: 0;
+  margin: 0 0 0.55rem 0;
+  font-size: 1.08rem;
+  line-height: 1.4;
+}
+
+.course-field {
+  font-size: 0.9rem;
+  font-weight: 600;
   margin-bottom: 0.65rem;
-  font-size: 1.08em;
-  line-height: 1.35;
-}
-
-.course-card h3 a {
-  text-decoration: none;
-}
-
-.course-card h3 a:hover {
-  text-decoration: underline;
+  line-height: 1.45;
+  opacity: 0.9;
 }
 
 .course-meta {
-  font-size: 0.9em;
+  font-size: 0.84rem;
   line-height: 1.55;
-  opacity: 0.82;
-  margin-bottom: 1rem;
+  opacity: 0.72;
+  margin-bottom: 0.9rem;
 }
 
 .course-link {
-  display: inline-block;
-  font-size: 0.9em;
+  font-size: 0.88rem;
   font-weight: 600;
   text-decoration: none;
-  margin-top: auto;
 }
 
 .course-link:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .course-grid {
     grid-template-columns: 1fr;
   }
 
   .course-card {
-    min-height: auto;
+    padding: 1.1rem;
   }
 }
 </style>
@@ -135,12 +109,18 @@ description: "Selected undergraduate, master's, and doctoral courses in Islamic 
 
 <div class="teaching-intro">
 
-  <div class="teaching-kicker">Teaching Portfolio</div>
+  <div class="teaching-kicker">Academic Teaching</div>
 
   <p>
-    Selected courses taught at undergraduate, master's, and doctoral levels,
-    covering Islamic law, Islamic family law, Islamic economics, research methodology,
-    Islamic astronomy, and contemporary Islamic studies.
+    My teaching focuses on Islamic law, Islamic astronomy, research methodology,
+    academic writing, and interdisciplinary approaches to contemporary Islamic studies
+    at undergraduate, master's, and doctoral levels.
+  </p>
+
+  <p>
+    Courses integrate theoretical foundations, critical analysis, practical training,
+    research-based learning, and engagement with contemporary legal, social,
+    astronomical, and methodological issues.
   </p>
 
 </div>
@@ -155,56 +135,47 @@ description: "Selected undergraduate, master's, and doctoral courses in Islamic 
 
 <section class="teaching-section">
 
-  <div class="teaching-section-header">
-
-    <h2>Undergraduate Courses</h2>
-
-    <p>
-      Foundational and applied courses introducing students to Islamic law,
-      Islamic astronomy, and professional practice.
-    </p>
-
-  </div>
+  <div class="teaching-kicker">Undergraduate</div>
+  <h2>Undergraduate Courses</h2>
 
   <div class="course-grid">
 
-    {% for post in undergraduate %}
+    {% for course in undergraduate %}
 
-      <div class="course-card">
+    <article class="course-card">
 
-        <div>
-
-          <span class="course-level">
-            Undergraduate Course
-          </span>
-
-          <h3>
-            <a href="{{ base_path }}{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </h3>
-
-          <div class="course-meta">
-
-            {% if post.venue %}
-              {{ post.venue }}
-            {% endif %}
-
-            {% if post.date %}
-              <br>
-              {{ post.date | date: "%Y" }}
-            {% endif %}
-
-          </div>
-
-        </div>
-
-        <a class="course-link"
-           href="{{ base_path }}{{ post.url }}">
-          View Course →
-        </a>
-
+      <div class="course-level">
+        {{ course.type }}
       </div>
+
+      <h3>
+        <a href="{{ course.url | relative_url }}">
+          {{ course.title }}
+        </a>
+      </h3>
+
+      {% if course.field %}
+      <div class="course-field">
+        {{ course.field }}
+      </div>
+      {% endif %}
+
+      <div class="course-meta">
+        {% if course.venue %}
+          {{ course.venue }}
+        {% endif %}
+
+        {% if course.date %}
+          · {{ course.date | date: "%Y" }}
+        {% endif %}
+      </div>
+
+      <a class="course-link"
+         href="{{ course.url | relative_url }}">
+        View Course →
+      </a>
+
+    </article>
 
     {% endfor %}
 
@@ -219,56 +190,47 @@ description: "Selected undergraduate, master's, and doctoral courses in Islamic 
 
 <section class="teaching-section">
 
-  <div class="teaching-section-header">
-
-    <h2>Master's Courses</h2>
-
-    <p>
-      Interdisciplinary and analytical courses addressing Islamic family law,
-      socio-legal studies, human rights, and advanced research perspectives.
-    </p>
-
-  </div>
+  <div class="teaching-kicker">Master's</div>
+  <h2>Master's Courses</h2>
 
   <div class="course-grid">
 
-    {% for post in masters %}
+    {% for course in masters %}
 
-      <div class="course-card">
+    <article class="course-card">
 
-        <div>
-
-          <span class="course-level">
-            Master's Course
-          </span>
-
-          <h3>
-            <a href="{{ base_path }}{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </h3>
-
-          <div class="course-meta">
-
-            {% if post.venue %}
-              {{ post.venue }}
-            {% endif %}
-
-            {% if post.date %}
-              <br>
-              {{ post.date | date: "%Y" }}
-            {% endif %}
-
-          </div>
-
-        </div>
-
-        <a class="course-link"
-           href="{{ base_path }}{{ post.url }}">
-          View Course →
-        </a>
-
+      <div class="course-level">
+        {{ course.type }}
       </div>
+
+      <h3>
+        <a href="{{ course.url | relative_url }}">
+          {{ course.title }}
+        </a>
+      </h3>
+
+      {% if course.field %}
+      <div class="course-field">
+        {{ course.field }}
+      </div>
+      {% endif %}
+
+      <div class="course-meta">
+        {% if course.venue %}
+          {{ course.venue }}
+        {% endif %}
+
+        {% if course.date %}
+          · {{ course.date | date: "%Y" }}
+        {% endif %}
+      </div>
+
+      <a class="course-link"
+         href="{{ course.url | relative_url }}">
+        View Course →
+      </a>
+
+    </article>
 
     {% endfor %}
 
@@ -283,56 +245,47 @@ description: "Selected undergraduate, master's, and doctoral courses in Islamic 
 
 <section class="teaching-section">
 
-  <div class="teaching-section-header">
-
-    <h2>Doctoral Courses</h2>
-
-    <p>
-      Advanced courses emphasizing theoretical development, contemporary issues,
-      doctoral research, academic writing, and international scholarly publication.
-    </p>
-
-  </div>
+  <div class="teaching-kicker">Doctoral</div>
+  <h2>Doctoral Courses</h2>
 
   <div class="course-grid">
 
-    {% for post in doctoral %}
+    {% for course in doctoral %}
 
-      <div class="course-card">
+    <article class="course-card">
 
-        <div>
-
-          <span class="course-level">
-            Doctoral Course
-          </span>
-
-          <h3>
-            <a href="{{ base_path }}{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </h3>
-
-          <div class="course-meta">
-
-            {% if post.venue %}
-              {{ post.venue }}
-            {% endif %}
-
-            {% if post.date %}
-              <br>
-              {{ post.date | date: "%Y" }}
-            {% endif %}
-
-          </div>
-
-        </div>
-
-        <a class="course-link"
-           href="{{ base_path }}{{ post.url }}">
-          View Course →
-        </a>
-
+      <div class="course-level">
+        {{ course.type }}
       </div>
+
+      <h3>
+        <a href="{{ course.url | relative_url }}">
+          {{ course.title }}
+        </a>
+      </h3>
+
+      {% if course.field %}
+      <div class="course-field">
+        {{ course.field }}
+      </div>
+      {% endif %}
+
+      <div class="course-meta">
+        {% if course.venue %}
+          {{ course.venue }}
+        {% endif %}
+
+        {% if course.date %}
+          · {{ course.date | date: "%Y" }}
+        {% endif %}
+      </div>
+
+      <a class="course-link"
+         href="{{ course.url | relative_url }}">
+        View Course →
+      </a>
+
+    </article>
 
     {% endfor %}
 
