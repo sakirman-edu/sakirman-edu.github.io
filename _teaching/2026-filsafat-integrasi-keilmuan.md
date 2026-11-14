@@ -116,6 +116,9 @@ description: "Master's course on philosophy of science, paradigms of knowledge, 
 </style>
 
 
+{% include teaching-navigation.html position="top" %}
+
+
 ## Course Overview
 
 Master's course in the **Islamic Family Law (Hukum Keluarga Islam)** program.
@@ -538,3 +541,6 @@ Students develop a conceptual model integrating philosophy of science with Islam
 - **Knowledge Integration Project Guidelines** — Coming soon
 - **Final Paper Guidelines** — Coming soon
 - **Assignment and Assessment Rubrics** — Coming soon
+
+
+{% include teaching-navigation.html position="bottom" %}
