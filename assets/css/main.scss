@@ -198,36 +198,31 @@ $custom-hover-color: #00b8d9;
 
 /* =========================================
    TEACHING COURSE CARDS
-   STRONG OVERRIDE
+   BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
 .teaching-section .course-card,
 .course-grid .course-card,
 .course-card {
-  position: relative;
   transition:
-    transform 0.25s ease !important,
-    border-color 0.25s ease !important,
-    background-color 0.25s ease !important,
-    box-shadow 0.25s ease !important;
+    transform 0.22s ease !important,
+    border-color 0.22s ease !important;
 }
 
 
-/* ENTIRE CARD HOVER */
+/* Entire card hover */
 
 .teaching-section .course-card:hover,
 .course-grid .course-card:hover,
 .course-card:hover {
-  border: 1px solid #00b8d9 !important;
-  background: rgba(0, 184, 217, 0.10) !important;
-  transform: translateY(-5px) !important;
-  box-shadow:
-    0 10px 28px rgba(0, 184, 217, 0.18),
-    0 0 0 1px rgba(0, 184, 217, 0.10) !important;
+  border-color: $custom-hover-color !important;
+  background: inherit !important;
+  box-shadow: none !important;
+  transform: translateY(-3px) !important;
 }
 
 
-/* COURSE TITLE */
+/* Course title */
 
 .teaching-section .course-card:hover h3,
 .teaching-section .course-card:hover h3 a,
@@ -235,25 +230,16 @@ $custom-hover-color: #00b8d9;
 .course-grid .course-card:hover h3 a,
 .course-card:hover h3,
 .course-card:hover h3 a {
-  color: #00b8d9 !important;
+  color: $custom-hover-color !important;
 }
 
 
-/* VIEW COURSE */
+/* View Course */
 
 .teaching-section .course-card:hover .course-link,
 .course-grid .course-card:hover .course-link,
 .course-card:hover .course-link {
-  color: #00b8d9 !important;
-}
-
-
-/* COURSE LEVEL */
-
-.teaching-section .course-card:hover .course-level,
-.course-grid .course-card:hover .course-level,
-.course-card:hover .course-level {
-  color: #00b8d9 !important;
+  color: $custom-hover-color !important;
 }
 
 
