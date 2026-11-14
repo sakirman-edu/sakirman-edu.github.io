@@ -128,34 +128,46 @@ author_profile: true
   font-weight: 700;
 }
 
-.method-image-box {
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
   margin-top: 1.8rem;
+}
+
+.software-card {
   border: 1px solid rgba(128,128,128,0.28);
   border-radius: 10px;
   overflow: hidden;
   background: rgba(128,128,128,0.035);
 }
 
-.method-image-box a {
+.software-card a {
   display: block;
 }
 
-.method-image-box img {
+.software-card img {
   width: 100%;
-  height: auto;
+  height: 240px;
+  object-fit: cover;
   display: block;
+  transition: transform 0.25s ease;
 }
 
-.method-image-content {
-  padding: 1.1rem 1.25rem 1.25rem 1.25rem;
+.software-card a:hover img {
+  transform: scale(1.02);
 }
 
-.method-image-content h3 {
+.software-content {
+  padding: 1.1rem 1.2rem 1.25rem 1.2rem;
+}
+
+.software-content h3 {
   margin-top: 0;
   margin-bottom: 0.7rem;
 }
 
-.method-image-content p {
+.software-content p {
   line-height: 1.7;
 }
 
@@ -197,7 +209,8 @@ author_profile: true
 }
 
 @media (max-width: 760px) {
-  .research-grid {
+  .research-grid,
+  .software-grid {
     grid-template-columns: 1fr;
   }
 
@@ -205,7 +218,8 @@ author_profile: true
     font-size: 1.7em;
   }
 
-  .research-card img {
+  .research-card img,
+  .software-card img {
     height: 200px;
   }
 
@@ -259,7 +273,6 @@ author_profile: true
   </p>
 
   <div class="research-grid">
-
 
     <div class="research-card">
 
@@ -388,7 +401,6 @@ author_profile: true
 
     </div>
 
-
   </div>
 
 </div>
@@ -423,7 +435,7 @@ author_profile: true
       <div class="method-arrow">→</div>
 
       <div class="method-step">
-        IRIS Image Processing
+        Image Pre-Processing
       </div>
 
       <div class="method-arrow">→</div>
@@ -455,48 +467,80 @@ author_profile: true
   </div>
 
 
-  <div class="method-image-box">
+  <div class="software-grid">
 
-    <a href="{{ base_path }}/images/Analisis-IRIS.png"
-       target="_blank"
-       rel="noopener noreferrer">
 
-      <img src="{{ base_path }}/images/Analisis-IRIS.png"
-           alt="IRIS-based photometric analysis of crescent Moon and twilight background">
+    <div class="software-card">
 
-    </a>
+      <a href="{{ base_path }}/images/software-siril.png"
+         target="_blank"
+         rel="noopener noreferrer">
 
-    <div class="method-image-content">
+        <img src="{{ base_path }}/images/software-siril.png"
+             alt="Siril software used for astronomical image processing">
 
-      <h3>IRIS-Based Crescent Image Analysis</h3>
+      </a>
 
-      <p>
-        Digital images of the young crescent Moon are processed using
-        <strong>IRIS</strong> to examine the crescent signal against the
-        brightness of the surrounding <em>syafaq</em> or twilight background.
-        The analysis focuses on separating the relatively faint lunar signal
-        from the stronger background illumination that often limits crescent
-        detectability.
-      </p>
+      <div class="software-content">
 
-      <p>
-        Aperture-based measurements are applied to selected regions of the
-        crescent and adjacent twilight sky. These measurements provide
-        quantitative information on crescent intensity, background intensity,
-        and their relative difference rather than relying solely on visual
-        identification.
-      </p>
+        <h3>Siril-Based Astronomical Image Processing</h3>
 
-      <p style="margin-bottom:0;">
-        The resulting measurements are used for contrast analysis and for
-        evaluating how changes in twilight brightness affect crescent
-        visibility. This methodological sequence links observational evidence
-        with quantitative astronomical analysis and, subsequently, with the
-        assessment of crescent-visibility criteria used in Hijri calendar
-        determination.
-      </p>
+        <p>
+          <strong>Siril</strong> is used in the image-processing stage to improve
+          the quality of astronomical images obtained during crescent observation.
+          The software supports image calibration, enhancement, alignment,
+          contrast adjustment, and other preprocessing procedures needed before
+          quantitative measurements are performed.
+        </p>
+
+        <p style="margin-bottom:0;">
+          In crescent visibility research, this processing helps reduce visual
+          interference and strengthen the distinction between the faint lunar
+          signal and the surrounding twilight background. The resulting images
+          provide a cleaner and more consistent basis for subsequent photometric
+          and contrast analysis.
+        </p>
+
+      </div>
 
     </div>
+
+
+    <div class="software-card">
+
+      <a href="{{ base_path }}/images/software-iris.png"
+         target="_blank"
+         rel="noopener noreferrer">
+
+        <img src="{{ base_path }}/images/software-iris.png"
+             alt="IRIS software used for crescent photometric analysis">
+
+      </a>
+
+      <div class="software-content">
+
+        <h3>IRIS-Based Crescent Photometry</h3>
+
+        <p>
+          <strong>IRIS</strong> is used for quantitative analysis of the crescent
+          signal and the surrounding <em>syafaq</em> or twilight background.
+          Aperture-based measurements are applied to selected regions of the
+          image to obtain numerical values representing crescent intensity and
+          background-sky intensity.
+        </p>
+
+        <p style="margin-bottom:0;">
+          These measurements are then used to calculate the relative contrast
+          between the crescent and twilight background. The procedure provides
+          empirical evidence for evaluating crescent detectability and supports
+          the development of scientifically grounded crescent-visibility criteria
+          for Hijri calendar determination.
+        </p>
+
+      </div>
+
+    </div>
+
 
   </div>
 
