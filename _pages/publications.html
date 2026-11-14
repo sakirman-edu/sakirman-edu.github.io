@@ -3,34 +3,481 @@ layout: archive
 title: "Full Publications"
 permalink: /publications/
 author_profile: true
+description: "Complete academic publication list of Dr. Sakirman, M.S.I., covering Islamic law, Islamic astronomy, crescent visibility, Hijri calendar studies, and related interdisciplinary research."
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
+<style>
+
+/* ================================
+   FULL PUBLICATIONS
+================================ */
+
+.fullpub-intro {
+  margin-bottom: 2.2rem;
+}
+
+.fullpub-kicker {
+  display: inline-block;
+  margin-bottom: 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+
+.fullpub-intro h2 {
+  margin: 0 0 0.8rem 0;
+  font-size: 1.55rem;
+  line-height: 1.3;
+}
+
+.fullpub-intro p {
+  max-width: 780px;
+  margin: 0;
+  line-height: 1.75;
+  opacity: 0.85;
+}
+
+
+/* ================================
+   PROFILE LINKS
+================================ */
+
+.fullpub-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.2rem;
+}
+
+.fullpub-profile-link {
+  display: inline-block;
+  padding: 0.48rem 0.72rem;
+  border: 1px solid rgba(127,127,127,0.30);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.fullpub-profile-link:hover {
+  opacity: 0.75;
+}
+
+
+/* ================================
+   YEAR SECTION
+================================ */
+
+.fullpub-year-section {
+  margin-top: 2.8rem;
+}
+
+.fullpub-year-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0 0 1rem 0;
+}
+
+.fullpub-year {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.fullpub-year-line {
+  flex: 1;
+  height: 1px;
+  background: rgba(127,127,127,0.25);
+}
+
+
+/* ================================
+   PUBLICATION LIST
+================================ */
+
+.fullpub-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+
+
+/* ================================
+   PUBLICATION CARD
+================================ */
+
+.fullpub-card {
+  border: 1px solid rgba(127,127,127,0.25);
+  border-radius: 12px;
+  padding: 1.15rem 1.2rem;
+  background: transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fullpub-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(0,0,0,0.07);
+}
+
+.fullpub-type {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.58;
+}
+
+.fullpub-title {
+  margin: 0 0 0.45rem 0;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.fullpub-title a {
+  text-decoration: none;
+}
+
+.fullpub-title a:hover {
+  text-decoration: underline;
+}
+
+.fullpub-meta {
+  margin-bottom: 0.55rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  font-weight: 600;
+  opacity: 0.75;
+}
+
+.fullpub-excerpt {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.86rem;
+  line-height: 1.65;
+  opacity: 0.82;
+}
+
+.fullpub-citation {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  opacity: 0.72;
+}
+
+
+/* ================================
+   BUTTONS
+================================ */
+
+.fullpub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.fullpub-button {
+  display: inline-block;
+  padding: 0.42rem 0.68rem;
+  border: 1px solid rgba(127,127,127,0.35);
+  border-radius: 7px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.fullpub-button:hover {
+  opacity: 0.75;
+}
+
+
+/* ================================
+   EMPTY STATE
+================================ */
+
+.fullpub-empty {
+  margin-top: 2rem;
+  padding: 1.1rem;
+  border: 1px solid rgba(127,127,127,0.25);
+  border-radius: 12px;
+  line-height: 1.6;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+.fullpub-footer {
+  margin-top: 2.8rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid rgba(127,127,127,0.25);
+}
+
+.fullpub-footer p {
+  max-width: 760px;
+  margin: 0 0 1rem 0;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+.fullpub-footer a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.fullpub-footer a:hover {
+  text-decoration: underline;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+
+  .fullpub-card {
+    padding: 1rem;
+  }
+
+  .fullpub-intro h2 {
+    font-size: 1.35rem;
+  }
+
+}
+</style>
+
+
+<div class="fullpub-intro">
+
+  <div class="fullpub-kicker">
+    Complete Publication Record
+  </div>
+
+  <h2>
+    Publications in Islamic Law, Islamic Astronomy, and Interdisciplinary Studies
+  </h2>
+
+  <p>
+    This page presents my complete academic publication record, including
+    research on <strong>Islamic astronomy, crescent visibility, Hijri calendar
+    studies, hisab–rukyat, Islamic law, Islamic family law, and related
+    interdisciplinary themes</strong>.
+  </p>
+
+
+  <div class="fullpub-profile-links">
+
+    {% if site.author.googlescholar %}
+    <a class="fullpub-profile-link"
+       href="{{ site.author.googlescholar }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      Google Scholar
+    </a>
+    {% endif %}
+
+    {% if site.author.orcid %}
+    <a class="fullpub-profile-link"
+       href="{{ site.author.orcid }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      ORCID
+    </a>
+    {% endif %}
+
+    {% if site.author.scopus %}
+    <a class="fullpub-profile-link"
+       href="{{ site.author.scopus }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      Scopus
+    </a>
+    {% endif %}
+
+    {% if site.author.researchgate %}
+    <a class="fullpub-profile-link"
+       href="{{ site.author.researchgate }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      ResearchGate
+    </a>
+    {% endif %}
+
+  </div>
+
+</div>
+
+
+{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+
+{% assign current_year = "" %}
+
+{% if sorted_publications.size > 0 %}
+
+  {% for post in sorted_publications %}
+
+    {% assign publication_year = post.date | date: "%Y" %}
+
+
+    {% if publication_year != current_year %}
+
+      {% unless current_year == "" %}
+          </div>
+        </div>
       {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+
+
+      <div class="fullpub-year-section">
+
+        <div class="fullpub-year-heading">
+
+          <h2 class="fullpub-year">
+            {{ publication_year }}
+          </h2>
+
+          <div class="fullpub-year-line"></div>
+
+        </div>
+
+        <div class="fullpub-list">
+
+      {% assign current_year = publication_year %}
+
+    {% endif %}
+
+
+    <article class="fullpub-card">
+
+
+      {% if post.category %}
+      <div class="fullpub-type">
+        {{ post.category }}
+      </div>
+      {% elsif post.type %}
+      <div class="fullpub-type">
+        {{ post.type }}
+      </div>
+      {% else %}
+      <div class="fullpub-type">
+        Publication
+      </div>
+      {% endif %}
+
+
+      <h3 class="fullpub-title">
+
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+
+      </h3>
+
+
+      {% if post.venue %}
+      <div class="fullpub-meta">
+        {{ post.venue }}
+        {% if post.date %}
+          · {{ post.date | date: "%Y" }}
+        {% endif %}
+      </div>
+
+      {% elsif post.date %}
+      <div class="fullpub-meta">
+        {{ post.date | date: "%Y" }}
+      </div>
+      {% endif %}
+
+
+      {% if post.excerpt %}
+      <div class="fullpub-excerpt">
+        {{ post.excerpt | markdownify | strip_html | truncatewords: 45 }}
+      </div>
+      {% endif %}
+
+
+      {% if post.citation %}
+      <div class="fullpub-citation">
+        {{ post.citation }}
+      </div>
+      {% endif %}
+
+
+      <div class="fullpub-actions">
+
+        <a class="fullpub-button"
+           href="{{ post.url | relative_url }}">
+          Publication Details
+        </a>
+
+
+        {% if post.paperurl %}
+        <a class="fullpub-button"
+           href="{{ post.paperurl }}"
+           target="_blank"
+           rel="noopener noreferrer">
+          Paper
+        </a>
+        {% endif %}
+
+
+        {% if post.doi %}
+        <a class="fullpub-button"
+           href="{{ post.doi }}"
+           target="_blank"
+           rel="noopener noreferrer">
+          DOI
+        </a>
+        {% endif %}
+
+
+        {% if post.slidesurl %}
+        <a class="fullpub-button"
+           href="{{ post.slidesurl }}"
+           target="_blank"
+           rel="noopener noreferrer">
+          Slides
+        </a>
+        {% endif %}
+
+      </div>
+
+
+    </article>
+
+
   {% endfor %}
+
+
+      </div>
+    </div>
+
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+
+  <div class="fullpub-empty">
+    No publications are currently available.
+  </div>
+
 {% endif %}
 
 
 
+<div class="fullpub-footer">
+
+  <p>
+    Selected publications representing the principal themes of my research
+    are presented separately on the Main Publications page.
+  </p>
+
+  <a href="/main-publications/">
+    View Main Publications →
+  </a>
+
+</div>
