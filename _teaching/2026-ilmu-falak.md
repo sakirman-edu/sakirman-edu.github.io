@@ -11,7 +11,6 @@ description: "Undergraduate course on Islamic astronomy, including celestial coo
 ---
 
 <style>
-  {% include teaching-navigation.html position="top" %}
 .falak-workflow {
   display: flex;
   align-items: stretch;
@@ -79,6 +78,9 @@ description: "Undergraduate course on Islamic astronomy, including celestial coo
   }
 }
 </style>
+
+
+{% include teaching-navigation.html position="top" %}
 
 
 ## Course Overview
@@ -502,7 +504,7 @@ Assessment may include:
 
 
 ## Lecture Gallery
-{% include teaching-navigation.html position="bottom" %}
+
 <div style="
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -510,52 +512,71 @@ Assessment may include:
   margin-top:1rem;
 ">
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-01.jpeg"
          alt="Ilmu Falak Lecture 1"
          style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-02.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-02.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-02.jpeg"
          alt="Ilmu Falak Lecture 2"
          style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-03.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-03.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-03.jpeg"
          alt="Ilmu Falak Lecture 3"
          style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-04.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-04.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-04.jpeg"
          alt="Ilmu Falak Lecture 4"
          style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-05.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-05.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-05.jpeg"
          alt="Ilmu Falak Lecture 5"
          style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-06.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-06.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-06.jpeg"
          alt="Ilmu Falak Lecture 6"
          style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-07.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-07.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-07.jpeg"
          alt="Ilmu Falak Lecture 7"
          style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-08.jpeg"
          alt="Ilmu Falak Lecture 8"
          style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
 </div>
+
+
+{% include teaching-navigation.html position="bottom" %}
