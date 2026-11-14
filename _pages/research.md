@@ -59,11 +59,20 @@ author_profile: true
   background: rgba(128,128,128,0.035);
 }
 
+.research-card a {
+  display: block;
+}
+
 .research-card img {
   width: 100%;
   height: 220px;
   object-fit: cover;
   display: block;
+  transition: transform 0.25s ease;
+}
+
+.research-card a:hover img {
+  transform: scale(1.02);
 }
 
 .research-card-content {
@@ -127,6 +136,10 @@ author_profile: true
   background: rgba(128,128,128,0.035);
 }
 
+.method-image-box a {
+  display: block;
+}
+
 .method-image-box img {
   width: 100%;
   height: auto;
@@ -163,6 +176,10 @@ author_profile: true
   margin-top: 1.5rem;
 }
 
+.roadmap-box a {
+  display: inline-block;
+}
+
 .roadmap-box img {
   width: 100%;
   max-width: 760px;
@@ -191,8 +208,43 @@ author_profile: true
   .research-card img {
     height: 200px;
   }
+
+  .method-arrow {
+    display: none;
+  }
+
+  .method-step {
+    width: 100%;
+  }
 }
 </style>
+
+
+<div class="research-hero">
+
+  <div class="research-kicker">Research Program</div>
+
+  <h1>
+    From astronomical observation to Islamic legal reasoning
+  </h1>
+
+  <p>
+    My research explores the intersection of <strong>Islamic astronomy,
+    observational science, and Islamic law</strong>. It focuses particularly on
+    crescent visibility, twilight, sky brightness, digital imaging, astronomical
+    photometry, Hijri calendar systems, and the integration of scientific evidence
+    with Islamic legal reasoning.
+  </p>
+
+  <p>
+    A central objective of this research program is to develop
+    <strong>evidence-based approaches to astronomy for Islamic religious practices</strong>,
+    linking observation, quantitative analysis, and legal interpretation in the
+    study of the <em>hilal</em>, prayer times, qibla direction, and the Hijri calendar.
+  </p>
+
+</div>
+
 
 <div class="research-section">
 
@@ -206,13 +258,16 @@ author_profile: true
 
   <div class="research-grid">
 
+
     <div class="research-card">
 
       <a href="{{ base_path }}/images/hilal-twilight.jpg"
          target="_blank"
          rel="noopener noreferrer">
+
         <img src="{{ base_path }}/images/hilal-twilight.jpg"
              alt="Crescent visibility and twilight observation">
+
       </a>
 
       <div class="research-card-content">
@@ -237,11 +292,13 @@ author_profile: true
 
     <div class="research-card">
 
-      <a href="{{ base_path }}/images/hilal-twilight.jpg"
+      <a href="{{ base_path }}/images/Analisis-IRIS.png"
          target="_blank"
          rel="noopener noreferrer">
-        <img src="{{ base_path }}/images/hilal-twilight.jpg"
-             alt="Astronomical photometry and digital imaging">
+
+        <img src="{{ base_path }}/images/Analisis-IRIS.png"
+             alt="Astronomical photometry and digital image processing">
+
       </a>
 
       <div class="research-card-content">
@@ -269,8 +326,10 @@ author_profile: true
       <a href="{{ base_path }}/images/roadmap-penelitian-hilal.png"
          target="_blank"
          rel="noopener noreferrer">
+
         <img src="{{ base_path }}/images/roadmap-penelitian-hilal.png"
              alt="Hijri calendar and hisab-rukyat integration">
+
       </a>
 
       <div class="research-card-content">
@@ -299,8 +358,10 @@ author_profile: true
       <a href="{{ base_path }}/images/Picture11.png"
          target="_blank"
          rel="noopener noreferrer">
+
         <img src="{{ base_path }}/images/Picture11.png"
              alt="Astronomy for Islamic religious practices">
+
       </a>
 
       <div class="research-card-content">
@@ -323,32 +384,6 @@ author_profile: true
 
     </div>
 
-  </div>
-
-</div>
-
-      <img src="{{ base_path }}/images/Picture11.png"
-           alt="Astronomy for Islamic religious practices">
-
-      <div class="research-card-content">
-
-        <h3>Astronomy for Islamic Religious Practices</h3>
-
-        <p>
-          Developing and disseminating astronomical knowledge for religious
-          applications, including qibla direction, prayer times, lunar observation,
-          Hijri calendar determination, and scientifically informed Islamic legal
-          practice.
-        </p>
-
-        <span class="research-tag">Qibla</span>
-        <span class="research-tag">Prayer Times</span>
-        <span class="research-tag">Ilmu Falak</span>
-        <span class="research-tag">Islamic Law</span>
-
-      </div>
-
-    </div>
 
   </div>
 
@@ -440,14 +475,13 @@ author_profile: true
       <p>
         IRIS is used to process and analyze the faint crescent signal in the
         presence of strong <em>syafaq</em> or twilight background illumination.
-        The processing is intended to improve the separation between the lunar
-        crescent signal and the surrounding sky background, allowing the
-        crescent to be examined more systematically despite interference from
-        twilight brightness.
+        The processing helps distinguish the lunar crescent signal from the
+        surrounding sky background, enabling the crescent to be examined more
+        systematically despite interference from twilight brightness.
       </p>
 
       <p style="margin-bottom:0;">
-        The processed images are subsequently used for photometric measurement,
+        The processed images are subsequently used for photometric measurements,
         comparison of crescent and sky-background intensity, and quantitative
         contrast analysis. This approach supports the evaluation of crescent
         detectability under varying twilight conditions and provides empirical
@@ -496,6 +530,7 @@ author_profile: true
   <p class="research-intro">
     Several questions guide the next phase of my research.
   </p>
+
 
   <div class="future-card">
 
