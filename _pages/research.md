@@ -323,11 +323,11 @@ author_profile: true
 
     <div class="research-card">
 
-      <a href="{{ base_path }}/images/roadmap-penelitian-hilal.png"
+      <a href="{{ base_path }}/images/Picture11.png"
          target="_blank"
          rel="noopener noreferrer">
 
-        <img src="{{ base_path }}/images/roadmap-penelitian-hilal.png"
+        <img src="{{ base_path }}/images/Picture11.png"
              alt="Hijri calendar and hisab-rukyat integration">
 
       </a>
@@ -355,12 +355,12 @@ author_profile: true
 
     <div class="research-card">
 
-      <a href="{{ base_path }}/images/Picture11.png"
+      <a href="{{ base_path }}/images/olah-citra.jpg"
          target="_blank"
          rel="noopener noreferrer">
 
-        <img src="{{ base_path }}/images/Picture11.png"
-             alt="Astronomy for Islamic religious practices">
+        <img src="{{ base_path }}/images/olah-citra.jpg"
+             alt="Image processing for astronomy and Islamic religious applications">
 
       </a>
 
@@ -369,15 +369,15 @@ author_profile: true
         <h3>Astronomy for Islamic Religious Practices</h3>
 
         <p>
-          Developing and disseminating astronomical knowledge for religious
-          applications, including qibla direction, prayer times, lunar observation,
-          Hijri calendar determination, and scientifically informed Islamic legal
-          practice.
+          Developing astronomical observation and image-processing approaches
+          for religious applications, including lunar observation, Hijri calendar
+          determination, qibla direction, prayer times, and scientifically informed
+          Islamic legal practice.
         </p>
 
-        <span class="research-tag">Qibla</span>
-        <span class="research-tag">Prayer Times</span>
+        <span class="research-tag">Image Processing</span>
         <span class="research-tag">Ilmu Falak</span>
+        <span class="research-tag">Religious Practice</span>
         <span class="research-tag">Islamic Law</span>
 
       </div>
