@@ -2,10 +2,12 @@
 title: "Filsafat Hukum Islam"
 collection: teaching
 type: "Doctoral Course"
+field: "Philosophy of Islamic Law"
 permalink: /teaching/2026-filsafat-hukum-islam
 venue: "UIN Jurai Siwo Lampung"
 date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
+description: "Doctoral course on the philosophical foundations of Islamic law, including ontology, epistemology, axiology, legal reasoning, and contemporary Islamic legal thought."
 ---
 
 Doctoral course in the **Doctoral Program in Islamic Studies (Ilmu Syariah)**.
