@@ -40,7 +40,9 @@
 ========================================= */
 
 .greedy-nav .visible-links a {
-  transition: color 0.2s ease, border-color 0.2s ease;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .greedy-nav .visible-links a:hover,
@@ -82,12 +84,14 @@
 
 
 /* =========================================
-   GENERAL LINKS
+   GENERAL CONTENT LINKS
 ========================================= */
 
 .page__content a,
 .archive a {
-  transition: color 0.2s ease, border-color 0.2s ease;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .page__content a:hover,
@@ -109,7 +113,9 @@
 .cv-download-button,
 .cv-tag,
 .fullpub-profile-link {
-  transition: color 0.2s ease, border-color 0.2s ease;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .home-button:hover,
@@ -133,6 +139,7 @@
 
 /* =========================================
    HOMEPAGE CARDS
+   BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
 .home-link-card {
@@ -220,6 +227,7 @@
 
 /* =========================================
    CV CARDS
+   BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
 .cv-panel,
@@ -239,6 +247,42 @@
 
 
 /* =========================================
+   RESEARCH CARDS
+   BORDER ONLY + SLIGHT LIFT
+========================================= */
+
+.research-section .research-card,
+.research-section .software-card,
+.research-section .project-card,
+.research-section .future-card,
+.research-section .method-box {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease !important;
+}
+
+.research-section .research-card:hover,
+.research-section .software-card:hover,
+.research-section .project-card:hover,
+.research-section .future-card:hover,
+.research-section .method-box:hover {
+  border-color: #00b8d9 !important;
+  transform: translateY(-3px) !important;
+}
+
+
+/* =========================================
+   RESEARCH IMAGE ZOOM
+   KEEP EXISTING EFFECT
+========================================= */
+
+.research-section .research-card a:hover img,
+.research-section .software-card a:hover img {
+  transform: scale(1.02) !important;
+}
+
+
+/* =========================================
    MOBILE
 ========================================= */
 
@@ -250,48 +294,13 @@
   .home-link-card:hover,
   .cv-panel:hover,
   .cv-item:hover,
-  .cv-summary-card:hover {
-    transform: none;
-  }
-
-/* =========================================
-   RESEARCH CARDS
-   BORDER ONLY + SLIGHT LIFT
-========================================= */
-
-.research-card,
-.software-card,
-.project-card,
-.future-card,
-.method-box {
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease;
-}
-
-.research-card:hover,
-.software-card:hover,
-.project-card:hover,
-.future-card:hover,
-.method-box:hover {
-  border-color: #00b8d9 !important;
-  box-shadow: none !important;
-  transform: translateY(-3px);
-}
-
-
-/* =========================================
-   MOBILE
-========================================= */
-
-@media (max-width: 768px) {
-
-  .research-card:hover,
-  .software-card:hover,
-  .project-card:hover,
-  .future-card:hover,
-  .method-box:hover {
-    transform: none;
+  .cv-summary-card:hover,
+  .research-section .research-card:hover,
+  .research-section .software-card:hover,
+  .research-section .project-card:hover,
+  .research-section .future-card:hover,
+  .research-section .method-box:hover {
+    transform: none !important;
   }
 
 }
