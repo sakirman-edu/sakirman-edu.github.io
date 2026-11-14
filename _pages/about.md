@@ -157,6 +157,14 @@ redirect_from:
   border-radius: 999px;
   font-size: 0.78rem;
   line-height: 1.2;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.home-tag:hover,
+.home-tag:focus {
+  text-decoration: none;
 }
 
 
@@ -220,9 +228,11 @@ redirect_from:
 ================================ */
 
 @media (max-width: 900px) {
+
   .home-summary-grid {
     grid-template-columns: 1fr;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -377,29 +387,65 @@ redirect_from:
 
   <div class="home-tags">
 
-    <span class="home-tag">Crescent Visibility</span>
+    <a class="home-tag"
+       href="/research-interests/#crescent-visibility">
+      Crescent Visibility
+    </a>
 
-    <span class="home-tag">Twilight / Syafaq</span>
+    <a class="home-tag"
+       href="/research-interests/#twilight-syafaq">
+      Twilight / Syafaq
+    </a>
 
-    <span class="home-tag">Sky Brightness</span>
+    <a class="home-tag"
+       href="/research-interests/#sky-brightness">
+      Sky Brightness
+    </a>
 
-    <span class="home-tag">Hisab–Rukyat</span>
+    <a class="home-tag"
+       href="/research-interests/#hisab-rukyat">
+      Hisab–Rukyat
+    </a>
 
-    <span class="home-tag">Hijri Calendar</span>
+    <a class="home-tag"
+       href="/research-interests/#hijri-calendar">
+      Hijri Calendar
+    </a>
 
-    <span class="home-tag">Islamic Astronomy</span>
+    <a class="home-tag"
+       href="/research-interests/#islamic-astronomy">
+      Islamic Astronomy
+    </a>
 
-    <span class="home-tag">Astronomical Photometry</span>
+    <a class="home-tag"
+       href="/research-interests/#astronomical-photometry">
+      Astronomical Photometry
+    </a>
 
-    <span class="home-tag">Digital Imaging</span>
+    <a class="home-tag"
+       href="/research-interests/#digital-imaging">
+      Digital Imaging
+    </a>
 
-    <span class="home-tag">Astronomical Evidence</span>
+    <a class="home-tag"
+       href="/research-interests/#astronomical-evidence">
+      Astronomical Evidence
+    </a>
 
-    <span class="home-tag">Islamic Law</span>
+    <a class="home-tag"
+       href="/research-interests/#islamic-law">
+      Islamic Law
+    </a>
 
-    <span class="home-tag">Maqāṣid al-Sharī‘ah</span>
+    <a class="home-tag"
+       href="/research-interests/#maqasid-al-shariah">
+      Maqāṣid al-Sharī‘ah
+    </a>
 
-    <span class="home-tag">Islamic Family Law</span>
+    <a class="home-tag"
+       href="/research-interests/#islamic-family-law">
+      Islamic Family Law
+    </a>
 
   </div>
 
@@ -506,7 +552,6 @@ redirect_from:
       </span>
 
     </a>
-
 
   </div>
 
