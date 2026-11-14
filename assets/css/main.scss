@@ -82,9 +82,6 @@ $custom-hover-color: #00b8d9;
   text-decoration-color: $custom-hover-color !important;
 }
 
-
-/* Sidebar icons */
-
 .author__urls a:hover i,
 .author__urls a:focus i,
 .author__urls a:hover .fa,
@@ -168,20 +165,118 @@ $custom-hover-color: #00b8d9;
     box-shadow 0.2s ease;
 }
 
-.home-link-card:hover,
-.home-link-card:focus {
+.home-link-card:hover {
   color: $custom-hover-color !important;
   border-color: $custom-hover-color !important;
-  background-color: rgba(0, 184, 217, 0.05);
-  transform: translateY(-3px);
-  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.10);
+  background: rgba(0, 184, 217, 0.07) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.12) !important;
 }
 
-.home-link-card:hover strong,
-.home-link-card:focus strong,
-.home-link-card:hover span,
-.home-link-card:focus span {
-  color: $custom-hover-color !important;
+
+/* =========================================
+   PUBLICATION CARDS
+========================================= */
+
+.publication-card,
+.fullpub-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.publication-card:hover,
+.fullpub-card:hover {
+  transform: translateY(-3px) !important;
+  border-color: $custom-hover-color !important;
+  background: rgba(0, 184, 217, 0.06) !important;
+  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.12) !important;
+}
+
+
+/* =========================================
+   TEACHING COURSE CARDS
+   STRONG OVERRIDE
+========================================= */
+
+.teaching-section .course-card,
+.course-grid .course-card,
+.course-card {
+  position: relative;
+  transition:
+    transform 0.25s ease !important,
+    border-color 0.25s ease !important,
+    background-color 0.25s ease !important,
+    box-shadow 0.25s ease !important;
+}
+
+
+/* ENTIRE CARD HOVER */
+
+.teaching-section .course-card:hover,
+.course-grid .course-card:hover,
+.course-card:hover {
+  border: 1px solid #00b8d9 !important;
+  background: rgba(0, 184, 217, 0.10) !important;
+  transform: translateY(-5px) !important;
+  box-shadow:
+    0 10px 28px rgba(0, 184, 217, 0.18),
+    0 0 0 1px rgba(0, 184, 217, 0.10) !important;
+}
+
+
+/* COURSE TITLE */
+
+.teaching-section .course-card:hover h3,
+.teaching-section .course-card:hover h3 a,
+.course-grid .course-card:hover h3,
+.course-grid .course-card:hover h3 a,
+.course-card:hover h3,
+.course-card:hover h3 a {
+  color: #00b8d9 !important;
+}
+
+
+/* VIEW COURSE */
+
+.teaching-section .course-card:hover .course-link,
+.course-grid .course-card:hover .course-link,
+.course-card:hover .course-link {
+  color: #00b8d9 !important;
+}
+
+
+/* COURSE LEVEL */
+
+.teaching-section .course-card:hover .course-level,
+.course-grid .course-card:hover .course-level,
+.course-card:hover .course-level {
+  color: #00b8d9 !important;
+}
+
+
+/* =========================================
+   CV CARDS
+========================================= */
+
+.cv-panel,
+.cv-item,
+.cv-summary-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.cv-panel:hover,
+.cv-item:hover,
+.cv-summary-card:hover {
+  border-color: $custom-hover-color !important;
+  background: rgba(0, 184, 217, 0.05) !important;
+  box-shadow: 0 6px 18px rgba(0, 184, 217, 0.10) !important;
 }
 
 
@@ -206,114 +301,7 @@ $custom-hover-color: #00b8d9;
 
 
 /* =========================================
-   MAIN PUBLICATION CARDS
-========================================= */
-
-.publication-card {
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease,
-    background-color 0.22s ease,
-    box-shadow 0.22s ease;
-}
-
-.publication-card:hover {
-  transform: translateY(-3px);
-  border-color: $custom-hover-color !important;
-  background-color: rgba(0, 184, 217, 0.04);
-  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.10);
-}
-
-
-/* =========================================
-   FULL PUBLICATION CARDS
-========================================= */
-
-.fullpub-card {
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease,
-    background-color 0.22s ease,
-    box-shadow 0.22s ease;
-}
-
-.fullpub-card:hover {
-  transform: translateY(-3px);
-  border-color: $custom-hover-color !important;
-  background-color: rgba(0, 184, 217, 0.04);
-  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.10);
-}
-
-
-/* =========================================
-   TEACHING COURSE CARDS
-========================================= */
-
-.course-card {
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease,
-    background-color 0.22s ease,
-    box-shadow 0.22s ease;
-}
-
-.course-card:hover {
-  transform: translateY(-4px);
-  border-color: $custom-hover-color !important;
-  background-color: rgba(0, 184, 217, 0.06);
-  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.12);
-}
-
-
-/* Teaching card title */
-
-.course-card:hover h3,
-.course-card:hover h3 a {
-  color: $custom-hover-color !important;
-}
-
-
-/* Teaching View Course link */
-
-.course-card:hover .course-link {
-  color: $custom-hover-color !important;
-}
-
-
-/* Teaching metadata remains readable */
-
-.course-card:hover .course-level,
-.course-card:hover .course-field,
-.course-card:hover .course-meta {
-  transition: color 0.2s ease;
-}
-
-
-/* =========================================
-   CV PANELS
-========================================= */
-
-.cv-panel,
-.cv-item,
-.cv-summary-card {
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease,
-    background-color 0.22s ease,
-    box-shadow 0.22s ease;
-}
-
-.cv-panel:hover,
-.cv-item:hover,
-.cv-summary-card:hover {
-  border-color: $custom-hover-color;
-  background-color: rgba(0, 184, 217, 0.04);
-  box-shadow: 0 6px 18px rgba(0, 184, 217, 0.08);
-}
-
-
-/* =========================================
-   SMOOTH INTERACTION
+   SMOOTH GLOBAL LINKS
 ========================================= */
 
 a,
@@ -332,16 +320,11 @@ button {
 
 @media (max-width: 768px) {
 
-  /*
-   * Avoid excessive card movement on
-   * touch/mobile devices.
-   */
-
   .course-card:hover,
   .publication-card:hover,
   .fullpub-card:hover,
   .home-link-card:hover {
-    transform: none;
+    transform: none !important;
   }
 
 }
