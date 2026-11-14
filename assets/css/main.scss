@@ -156,13 +156,14 @@ $custom-hover-color: #00b8d9;
 
 
 /* =========================================
-   CLICKABLE CARDS
+   HOMEPAGE CLICKABLE CARDS
 ========================================= */
 
 .home-link-card {
   transition:
     color 0.2s ease,
     border-color 0.2s ease,
+    background-color 0.2s ease,
     transform 0.2s ease,
     box-shadow 0.2s ease;
 }
@@ -171,7 +172,16 @@ $custom-hover-color: #00b8d9;
 .home-link-card:focus {
   color: $custom-hover-color !important;
   border-color: $custom-hover-color !important;
-  transform: translateY(-2px);
+  background-color: rgba(0, 184, 217, 0.05);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.10);
+}
+
+.home-link-card:hover strong,
+.home-link-card:focus strong,
+.home-link-card:hover span,
+.home-link-card:focus span {
+  color: $custom-hover-color !important;
 }
 
 
@@ -192,4 +202,146 @@ $custom-hover-color: #00b8d9;
 .archive__item-title a:hover,
 .archive__item-title a:focus {
   color: $custom-hover-color !important;
+}
+
+
+/* =========================================
+   MAIN PUBLICATION CARDS
+========================================= */
+
+.publication-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-3px);
+  border-color: $custom-hover-color !important;
+  background-color: rgba(0, 184, 217, 0.04);
+  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.10);
+}
+
+
+/* =========================================
+   FULL PUBLICATION CARDS
+========================================= */
+
+.fullpub-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.fullpub-card:hover {
+  transform: translateY(-3px);
+  border-color: $custom-hover-color !important;
+  background-color: rgba(0, 184, 217, 0.04);
+  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.10);
+}
+
+
+/* =========================================
+   TEACHING COURSE CARDS
+========================================= */
+
+.course-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  border-color: $custom-hover-color !important;
+  background-color: rgba(0, 184, 217, 0.06);
+  box-shadow: 0 8px 22px rgba(0, 184, 217, 0.12);
+}
+
+
+/* Teaching card title */
+
+.course-card:hover h3,
+.course-card:hover h3 a {
+  color: $custom-hover-color !important;
+}
+
+
+/* Teaching View Course link */
+
+.course-card:hover .course-link {
+  color: $custom-hover-color !important;
+}
+
+
+/* Teaching metadata remains readable */
+
+.course-card:hover .course-level,
+.course-card:hover .course-field,
+.course-card:hover .course-meta {
+  transition: color 0.2s ease;
+}
+
+
+/* =========================================
+   CV PANELS
+========================================= */
+
+.cv-panel,
+.cv-item,
+.cv-summary-card {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.cv-panel:hover,
+.cv-item:hover,
+.cv-summary-card:hover {
+  border-color: $custom-hover-color;
+  background-color: rgba(0, 184, 217, 0.04);
+  box-shadow: 0 6px 18px rgba(0, 184, 217, 0.08);
+}
+
+
+/* =========================================
+   SMOOTH INTERACTION
+========================================= */
+
+a,
+button {
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  /*
+   * Avoid excessive card movement on
+   * touch/mobile devices.
+   */
+
+  .course-card:hover,
+  .publication-card:hover,
+  .fullpub-card:hover,
+  .home-link-card:hover {
+    transform: none;
+  }
+
 }
