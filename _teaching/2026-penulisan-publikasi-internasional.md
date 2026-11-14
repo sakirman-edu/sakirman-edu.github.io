@@ -2,10 +2,12 @@
 title: "Penulisan dan Publikasi Internasional"
 collection: teaching
 type: "Doctoral Course"
+field: "Academic Writing and International Publication"
 permalink: /teaching/2026-penulisan-publikasi-internasional
 venue: "UIN Jurai Siwo Lampung"
 date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
+description: "Doctoral course on international academic writing and publication, including research gaps, literature mapping, article structure, journal selection, manuscript preparation, and submission strategies."
 ---
 
 Doctoral course on **academic writing and international scholarly publication**.
