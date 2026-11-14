@@ -152,27 +152,35 @@ description: "Selected publications by Dr. Sakirman in Islamic astronomy, cresce
 
 
 /* ================================
-   FOOTER LINK
+   FOOTER
 ================================ */
 
 .publications-footer {
   margin-top: 2.8rem;
-  padding-top: 1.3rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1rem;
   border-top: 1px solid rgba(127,127,127,0.25);
 }
 
 .publications-footer p {
-  margin-bottom: 0.75rem;
-  line-height: 1.65;
+  max-width: 760px;
+  margin: 0 0 1rem 0;
+  line-height: 1.7;
+  opacity: 0.85;
 }
 
-.publications-footer a {
+.publications-footer-button {
+  display: inline-block;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid rgba(127,127,127,0.35);
+  border-radius: 7px;
+  font-size: 0.82rem;
   font-weight: 700;
   text-decoration: none;
 }
 
-.publications-footer a:hover {
-  text-decoration: underline;
+.publications-footer-button:hover {
+  opacity: 0.75;
 }
 
 
@@ -184,6 +192,10 @@ description: "Selected publications by Dr. Sakirman in Islamic astronomy, cresce
 
   .publication-card {
     padding: 1rem;
+  }
+
+  .publications-intro h2 {
+    font-size: 1.35rem;
   }
 
 }
@@ -561,7 +573,8 @@ description: "Selected publications by Dr. Sakirman in Islamic astronomy, cresce
     is available on the full publications page.
   </p>
 
-  <a href="/publications/">
+  <a class="publications-footer-button"
+     href="/publications/">
     View Full Publications →
   </a>
 
