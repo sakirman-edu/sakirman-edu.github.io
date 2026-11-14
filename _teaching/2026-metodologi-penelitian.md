@@ -2,10 +2,12 @@
 title: "Metodologi Penelitian Disertasi"
 collection: teaching
 type: "Doctoral Course"
+field: "Dissertation Research Methodology"
 permalink: /teaching/2026-metodologi-penelitian-disertasi
 venue: "UIN Jurai Siwo Lampung"
 date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
+description: "Doctoral course on advanced dissertation research methodology, academic integrity, research ethics, literature review, research design, data analysis, and dissertation proposal development."
 ---
 
 Doctoral course in the **Doctoral Program in Islamic Studies (Ilmu Syariah)**.
