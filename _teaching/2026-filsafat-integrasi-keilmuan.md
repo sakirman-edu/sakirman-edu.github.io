@@ -10,6 +10,112 @@ location: "Metro, Lampung, Indonesia"
 description: "Master's course on philosophy of science, paradigms of knowledge, integration-interconnection, interdisciplinary approaches, and their application to Islamic Family Law."
 ---
 
+<style>
+.integration-workflow {
+  display: flex;
+  align-items: stretch;
+  gap: 0.7rem;
+  margin: 1.5rem 0 2.2rem 0;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.integration-step {
+  flex: 1 1 190px;
+  min-width: 180px;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.integration-number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.integration-step strong {
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.integration-step span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+.integration-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+.integration-sources {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+
+.integration-source {
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.integration-source strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.92rem;
+}
+
+.integration-source span {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+.integration-plus {
+  text-align: center;
+  font-size: 1.25rem;
+  opacity: 0.55;
+  margin: 0.4rem 0 0.8rem 0;
+}
+
+@media (max-width: 900px) {
+  .integration-workflow {
+    flex-direction: column;
+  }
+
+  .integration-step {
+    min-width: 0;
+  }
+
+  .integration-arrow {
+    transform: rotate(90deg);
+    height: 20px;
+  }
+
+  .integration-sources {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+
 ## Course Overview
 
 Master's course in the **Islamic Family Law (Hukum Keluarga Islam)** program.
@@ -65,12 +171,85 @@ Particular emphasis is placed on the relevance of these perspectives to **Islami
       <td><strong>Primary Areas</strong></td>
       <td>
         Philosophy of Science · Scientific Paradigms · Integration of Knowledge ·
-        Integration-Interconnection · Interdisciplinary Studies · Islamic Family Law
+        Integration–Interconnection · Interdisciplinary Studies · Islamic Family Law
       </td>
     </tr>
 
   </tbody>
 </table>
+
+</div>
+
+
+## Integration of Knowledge Framework
+
+<div class="integration-sources">
+
+  <div class="integration-source">
+    <strong>Western Scientific Tradition</strong>
+    <span>
+      Modern and contemporary philosophy of science, scientific paradigms,
+      rational inquiry, empirical knowledge, and methodological development.
+    </span>
+  </div>
+
+  <div class="integration-source">
+    <strong>Islamic Intellectual Tradition</strong>
+    <span>
+      Classical Islamic scholarship, revelation, reason, ethics,
+      epistemology, and Muslim intellectual traditions.
+    </span>
+  </div>
+
+</div>
+
+<div class="integration-plus">
+  ↓
+</div>
+
+<div class="integration-workflow">
+
+  <div class="integration-step">
+    <div class="integration-number">1</div>
+    <strong>Integration–Interconnection</strong>
+    <span>
+      Establishes dialogue and interaction between religious knowledge,
+      social sciences, humanities, and other disciplines.
+    </span>
+  </div>
+
+  <div class="integration-arrow">→</div>
+
+  <div class="integration-step">
+    <div class="integration-number">2</div>
+    <strong>Interdisciplinary Approach</strong>
+    <span>
+      Combines multiple disciplinary perspectives to analyze complex
+      legal, social, cultural, ecological, and family issues.
+    </span>
+  </div>
+
+  <div class="integration-arrow">→</div>
+
+  <div class="integration-step">
+    <div class="integration-number">3</div>
+    <strong>Contextual Analysis</strong>
+    <span>
+      Connects philosophical and theoretical foundations with
+      contemporary Muslim social realities.
+    </span>
+  </div>
+
+  <div class="integration-arrow">→</div>
+
+  <div class="integration-step">
+    <div class="integration-number">4</div>
+    <strong>Islamic Family Law Research</strong>
+    <span>
+      Produces integrative research frameworks for contemporary
+      issues in Hukum Keluarga Islam.
+    </span>
+  </div>
 
 </div>
 
@@ -270,8 +449,6 @@ The course applies a **Student-Centered Learning** approach and combines:
 - Interdisciplinary and transdisciplinary analysis
 - Hybrid and blended learning
 
-The RPS explicitly uses Student-Centered Learning, discussion, problem-based learning, critical reading, presentations, project-based learning, and hybrid/blended learning.
-
 
 ## Key Assignments
 
@@ -290,8 +467,6 @@ Students analyze an issue in Islamic Family Law by combining legal analysis with
 ### 4. Knowledge Integration Model for Islamic Family Law Research
 
 Students develop a conceptual model integrating philosophy of science with Islamic Family Law as the basis for a final paper or research framework.
-
-These assignments follow the task design provided in the RPS.
 
 
 ## Assessment
@@ -343,8 +518,6 @@ These assignments follow the task design provided in the RPS.
 
 </div>
 
-The assessment structure follows the official RPS: **15% NBT, 30% NTT, 25% NTM, 10% UTS, and 20% UAS**.
-
 
 ## Core References
 
@@ -353,8 +526,6 @@ The assessment structure follows the official RPS: **15% NBT, 30% NTT, 25% NTM, 
 - M. Amin Abdullah, *Islam sebagai Ilmu: Epistemologi, Metodologi, dan Etika*
 - Ismail Raji al-Faruqi, *Islamization of Knowledge*
 - Syed Muhammad Naquib al-Attas, *Islam and Secularism*
-
-These works are listed as the principal references in the RPS.
 
 
 ## Learning Resources
