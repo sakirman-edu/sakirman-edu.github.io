@@ -80,6 +80,9 @@ description: "Doctoral course on the philosophical foundations of Islamic law, i
 </style>
 
 
+{% include teaching-navigation.html position="top" %}
+
+
 ## Course Overview
 
 Doctoral course in **Islamic Law (Ilmu Syariah)** focusing on the philosophical foundations of Islamic legal thought.
@@ -238,144 +241,112 @@ By the end of the course, students are expected to be able to:
 
     <tr>
       <td style="text-align:center;">1</td>
-      <td>
-        <strong>Pengantar Filsafat Hukum Islam: Etika dan Moral Dasar</strong>
-      </td>
+      <td><strong>Pengantar Filsafat Hukum Islam: Etika dan Moral Dasar</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">2</td>
-      <td>
-        <strong>Tanggung Jawab Akademik dan Kepekaan Sosial dalam Hukum Islam</strong>
-      </td>
+      <td><strong>Tanggung Jawab Akademik dan Kepekaan Sosial dalam Hukum Islam</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">3</td>
-      <td>
-        <strong>Ontologi, Epistemologi, dan Aksiologi Filsafat Hukum Islam</strong>
-      </td>
+      <td><strong>Ontologi, Epistemologi, dan Aksiologi Filsafat Hukum Islam</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">4</td>
-      <td>
-        <strong>Sejarah Perkembangan Pemikiran Filsafat Hukum Islam: Klasik hingga Kontemporer</strong>
-      </td>
+      <td><strong>Sejarah Perkembangan Pemikiran Filsafat Hukum Islam: Klasik hingga Kontemporer</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">5</td>
-      <td>
-        <strong>Mazhab dan Aliran Pemikiran dalam Filsafat Hukum Islam</strong>
-      </td>
+      <td><strong>Mazhab dan Aliran Pemikiran dalam Filsafat Hukum Islam</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">6</td>
-      <td>
-        <strong>Keterkaitan Teori Filsafat Hukum Islam dengan Hukum Positif</strong>
-      </td>
+      <td><strong>Keterkaitan Teori Filsafat Hukum Islam dengan Hukum Positif</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">7</td>
-      <td>
-        <strong>Relevansi Maqāṣid al-Syarī‘ah dalam Problematika Kontemporer</strong>
-      </td>
+      <td><strong>Relevansi Maqāṣid al-Syarī‘ah dalam Problematika Kontemporer</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">8</td>
-      <td>
-        <strong>Ujian Tengah Semester (UTS)</strong>
-      </td>
+      <td><strong>Ujian Tengah Semester (UTS)</strong></td>
       <td style="text-align:center;">Assessment</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">9</td>
-      <td>
-        <strong>Kaidah Filosofis dalam Metode Ijtihad</strong>
-      </td>
+      <td><strong>Kaidah Filosofis dalam Metode Ijtihad</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">10</td>
-      <td>
-        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning I</strong>
-      </td>
+      <td><strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning I</strong></td>
       <td style="text-align:center;">Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">11</td>
-      <td>
-        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning II</strong>
-      </td>
+      <td><strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning II</strong></td>
       <td style="text-align:center;">Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">12</td>
-      <td>
-        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning III</strong>
-      </td>
+      <td><strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning III</strong></td>
       <td style="text-align:center;">Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">13</td>
-      <td>
-        <strong>Presentasi Proyek</strong>
-      </td>
+      <td><strong>Presentasi Proyek</strong></td>
       <td style="text-align:center;">Presentation</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">14</td>
-      <td>
-        <strong>Review Komprehensif Filsafat Hukum Islam</strong>
-      </td>
+      <td><strong>Review Komprehensif Filsafat Hukum Islam</strong></td>
       <td style="text-align:center;">Review</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">15</td>
-      <td>
-        <strong>Persiapan Ujian Akhir Semester</strong>
-      </td>
+      <td><strong>Persiapan Ujian Akhir Semester</strong></td>
       <td style="text-align:center;">Review</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">16</td>
-      <td>
-        <strong>Ujian Akhir Semester (UAS)</strong>
-      </td>
+      <td><strong>Ujian Akhir Semester (UAS)</strong></td>
       <td style="text-align:center;">Final Assessment</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
@@ -445,3 +416,6 @@ Assessment may include:
 - **Contemporary Case Study Materials** — Coming soon
 - **Project Guidelines** — Coming soon
 - **Assessment Rubrics** — Coming soon
+
+
+{% include teaching-navigation.html position="bottom" %}
