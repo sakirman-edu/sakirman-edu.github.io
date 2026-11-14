@@ -2,7 +2,7 @@
 title: "Research"
 permalink: /research/
 author_profile: true
-description: "Research on Islamic astronomy, crescent visibility, twilight, astronomical photometry, digital image processing, and Hijri calendar studies."
+description: "Research on Islamic astronomy, crescent visibility, tropical twilight, astronomical photometry, digital image processing, and Hijri calendar studies."
 ---
 
 {% include base_path %}
@@ -158,6 +158,18 @@ description: "Research on Islamic astronomy, crescent visibility, twilight, astr
   text-decoration: underline;
 }
 
+.future-card {
+  border: 1px solid rgba(128,128,128,0.28);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.9rem;
+}
+
+.future-card strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
 .roadmap-box {
   text-align: center;
   margin-top: 1.5rem;
@@ -172,18 +184,6 @@ description: "Research on Islamic astronomy, crescent visibility, twilight, astr
   max-width: 680px;
   height: auto;
   border-radius: 8px;
-}
-
-.future-card {
-  border: 1px solid rgba(128,128,128,0.28);
-  border-radius: 10px;
-  padding: 1rem 1.1rem;
-  margin-bottom: 0.9rem;
-}
-
-.future-card strong {
-  display: block;
-  margin-bottom: 0.35rem;
 }
 
 .output-links {
@@ -409,7 +409,7 @@ description: "Research on Islamic astronomy, crescent visibility, twilight, astr
 
   <div class="research-kicker">Methodology</div>
 
-  <h2>From Observation to Quantitative Evidence</h2>
+  <h2>From Observation to Quantitative Analysis</h2>
 
   <p class="research-intro">
     My methodological approach connects direct crescent observation with
@@ -526,7 +526,7 @@ description: "Research on Islamic astronomy, crescent visibility, twilight, astr
 
   <div class="research-kicker">Current Research Focus</div>
 
-  <h2>Twilight, Sky Brightness, and Crescent Visibility</h2>
+  <h2>Tropical Twilight, Sky Brightness, and Crescent Visibility</h2>
 
   <p>
     My current research focuses on the relationship between
@@ -567,6 +567,7 @@ description: "Research on Islamic astronomy, crescent visibility, twilight, astr
 
   </div>
 
+
   <div class="future-card">
 
     <strong>2. Can photometric contrast improve crescent visibility criteria?</strong>
@@ -576,6 +577,7 @@ description: "Research on Islamic astronomy, crescent visibility, twilight, astr
 
   </div>
 
+
   <div class="future-card">
 
     <strong>3. How can astronomical evidence strengthen Hijri calendar systems?</strong>
@@ -584,6 +586,7 @@ description: "Research on Islamic astronomy, crescent visibility, twilight, astr
     calendar development and Islamic legal reasoning.
 
   </div>
+
 
   <div class="future-card">
 
