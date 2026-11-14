@@ -7,14 +7,83 @@ permalink: /teaching/2026-filsafat-hukum-islam
 venue: "UIN Jurai Siwo Lampung"
 date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
-description: "Doctoral course on the philosophical foundations of Islamic law, including ontology, epistemology, axiology, legal reasoning, and contemporary Islamic legal thought."
+description: "Doctoral course on the philosophical foundations of Islamic law, including ontology, epistemology, axiology, legal reasoning, maqāṣid al-syarī‘ah, and contemporary Islamic legal thought."
 ---
 
-Doctoral course in the **Doctoral Program in Islamic Studies (Ilmu Syariah)**.
+## Course Overview
 
-The course examines the philosophical foundations of Islamic law through the dimensions of **ontology, epistemology, and axiology**.
+Doctoral course in **Islamic Law (Ilmu Syariah)** focusing on the philosophical foundations of Islamic legal thought.
 
-Major themes include the history and development of Islamic legal philosophy, schools of thought, the relationship between Islamic legal philosophy and positive law, **maqāṣid al-syarī‘ah**, philosophical foundations of *ijtihad*, and the application of Islamic legal philosophy to contemporary legal problems.
+The course examines the **ontological, epistemological, and axiological dimensions of Islamic law**, the historical development of Islamic legal philosophy, major schools and intellectual traditions, and the relationship between philosophical reasoning and Islamic legal methodology.
+
+Particular emphasis is placed on **maqāṣid al-syarī‘ah, theories of justice, legal authority, methods of ijtihad, and contemporary applications of Islamic legal philosophy**. The course is designed to develop advanced critical reasoning and the ability to reconstruct Islamic legal thought in response to contemporary social, legal, and ethical challenges.
+
+
+## Course Information
+
+<div style="overflow-x:auto;">
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+
+    <tr>
+      <td style="width:30%;"><strong>Course Level</strong></td>
+      <td>Doctoral Course</td>
+    </tr>
+
+    <tr>
+      <td><strong>Program</strong></td>
+      <td>Doctoral Program in Islamic Law (Program Doktor Ilmu Syariah)</td>
+    </tr>
+
+    <tr>
+      <td><strong>Field</strong></td>
+      <td>Philosophy of Islamic Law</td>
+    </tr>
+
+    <tr>
+      <td><strong>Institution</strong></td>
+      <td>UIN Jurai Siwo Lampung</td>
+    </tr>
+
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Metro, Lampung, Indonesia</td>
+    </tr>
+
+    <tr>
+      <td><strong>Academic Year</strong></td>
+      <td>2026</td>
+    </tr>
+
+    <tr>
+      <td><strong>Primary Areas</strong></td>
+      <td>
+        Ontology · Epistemology · Axiology · Islamic Legal Philosophy ·
+        Maqāṣid al-Syarī‘ah · Ijtihad · Justice · Legal Authority ·
+        Contemporary Islamic Legal Thought
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+
+## Course Learning Outcomes
+
+By the end of the course, students are expected to be able to:
+
+1. Explain and critically analyze the ontological, epistemological, and axiological foundations of Islamic law.
+2. Examine the historical development of Islamic legal philosophy from classical to contemporary periods.
+3. Compare major schools and intellectual traditions in Islamic legal philosophy.
+4. Analyze the relationship between philosophical theories of Islamic law and positive legal systems.
+5. Evaluate the role of **maqāṣid al-syarī‘ah** in addressing contemporary legal problems.
+6. Analyze philosophical principles underlying methods of **ijtihad**.
+7. Apply Islamic legal philosophy to contemporary legal, social, ethical, and institutional issues.
+8. Develop and defend a philosophically grounded argument for the reconstruction of contemporary Islamic law.
+
 
 ## Course Materials
 
@@ -35,8 +104,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">1</td>
       <td>
-        <strong>Pengantar Filsafat Hukum Islam: Etika dan Moral Dasar</strong><br>
-        Pengertian dan ruang lingkup filsafat hukum Islam; hubungan filsafat, hukum, etika, dan moral; nilai-nilai dasar dalam hukum Islam.
+        <strong>Pengantar Filsafat Hukum Islam: Etika dan Moral Dasar</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -45,8 +113,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">2</td>
       <td>
-        <strong>Tanggung Jawab Akademik dan Kepekaan Sosial dalam Hukum Islam</strong><br>
-        Integritas akademik; etika keilmuan; tanggung jawab sosial; dan kepekaan terhadap problem penerapan hukum Islam di masyarakat.
+        <strong>Tanggung Jawab Akademik dan Kepekaan Sosial dalam Hukum Islam</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -55,8 +122,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">3</td>
       <td>
-        <strong>Ontologi, Epistemologi, dan Aksiologi Filsafat Hukum Islam</strong><br>
-        Hakikat hukum Islam; sumber dan metode memperoleh pengetahuan hukum; serta nilai, tujuan, dan orientasi hukum Islam.
+        <strong>Ontologi, Epistemologi, dan Aksiologi Filsafat Hukum Islam</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -65,8 +131,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">4</td>
       <td>
-        <strong>Sejarah Perkembangan Pemikiran Filsafat Hukum Islam: Klasik hingga Kontemporer</strong><br>
-        Perkembangan pemikiran hukum Islam dari era klasik, pertengahan, modern, hingga kontemporer serta pergeseran paradigma metodologis.
+        <strong>Sejarah Perkembangan Pemikiran Filsafat Hukum Islam: Klasik hingga Kontemporer</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -75,8 +140,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">5</td>
       <td>
-        <strong>Mazhab dan Aliran Pemikiran dalam Filsafat Hukum Islam</strong><br>
-        Ragam mazhab dan aliran pemikiran; karakter epistemologis; metode penalaran; persamaan dan perbedaan pendekatan terhadap hukum Islam.
+        <strong>Mazhab dan Aliran Pemikiran dalam Filsafat Hukum Islam</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -85,8 +149,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">6</td>
       <td>
-        <strong>Keterkaitan Teori Filsafat Hukum Islam dengan Hukum Positif</strong><br>
-        Relasi teori filsafat hukum Islam dengan pembentukan norma hukum positif; transformasi norma syariah; dan dinamika hukum Islam dalam sistem hukum modern.
+        <strong>Keterkaitan Teori Filsafat Hukum Islam dengan Hukum Positif</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -95,8 +158,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">7</td>
       <td>
-        <strong>Relevansi Maqāṣid al-Syarī‘ah dalam Problematika Kontemporer</strong><br>
-        Maqāṣid klasik dan kontemporer; kemaslahatan; perlindungan hak; pendekatan sistem; dan penerapannya pada persoalan hukum modern.
+        <strong>Relevansi Maqāṣid al-Syarī‘ah dalam Problematika Kontemporer</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -105,8 +167,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">8</td>
       <td>
-        <strong>Ujian Tengah Semester (UTS)</strong><br>
-        Evaluasi pemahaman terhadap konsep dasar, sejarah, mazhab, dan teori filsafat hukum Islam.
+        <strong>Ujian Tengah Semester (UTS)</strong>
       </td>
       <td style="text-align:center;">Assessment</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -115,8 +176,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">9</td>
       <td>
-        <strong>Kaidah Filosofis dalam Metode Ijtihad</strong><br>
-        Landasan filosofis sumber hukum Islam; metode ijtihad; hubungan teks, rasio, realitas, dan kemaslahatan dalam pembentukan hukum.
+        <strong>Kaidah Filosofis dalam Metode Ijtihad</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -125,8 +185,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">10</td>
       <td>
-        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer (PjBL 1)</strong><br>
-        Identifikasi problem hukum kontemporer; pemilihan kerangka filosofis; penyusunan proposal solusi hukum berbasis filsafat hukum Islam.
+        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning I</strong>
       </td>
       <td style="text-align:center;">Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -135,8 +194,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">11</td>
       <td>
-        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer (PjBL 2)</strong><br>
-        Analisis kasus; pengembangan argumentasi filosofis; integrasi teori, maqāṣid, dan metode ijtihad dalam penyelesaian masalah hukum.
+        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning II</strong>
       </td>
       <td style="text-align:center;">Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -145,8 +203,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">12</td>
       <td>
-        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer (PjBL 3)</strong><br>
-        Penyempurnaan solusi; evaluasi koherensi argumentasi; penguatan dasar filosofis; dan penyusunan draf final proyek.
+        <strong>Penerapan Filsafat Hukum Islam pada Kasus Kontemporer — Project-Based Learning III</strong>
       </td>
       <td style="text-align:center;">Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -155,8 +212,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">13</td>
       <td>
-        <strong>Presentasi Proyek: Solusi Hukum Kontemporer</strong><br>
-        Presentasi hasil proyek; pengujian argumentasi; tanggapan kritis; dan evaluasi solusi hukum berbasis filsafat hukum Islam.
+        <strong>Presentasi Proyek</strong>
       </td>
       <td style="text-align:center;">Presentation</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -165,18 +221,16 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">14</td>
       <td>
-        <strong>Review Komprehensif: Integrasi Teori dan Praktik</strong><br>
-        Integrasi ontologi, epistemologi, aksiologi, mazhab, maqāṣid, metode ijtihad, dan penerapannya dalam analisis hukum kontemporer.
+        <strong>Review Komprehensif Filsafat Hukum Islam</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Review</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">15</td>
       <td>
-        <strong>Persiapan UAS dan Evaluasi Akhir Semester</strong><br>
-        Penguatan konsep utama; sintesis materi; evaluasi capaian pembelajaran; dan persiapan ujian akhir semester.
+        <strong>Persiapan Ujian Akhir Semester</strong>
       </td>
       <td style="text-align:center;">Review</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -185,8 +239,7 @@ Major themes include the history and development of Islamic legal philosophy, sc
     <tr>
       <td style="text-align:center;">16</td>
       <td>
-        <strong>Ujian Akhir Semester (UAS)</strong><br>
-        Evaluasi komprehensif terhadap penguasaan teori, analisis filosofis, dan penerapan filsafat hukum Islam.
+        <strong>Ujian Akhir Semester (UAS)</strong>
       </td>
       <td style="text-align:center;">Final Assessment</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -197,12 +250,63 @@ Major themes include the history and development of Islamic legal philosophy, sc
 
 </div>
 
+
+## Learning Approach
+
+The course emphasizes advanced critical and philosophical analysis. Learning activities include:
+
+- Doctoral-level academic discussion
+- Critical reading of classical and contemporary Islamic legal thought
+- Comparative philosophical analysis
+- Maqāṣid-based legal reasoning
+- Case analysis
+- Problem-Based Learning
+- Project-Based Learning
+- Individual and group presentations
+- Critical reflection on legal authority and justice
+- Reconstruction of contemporary Islamic legal thought
+
+
+## Key Assignments
+
+### 1. Philosophical Analysis of Islamic Law
+
+Students analyze a selected Islamic legal concept through ontological, epistemological, and axiological perspectives.
+
+### 2. Critical Review of Islamic Legal Thought
+
+Students compare classical and contemporary approaches to Islamic legal philosophy and identify their methodological implications.
+
+### 3. Maqāṣid-Based Contemporary Legal Analysis
+
+Students analyze a contemporary legal issue using **maqāṣid al-syarī‘ah** and philosophical reasoning.
+
+### 4. Contemporary Islamic Legal Philosophy Project
+
+Students develop and present a philosophically grounded framework for addressing a contemporary Islamic legal issue.
+
+
+## Assessment
+
+Assessment may include:
+
+- Academic participation and doctoral-level discussion
+- Critical reading and reflective assignments
+- Individual or group analytical papers
+- Contemporary legal case analysis
+- Project-Based Learning activities
+- Mid-Semester Examination (UTS)
+- Project presentation
+- Final Examination (UAS)
+
+
 ## Learning Resources
 
 - **RPS / Course Syllabus** — Coming soon
-- **CPL and CPMK** — Coming soon
-- **Project-Based Learning Guide** — Coming soon
-- **Case Analysis Guidelines** — Coming soon
-- **Assignment and Assessment Rubrics** — Coming soon
+- **Lecture Materials** — Coming soon
 - **Reading List and References** — Coming soon
-- **Contemporary Legal Case Materials** — Coming soon
+- **Philosophical Analysis Guidelines** — Coming soon
+- **Maqāṣid Analysis Materials** — Coming soon
+- **Contemporary Case Study Materials** — Coming soon
+- **Project Guidelines** — Coming soon
+- **Assessment Rubrics** — Coming soon
