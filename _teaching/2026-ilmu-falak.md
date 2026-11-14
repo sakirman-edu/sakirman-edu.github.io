@@ -10,6 +10,76 @@ location: "Metro, Lampung, Indonesia"
 description: "Undergraduate course on Islamic astronomy, including celestial coordinates, qibla direction, prayer times, lunar observation, hisab-rukyat, and Hijri calendar determination."
 ---
 
+<style>
+.falak-workflow {
+  display: flex;
+  align-items: stretch;
+  gap: 0.65rem;
+  margin: 1.5rem 0 2.2rem 0;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.falak-step {
+  flex: 1 1 155px;
+  min-width: 150px;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.falak-number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.falak-step strong {
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.falak-step span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+.falak-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .falak-workflow {
+    flex-direction: column;
+  }
+
+  .falak-step {
+    min-width: 0;
+  }
+
+  .falak-arrow {
+    transform: rotate(90deg);
+    height: 20px;
+  }
+}
+</style>
+
+
 ## Course Overview
 
 Undergraduate course on **Ilmu Falak (Islamic Astronomy)** and its application to Islamic religious practices.
@@ -61,6 +131,89 @@ It also introduces contemporary developments in astronomical instrumentation, di
 
   </tbody>
 </table>
+
+</div>
+
+
+## Islamic Astronomy Learning Workflow
+
+<div class="falak-workflow">
+
+  <div class="falak-step">
+    <div class="falak-number">1</div>
+    <strong>Astronomical Foundations</strong>
+    <span>
+      Earth–Moon–Sun system, celestial sphere, coordinates,
+      apparent motions, horizon, equator, and ecliptic.
+    </span>
+  </div>
+
+  <div class="falak-arrow">→</div>
+
+  <div class="falak-step">
+    <div class="falak-number">2</div>
+    <strong>Astronomical Calculation</strong>
+    <span>
+      Qibla azimuth, prayer times, lunar position,
+      conjunction, elongation, altitude, and related calculations.
+    </span>
+  </div>
+
+  <div class="falak-arrow">→</div>
+
+  <div class="falak-step">
+    <div class="falak-number">3</div>
+    <strong>Observation</strong>
+    <span>
+      Field observation of qibla direction, prayer-time phenomena,
+      crescent visibility, eclipses, and other celestial events.
+    </span>
+  </div>
+
+  <div class="falak-arrow">→</div>
+
+  <div class="falak-step">
+    <div class="falak-number">4</div>
+    <strong>Digital Imaging</strong>
+    <span>
+      Use of telescopes, cameras, CCD/CMOS sensors,
+      astronomical photography, and image documentation.
+    </span>
+  </div>
+
+  <div class="falak-arrow">→</div>
+
+  <div class="falak-step">
+    <div class="falak-number">5</div>
+    <strong>Quantitative Analysis</strong>
+    <span>
+      Image processing, photometric analysis, contrast,
+      sky brightness, and observational data evaluation.
+    </span>
+  </div>
+
+  <div class="falak-arrow">→</div>
+
+  <div class="falak-step">
+    <div class="falak-number">6</div>
+    <strong>Astronomical Interpretation</strong>
+    <span>
+      Evaluate astronomical evidence, visibility criteria,
+      observational uncertainty, and scientific implications.
+    </span>
+  </div>
+
+  <div class="falak-arrow">→</div>
+
+  <div class="falak-step">
+    <div class="falak-number">7</div>
+    <strong>Islamic Legal Application</strong>
+    <span>
+      Relate astronomical evidence to hisab–rukyat,
+      Hijri calendar determination, religious practice,
+      and Islamic legal reasoning.
+    </span>
+  </div>
 
 </div>
 
@@ -356,108 +509,52 @@ Assessment may include:
   margin-top:1rem;
 ">
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-01.jpeg"
          alt="Ilmu Falak Lecture 1"
-         style="
-           width:100%;
-           height:180px;
-           object-fit:cover;
-           border-radius:8px;
-           display:block;">
+         style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-02.jpeg"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-02.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-02.jpeg"
          alt="Ilmu Falak Lecture 2"
-         style="
-           width:100%;
-           height:180px;
-           object-fit:cover;
-           border-radius:8px;
-           display:block;">
+         style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-03.jpeg"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-03.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-03.jpeg"
          alt="Ilmu Falak Lecture 3"
-         style="
-           width:100%;
-           height:180px;
-           object-fit:cover;
-           border-radius:8px;
-           display:block;">
+         style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-04.jpeg"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-04.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-04.jpeg"
          alt="Ilmu Falak Lecture 4"
-         style="
-           width:100%;
-           height:180px;
-           object-fit:cover;
-           border-radius:8px;
-           display:block;">
+         style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-05.jpeg"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-05.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-05.jpeg"
          alt="Ilmu Falak Lecture 5"
-         style="
-           width:100%;
-           height:180px;
-           object-fit:cover;
-           border-radius:8px;
-           display:block;">
+         style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-06.jpeg"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-06.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-06.jpeg"
          alt="Ilmu Falak Lecture 6"
-         style="
-           width:100%;
-           height:180px;
-           object-fit:cover;
-           border-radius:8px;
-           display:block;">
+         style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-07.jpeg"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-07.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-07.jpeg"
          alt="Ilmu Falak Lecture 7"
-         style="
-           width:100%;
-           height:180px;
-           object-fit:cover;
-           border-radius:8px;
-           display:block;">
+         style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg" target="_blank" rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-08.jpeg"
          alt="Ilmu Falak Lecture 8"
-         style="
-           width:100%;
-           height:180px;
-           object-fit:cover;
-           border-radius:8px;
-           display:block;">
+         style="width:100%; height:180px; object-fit:cover; border-radius:8px; display:block;">
   </a>
 
 </div>
