@@ -10,6 +10,82 @@ location: "Metro, Lampung, Indonesia"
 description: "Undergraduate practicum course on the administration and implementation of Islamic legal services, including marriage registration, SIMKAH procedures, document verification, and related sharia-based legal practice."
 ---
 
+<style>
+.practice-workflow {
+  display: flex;
+  align-items: stretch;
+  gap: 0.7rem;
+  margin: 1.5rem 0 2.2rem 0;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.practice-step {
+  flex: 1 1 180px;
+  min-width: 170px;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.practice-number {
+  min-width: 30px;
+  height: 30px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.practice-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.practice-content strong {
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.practice-content span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+.practice-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .practice-workflow {
+    flex-direction: column;
+  }
+
+  .practice-step {
+    min-width: 0;
+  }
+
+  .practice-arrow {
+    transform: rotate(90deg);
+    height: 20px;
+  }
+}
+</style>
+
+
 ## Course Overview
 
 Undergraduate practicum course in the **Islamic Family Law (Hukum Keluarga Islam)** program.
@@ -67,6 +143,76 @@ Particular emphasis is placed on administrative procedures, document analysis, c
 
   </tbody>
 </table>
+
+</div>
+
+
+## Service and Practice Workflow
+
+<div class="practice-workflow">
+
+  <div class="practice-step">
+    <div class="practice-number">1</div>
+    <div class="practice-content">
+      <strong>KUA Services</strong>
+      <span>
+        Marriage registration, document verification, guidance,
+        guardianship, and family services
+      </span>
+    </div>
+  </div>
+
+  <div class="practice-arrow">→</div>
+
+  <div class="practice-step">
+    <div class="practice-number">2</div>
+    <div class="practice-content">
+      <strong>SIMKAH Administration</strong>
+      <span>
+        Digital data entry, identity verification, marriage records,
+        and administrative reporting
+      </span>
+    </div>
+  </div>
+
+  <div class="practice-arrow">→</div>
+
+  <div class="practice-step">
+    <div class="practice-number">3</div>
+    <div class="practice-content">
+      <strong>Religious Court Practice</strong>
+      <span>
+        Case registration, pleadings, mediation, evidence,
+        decisions, and court administration
+      </span>
+    </div>
+  </div>
+
+  <div class="practice-arrow">→</div>
+
+  <div class="practice-step">
+    <div class="practice-number">4</div>
+    <div class="practice-content">
+      <strong>Institutional Services</strong>
+      <span>
+        Ministry of Religious Affairs, Hajj and Umrah,
+        zakat, waqf, BP4, and related services
+      </span>
+    </div>
+  </div>
+
+  <div class="practice-arrow">→</div>
+
+  <div class="practice-step">
+    <div class="practice-number">5</div>
+    <div class="practice-content">
+      <strong>Field Practice and Portfolio</strong>
+      <span>
+        Observation, case simulation, institutional analysis,
+        and comprehensive practicum portfolio
+      </span>
+    </div>
+  </div>
 
 </div>
 
@@ -214,190 +360,4 @@ By the end of the course, students are expected to be able to:
     <tr>
       <td style="text-align:center;">8</td>
       <td>
-        <strong>Ujian Tengah Semester / Praktik Terstruktur</strong><br>
-        Simulasi pelayanan administrasi perkawinan dan penyelesaian studi kasus pada KUA.
-      </td>
-      <td style="text-align:center;">Practicum</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
-    </tr>
-
-    <tr>
-      <td style="text-align:center;">9</td>
-      <td>
-        <strong>Kelembagaan Peradilan Agama</strong><br>
-        Kedudukan, kewenangan absolut dan relatif, struktur Pengadilan Agama, tugas hakim, panitera, jurusita, Posbakum, serta hubungan Peradilan Agama dengan Mahkamah Agung.
-      </td>
-      <td style="text-align:center;">PDF</td>
-      <td style="text-align:center;">
-        <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%209.pdf"
-           target="_blank"
-           rel="noopener noreferrer">
-          <strong>Download PDF</strong>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="text-align:center;">10</td>
-      <td>
-        <strong>Praktik Administrasi Perkara di Pengadilan Agama</strong><br>
-        Pendaftaran perkara; gugatan dan permohonan; cerai talak; cerai gugat; dispensasi kawin; isbat nikah; asal-usul anak; hak asuh anak; nafkah; harta bersama; waris.
-      </td>
-      <td style="text-align:center;">PDF</td>
-      <td style="text-align:center;">
-        <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%2010.pdf"
-           target="_blank"
-           rel="noopener noreferrer">
-          <strong>Download PDF</strong>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="text-align:center;">11</td>
-      <td>
-        <strong>Praktik Persidangan Perkara Hukum Keluarga Islam</strong><br>
-        Tahapan persidangan; mediasi; pembacaan gugatan atau permohonan; jawaban; replik; duplik; pembuktian; kesimpulan; putusan; ikrar talak dan penerbitan akta cerai.
-      </td>
-      <td style="text-align:center;">PDF</td>
-      <td style="text-align:center;">
-        <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%2011.pdf"
-           target="_blank"
-           rel="noopener noreferrer">
-          <strong>Download PDF</strong>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="text-align:center;">12</td>
-      <td>
-        <strong>Simulasi Penyusunan Dokumen Perkara dan Moot Court Peradilan Agama</strong><br>
-        Penyusunan surat gugatan, permohonan, jawaban, replik, duplik, alat bukti, kesimpulan, serta simulasi persidangan perkara keluarga Islam.
-      </td>
-      <td style="text-align:center;">PDF</td>
-      <td style="text-align:center;">
-        <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%2012.pdf"
-           target="_blank"
-           rel="noopener noreferrer">
-          <strong>Download PDF</strong>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="text-align:center;">13</td>
-      <td>
-        <strong>Pelayanan Keagamaan dan Keluarga pada Kementerian Agama</strong><br>
-        Struktur dan fungsi Kementerian Agama; Ditjen Bimas Islam; layanan kepenghuluan, keluarga sakinah, penyuluhan agama, kemasjidan, zakat, wakaf, serta hubungan kelembagaan dengan KUA.
-      </td>
-      <td style="text-align:center;">PDF</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
-    </tr>
-
-    <tr>
-      <td style="text-align:center;">14</td>
-      <td>
-        <strong>Penyelenggaraan Haji dan Umrah</strong><br>
-        Kelembagaan instansi penyelenggara haji dan umrah; regulasi dan tata kelola haji; pendaftaran jamaah; pembinaan, pelayanan, perlindungan jamaah; PPIU, PIHK, KBIHU, serta isu hukum penyelenggaraan haji dan umrah.
-      </td>
-      <td style="text-align:center;">PDF</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
-    </tr>
-
-    <tr>
-      <td style="text-align:center;">15</td>
-      <td>
-        <strong>Integrasi Layanan Syariah dengan Lembaga Terkait</strong><br>
-        Dukcapil dalam administrasi kependudukan keluarga; BAZNAS dalam pengelolaan zakat; BWI dan KUA dalam administrasi wakaf; BP4 dalam pembinaan keluarga; serta koordinasi antarinstansi dalam penyelenggaraan hukum keluarga Islam.
-      </td>
-      <td style="text-align:center;">PDF</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
-    </tr>
-
-    <tr>
-      <td style="text-align:center;">16</td>
-      <td>
-        <strong>Ujian Akhir Semester / Praktikum Komprehensif</strong><br>
-        Presentasi hasil observasi atau praktik lapangan dan penyusunan portofolio penyelenggaraan syariah berbasis kasus pada KUA, Pengadilan Agama, Kementerian Agama, dan lembaga terkait.
-      </td>
-      <td style="text-align:center;">Portfolio</td>
-      <td style="text-align:center;"><em>Coming soon</em></td>
-    </tr>
-
-  </tbody>
-</table>
-
-</div>
-
-
-## Learning Approach
-
-The course emphasizes **practice-oriented and field-based learning**. Learning activities include:
-
-- Interactive lectures
-- Administrative document analysis
-- Case-based learning
-- Service procedure simulation
-- SIMKAH practice
-- Marriage administration exercises
-- Religious Court document preparation
-- Moot-court simulation
-- Observation and institutional visits
-- Group presentations
-- Field-based assignments
-- Portfolio development
-
-
-## Key Assignments
-
-### 1. KUA Administrative Case Analysis
-
-Students analyze selected marriage-administration cases and identify the relevant procedures, documents, institutions, and legal issues.
-
-### 2. SIMKAH and Marriage Administration Practice
-
-Students examine the workflow of marriage registration, identity verification, document processing, and digital administration through SIMKAH.
-
-### 3. Religious Court Document Practice
-
-Students prepare selected procedural documents such as applications, claims, responses, evidence lists, or other documents relevant to Islamic family law proceedings.
-
-### 4. Moot Court
-
-Students simulate selected stages of Religious Court proceedings, including filing, mediation, pleadings, evidence, conclusions, and judicial decision-making.
-
-### 5. Institutional Observation and Practicum Portfolio
-
-Students compile a portfolio based on observation, simulation, case analysis, or field-based learning involving KUA, Religious Courts, the Ministry of Religious Affairs, or related institutions.
-
-
-## Assessment
-
-Assessment may include:
-
-- Class participation and practicum activities
-- Administrative document exercises
-- Case analysis
-- SIMKAH practice
-- Individual and group presentations
-- Mid-Semester structured practicum
-- Moot-court performance
-- Field observation report
-- Practicum portfolio
-- Final comprehensive practicum
-
-
-## Learning Resources
-
-- **RPS / Course Syllabus** — Coming soon
-- **Practicum Guide** — Coming soon
-- **Reading List** — Coming soon
-- **Assignment Guidelines** — Coming soon
-- **Case Materials** — Coming soon
-- **SIMKAH Practice Guide** — Coming soon
-- **Marriage Administration Forms** — Coming soon
-- **Religious Court Document Templates** — Coming soon
-- **Moot Court Guidelines** — Coming soon
-- **Observation and Fieldwork Forms** — Coming soon
-- **Assessment Rubrics** — Coming soon
+       
