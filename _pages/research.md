@@ -194,33 +194,6 @@ author_profile: true
 }
 </style>
 
-
-<div class="research-hero">
-
-  <div class="research-kicker">Research Program</div>
-
-  <h1>
-    From astronomical observation to Islamic legal reasoning
-  </h1>
-
-  <p>
-    My research explores the intersection of <strong>Islamic astronomy,
-    observational science, and Islamic law</strong>. It focuses particularly on
-    crescent visibility, twilight, sky brightness, digital imaging, astronomical
-    photometry, Hijri calendar systems, and the integration of scientific evidence
-    with Islamic legal reasoning.
-  </p>
-
-  <p>
-    A central objective of this research program is to develop
-    <strong>evidence-based approaches to astronomy for Islamic religious practices</strong>,
-    linking observation, quantitative analysis, and legal interpretation in the
-    study of the <em>hilal</em>, prayer times, qibla direction, and the Hijri calendar.
-  </p>
-
-</div>
-
-
 <div class="research-section">
 
   <div class="research-kicker">Research Themes</div>
@@ -235,8 +208,12 @@ author_profile: true
 
     <div class="research-card">
 
-      <img src="{{ base_path }}/images/hilal-twilight.jpg"
-           alt="Crescent visibility and twilight observation">
+      <a href="{{ base_path }}/images/hilal-twilight.jpg"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img src="{{ base_path }}/images/hilal-twilight.jpg"
+             alt="Crescent visibility and twilight observation">
+      </a>
 
       <div class="research-card-content">
 
@@ -260,8 +237,12 @@ author_profile: true
 
     <div class="research-card">
 
-      <img src="{{ base_path }}/images/hilal-twilight.jpg"
-           alt="Astronomical photometry and digital imaging">
+      <a href="{{ base_path }}/images/hilal-twilight.jpg"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img src="{{ base_path }}/images/hilal-twilight.jpg"
+             alt="Astronomical photometry and digital imaging">
+      </a>
 
       <div class="research-card-content">
 
@@ -285,8 +266,12 @@ author_profile: true
 
     <div class="research-card">
 
-      <img src="{{ base_path }}/images/roadmap-penelitian-hilal.png"
-           alt="Hijri calendar and hisab-rukyat integration">
+      <a href="{{ base_path }}/images/roadmap-penelitian-hilal.png"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img src="{{ base_path }}/images/roadmap-penelitian-hilal.png"
+             alt="Hijri calendar and hisab-rukyat integration">
+      </a>
 
       <div class="research-card-content">
 
@@ -310,6 +295,37 @@ author_profile: true
 
 
     <div class="research-card">
+
+      <a href="{{ base_path }}/images/Picture11.png"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img src="{{ base_path }}/images/Picture11.png"
+             alt="Astronomy for Islamic religious practices">
+      </a>
+
+      <div class="research-card-content">
+
+        <h3>Astronomy for Islamic Religious Practices</h3>
+
+        <p>
+          Developing and disseminating astronomical knowledge for religious
+          applications, including qibla direction, prayer times, lunar observation,
+          Hijri calendar determination, and scientifically informed Islamic legal
+          practice.
+        </p>
+
+        <span class="research-tag">Qibla</span>
+        <span class="research-tag">Prayer Times</span>
+        <span class="research-tag">Ilmu Falak</span>
+        <span class="research-tag">Islamic Law</span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
       <img src="{{ base_path }}/images/Picture11.png"
            alt="Astronomy for Islamic religious practices">
