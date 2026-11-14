@@ -10,9 +10,80 @@ location: "Metro, Lampung, Indonesia"
 description: "Master's course on Islamic family law, ecotheology, maqāṣid al-syarī‘ah, ecological ethics, and environmental responsibility in contemporary Muslim family life."
 ---
 
+## Course Overview
+
 Master's course in the **Islamic Family Law (Hukum Keluarga Islam)** program.
 
-The course examines the relationship between **Islamic family law, ecological ethics, maqāṣid al-syarī‘ah, qawā‘id fiqhiyyah, and environmental responsibility**. It explores how Islamic legal principles can respond to contemporary ecological challenges affecting Muslim families, including sustainable consumption, reproductive health, climate change, ecological disasters, gender justice, agrarian issues, inheritance, and intergenerational responsibility.
+The course examines the relationship between **Islamic family law, ecological ethics, maqāṣid al-syarī‘ah, qawā‘id fiqhiyyah, and environmental responsibility**. It develops an interdisciplinary perspective on how Islamic legal principles can respond to ecological challenges affecting Muslim families.
+
+The course addresses sustainable consumption, reproductive health, climate change, ecological disasters, gender justice, agrarian issues, inheritance, natural resources, and intergenerational responsibility. Particular emphasis is placed on reconstructing contemporary Islamic family law through an ecotheological and maqāṣid-based perspective.
+
+
+## Course Information
+
+<div style="overflow-x:auto;">
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+
+    <tr>
+      <td style="width:30%;"><strong>Course Level</strong></td>
+      <td>Master's Course</td>
+    </tr>
+
+    <tr>
+      <td><strong>Program</strong></td>
+      <td>Master of Islamic Family Law (Magister Hukum Keluarga Islam)</td>
+    </tr>
+
+    <tr>
+      <td><strong>Field</strong></td>
+      <td>Islamic Family Law and Ecotheology</td>
+    </tr>
+
+    <tr>
+      <td><strong>Institution</strong></td>
+      <td>UIN Jurai Siwo Lampung</td>
+    </tr>
+
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Metro, Lampung, Indonesia</td>
+    </tr>
+
+    <tr>
+      <td><strong>Academic Year</strong></td>
+      <td>2026</td>
+    </tr>
+
+    <tr>
+      <td><strong>Primary Areas</strong></td>
+      <td>
+        Islamic Family Law · Ecotheology · Maqāṣid al-Syarī‘ah ·
+        Qawā‘id Fiqhiyyah · Environmental Ethics · Gender Justice ·
+        Climate Change · Sustainable Family Life
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+
+## Course Learning Outcomes
+
+By the end of the course, students are expected to be able to:
+
+1. Explain the conceptual foundations of fiqh ecotheology and its relevance to Islamic Family Law.
+2. Analyze theological perspectives on the relationship between humans, families, and the natural environment.
+3. Apply **maqāṣid al-syarī‘ah** and **qawā‘id fiqhiyyah** to ecological issues affecting Muslim families.
+4. Evaluate ecological rights and responsibilities within Muslim family life.
+5. Analyze the relationship between consumption patterns, lifestyle, reproductive health, and environmental sustainability.
+6. Examine the impact of climate change, ecological disasters, and environmental conflict on family resilience.
+7. Analyze gender justice, agrarian issues, inheritance, and natural-resource governance from an ecological Islamic-law perspective.
+8. Develop a contemporary framework for reconstructing Islamic Family Law through ecotheological and interdisciplinary approaches.
+
 
 ## Course Materials
 
@@ -179,10 +250,64 @@ The course examines the relationship between **Islamic family law, ecological et
 
 </div>
 
-## Additional Resources
+
+## Learning Approach
+
+The course combines normative Islamic legal analysis with interdisciplinary perspectives on ecology and family studies. Learning activities include:
+
+- Interactive lectures and guided discussion
+- Critical reading of Islamic legal and ecological literature
+- Maqāṣid-based analysis
+- Application of qawā‘id fiqhiyyah
+- Case studies
+- Problem-Based Learning
+- Interdisciplinary analysis
+- Group presentations
+- Critical review of contemporary ecological issues
+- Development of conceptual models for Islamic Family Law
+
+
+## Key Assignments
+
+### 1. Maqāṣid-Based Ecological Analysis
+
+Students analyze an environmental issue affecting Muslim families by applying relevant principles of **maqāṣid al-syarī‘ah**.
+
+### 2. Qawā‘id Fiqhiyyah and Environmental Responsibility
+
+Students identify and apply relevant Islamic legal maxims to ecological problems involving family life, consumption, health, or environmental protection.
+
+### 3. Contemporary Ecological Family-Law Case Study
+
+Students examine a contemporary issue such as climate change, ecological disaster, gender justice, agrarian conflict, inheritance, or natural-resource governance from an Islamic Family Law perspective.
+
+### 4. Reconstruction of Contemporary Fiqh Ecotheology
+
+Students develop an integrative conceptual framework for reconstructing Islamic Family Law in response to contemporary ecological challenges.
+
+
+## Assessment
+
+Assessment may include:
+
+- Class participation and academic discussion
+- Critical reading and reflective assignments
+- Individual or group case studies
+- Maqāṣid and qawā‘id-based analytical assignments
+- Presentations
+- Mid-Semester Examination (UTS)
+- Final paper or conceptual reconstruction project
+- Final Examination (UAS)
+
+
+## Learning Resources
 
 - **RPS / Course Syllabus** — Coming soon
-- **Reading List** — Coming soon
-- **Case Study Materials** — Coming soon
+- **Lecture Materials** — Coming soon
+- **Reading List and References** — Coming soon
+- **Maqāṣid Analysis Guide** — Coming soon
+- **Qawā‘id Fiqhiyyah Worksheet** — Coming soon
+- **Ecological Case Study Materials** — Coming soon
 - **Assignment Guidelines** — Coming soon
 - **Final Project Guidelines** — Coming soon
+- **Assessment Rubrics** — Coming soon
