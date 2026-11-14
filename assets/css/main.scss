@@ -36,3 +36,17 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+
+/* =========================================
+   CUSTOM HOVER - TOP NAVIGATION
+========================================= */
+
+.greedy-nav .visible-links a {
+  transition: color 0.2s ease;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus {
+  color: var(--global-masthead-link-color-hover) !important;
+}
