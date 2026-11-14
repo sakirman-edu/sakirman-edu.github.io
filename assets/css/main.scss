@@ -12,8 +12,33 @@
 
 .publication-card:hover,
 .fullpub-card:hover {
-  border-color: $custom-hover-color !important;
-  background: inherit !important;
+  border-color: #00b8d9 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  transform: translateY(-3px) !important;
+}
+
+
+/* =========================================
+   TEACHING COURSE CARDS
+   BORDER ONLY + SLIGHT LIFT
+========================================= */
+
+.teaching-section .course-card,
+.course-grid .course-card,
+.course-card {
+  transition:
+    transform 0.22s ease !important,
+    border-color 0.22s ease !important;
+}
+
+.teaching-section .course-card:hover,
+.course-grid .course-card:hover,
+.course-card:hover {
+  border-color: #00b8d9 !important;
+  background: transparent !important;
+  background-color: transparent !important;
   box-shadow: none !important;
   transform: translateY(-3px) !important;
 }
