@@ -2,10 +2,12 @@
 title: "Praktikum Penyelenggaraan Syariah"
 collection: teaching
 type: "Undergraduate Course"
+field: "Islamic Legal Practice"
 permalink: /teaching/2026-praktikum-penyelenggaraan-syariah
 venue: "UIN Jurai Siwo Lampung"
 date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
+description: "Undergraduate practicum course on the administration and implementation of Islamic legal services, including marriage registration, SIMKAH procedures, document verification, and related sharia-based legal practice."
 ---
 
 Undergraduate practicum course in the **Islamic Family Law (Hukum Keluarga Islam)** program.
