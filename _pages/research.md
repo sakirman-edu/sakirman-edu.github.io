@@ -435,62 +435,92 @@ author_profile: true
 
   <div class="software-grid">
 
-    <div class="software-card">
+  <div class="software-card">
 
-      <a href="{{ base_path }}/images/software-siril.png"
-         target="_blank"
-         rel="noopener noreferrer">
+    <a href="https://siril.org/"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Visit the official Siril website">
 
-        <img src="{{ base_path }}/images/software-siril.png"
-             alt="Siril software used for astronomical image processing">
+      <img src="{{ base_path }}/images/software-siril.png"
+           alt="Siril software used for astronomical image processing">
 
-      </a>
+    </a>
 
-      <div class="software-content">
+    <div class="software-content">
 
-        <h3>Siril-Based Astronomical Image Processing</h3>
+      <h3>
+        <a href="https://siril.org/"
+           target="_blank"
+           rel="noopener noreferrer">
+          Siril-Based Astronomical Image Processing
+        </a>
+      </h3>
 
-        <p>
-          <strong>Siril</strong> is used for astronomical image preprocessing,
-          including calibration, enhancement, alignment, noise reduction, and
-          contrast adjustment. These procedures improve image quality and help
-          separate faint lunar features from strong twilight background
-          illumination before quantitative analysis.
-        </p>
+      <p>
+        <strong>Siril</strong> is used for astronomical image preprocessing,
+        including calibration, enhancement, alignment, noise reduction, and
+        contrast adjustment. These procedures improve image quality and help
+        separate faint lunar features from strong twilight background
+        illumination before quantitative analysis.
+      </p>
 
-      </div>
-
-    </div>
-
-
-    <div class="software-card">
-
-      <a href="{{ base_path }}/images/software-iris.png"
-         target="_blank"
-         rel="noopener noreferrer">
-
-        <img src="{{ base_path }}/images/software-iris.png"
-             alt="IRIS software used for crescent photometric analysis">
-
-      </a>
-
-      <div class="software-content">
-
-        <h3>IRIS-Based Crescent Photometry</h3>
-
-        <p>
-          <strong>IRIS</strong> is used for aperture-based photometric analysis
-          of the crescent and adjacent twilight sky. The measurements provide
-          quantitative values of crescent intensity, background intensity, and
-          relative contrast, supporting objective evaluation of crescent
-          detectability and visibility criteria.
-        </p>
-
-      </div>
+      <p style="margin-bottom:0;">
+        <a href="https://siril.org/"
+           target="_blank"
+           rel="noopener noreferrer">
+          Visit Siril Official Website →
+        </a>
+      </p>
 
     </div>
 
   </div>
+
+
+  <div class="software-card">
+
+    <a href="https://buil.astrosurf.com/iris-software.html"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Visit the official IRIS software page">
+
+      <img src="{{ base_path }}/images/software-iris.png"
+           alt="IRIS software used for crescent photometric analysis">
+
+    </a>
+
+    <div class="software-content">
+
+      <h3>
+        <a href="https://buil.astrosurf.com/iris-software.html"
+           target="_blank"
+           rel="noopener noreferrer">
+          IRIS-Based Crescent Photometry
+        </a>
+      </h3>
+
+      <p>
+        <strong>IRIS</strong> is used for aperture-based photometric analysis
+        of the crescent and adjacent twilight sky. The measurements provide
+        quantitative values of crescent intensity, background intensity, and
+        relative contrast, supporting objective evaluation of crescent
+        detectability and visibility criteria.
+      </p>
+
+      <p style="margin-bottom:0;">
+        <a href="https://buil.astrosurf.com/iris-software.html"
+           target="_blank"
+           rel="noopener noreferrer">
+          Visit IRIS Software Page →
+        </a>
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
 
 </div>
 
