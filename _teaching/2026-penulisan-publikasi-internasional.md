@@ -80,6 +80,9 @@ description: "Doctoral course on international academic writing and publication,
 </style>
 
 
+{% include teaching-navigation.html position="top" %}
+
+
 ## Course Overview
 
 Doctoral course in the **Islamic Law (Ilmu Syariah)** program focusing on advanced academic writing and publication in international journals.
@@ -257,144 +260,112 @@ By the end of the course, students are expected to be able to:
 
     <tr>
       <td style="text-align:center;">1</td>
-      <td>
-        <strong>Pengenalan Penulisan dan Publikasi Artikel Internasional</strong>
-      </td>
+      <td><strong>Pengenalan Penulisan dan Publikasi Artikel Internasional</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">2</td>
-      <td>
-        <strong>Menentukan Masalah, Research Gap, dan Kebaruan Artikel</strong>
-      </td>
+      <td><strong>Menentukan Masalah, Research Gap, dan Kebaruan Artikel</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">3</td>
-      <td>
-        <strong>Mencari dan Mengelola Referensi Internasional</strong>
-      </td>
+      <td><strong>Mencari dan Mengelola Referensi Internasional</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">4</td>
-      <td>
-        <strong>Membaca dan Memetakan Penelitian Terdahulu</strong>
-      </td>
+      <td><strong>Membaca dan Memetakan Penelitian Terdahulu</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">5</td>
-      <td>
-        <strong>Menentukan Judul, Pertanyaan Penelitian, dan Kerangka Artikel</strong>
-      </td>
+      <td><strong>Menentukan Judul, Pertanyaan Penelitian, dan Kerangka Artikel</strong></td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">6</td>
-      <td>
-        <strong>Praktik Menulis Pendahuluan</strong>
-      </td>
+      <td><strong>Praktik Menulis Pendahuluan</strong></td>
       <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">7</td>
-      <td>
-        <strong>Praktik Menulis Kajian Literatur dan Kerangka Teori</strong>
-      </td>
+      <td><strong>Praktik Menulis Kajian Literatur dan Kerangka Teori</strong></td>
       <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">8</td>
-      <td>
-        <strong>Ujian Tengah Semester (UTS) — Presentasi Kemajuan Artikel</strong>
-      </td>
+      <td><strong>Ujian Tengah Semester (UTS) — Presentasi Kemajuan Artikel</strong></td>
       <td style="text-align:center;">Presentation</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">9</td>
-      <td>
-        <strong>Praktik Menulis Metode Penelitian</strong>
-      </td>
+      <td><strong>Praktik Menulis Metode Penelitian</strong></td>
       <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">10</td>
-      <td>
-        <strong>Praktik Menulis Hasil/Temuan Penelitian</strong>
-      </td>
+      <td><strong>Praktik Menulis Hasil/Temuan Penelitian</strong></td>
       <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">11</td>
-      <td>
-        <strong>Praktik Menulis Pembahasan</strong>
-      </td>
+      <td><strong>Praktik Menulis Pembahasan</strong></td>
       <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">12</td>
-      <td>
-        <strong>Praktik Menulis Kesimpulan, Kontribusi, dan Implikasi</strong>
-      </td>
+      <td><strong>Praktik Menulis Kesimpulan, Kontribusi, dan Implikasi</strong></td>
       <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">13</td>
-      <td>
-        <strong>Menulis Judul, Abstrak, Kata Kunci, dan Penyuntingan Artikel</strong>
-      </td>
+      <td><strong>Menulis Judul, Abstrak, Kata Kunci, dan Penyuntingan Artikel</strong></td>
       <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">14</td>
-      <td>
-        <strong>Memilih Jurnal dan Menyesuaikan Artikel dengan Jurnal Tujuan</strong>
-      </td>
+      <td><strong>Memilih Jurnal dan Menyesuaikan Artikel dengan Jurnal Tujuan</strong></td>
       <td style="text-align:center;">PPT / Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">15</td>
-      <td>
-        <strong>Review Akhir dan Persiapan Submit Artikel</strong>
-      </td>
+      <td><strong>Review Akhir dan Persiapan Submit Artikel</strong></td>
       <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">16</td>
-      <td>
-        <strong>Ujian Akhir Semester (UAS) — Presentasi dan Submit Artikel ke Jurnal Internasional</strong>
-      </td>
+      <td><strong>Ujian Akhir Semester (UAS) — Presentasi dan Submit Artikel ke Jurnal Internasional</strong></td>
       <td style="text-align:center;">Final Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
@@ -474,3 +445,6 @@ Assessment may include:
 - **Peer Review Form** — Coming soon
 - **Manuscript Submission Checklist** — Coming soon
 - **Assessment Rubrics** — Coming soon
+
+
+{% include teaching-navigation.html position="bottom" %}
