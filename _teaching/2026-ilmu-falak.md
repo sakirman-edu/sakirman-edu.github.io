@@ -2,10 +2,12 @@
 title: "Ilmu Falak"
 collection: teaching
 type: "Undergraduate Course"
+field: "Islamic Astronomy"
 permalink: /teaching/2026-ilmu-falak
 venue: "UIN Jurai Siwo Lampung"
 date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
+description: "Undergraduate course on Islamic astronomy, including celestial coordinates, qibla direction, prayer times, lunar observation, hisab-rukyat, and Hijri calendar determination."
 ---
 
 Course on **Ilmu Falak** and its application to Islamic religious practices.
