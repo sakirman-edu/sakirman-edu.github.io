@@ -2,10 +2,12 @@
 title: "Fiqih Ekoteologi Hukum Keluarga"
 collection: teaching
 type: "Master's Course"
+field: "Islamic Family Law and Ecotheology"
 permalink: /teaching/2026-fiqih-ekoteologi-hukum-keluarga
 venue: "UIN Jurai Siwo Lampung"
 date: 2026-08-01
 location: "Metro, Lampung, Indonesia"
+description: "Master's course on Islamic family law, ecotheology, maqāṣid al-syarī‘ah, ecological ethics, and environmental responsibility in contemporary Muslim family life."
 ---
 
 Master's course in the **Islamic Family Law (Hukum Keluarga Islam)** program.
