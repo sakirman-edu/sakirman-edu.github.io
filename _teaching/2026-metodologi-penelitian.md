@@ -10,11 +10,85 @@ location: "Metro, Lampung, Indonesia"
 description: "Doctoral course on advanced dissertation research methodology, academic integrity, research ethics, literature review, research design, data analysis, and dissertation proposal development."
 ---
 
-Doctoral course in the **Doctoral Program in Islamic Studies (Ilmu Syariah)**.
+## Course Overview
 
-The course provides advanced training in **doctoral research methodology**, covering academic integrity, research ethics, quantitative, qualitative, and mixed-methods paradigms, literature review, research gap identification, conceptual framework development, sampling, research instruments, data analysis, validity and credibility, and dissertation proposal development.
+Doctoral course in the **Islamic Law (Ilmu Syariah)** program focusing on advanced research methodology for dissertation development.
 
-Students are trained to formulate significant research problems, construct theoretically grounded research designs, select appropriate methodological approaches, and develop rigorous, innovative, and academically accountable dissertation proposals.
+The course equips doctoral students with the conceptual, methodological, ethical, and technical foundations required to design rigorous and original dissertation research. It covers **academic integrity, research ethics, epistemological paradigms, quantitative, qualitative, and mixed-methods approaches, systematic literature review, research gap identification, theoretical construction, sampling, instrument development, data analysis, validity, reliability, and triangulation**.
+
+Particular emphasis is placed on transforming an academic problem into a defensible dissertation proposal with clear originality, methodological coherence, interdisciplinary relevance, and scholarly contribution.
+
+
+## Course Information
+
+<div style="overflow-x:auto;">
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+
+    <tr>
+      <td style="width:30%;"><strong>Course Level</strong></td>
+      <td>Doctoral Course</td>
+    </tr>
+
+    <tr>
+      <td><strong>Program</strong></td>
+      <td>Doctoral Program in Islamic Law (Program Doktor Ilmu Syariah)</td>
+    </tr>
+
+    <tr>
+      <td><strong>Field</strong></td>
+      <td>Dissertation Research Methodology</td>
+    </tr>
+
+    <tr>
+      <td><strong>Institution</strong></td>
+      <td>UIN Jurai Siwo Lampung</td>
+    </tr>
+
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Metro, Lampung, Indonesia</td>
+    </tr>
+
+    <tr>
+      <td><strong>Academic Year</strong></td>
+      <td>2026</td>
+    </tr>
+
+    <tr>
+      <td><strong>Primary Areas</strong></td>
+      <td>
+        Research Ethics · Academic Integrity · Research Paradigms ·
+        Quantitative Research · Qualitative Research · Mixed Methods ·
+        Systematic Literature Review · Research Gap · Data Analysis ·
+        Dissertation Proposal Development
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+
+## Course Learning Outcomes
+
+By the end of the course, students are expected to be able to:
+
+1. Apply academic integrity, research ethics, originality, and responsible scholarly practices in doctoral research.
+2. Analyze epistemological paradigms and select appropriate quantitative, qualitative, or mixed-methods research approaches.
+3. Conduct advanced literature searches and systematic literature reviews to identify research gaps and establish dissertation novelty.
+4. Formulate doctoral-level research problems, research questions, objectives, significance, and scholarly contributions.
+5. Construct theoretical frameworks, conceptual models, hypotheses, or propositions appropriate to the chosen research design.
+6. Integrate interdisciplinary and multidisciplinary perspectives into dissertation research.
+7. Determine units of analysis, samples, informants, and advanced sampling strategies.
+8. Develop and validate research instruments and data-collection procedures.
+9. Apply appropriate quantitative, qualitative, or mixed-methods data-analysis techniques.
+10. Evaluate validity, reliability, trustworthiness, and triangulation in doctoral research.
+11. Prepare an integrated, methodologically coherent dissertation proposal.
+12. Present and defend a dissertation proposal in an academic seminar setting.
+
 
 ## Course Materials
 
@@ -35,8 +109,8 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">1</td>
       <td>
-        <strong>Fondasi Integritas Akademik, Etika Penelitian Ilmiah Tingkat Doktoral, Orisinalitas, dan Plagiarisme</strong><br>
-        Integritas akademik; prinsip etika penelitian; orisinalitas; pelanggaran akademik; plagiarisme; tanggung jawab ilmiah dalam penyusunan disertasi.
+        <strong>Fondasi Integritas Akademik dan Etika Penelitian Ilmiah Tingkat Doktoral</strong><br>
+        Integritas akademik; orisinalitas; plagiarisme; tanggung jawab akademik; dan etika publikasi ilmiah.
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -45,8 +119,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">2</td>
       <td>
-        <strong>Legalitas, Ethical Clearance, Keselamatan Subjek, dan Tanggung Jawab Sosial Riset</strong><br>
-        Ethical clearance; legalitas penelitian; keselamatan subjek; mitigasi risiko; informed consent; dan tanggung jawab sosial penelitian lintas disiplin.
+        <strong>Legalitas, Ethical Clearance, Keselamatan Subjek, dan Tanggung Jawab Sosial Penelitian</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -55,8 +128,8 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">3</td>
       <td>
-        <strong>Paradigma Epistemologis dan Pendekatan Metodologi Tingkat Lanjut</strong><br>
-        Landasan ontologis, epistemologis, dan metodologis penelitian kuantitatif, kualitatif, dan mixed methods; perbandingan paradigma penelitian tingkat lanjut.
+        <strong>Paradigma Epistemologis dan Metodologi Penelitian Lanjutan</strong><br>
+        Paradigma penelitian; pendekatan kuantitatif, kualitatif, dan mixed methods.
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -65,8 +138,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">4</td>
       <td>
-        <strong>Penelusuran Literatur Bereputasi dan Systematic Literature Review</strong><br>
-        Penelusuran jurnal internasional bereputasi; systematic literature review; bibliometrik; sintesis literatur; novelty; state of the art; dan research gap.
+        <strong>Literatur Bereputasi dan Systematic Literature Review untuk Novelty dan Research Gap</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -75,8 +147,8 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">5</td>
       <td>
-        <strong>Konstruksi Masalah Riset Disertasi</strong><br>
-        Fokus masalah; signifikansi teoretis dan praktis; formulasi masalah penelitian; pertanyaan penelitian; orisinalitas; dan relevansi keilmuan.
+        <strong>Konstruksi Masalah Penelitian Disertasi</strong><br>
+        Signifikansi masalah; research gap; novelty; pertanyaan penelitian; tujuan; dan kontribusi penelitian.
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -85,8 +157,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">6</td>
       <td>
-        <strong>Pengembangan Kerangka Teoretis, Model Konseptual, dan Hipotesis/Proposisi</strong><br>
-        Kerangka teori; kerangka konseptual; model penelitian; hubungan antarvariabel atau fenomena; hipotesis dan proposisi penelitian pascasarjana.
+        <strong>Kerangka Teori, Model Konseptual, Hipotesis, dan Proposisi</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -95,8 +166,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">7</td>
       <td>
-        <strong>Integrasi Interdisipliner dan Multidisipliner dalam Desain Riset Doktoral</strong><br>
-        Integrasi lintas disiplin; pemilihan perspektif keilmuan; konstruksi desain penelitian komprehensif; dan koherensi kerangka metodologis.
+        <strong>Integrasi Interdisipliner dan Multidisipliner dalam Penelitian Disertasi</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -105,8 +175,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">8</td>
       <td>
-        <strong>Ujian Tengah Semester (UTS)</strong><br>
-        Evaluasi penguasaan etika penelitian, paradigma metodologis, literature review, research gap, formulasi masalah, dan kerangka konseptual.
+        <strong>Ujian Tengah Semester (UTS)</strong>
       </td>
       <td style="text-align:center;">Assessment</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -115,8 +184,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">9</td>
       <td>
-        <strong>Strategi Penentuan Sampel/Informan, Unit Analisis, dan Teknik Sampling Lanjutan</strong><br>
-        Sampel; informan; unit analisis; probability dan non-probability sampling; pemilihan informan kunci; representativitas dan justifikasi metodologis.
+        <strong>Sampel, Informan, Unit Analisis, dan Advanced Sampling</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -125,8 +193,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">10</td>
       <td>
-        <strong>Konstruksi dan Validasi Instrumen Pengumpulan Data</strong><br>
-        Kuesioner; protokol wawancara; observasi mendalam; studi dokumentasi; blueprint instrumen; validitas; reliabilitas; kredibilitas; dan expert judgment.
+        <strong>Konstruksi dan Validasi Instrumen Penelitian</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -135,8 +202,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">11</td>
       <td>
-        <strong>Prosedur Analisis Data Kuantitatif Tingkat Lanjut</strong><br>
-        Analisis statistik inferensial; multivariate analysis; SEM; pengujian model; robustness test; interpretasi dan pelaporan hasil analisis kuantitatif.
+        <strong>Analisis Data Kuantitatif Lanjutan</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -145,8 +211,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">12</td>
       <td>
-        <strong>Prosedur Analisis Data Kualitatif</strong><br>
-        Pengodean; kategorisasi; thematic analysis; content analysis; grounded theory; discourse analysis; interpretasi; dan kredibilitas temuan.
+        <strong>Analisis Data Kualitatif Lanjutan</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -155,8 +220,7 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">13</td>
       <td>
-        <strong>Mixed Methods dan Strategi Pengujian Validitas, Reliabilitas, serta Triangulasi Data</strong><br>
-        Desain mixed methods; integrasi data; validitas; reliabilitas; kredibilitas; transferabilitas; triangulasi; dan audit keabsahan temuan.
+        <strong>Mixed Methods, Validitas, Reliabilitas, dan Triangulasi</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -165,28 +229,25 @@ Students are trained to formulate significant research problems, construct theor
     <tr>
       <td style="text-align:center;">14</td>
       <td>
-        <strong>Sistematika Penyusunan Proposal Disertasi dan Strategi Penulisan Akademik</strong><br>
-        Struktur proposal; keterpaduan pendahuluan, kajian pustaka, kerangka teori, dan metodologi; koherensi argumentasi; serta standar penulisan akademik.
+        <strong>Penyusunan Proposal Disertasi Terintegrasi dan Academic Writing</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">15</td>
       <td>
-        <strong>Simulasi Seminar Proposal Disertasi</strong><br>
-        Presentasi proposal; pertahanan metodologis; argumentasi ilmiah; peer review; respons terhadap kritik; revisi desain penelitian; dan simulasi kolokium.
+        <strong>Simulasi Seminar Proposal Disertasi</strong>
       </td>
-      <td style="text-align:center;">Presentation / Proposal</td>
+      <td style="text-align:center;">Presentation</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">16</td>
       <td>
-        <strong>Ujian Akhir Semester (UAS)</strong><br>
-        Evaluasi komprehensif terhadap penguasaan desain penelitian, pengumpulan data, analisis data, validitas penelitian, dan penyusunan proposal disertasi.
+        <strong>Ujian Akhir Semester (UAS)</strong>
       </td>
       <td style="text-align:center;">Final Assessment</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -197,15 +258,73 @@ Students are trained to formulate significant research problems, construct theor
 
 </div>
 
+
+## Learning Approach
+
+The course emphasizes doctoral-level research competence through:
+
+- Advanced methodological lectures
+- Critical discussion
+- Research design workshops
+- Systematic literature review practice
+- Research gap and novelty mapping
+- Quantitative and qualitative analytical exercises
+- Mixed-methods design exercises
+- Instrument-development workshops
+- Peer review
+- Dissertation proposal development
+- Proposal seminar simulation
+
+
+## Key Assignments
+
+### 1. Research Gap and Novelty Mapping
+
+Students identify a dissertation-level research problem by conducting a structured review of reputable international and national literature.
+
+### 2. Dissertation Research Design
+
+Students construct a complete research design covering paradigm, approach, unit of analysis, sampling, data collection, and analytical strategy.
+
+### 3. Theoretical and Conceptual Framework
+
+Students develop a theoretically grounded conceptual framework, including hypotheses or propositions where appropriate.
+
+### 4. Integrated Dissertation Proposal
+
+Students prepare a complete dissertation proposal demonstrating originality, methodological coherence, ethical compliance, and scholarly contribution.
+
+### 5. Proposal Seminar Simulation
+
+Students present and defend their dissertation proposals in a simulated doctoral seminar.
+
+
+## Assessment
+
+Assessment may include:
+
+- Academic participation and methodological discussion
+- Literature review and research-gap assignments
+- Research design exercises
+- Instrument-development assignments
+- Data-analysis exercises
+- Mid-Semester Examination (UTS)
+- Dissertation proposal project
+- Proposal seminar presentation
+- Final Examination (UAS)
+
+
 ## Learning Resources
 
 - **RPS / Course Syllabus** — Coming soon
-- **CPL and CPMK** — Coming soon
-- **Research Ethics and Ethical Clearance Guide** — Coming soon
-- **Systematic Literature Review and Research Gap Template** — Coming soon
-- **Research Design and Conceptual Framework Worksheet** — Coming soon
-- **Research Instrument and Validation Templates** — Coming soon
-- **Data Analysis Guidelines** — Coming soon
+- **Lecture Materials** — Coming soon
+- **Systematic Literature Review Guide** — Coming soon
+- **Research Gap and Novelty Worksheet** — Coming soon
+- **Research Design Template** — Coming soon
+- **Instrument Development Guide** — Coming soon
+- **Quantitative Analysis Materials** — Coming soon
+- **Qualitative Analysis Materials** — Coming soon
+- **Mixed-Methods Design Guide** — Coming soon
 - **Dissertation Proposal Template** — Coming soon
-- **Assessment Rubrics** — Coming soon
-- **Reading List and References** — Coming soon
+- **Proposal Seminar Rubric** — Coming soon
+- **Research Ethics and Academic Integrity Guide** — Coming soon
