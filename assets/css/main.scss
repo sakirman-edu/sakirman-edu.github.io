@@ -39,7 +39,14 @@
 
 
 /* =========================================
-   CUSTOM HOVER - TOP NAVIGATION
+   CUSTOM HOVER COLOR
+========================================= */
+
+$custom-hover-color: #00b8d9;
+
+
+/* =========================================
+   TOP NAVIGATION
 ========================================= */
 
 .greedy-nav .visible-links a {
@@ -50,53 +57,69 @@
 
 .greedy-nav .visible-links a:hover,
 .greedy-nav .visible-links a:focus {
-  color: var(--global-masthead-link-color-hover) !important;
+  color: $custom-hover-color !important;
 }
 
 .greedy-nav .visible-links a:hover::before,
 .greedy-nav .visible-links a:focus::before {
-  background: var(--global-masthead-link-color-hover) !important;
+  background: $custom-hover-color !important;
 }
 
 
 /* =========================================
-   CUSTOM HOVER - SIDEBAR LINKS
+   SIDEBAR LINKS
 ========================================= */
 
 .author__urls a {
   transition:
     color 0.2s ease,
-    opacity 0.2s ease;
+    text-decoration-color 0.2s ease;
 }
 
 .author__urls a:hover,
 .author__urls a:focus {
-  color: var(--global-masthead-link-color-hover) !important;
+  color: $custom-hover-color !important;
+  text-decoration-color: $custom-hover-color !important;
+}
+
+
+/* Sidebar icons */
+
+.author__urls a:hover i,
+.author__urls a:focus i,
+.author__urls a:hover .fa,
+.author__urls a:focus .fa,
+.author__urls a:hover .fas,
+.author__urls a:focus .fas,
+.author__urls a:hover .fab,
+.author__urls a:focus .fab,
+.author__urls a:hover .ai,
+.author__urls a:focus .ai {
+  color: $custom-hover-color !important;
 }
 
 
 /* =========================================
-   CUSTOM HOVER - GENERAL CONTENT LINKS
+   GENERAL CONTENT LINKS
 ========================================= */
 
 .page__content a,
 .archive a {
   transition:
     color 0.2s ease,
-    border-color 0.2s ease,
-    opacity 0.2s ease;
+    border-color 0.2s ease;
 }
 
 .page__content a:hover,
 .page__content a:focus,
 .archive a:hover,
 .archive a:focus {
-  color: var(--global-masthead-link-color-hover);
+  color: $custom-hover-color !important;
 }
 
 
 /* =========================================
-   CUSTOM HOVER - BUTTONS AND CLICKABLE LINKS
+   BUTTONS
 ========================================= */
 
 .home-button,
@@ -105,7 +128,6 @@
 .fullpub-button,
 .cv-download-button,
 .cv-tag,
-.home-tag,
 .fullpub-profile-link {
   transition:
     color 0.2s ease,
@@ -126,17 +148,15 @@
 .cv-download-button:focus,
 .cv-tag:hover,
 .cv-tag:focus,
-.home-tag:hover,
-.home-tag:focus,
 .fullpub-profile-link:hover,
 .fullpub-profile-link:focus {
-  color: var(--global-masthead-link-color-hover) !important;
-  border-color: var(--global-masthead-link-color-hover) !important;
+  color: $custom-hover-color !important;
+  border-color: $custom-hover-color !important;
 }
 
 
 /* =========================================
-   CUSTOM HOVER - CLICKABLE CARDS
+   CLICKABLE CARDS
 ========================================= */
 
 .home-link-card {
@@ -149,14 +169,14 @@
 
 .home-link-card:hover,
 .home-link-card:focus {
-  color: var(--global-masthead-link-color-hover) !important;
-  border-color: var(--global-masthead-link-color-hover) !important;
+  color: $custom-hover-color !important;
+  border-color: $custom-hover-color !important;
   transform: translateY(-2px);
 }
 
 
 /* =========================================
-   CUSTOM HOVER - PUBLICATION TITLES
+   PUBLICATION TITLES
 ========================================= */
 
 .publication-title a,
@@ -171,5 +191,5 @@
 .fullpub-title a:focus,
 .archive__item-title a:hover,
 .archive__item-title a:focus {
-  color: var(--global-masthead-link-color-hover) !important;
+  color: $custom-hover-color !important;
 }
