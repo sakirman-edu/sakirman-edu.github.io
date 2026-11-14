@@ -85,8 +85,10 @@ redirect_from:
   margin-top: 2.8rem;
 }
 
-.cv-section h2 {
-  margin-bottom: 1.1rem;
+.cv-section-title {
+  margin: 0 0 1.1rem 0;
+  font-size: 1.25rem;
+  line-height: 1.35;
 }
 
 
@@ -146,6 +148,7 @@ redirect_from:
   border-radius: 999px;
   font-size: 0.78rem;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 
@@ -213,6 +216,19 @@ redirect_from:
 .cv-panel li {
   margin-bottom: 0.4rem;
   line-height: 1.55;
+}
+
+
+/* ================================
+   PUBLICATIONS
+================================ */
+
+.cv-publications {
+  margin-top: 1rem;
+}
+
+.cv-publications ul {
+  margin-bottom: 0;
 }
 
 
@@ -324,7 +340,7 @@ redirect_from:
 
 <div class="cv-section">
 
-## Education
+  <h2 class="cv-section-title">Education</h2>
 
   <div class="cv-timeline">
 
@@ -363,11 +379,12 @@ redirect_from:
 
 <div class="cv-section">
 
-## Academic Appointments and Leadership
+  <h2 class="cv-section-title">Academic Appointments and Leadership</h2>
 
   <div class="cv-timeline">
 
     <div class="cv-item">
+
       <div class="cv-item-title">
         Lecturer and Researcher
       </div>
@@ -381,10 +398,12 @@ redirect_from:
         and scholarly service at undergraduate, master's, and doctoral levels,
         with particular interests in Islamic law and Islamic astronomy.
       </p>
+
     </div>
 
 
     <div class="cv-item">
+
       <div class="cv-item-title">
         Head, Doctoral Program in Ilmu Syariah
       </div>
@@ -399,10 +418,12 @@ redirect_from:
         accreditation preparation, research development, and academic coordination
         within the Doctoral Program in Ilmu Syariah.
       </p>
+
     </div>
 
 
     <div class="cv-item">
+
       <div class="cv-item-title">
         Editor-in-Chief —
         <a href="https://e-journal.metrouniv.ac.id/istinbath/index"
@@ -422,10 +443,12 @@ redirect_from:
         of an international scholarly network in Islamic law and
         contemporary legal studies.
       </p>
+
     </div>
 
 
     <div class="cv-item">
+
       <div class="cv-item-title">
         Journal Development Initiative —
         <a href="https://juna.nusantarajournal.com/index.php/jasu/home"
@@ -442,6 +465,7 @@ redirect_from:
         prayer times, observational astronomy, and contemporary
         <em>Ilmu Falak</em>.
       </p>
+
     </div>
 
   </div>
@@ -452,7 +476,7 @@ redirect_from:
 
 <div class="cv-section">
 
-## Research Expertise
+  <h2 class="cv-section-title">Research Expertise</h2>
 
   <div class="cv-tags">
 
@@ -479,7 +503,7 @@ redirect_from:
 
 <div class="cv-section">
 
-## Current Research Focus
+  <h2 class="cv-section-title">Current Research Focus</h2>
 
   <div class="cv-focus">
 
@@ -506,19 +530,23 @@ redirect_from:
 
 <div class="cv-section">
 
-## Selected Publications
+  <h2 class="cv-section-title">Selected Publications</h2>
 
-{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+  <div class="cv-publications">
 
-<ul>
-{% for post in sorted_publications limit:7 %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
+    {% assign sorted_publications = site.publications | sort: "date" | reverse %}
 
-<a class="cv-link" href="/publications/">
-  View All Publications →
-</a>
+    <ul>
+      {% for post in sorted_publications limit:7 %}
+        {% include archive-single-cv.html %}
+      {% endfor %}
+    </ul>
+
+  </div>
+
+  <a class="cv-link" href="/publications/">
+    View All Publications →
+  </a>
 
 </div>
 
@@ -526,7 +554,7 @@ redirect_from:
 
 <div class="cv-section">
 
-## Teaching
+  <h2 class="cv-section-title">Teaching</h2>
 
   <p>
     Teaching activities span undergraduate, master's, and doctoral levels,
@@ -559,7 +587,7 @@ redirect_from:
 
 <div class="cv-section">
 
-## Editorial and Academic Service
+  <h2 class="cv-section-title">Editorial and Academic Service</h2>
 
   <div class="cv-two-column">
 
@@ -568,6 +596,7 @@ redirect_from:
       <h3>Editorial & Publication</h3>
 
       <ul>
+
         <li>
           Editor-in-Chief,
           <a href="https://e-journal.metrouniv.ac.id/istinbath/index"
@@ -586,9 +615,18 @@ redirect_from:
           </a>
         </li>
 
-        <li>Academic journal management and publication development</li>
-        <li>Journal internationalization and scholarly networking</li>
-        <li>Peer review for academic journals and research programs</li>
+        <li>
+          Academic journal management and publication development
+        </li>
+
+        <li>
+          Journal internationalization and scholarly networking
+        </li>
+
+        <li>
+          Peer review for academic journals and research programs
+        </li>
+
       </ul>
 
     </div>
@@ -599,11 +637,27 @@ redirect_from:
       <h3>Academic Service</h3>
 
       <ul>
-        <li>Undergraduate, master's, and doctoral research supervision</li>
-        <li>Thesis and dissertation examination</li>
-        <li>Curriculum development and Outcome-Based Education (OBE)</li>
-        <li>Review of academic research proposals and research outputs</li>
-        <li>Academic seminars, workshops, conferences, and scholarly forums</li>
+
+        <li>
+          Undergraduate, master's, and doctoral research supervision
+        </li>
+
+        <li>
+          Thesis and dissertation examination
+        </li>
+
+        <li>
+          Curriculum development and Outcome-Based Education (OBE)
+        </li>
+
+        <li>
+          Review of academic research proposals and research outputs
+        </li>
+
+        <li>
+          Academic seminars, workshops, conferences, and scholarly forums
+        </li>
+
       </ul>
 
     </div>
@@ -616,7 +670,7 @@ redirect_from:
 
 <div class="cv-section">
 
-## Community and Astronomical Engagement
+  <h2 class="cv-section-title">Community and Astronomical Engagement</h2>
 
   <div class="cv-two-column">
 
@@ -659,7 +713,7 @@ redirect_from:
 
 <div class="cv-section">
 
-## Academic Profiles
+  <h2 class="cv-section-title">Academic Profiles</h2>
 
   <div class="cv-tags">
 
@@ -706,7 +760,7 @@ redirect_from:
 
 <div class="cv-section">
 
-## Full Curriculum Vitae
+  <h2 class="cv-section-title">Full Curriculum Vitae</h2>
 
   <div class="cv-download-box">
 
