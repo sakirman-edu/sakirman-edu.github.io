@@ -10,6 +10,76 @@ location: "Metro, Lampung, Indonesia"
 description: "Doctoral course on the philosophical foundations of Islamic law, including ontology, epistemology, axiology, legal reasoning, maqāṣid al-syarī‘ah, and contemporary Islamic legal thought."
 ---
 
+<style>
+.philosophy-workflow {
+  display: flex;
+  align-items: stretch;
+  gap: 0.7rem;
+  margin: 1.5rem 0 2.2rem 0;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.philosophy-step {
+  flex: 1 1 165px;
+  min-width: 155px;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.philosophy-number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.philosophy-step strong {
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.philosophy-step span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+.philosophy-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .philosophy-workflow {
+    flex-direction: column;
+  }
+
+  .philosophy-step {
+    min-width: 0;
+  }
+
+  .philosophy-arrow {
+    transform: rotate(90deg);
+    height: 20px;
+  }
+}
+</style>
+
+
 ## Course Overview
 
 Doctoral course in **Islamic Law (Ilmu Syariah)** focusing on the philosophical foundations of Islamic legal thought.
@@ -67,6 +137,71 @@ Particular emphasis is placed on **maqāṣid al-syarī‘ah, theories of justic
 
   </tbody>
 </table>
+
+</div>
+
+
+## Philosophical Framework
+
+<div class="philosophy-workflow">
+
+  <div class="philosophy-step">
+    <div class="philosophy-number">1</div>
+    <strong>Ontology</strong>
+    <span>
+      Examines the nature, existence, scope, and fundamental reality of Islamic law.
+    </span>
+  </div>
+
+  <div class="philosophy-arrow">→</div>
+
+  <div class="philosophy-step">
+    <div class="philosophy-number">2</div>
+    <strong>Epistemology</strong>
+    <span>
+      Explores the sources, methods, authority, and justification of Islamic legal knowledge.
+    </span>
+  </div>
+
+  <div class="philosophy-arrow">→</div>
+
+  <div class="philosophy-step">
+    <div class="philosophy-number">3</div>
+    <strong>Axiology</strong>
+    <span>
+      Analyzes the values, purposes, justice, ethics, and social orientation of Islamic law.
+    </span>
+  </div>
+
+  <div class="philosophy-arrow">→</div>
+
+  <div class="philosophy-step">
+    <div class="philosophy-number">4</div>
+    <strong>Maqāṣid al-Syarī‘ah</strong>
+    <span>
+      Connects Islamic legal reasoning with objectives, welfare, justice, and public interest.
+    </span>
+  </div>
+
+  <div class="philosophy-arrow">→</div>
+
+  <div class="philosophy-step">
+    <div class="philosophy-number">5</div>
+    <strong>Ijtihad</strong>
+    <span>
+      Applies philosophical and methodological reasoning to derive and reconstruct legal responses.
+    </span>
+  </div>
+
+  <div class="philosophy-arrow">→</div>
+
+  <div class="philosophy-step">
+    <div class="philosophy-number">6</div>
+    <strong>Contemporary Islamic Law</strong>
+    <span>
+      Reconstructs Islamic legal thought in response to contemporary legal, social, and ethical challenges.
+    </span>
+  </div>
 
 </div>
 
