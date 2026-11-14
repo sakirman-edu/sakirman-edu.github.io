@@ -10,11 +10,82 @@ location: "Metro, Lampung, Indonesia"
 description: "Doctoral course on international academic writing and publication, including research gaps, literature mapping, article structure, journal selection, manuscript preparation, and submission strategies."
 ---
 
-Doctoral course on **academic writing and international scholarly publication**.
+## Course Overview
 
-The course covers research positioning, literature mapping, research gap identification, novelty construction, article structure, academic argumentation, reference management, journal selection, publication ethics, peer review, and strategies for publishing in reputable international journals.
+Doctoral course in the **Islamic Law (Ilmu Syariah)** program focusing on advanced academic writing and publication in international journals.
 
-Students are trained to develop manuscripts that meet international academic and editorial standards.
+The course guides students through the complete process of transforming research ideas into publishable scholarly articles. It covers **research problem formulation, research gap identification, novelty, international literature searching, reference management, literature mapping, article structure, methodology writing, presentation of findings, discussion, conclusions, abstract preparation, journal selection, manuscript adaptation, and submission procedures**.
+
+Particular emphasis is placed on producing academically rigorous manuscripts that meet the conventions of reputable international journals and demonstrate clear theoretical, methodological, and practical contributions.
+
+
+## Course Information
+
+<div style="overflow-x:auto;">
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+
+    <tr>
+      <td style="width:30%;"><strong>Course Level</strong></td>
+      <td>Doctoral Course</td>
+    </tr>
+
+    <tr>
+      <td><strong>Program</strong></td>
+      <td>Doctoral Program in Islamic Law (Program Doktor Ilmu Syariah)</td>
+    </tr>
+
+    <tr>
+      <td><strong>Field</strong></td>
+      <td>Academic Writing and International Publication</td>
+    </tr>
+
+    <tr>
+      <td><strong>Institution</strong></td>
+      <td>UIN Jurai Siwo Lampung</td>
+    </tr>
+
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Metro, Lampung, Indonesia</td>
+    </tr>
+
+    <tr>
+      <td><strong>Academic Year</strong></td>
+      <td>2026</td>
+    </tr>
+
+    <tr>
+      <td><strong>Primary Areas</strong></td>
+      <td>
+        Academic Writing · Research Gap · Novelty · Literature Mapping ·
+        International Journals · Article Structure · Reference Management ·
+        Manuscript Preparation · Journal Selection · Submission
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+
+## Course Learning Outcomes
+
+By the end of the course, students are expected to be able to:
+
+1. Explain the characteristics and standards of academic articles published in reputable international journals.
+2. Identify a relevant academic problem, research gap, and scholarly novelty.
+3. Search, evaluate, organize, and manage reputable international references.
+4. Map previous studies systematically to position a research article within the existing literature.
+5. Formulate an effective title, research question, and article framework.
+6. Write coherent and academically rigorous introduction, literature review, methodology, findings, discussion, and conclusion sections.
+7. Prepare an effective title, abstract, keywords, and final manuscript.
+8. Select an appropriate international journal based on scope, audience, indexing, and manuscript requirements.
+9. Adapt a manuscript to the author guidelines and academic style of the target journal.
+10. Review, revise, and prepare a manuscript for submission to an international journal.
+
 
 ## Course Materials
 
@@ -35,8 +106,7 @@ Students are trained to develop manuscripts that meet international academic and
     <tr>
       <td style="text-align:center;">1</td>
       <td>
-        <strong>Pengenalan Penulisan dan Publikasi Artikel Internasional</strong><br>
-        Pengertian dan ciri artikel internasional; perbedaan artikel dengan disertasi atau laporan penelitian; bagian artikel; jurnal internasional; Scopus dan WoS; tahapan publikasi; etika akademik.
+        <strong>Pengenalan Penulisan dan Publikasi Artikel Internasional</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -45,8 +115,7 @@ Students are trained to develop manuscripts that meet international academic and
     <tr>
       <td style="text-align:center;">2</td>
       <td>
-        <strong>Menentukan Masalah, Research Gap, dan Kebaruan Artikel</strong><br>
-        Masalah penelitian; research gap; hal yang belum dikaji; novelty; kontribusi artikel.
+        <strong>Menentukan Masalah, Research Gap, dan Kebaruan Artikel</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -55,8 +124,7 @@ Students are trained to develop manuscripts that meet international academic and
     <tr>
       <td style="text-align:center;">3</td>
       <td>
-        <strong>Mencari dan Mengelola Referensi Internasional</strong><br>
-        Google Scholar, Scopus/WoS; kata kunci; Boolean search; pemilihan referensi berkualitas; DOI; aplikasi pengelola referensi.
+        <strong>Mencari dan Mengelola Referensi Internasional</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -65,8 +133,7 @@ Students are trained to develop manuscripts that meet international academic and
     <tr>
       <td style="text-align:center;">4</td>
       <td>
-        <strong>Membaca dan Memetakan Penelitian Terdahulu</strong><br>
-        Membaca kritis; membandingkan penelitian; matriks literatur; state of the art; research gap; jurnal yang sesuai.
+        <strong>Membaca dan Memetakan Penelitian Terdahulu</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -75,8 +142,7 @@ Students are trained to develop manuscripts that meet international academic and
     <tr>
       <td style="text-align:center;">5</td>
       <td>
-        <strong>Menentukan Judul, Pertanyaan Penelitian, dan Kerangka Artikel</strong><br>
-        Judul; pertanyaan dan tujuan penelitian; gagasan utama; kerangka artikel; calon jurnal tujuan.
+        <strong>Menentukan Judul, Pertanyaan Penelitian, dan Kerangka Artikel</strong>
       </td>
       <td style="text-align:center;">PPT / PDF</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -85,28 +151,25 @@ Students are trained to develop manuscripts that meet international academic and
     <tr>
       <td style="text-align:center;">6</td>
       <td>
-        <strong>Praktik Menulis Pendahuluan (Introduction)</strong><br>
-        Latar belakang masalah; pentingnya penelitian; penelitian terdahulu; research gap; kebaruan; tujuan; kontribusi.
+        <strong>Praktik Menulis Pendahuluan</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">7</td>
       <td>
-        <strong>Praktik Menulis Kajian Literatur dan Kerangka Teori</strong><br>
-        Sintesis literatur; perbandingan penelitian; pemilihan teori; penggunaan teori dalam analisis.
+        <strong>Praktik Menulis Kajian Literatur dan Kerangka Teori</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">8</td>
       <td>
-        <strong>UTS - Presentasi Kemajuan Artikel</strong><br>
-        Presentasi draft awal artikel sekitar 40% dan pemberian umpan balik untuk perbaikan.
+        <strong>Ujian Tengah Semester (UTS) — Presentasi Kemajuan Artikel</strong>
       </td>
       <td style="text-align:center;">Presentation</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
@@ -115,80 +178,72 @@ Students are trained to develop manuscripts that meet international academic and
     <tr>
       <td style="text-align:center;">9</td>
       <td>
-        <strong>Praktik Menulis Metode Penelitian (Methods)</strong><br>
-        Jenis dan pendekatan penelitian; sumber data; informan/sampel; pengumpulan data; analisis; validitas; etika; metode penelitian hukum.
+        <strong>Praktik Menulis Metode Penelitian</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">10</td>
       <td>
-        <strong>Praktik Menulis Hasil/Temuan Penelitian (Results/Findings)</strong><br>
-        Memilih temuan penting; menyusun hasil; data, kutipan, tabel, dan gambar; hubungan temuan dengan pertanyaan penelitian.
+        <strong>Praktik Menulis Hasil/Temuan Penelitian</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">11</td>
       <td>
-        <strong>Praktik Menulis Pembahasan (Discussion)</strong><br>
-        Makna temuan; hubungan dengan teori; perbandingan dengan penelitian terdahulu; persamaan, perbedaan, dan kontribusi temuan.
+        <strong>Praktik Menulis Pembahasan</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">12</td>
       <td>
-        <strong>Praktik Menulis Kesimpulan, Kontribusi, dan Implikasi</strong><br>
-        Jawaban pertanyaan penelitian; temuan utama; kontribusi; implikasi; keterbatasan; saran penelitian berikutnya.
+        <strong>Praktik Menulis Kesimpulan, Kontribusi, dan Implikasi</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">13</td>
       <td>
-        <strong>Menulis Judul, Abstrak, Kata Kunci, dan Penyuntingan Artikel</strong><br>
-        Finalisasi judul; abstrak; kata kunci; bahasa akademik; paraphrasing; sitasi; plagiarisme; kepengarangan; penggunaan AI secara etis.
+        <strong>Menulis Judul, Abstrak, Kata Kunci, dan Penyuntingan Artikel</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">14</td>
       <td>
-        <strong>Memilih Jurnal dan Menyesuaikan Artikel dengan Jurnal Tujuan</strong><br>
-        Aims & scope; indeks dan quartile; biaya publikasi; jurnal predator; author guidelines; template; jumlah kata; gaya referensi.
+        <strong>Memilih Jurnal dan Menyesuaikan Artikel dengan Jurnal Tujuan</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">PPT / Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">15</td>
       <td>
-        <strong>Review Akhir dan Persiapan Submit Artikel</strong><br>
-        Peer review; pengecekan bahasa, referensi, dan similarity; cover letter; ORCID; metadata; submission system; proses review dan revisi.
+        <strong>Review Akhir dan Persiapan Submit Artikel</strong>
       </td>
-      <td style="text-align:center;">PPT / PDF</td>
+      <td style="text-align:center;">Workshop</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
     <tr>
       <td style="text-align:center;">16</td>
       <td>
-        <strong>UAS - Presentasi dan Submit Artikel ke Jurnal Internasional</strong><br>
-        Presentasi artikel final; pemeriksaan akhir; perbaikan; praktik submit; bukti submission.
+        <strong>Ujian Akhir Semester (UAS) — Presentasi dan Submit Artikel ke Jurnal Internasional</strong>
       </td>
-      <td style="text-align:center;">Final Manuscript</td>
+      <td style="text-align:center;">Final Project</td>
       <td style="text-align:center;"><em>Coming soon</em></td>
     </tr>
 
@@ -197,11 +252,73 @@ Students are trained to develop manuscripts that meet international academic and
 
 </div>
 
-## Additional Resources
+
+## Learning Approach
+
+The course is designed as a writing-intensive doctoral workshop. Learning activities include:
+
+- Academic writing workshops
+- Critical reading of international journal articles
+- Research gap and novelty mapping
+- Literature searching and reference management
+- Article-structure analysis
+- Guided manuscript development
+- Peer review
+- Individual consultation
+- Target-journal analysis
+- Manuscript revision
+- Submission preparation
+
+
+## Key Assignments
+
+### 1. International Literature Mapping
+
+Students identify and review a minimum set of relevant international articles and construct a structured literature map to identify research trends, gaps, and opportunities for novelty.
+
+### 2. Research Gap and Novelty Statement
+
+Students formulate a clear academic problem, research gap, and novelty statement based on the reviewed literature.
+
+### 3. Progressive Article Writing
+
+Students develop their manuscript progressively through the semester, beginning with the title and introduction and continuing through literature review, methodology, findings, discussion, and conclusion.
+
+### 4. Target Journal Analysis
+
+Students identify a relevant international journal and analyze its aims, scope, article structure, referencing style, submission guidelines, and publication requirements.
+
+### 5. Final Manuscript and Submission Preparation
+
+Students prepare a complete manuscript that has been revised, formatted, and adapted to the selected target journal.
+
+
+## Assessment
+
+Assessment may include:
+
+- Participation in academic writing workshops
+- International literature mapping
+- Research gap and novelty assignment
+- Article-section writing exercises
+- Peer-review activities
+- Mid-Semester progress presentation
+- Target-journal analysis
+- Final manuscript
+- Final presentation and submission preparation
+
+
+## Learning Resources
 
 - **RPS / Course Syllabus** — Coming soon
-- **Article Writing Template** — Coming soon
-- **Literature Review Matrix** — Coming soon
-- **Journal Selection Guide** — Coming soon
-- **Submission Checklist** — Coming soon
-- **Cover Letter Template** — Coming soon
+- **Lecture Materials** — Coming soon
+- **International Literature Search Guide** — Coming soon
+- **Research Gap and Novelty Worksheet** — Coming soon
+- **Literature Mapping Template** — Coming soon
+- **Article Structure Guide** — Coming soon
+- **Academic Writing Checklist** — Coming soon
+- **Reference Management Guide** — Coming soon
+- **Target Journal Selection Guide** — Coming soon
+- **Peer Review Form** — Coming soon
+- **Manuscript Submission Checklist** — Coming soon
+- **Assessment Rubrics** — Coming soon
