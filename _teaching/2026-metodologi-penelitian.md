@@ -80,6 +80,9 @@ description: "Doctoral course on advanced dissertation research methodology, aca
 </style>
 
 
+{% include teaching-navigation.html position="top" %}
+
+
 ## Course Overview
 
 Doctoral course in the **Islamic Law (Ilmu Syariah)** program focusing on advanced research methodology for dissertation development.
@@ -480,3 +483,6 @@ Assessment may include:
 - **Dissertation Proposal Template** — Coming soon
 - **Proposal Seminar Rubric** — Coming soon
 - **Research Ethics and Academic Integrity Guide** — Coming soon
+
+
+{% include teaching-navigation.html position="bottom" %}
