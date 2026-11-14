@@ -127,11 +127,6 @@ redirect_from:
   opacity: 0.82;
 }
 
-.cv-item ul {
-  margin-top: 0.6rem;
-  margin-bottom: 0;
-}
-
 
 /* ================================
    EXPERTISE
@@ -391,7 +386,7 @@ redirect_from:
 
     <div class="cv-item">
       <div class="cv-item-title">
-        Secretary, Doctoral Program in Islamic Studies (Ilmu Syariah)
+        Head, Doctoral Program in Ilmu Syariah
       </div>
 
       <div class="cv-item-meta">
@@ -399,9 +394,10 @@ redirect_from:
       </div>
 
       <p class="cv-item-description">
-        Academic coordination, curriculum development, doctoral student
-        monitoring, research supervision, quality assurance, and program
-        development.
+        Leading academic program development, curriculum and quality assurance,
+        doctoral student progression, dissertation supervision and examination,
+        accreditation preparation, research development, and academic coordination
+        within the Doctoral Program in Ilmu Syariah.
       </p>
     </div>
 
@@ -461,31 +457,18 @@ redirect_from:
   <div class="cv-tags">
 
     <span class="cv-tag">Islamic Astronomy</span>
-
     <span class="cv-tag">Ilmu Falak</span>
-
     <span class="cv-tag">Crescent Visibility</span>
-
     <span class="cv-tag">Lunar Observation</span>
-
     <span class="cv-tag">Twilight / Syafaq</span>
-
     <span class="cv-tag">Sky Brightness</span>
-
     <span class="cv-tag">Hisab–Rukyat</span>
-
     <span class="cv-tag">Hijri Calendar</span>
-
     <span class="cv-tag">Astronomical Photometry</span>
-
     <span class="cv-tag">Digital Imaging</span>
-
     <span class="cv-tag">Islamic Law</span>
-
     <span class="cv-tag">Astronomical Evidence</span>
-
     <span class="cv-tag">Maqāṣid al-Sharī‘ah</span>
-
     <span class="cv-tag">Islamic Family Law</span>
 
   </div>
@@ -554,23 +537,14 @@ redirect_from:
   <div class="cv-tags">
 
     <span class="cv-tag">Islamic Astronomy</span>
-
     <span class="cv-tag">Philosophy of Islamic Law</span>
-
     <span class="cv-tag">Research Methodology</span>
-
     <span class="cv-tag">Islamic Family Law</span>
-
     <span class="cv-tag">Zakat and Waqf Law</span>
-
     <span class="cv-tag">Philosophy of Science</span>
-
     <span class="cv-tag">Knowledge Integration</span>
-
     <span class="cv-tag">Academic Writing</span>
-
     <span class="cv-tag">International Publication</span>
-
     <span class="cv-tag">Contemporary Islamic Economics</span>
 
   </div>
@@ -612,17 +586,9 @@ redirect_from:
           </a>
         </li>
 
-        <li>
-          Academic journal management and publication development
-        </li>
-
-        <li>
-          Journal internationalization and scholarly networking
-        </li>
-
-        <li>
-          Peer review for academic journals and research programs
-        </li>
+        <li>Academic journal management and publication development</li>
+        <li>Journal internationalization and scholarly networking</li>
+        <li>Peer review for academic journals and research programs</li>
       </ul>
 
     </div>
@@ -633,25 +599,11 @@ redirect_from:
       <h3>Academic Service</h3>
 
       <ul>
-        <li>
-          Undergraduate, master's, and doctoral research supervision
-        </li>
-
-        <li>
-          Thesis and dissertation examination
-        </li>
-
-        <li>
-          Curriculum development and Outcome-Based Education (OBE)
-        </li>
-
-        <li>
-          Review of academic research proposals and research outputs
-        </li>
-
-        <li>
-          Academic seminars, workshops, conferences, and scholarly forums
-        </li>
+        <li>Undergraduate, master's, and doctoral research supervision</li>
+        <li>Thesis and dissertation examination</li>
+        <li>Curriculum development and Outcome-Based Education (OBE)</li>
+        <li>Review of academic research proposals and research outputs</li>
+        <li>Academic seminars, workshops, conferences, and scholarly forums</li>
       </ul>
 
     </div>
@@ -673,25 +625,11 @@ redirect_from:
       <h3>Astronomical Activities</h3>
 
       <ul>
-        <li>
-          Crescent Moon (<em>hilal</em>) observation
-        </li>
-
-        <li>
-          Astronomical field research
-        </li>
-
-        <li>
-          Qibla direction measurement and verification
-        </li>
-
-        <li>
-          Astronomical observation training
-        </li>
-
-        <li>
-          Digital imaging for Islamic astronomy
-        </li>
+        <li>Crescent Moon (<em>hilal</em>) observation</li>
+        <li>Astronomical field research</li>
+        <li>Qibla direction measurement and verification</li>
+        <li>Astronomical observation training</li>
+        <li>Digital imaging for Islamic astronomy</li>
       </ul>
 
     </div>
@@ -702,18 +640,9 @@ redirect_from:
       <h3>Public Engagement</h3>
 
       <ul>
-        <li>
-          Training and workshops on Islamic astronomy
-        </li>
-
-        <li>
-          Astronomical consultation for Islamic religious practices
-        </li>
-
-        <li>
-          Hijri calendar education and public engagement
-        </li>
-
+        <li>Training and workshops on Islamic astronomy</li>
+        <li>Astronomical consultation for Islamic religious practices</li>
+        <li>Hijri calendar education and public engagement</li>
         <li>
           Dissemination of astronomy-based knowledge through
           research, teaching, and scholarly publication
