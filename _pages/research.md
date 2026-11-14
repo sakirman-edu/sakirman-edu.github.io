@@ -2,6 +2,7 @@
 title: "Research"
 permalink: /research/
 author_profile: true
+description: "Research on Islamic astronomy, crescent visibility, twilight, astronomical photometry, digital image processing, and Hijri calendar studies."
 ---
 
 {% include base_path %}
@@ -143,6 +144,18 @@ author_profile: true
 
 .software-grid {
   margin-top: 1.8rem;
+}
+
+.software-link {
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.software-link:hover {
+  text-decoration: underline;
 }
 
 .roadmap-box {
@@ -326,12 +339,12 @@ author_profile: true
 
     <div class="research-card">
 
-      <a href="{{ base_path }}/images/Picture11.png"
+      <a href="{{ base_path }}/images/kalender-hijriyah-2027.jpg"
          target="_blank"
          rel="noopener noreferrer">
 
-        <img src="{{ base_path }}/images/Picture11.png"
-             alt="Astronomical parameters for Hijri calendar studies">
+        <img src="{{ base_path }}/images/kalender-hijriyah-2027.jpg"
+             alt="Hijri calendar and astronomical calendar determination">
 
       </a>
 
@@ -340,10 +353,10 @@ author_profile: true
         <h3>Hijri Calendar and Hisab–Rukyat Integration</h3>
 
         <p>
-          Examining astronomical parameters and observational criteria used
-          in determining the beginning of Hijri months, while addressing the
-          relationship between <em>hisab</em>, <em>rukyat</em>, crescent
-          visibility criteria, and Islamic legal reasoning.
+          Examining the astronomical and juridical foundations of Hijri calendar
+          construction, including lunar-cycle parameters, crescent visibility
+          criteria, <em>hisab</em> calculations, <em>rukyat</em> observations,
+          and their integration within contemporary Islamic legal reasoning.
         </p>
 
         <span class="research-tag">Hijri Calendar</span>
@@ -435,92 +448,76 @@ author_profile: true
 
   <div class="software-grid">
 
-  <div class="software-card">
+    <div class="software-card">
 
-    <a href="https://siril.org/"
-       target="_blank"
-       rel="noopener noreferrer"
-       title="Visit the official Siril website">
+      <a href="{{ base_path }}/images/software-siril.png"
+         target="_blank"
+         rel="noopener noreferrer">
 
-      <img src="{{ base_path }}/images/software-siril.png"
-           alt="Siril software used for astronomical image processing">
+        <img src="{{ base_path }}/images/software-siril.png"
+             alt="Siril software used for astronomical image processing">
 
-    </a>
+      </a>
 
-    <div class="software-content">
+      <div class="software-content">
 
-      <h3>
-        <a href="https://siril.org/"
-           target="_blank"
-           rel="noopener noreferrer">
-          Siril-Based Astronomical Image Processing
-        </a>
-      </h3>
+        <h3>Siril-Based Astronomical Image Processing</h3>
 
-      <p>
-        <strong>Siril</strong> is used for astronomical image preprocessing,
-        including calibration, enhancement, alignment, noise reduction, and
-        contrast adjustment. These procedures improve image quality and help
-        separate faint lunar features from strong twilight background
-        illumination before quantitative analysis.
-      </p>
+        <p>
+          <strong>Siril</strong> is used for astronomical image preprocessing,
+          including calibration, enhancement, alignment, noise reduction, and
+          contrast adjustment. These procedures improve image quality and help
+          separate faint lunar features from strong twilight background
+          illumination before quantitative analysis.
+        </p>
 
-      <p style="margin-bottom:0;">
-        <a href="https://siril.org/"
+        <a class="software-link"
+           href="https://siril.org/"
            target="_blank"
            rel="noopener noreferrer">
           Visit Siril Official Website →
         </a>
-      </p>
+
+      </div>
 
     </div>
 
-  </div>
 
+    <div class="software-card">
 
-  <div class="software-card">
+      <a href="{{ base_path }}/images/software-iris.png"
+         target="_blank"
+         rel="noopener noreferrer">
 
-    <a href="https://buil.astrosurf.com/iris-software.html"
-       target="_blank"
-       rel="noopener noreferrer"
-       title="Visit the official IRIS software page">
+        <img src="{{ base_path }}/images/software-iris.png"
+             alt="IRIS software used for crescent photometric analysis">
 
-      <img src="{{ base_path }}/images/software-iris.png"
-           alt="IRIS software used for crescent photometric analysis">
+      </a>
 
-    </a>
+      <div class="software-content">
 
-    <div class="software-content">
+        <h3>IRIS-Based Crescent Photometry</h3>
 
-      <h3>
-        <a href="https://buil.astrosurf.com/iris-software.html"
-           target="_blank"
-           rel="noopener noreferrer">
-          IRIS-Based Crescent Photometry
-        </a>
-      </h3>
+        <p>
+          <strong>IRIS</strong> is used for aperture-based photometric analysis
+          of the crescent and adjacent twilight sky. The measurements provide
+          quantitative values of crescent intensity, background intensity, and
+          relative contrast, supporting objective evaluation of crescent
+          detectability and visibility criteria.
+        </p>
 
-      <p>
-        <strong>IRIS</strong> is used for aperture-based photometric analysis
-        of the crescent and adjacent twilight sky. The measurements provide
-        quantitative values of crescent intensity, background intensity, and
-        relative contrast, supporting objective evaluation of crescent
-        detectability and visibility criteria.
-      </p>
-
-      <p style="margin-bottom:0;">
-        <a href="https://buil.astrosurf.com/iris-software.html"
+        <a class="software-link"
+           href="https://buil.astrosurf.com/iris-software.html"
            target="_blank"
            rel="noopener noreferrer">
           Visit IRIS Software Page →
         </a>
-      </p>
+
+      </div>
 
     </div>
 
   </div>
-
-</div>
 
 </div>
 
@@ -561,7 +558,6 @@ author_profile: true
     Several questions guide the next phase of my research.
   </p>
 
-
   <div class="future-card">
 
     <strong>1. How does tropical twilight influence crescent visibility?</strong>
@@ -570,7 +566,6 @@ author_profile: true
     atmospheric conditions, lunar geometry, and visual or digital crescent detection.
 
   </div>
-
 
   <div class="future-card">
 
@@ -581,7 +576,6 @@ author_profile: true
 
   </div>
 
-
   <div class="future-card">
 
     <strong>3. How can astronomical evidence strengthen Hijri calendar systems?</strong>
@@ -590,7 +584,6 @@ author_profile: true
     calendar development and Islamic legal reasoning.
 
   </div>
-
 
   <div class="future-card">
 
