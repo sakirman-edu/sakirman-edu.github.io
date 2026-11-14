@@ -10,9 +10,84 @@ location: "Metro, Lampung, Indonesia"
 description: "Undergraduate practicum course on the administration and implementation of Islamic legal services, including marriage registration, SIMKAH procedures, document verification, and related sharia-based legal practice."
 ---
 
+## Course Overview
+
 Undergraduate practicum course in the **Islamic Family Law (Hukum Keluarga Islam)** program.
 
-The course provides practical training in **sharia-related public services and Islamic family law administration**, including services at the Office of Religious Affairs (KUA), Religious Courts, the Ministry of Religious Affairs, Hajj and Umrah administration, zakat and waqf institutions, and other related agencies. Emphasis is placed on administrative procedures, document analysis, case simulation, digital service systems, institutional coordination, and field-based learning.
+The course provides practical training in **sharia-related public services and Islamic family law administration**, including services at the Office of Religious Affairs (KUA), Religious Courts, the Ministry of Religious Affairs, Hajj and Umrah administration, zakat and waqf institutions, and other related agencies.
+
+Particular emphasis is placed on administrative procedures, document analysis, case simulation, digital service systems, institutional coordination, and field-based learning. Students are expected to connect Islamic legal knowledge with the actual procedures and institutions through which Islamic family law and religious services are administered in Indonesia.
+
+
+## Course Information
+
+<div style="overflow-x:auto;">
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+
+    <tr>
+      <td style="width:30%;"><strong>Course Level</strong></td>
+      <td>Undergraduate Course</td>
+    </tr>
+
+    <tr>
+      <td><strong>Program</strong></td>
+      <td>Islamic Family Law (Hukum Keluarga Islam)</td>
+    </tr>
+
+    <tr>
+      <td><strong>Field</strong></td>
+      <td>Islamic Legal Practice</td>
+    </tr>
+
+    <tr>
+      <td><strong>Institution</strong></td>
+      <td>UIN Jurai Siwo Lampung</td>
+    </tr>
+
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Metro, Lampung, Indonesia</td>
+    </tr>
+
+    <tr>
+      <td><strong>Academic Year</strong></td>
+      <td>2026</td>
+    </tr>
+
+    <tr>
+      <td><strong>Primary Areas</strong></td>
+      <td>
+        KUA Services · Marriage Administration · SIMKAH · Religious Courts ·
+        Family Law Practice · Hajj and Umrah Administration · Zakat · Waqf ·
+        Institutional Coordination
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+
+## Course Learning Outcomes
+
+By the end of the course, students are expected to be able to:
+
+1. Explain the institutional structure and scope of sharia-related public services in Indonesia.
+2. Analyze the functions and administrative procedures of the Office of Religious Affairs (KUA).
+3. Apply procedures for marriage registration, document verification, and related administrative services.
+4. Explain and simulate the use of **SIMKAH** in marriage administration.
+5. Analyze legal and administrative problems involving marriage, guardianship, marriage recommendations, and related services.
+6. Explain the structure, authority, and administrative procedures of Religious Courts.
+7. Prepare basic procedural documents for Islamic family law cases.
+8. Simulate selected stages of Religious Court proceedings through moot-court activities.
+9. Analyze religious services provided by the Ministry of Religious Affairs and related institutions.
+10. Explain the administration of Hajj and Umrah services.
+11. Analyze institutional coordination involving KUA, Religious Courts, Dukcapil, BAZNAS, BWI, BP4, and other relevant institutions.
+12. Prepare a practicum portfolio based on case analysis, observation, simulation, or field-based learning.
+
 
 ## Course Materials
 
@@ -39,7 +114,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%201.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -54,7 +130,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/pertemuan-02-makalah-praktikum.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -69,7 +146,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%203.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -84,7 +162,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%204.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -99,7 +178,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%205.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -114,7 +194,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%206.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -149,7 +230,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%209.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -164,7 +246,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%2010.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -179,7 +262,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%2011.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -194,7 +278,8 @@ The course provides practical training in **sharia-related public services and I
       <td style="text-align:center;">PDF</td>
       <td style="text-align:center;">
         <a href="/files/teaching/praktikum-penyelenggaraan-syariah/Kelompok%2012.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           <strong>Download PDF</strong>
         </a>
       </td>
@@ -245,11 +330,74 @@ The course provides practical training in **sharia-related public services and I
 
 </div>
 
-## Additional Resources
+
+## Learning Approach
+
+The course emphasizes **practice-oriented and field-based learning**. Learning activities include:
+
+- Interactive lectures
+- Administrative document analysis
+- Case-based learning
+- Service procedure simulation
+- SIMKAH practice
+- Marriage administration exercises
+- Religious Court document preparation
+- Moot-court simulation
+- Observation and institutional visits
+- Group presentations
+- Field-based assignments
+- Portfolio development
+
+
+## Key Assignments
+
+### 1. KUA Administrative Case Analysis
+
+Students analyze selected marriage-administration cases and identify the relevant procedures, documents, institutions, and legal issues.
+
+### 2. SIMKAH and Marriage Administration Practice
+
+Students examine the workflow of marriage registration, identity verification, document processing, and digital administration through SIMKAH.
+
+### 3. Religious Court Document Practice
+
+Students prepare selected procedural documents such as applications, claims, responses, evidence lists, or other documents relevant to Islamic family law proceedings.
+
+### 4. Moot Court
+
+Students simulate selected stages of Religious Court proceedings, including filing, mediation, pleadings, evidence, conclusions, and judicial decision-making.
+
+### 5. Institutional Observation and Practicum Portfolio
+
+Students compile a portfolio based on observation, simulation, case analysis, or field-based learning involving KUA, Religious Courts, the Ministry of Religious Affairs, or related institutions.
+
+
+## Assessment
+
+Assessment may include:
+
+- Class participation and practicum activities
+- Administrative document exercises
+- Case analysis
+- SIMKAH practice
+- Individual and group presentations
+- Mid-Semester structured practicum
+- Moot-court performance
+- Field observation report
+- Practicum portfolio
+- Final comprehensive practicum
+
+
+## Learning Resources
 
 - **RPS / Course Syllabus** — Coming soon
 - **Practicum Guide** — Coming soon
 - **Reading List** — Coming soon
 - **Assignment Guidelines** — Coming soon
 - **Case Materials** — Coming soon
-- **Practicum Forms and Templates** — Coming soon
+- **SIMKAH Practice Guide** — Coming soon
+- **Marriage Administration Forms** — Coming soon
+- **Religious Court Document Templates** — Coming soon
+- **Moot Court Guidelines** — Coming soon
+- **Observation and Fieldwork Forms** — Coming soon
+- **Assessment Rubrics** — Coming soon
