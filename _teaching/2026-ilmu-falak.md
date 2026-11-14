@@ -10,11 +10,74 @@ location: "Metro, Lampung, Indonesia"
 description: "Undergraduate course on Islamic astronomy, including celestial coordinates, qibla direction, prayer times, lunar observation, hisab-rukyat, and Hijri calendar determination."
 ---
 
-Course on **Ilmu Falak** and its application to Islamic religious practices.
+## Course Overview
 
-The course covers Hijri calendar determination, *hisab* and *rukyat*, crescent visibility, qibla direction, prayer times, solar and lunar phenomena, astronomical coordinates, and observational methods.
+Undergraduate course on **Ilmu Falak (Islamic Astronomy)** and its application to Islamic religious practices.
 
-The course also introduces contemporary developments in astronomical instrumentation, digital imaging, and the integration of astronomical evidence with Islamic legal reasoning.
+The course examines the astronomical foundations of **qibla direction, prayer times, Hijri calendar determination, hisab and rukyat, crescent visibility, solar and lunar phenomena, celestial coordinates, and observational astronomy**.
+
+It also introduces contemporary developments in astronomical instrumentation, digital imaging, and the use of astronomical evidence in Islamic legal reasoning. Through conceptual study, calculation, observation, and practicum activities, students develop an integrated understanding of classical Ilmu Falak and contemporary astronomical methods.
+
+
+## Course Information
+
+<div style="overflow-x:auto;">
+
+<table style="width:100%; border-collapse:collapse;">
+  <tbody>
+
+    <tr>
+      <td style="width:30%;"><strong>Course Level</strong></td>
+      <td>Undergraduate Course</td>
+    </tr>
+
+    <tr>
+      <td><strong>Field</strong></td>
+      <td>Islamic Astronomy</td>
+    </tr>
+
+    <tr>
+      <td><strong>Institution</strong></td>
+      <td>UIN Jurai Siwo Lampung</td>
+    </tr>
+
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Metro, Lampung, Indonesia</td>
+    </tr>
+
+    <tr>
+      <td><strong>Academic Year</strong></td>
+      <td>2026</td>
+    </tr>
+
+    <tr>
+      <td><strong>Primary Areas</strong></td>
+      <td>
+        Qibla Direction · Prayer Times · Hijri Calendar · Hisab–Rukyat ·
+        Crescent Visibility · Astronomical Observation · Digital Imaging
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+
+## Course Learning Outcomes
+
+By the end of the course, students are expected to be able to:
+
+1. Explain the fundamental concepts, scope, historical development, and position of Ilmu Falak within Islamic studies.
+2. Apply basic astronomical concepts and celestial coordinate systems to problems in Islamic astronomy.
+3. Calculate and verify qibla direction using spherical astronomy and relevant observational instruments.
+4. Explain and calculate the astronomical foundations of Islamic prayer times.
+5. Analyze the principles of Hijri calendar determination, including *hisab*, *rukyat*, conjunction, elongation, crescent altitude, and lunar visibility.
+6. Conduct basic astronomical observations and document crescent, solar, and lunar phenomena systematically.
+7. Evaluate contemporary crescent-visibility criteria and problems related to Hijri calendar unification.
+8. Integrate astronomical evidence with Islamic legal reasoning in contemporary Ilmu Falak.
+
 
 ## Course Materials
 
@@ -239,6 +302,34 @@ The course also introduces contemporary developments in astronomical instrumenta
 
 </div>
 
+
+## Learning Approach
+
+The course combines conceptual study, astronomical calculation, field practice, observation, and digital tools. Learning activities include:
+
+- Lectures and guided discussion
+- Astronomical calculation exercises
+- Qibla direction practicum
+- Prayer-time calculation and verification
+- Crescent observation and documentation
+- Use of astronomical instruments and digital applications
+- Analysis of contemporary *hisab–rukyat* issues
+- Integration of astronomical evidence with Islamic legal reasoning
+
+
+## Assessment
+
+Assessment may include:
+
+- Class participation and discussion
+- Astronomical calculation assignments
+- Practicum and fieldwork
+- Observation reports
+- Mid-Semester Examination (UTS)
+- Individual or group projects
+- Final Examination (UAS) or final project presentation
+
+
 ## Learning Resources
 
 - <strong>RPS / Course Syllabus</strong> —
@@ -255,56 +346,118 @@ The course also introduces contemporary developments in astronomical instrumenta
 - **Reading List and References** — Coming soon
 - **Astronomical Software and Digital Tools** — Coming soon
 
+
 ## Lecture Gallery
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:15px; margin-top:1rem;">
+<div style="
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:15px;
+  margin-top:1rem;
+">
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-01.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-01.jpeg"
          alt="Ilmu Falak Lecture 1"
-         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+         style="
+           width:100%;
+           height:180px;
+           object-fit:cover;
+           border-radius:8px;
+           display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-02.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-02.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-02.jpeg"
          alt="Ilmu Falak Lecture 2"
-         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+         style="
+           width:100%;
+           height:180px;
+           object-fit:cover;
+           border-radius:8px;
+           display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-03.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-03.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-03.jpeg"
          alt="Ilmu Falak Lecture 3"
-         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+         style="
+           width:100%;
+           height:180px;
+           object-fit:cover;
+           border-radius:8px;
+           display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-04.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-04.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-04.jpeg"
          alt="Ilmu Falak Lecture 4"
-         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+         style="
+           width:100%;
+           height:180px;
+           object-fit:cover;
+           border-radius:8px;
+           display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-05.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-05.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-05.jpeg"
          alt="Ilmu Falak Lecture 5"
-         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+         style="
+           width:100%;
+           height:180px;
+           object-fit:cover;
+           border-radius:8px;
+           display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-06.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-06.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-06.jpeg"
          alt="Ilmu Falak Lecture 6"
-         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+         style="
+           width:100%;
+           height:180px;
+           object-fit:cover;
+           border-radius:8px;
+           display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-07.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-07.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-07.jpeg"
          alt="Ilmu Falak Lecture 7"
-         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+         style="
+           width:100%;
+           height:180px;
+           object-fit:cover;
+           border-radius:8px;
+           display:block;">
   </a>
 
-  <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg" target="_blank" rel="noopener noreferrer">
+  <a href="/images/teaching/ilmu-falak/Kuliah-08.jpeg"
+     target="_blank"
+     rel="noopener noreferrer">
     <img src="/images/teaching/ilmu-falak/Kuliah-08.jpeg"
          alt="Ilmu Falak Lecture 8"
-         style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+         style="
+           width:100%;
+           height:180px;
+           object-fit:cover;
+           border-radius:8px;
+           display:block;">
   </a>
 
 </div>
