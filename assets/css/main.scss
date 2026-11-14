@@ -273,12 +273,18 @@
 
 /* =========================================
    RESEARCH IMAGE ZOOM
-   KEEP EXISTING EFFECT
+   ZOOM ON ENTIRE CARD HOVER
 ========================================= */
 
-.research-section .research-card a:hover img,
-.research-section .software-card a:hover img {
-  transform: scale(1.02) !important;
+.research-section .research-card img,
+.research-section .software-card img {
+  transition: transform 0.30s ease !important;
+  transform-origin: center center;
+}
+
+.research-section .research-card:hover img,
+.research-section .software-card:hover img {
+  transform: scale(1.04) !important;
 }
 
 
@@ -300,6 +306,11 @@
   .research-section .project-card:hover,
   .research-section .future-card:hover,
   .research-section .method-box:hover {
+    transform: none !important;
+  }
+
+  .research-section .research-card:hover img,
+  .research-section .software-card:hover img {
     transform: none !important;
   }
 
