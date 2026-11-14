@@ -1,0 +1,196 @@
+<style>
+.teaching-back {
+  margin: 0 0 1.8rem 0;
+}
+
+.teaching-back a {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.teaching-back a:hover {
+  text-decoration: underline;
+}
+
+.teaching-explore {
+  margin-top: 3rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(127, 127, 127, 0.25);
+}
+
+.teaching-explore-title {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.teaching-explore-description {
+  max-width: 760px;
+  margin: 0 0 1.25rem 0;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  opacity: 0.78;
+}
+
+.related-course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.related-course-card {
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  background: transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.related-course-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.07);
+}
+
+.related-course-level {
+  margin-bottom: 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+
+.related-course-card h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
+
+.related-course-card h3 a {
+  text-decoration: none;
+}
+
+.related-course-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.related-course-field {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  opacity: 0.72;
+}
+
+.teaching-view-all {
+  margin-top: 1.35rem;
+}
+
+.teaching-view-all a {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.teaching-view-all a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .related-course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .related-course-card {
+    padding: 1rem;
+  }
+}
+</style>
+
+
+{% if include.position == "top" %}
+
+<div class="teaching-back">
+  <a href="{{ '/teaching/' | relative_url }}">
+    ← Back to Teaching
+  </a>
+</div>
+
+{% endif %}
+
+
+{% if include.position == "bottom" %}
+
+{% assign related_courses = site.teaching
+  | where: "type", page.type
+  | sort: "title"
+%}
+
+<div class="teaching-explore">
+
+  <div class="teaching-explore-title">
+
+    {% if page.type == "Undergraduate Course" %}
+      Explore Other Undergraduate Courses
+
+    {% elsif page.type == "Master's Course" %}
+      Explore Other Master's Courses
+
+    {% elsif page.type == "Doctoral Course" %}
+      Explore Other Doctoral Courses
+
+    {% else %}
+      Explore Other Courses
+    {% endif %}
+
+  </div>
+
+  <p class="teaching-explore-description">
+    Browse other courses at the same academic level in Islamic law,
+    Islamic astronomy, research methodology, academic writing,
+    and interdisciplinary Islamic studies.
+  </p>
+
+  <div class="related-course-grid">
+
+    {% for course in related_courses %}
+
+      {% unless course.url == page.url %}
+
+      <article class="related-course-card">
+
+        <div class="related-course-level">
+          {{ course.type }}
+        </div>
+
+        <h3>
+          <a href="{{ course.url | relative_url }}">
+            {{ course.title }}
+          </a>
+        </h3>
+
+        {% if course.field %}
+        <div class="related-course-field">
+          {{ course.field }}
+        </div>
+        {% endif %}
+
+      </article>
+
+      {% endunless %}
+
+    {% endfor %}
+
+  </div>
+
+  <div class="teaching-view-all">
+    <a href="{{ '/teaching/' | relative_url }}">
+      View All Teaching →
+    </a>
+  </div>
+
+</div>
+
+{% endif %}
