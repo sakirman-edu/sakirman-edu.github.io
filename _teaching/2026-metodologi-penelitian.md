@@ -10,6 +10,76 @@ location: "Metro, Lampung, Indonesia"
 description: "Doctoral course on advanced dissertation research methodology, academic integrity, research ethics, literature review, research design, data analysis, and dissertation proposal development."
 ---
 
+<style>
+.research-workflow {
+  display: flex;
+  align-items: stretch;
+  gap: 0.65rem;
+  margin: 1.5rem 0 2.2rem 0;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.research-step {
+  flex: 1 1 155px;
+  min-width: 150px;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.research-number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.research-step strong {
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.research-step span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+.research-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .research-workflow {
+    flex-direction: column;
+  }
+
+  .research-step {
+    min-width: 0;
+  }
+
+  .research-arrow {
+    transform: rotate(90deg);
+    height: 20px;
+  }
+}
+</style>
+
+
 ## Course Overview
 
 Doctoral course in the **Islamic Law (Ilmu Syariah)** program focusing on advanced research methodology for dissertation development.
@@ -68,6 +138,88 @@ Particular emphasis is placed on transforming an academic problem into a defensi
 
   </tbody>
 </table>
+
+</div>
+
+
+## Dissertation Research Workflow
+
+<div class="research-workflow">
+
+  <div class="research-step">
+    <div class="research-number">1</div>
+    <strong>Academic Problem</strong>
+    <span>
+      Identify a significant scholarly problem, empirical tension,
+      or theoretical issue requiring doctoral investigation.
+    </span>
+  </div>
+
+  <div class="research-arrow">→</div>
+
+  <div class="research-step">
+    <div class="research-number">2</div>
+    <strong>Literature & Research Gap</strong>
+    <span>
+      Map reputable literature, previous findings, debates,
+      limitations, and unresolved questions.
+    </span>
+  </div>
+
+  <div class="research-arrow">→</div>
+
+  <div class="research-step">
+    <div class="research-number">3</div>
+    <strong>Novelty</strong>
+    <span>
+      Establish the original contribution, new perspective,
+      conceptual development, or methodological contribution.
+    </span>
+  </div>
+
+  <div class="research-arrow">→</div>
+
+  <div class="research-step">
+    <div class="research-number">4</div>
+    <strong>Theoretical Framework</strong>
+    <span>
+      Develop the theoretical foundation, conceptual model,
+      hypotheses, propositions, or analytical framework.
+    </span>
+  </div>
+
+  <div class="research-arrow">→</div>
+
+  <div class="research-step">
+    <div class="research-number">5</div>
+    <strong>Research Design</strong>
+    <span>
+      Determine paradigm, approach, unit of analysis,
+      sampling, instruments, data sources, and procedures.
+    </span>
+  </div>
+
+  <div class="research-arrow">→</div>
+
+  <div class="research-step">
+    <div class="research-number">6</div>
+    <strong>Data Analysis</strong>
+    <span>
+      Apply appropriate quantitative, qualitative,
+      or mixed-methods analytical techniques.
+    </span>
+  </div>
+
+  <div class="research-arrow">→</div>
+
+  <div class="research-step">
+    <div class="research-number">7</div>
+    <strong>Dissertation Proposal</strong>
+    <span>
+      Integrate the academic problem, novelty, theory,
+      method, ethics, and contribution into a defensible proposal.
+    </span>
+  </div>
 
 </div>
 
