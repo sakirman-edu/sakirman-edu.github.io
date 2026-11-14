@@ -10,6 +10,76 @@ location: "Metro, Lampung, Indonesia"
 description: "Master's course on Islamic family law, ecotheology, maqāṣid al-syarī‘ah, ecological ethics, and environmental responsibility in contemporary Muslim family life."
 ---
 
+<style>
+.ecotheology-workflow {
+  display: flex;
+  align-items: stretch;
+  gap: 0.65rem;
+  margin: 1.5rem 0 2.2rem 0;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.ecotheology-step {
+  flex: 1 1 155px;
+  min-width: 150px;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.ecotheology-number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.ecotheology-step strong {
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.ecotheology-step span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+.ecotheology-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .ecotheology-workflow {
+    flex-direction: column;
+  }
+
+  .ecotheology-step {
+    min-width: 0;
+  }
+
+  .ecotheology-arrow {
+    transform: rotate(90deg);
+    height: 20px;
+  }
+}
+</style>
+
+
 ## Course Overview
 
 Master's course in the **Islamic Family Law (Hukum Keluarga Islam)** program.
@@ -67,6 +137,88 @@ The course addresses sustainable consumption, reproductive health, climate chang
 
   </tbody>
 </table>
+
+</div>
+
+
+## Ecotheological Framework
+
+<div class="ecotheology-workflow">
+
+  <div class="ecotheology-step">
+    <div class="ecotheology-number">1</div>
+    <strong>Theology</strong>
+    <span>
+      Establishes the ethical and theological relationship between
+      humans, family life, creation, and environmental responsibility.
+    </span>
+  </div>
+
+  <div class="ecotheology-arrow">→</div>
+
+  <div class="ecotheology-step">
+    <div class="ecotheology-number">2</div>
+    <strong>Maqāṣid al-Syarī‘ah</strong>
+    <span>
+      Connects ecological responsibility with protection,
+      welfare, justice, and the objectives of Islamic law.
+    </span>
+  </div>
+
+  <div class="ecotheology-arrow">→</div>
+
+  <div class="ecotheology-step">
+    <div class="ecotheology-number">3</div>
+    <strong>Qawā‘id Fiqhiyyah</strong>
+    <span>
+      Provides Islamic legal maxims for evaluating harm,
+      benefit, responsibility, and ecological conduct.
+    </span>
+  </div>
+
+  <div class="ecotheology-arrow">→</div>
+
+  <div class="ecotheology-step">
+    <div class="ecotheology-number">4</div>
+    <strong>Family</strong>
+    <span>
+      Places ecological ethics within consumption, reproduction,
+      marriage, family resilience, and intergenerational responsibility.
+    </span>
+  </div>
+
+  <div class="ecotheology-arrow">→</div>
+
+  <div class="ecotheology-step">
+    <div class="ecotheology-number">5</div>
+    <strong>Ecology</strong>
+    <span>
+      Examines climate change, environmental degradation,
+      natural resources, disasters, and ecological vulnerability.
+    </span>
+  </div>
+
+  <div class="ecotheology-arrow">→</div>
+
+  <div class="ecotheology-step">
+    <div class="ecotheology-number">6</div>
+    <strong>Justice</strong>
+    <span>
+      Integrates ecological justice, gender justice, social protection,
+      and equitable access to environmental resources.
+    </span>
+  </div>
+
+  <div class="ecotheology-arrow">→</div>
+
+  <div class="ecotheology-step">
+    <div class="ecotheology-number">7</div>
+    <strong>Sustainability</strong>
+    <span>
+      Develops a contemporary Islamic family-law framework
+      oriented toward sustainable and responsible family life.
+    </span>
+  </div>
 
 </div>
 
