@@ -3,90 +3,341 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
+description: "Selected undergraduate, master's, and doctoral courses in Islamic law, Islamic astronomy, Islamic economics, and interdisciplinary Islamic studies."
 ---
 
 {% include base_path %}
 
-<div style="margin-bottom:2rem;">
-  <p style="font-size:1.05em; line-height:1.7; margin-bottom:0;">
+<style>
+.teaching-intro {
+  margin-bottom: 3rem;
+}
+
+.teaching-kicker {
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+  opacity: 0.75;
+  margin-bottom: 0.6rem;
+}
+
+.teaching-intro p {
+  font-size: 1.02em;
+  line-height: 1.75;
+  max-width: 850px;
+  margin-bottom: 0;
+}
+
+.teaching-section {
+  margin-bottom: 3.25rem;
+}
+
+.teaching-section-header {
+  margin-bottom: 1.35rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(128,128,128,0.32);
+}
+
+.teaching-section-header h2 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.teaching-section-header p {
+  margin: 0;
+  font-size: 0.92em;
+  line-height: 1.55;
+  opacity: 0.8;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+  border: 1px solid rgba(128,128,128,0.28);
+  border-radius: 10px;
+  padding: 1.15rem 1.2rem;
+  background: rgba(128,128,128,0.035);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(128,128,128,0.48);
+}
+
+.course-level {
+  display: inline-block;
+  width: fit-content;
+  border: 1px solid rgba(128,128,128,0.30);
+  border-radius: 999px;
+  padding: 0.18rem 0.55rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  opacity: 0.9;
+}
+
+.course-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-size: 1.08em;
+  line-height: 1.35;
+}
+
+.course-card h3 a {
+  text-decoration: none;
+}
+
+.course-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.course-meta {
+  font-size: 0.9em;
+  line-height: 1.55;
+  opacity: 0.82;
+  margin-bottom: 1rem;
+}
+
+.course-link {
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.course-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-card {
+    min-height: auto;
+  }
+}
+</style>
+
+
+<div class="teaching-intro">
+
+  <div class="teaching-kicker">Teaching Portfolio</div>
+
+  <p>
     Selected courses taught at undergraduate, master's, and doctoral levels,
     covering Islamic law, Islamic family law, Islamic economics, research methodology,
     Islamic astronomy, and contemporary Islamic studies.
   </p>
+
 </div>
+
 
 {% assign undergraduate = site.teaching | where: "type", "Undergraduate Course" | sort: "title" %}
 {% assign masters = site.teaching | where: "type", "Master's Course" | sort: "title" %}
 {% assign doctoral = site.teaching | where: "type", "Doctoral Course" | sort: "title" %}
 
+
 {% if undergraduate.size > 0 %}
-<section style="margin-bottom:2.75rem;">
 
-  <h2 style="
-    margin-top:0;
-    margin-bottom:1.25rem;
-    padding-bottom:0.5rem;
-    border-bottom:1px solid rgba(128,128,128,0.35);
-    font-weight:600;
-    letter-spacing:0.01em;">
-    Undergraduate Courses
-  </h2>
+<section class="teaching-section">
 
-  <div>
+  <div class="teaching-section-header">
+
+    <h2>Undergraduate Courses</h2>
+
+    <p>
+      Foundational and applied courses introducing students to Islamic law,
+      Islamic astronomy, and professional practice.
+    </p>
+
+  </div>
+
+  <div class="course-grid">
+
     {% for post in undergraduate %}
-      <div style="margin-bottom:1.35rem;">
-        {% include archive-single.html %}
+
+      <div class="course-card">
+
+        <div>
+
+          <span class="course-level">
+            Undergraduate Course
+          </span>
+
+          <h3>
+            <a href="{{ base_path }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+          <div class="course-meta">
+
+            {% if post.venue %}
+              {{ post.venue }}
+            {% endif %}
+
+            {% if post.date %}
+              <br>
+              {{ post.date | date: "%Y" }}
+            {% endif %}
+
+          </div>
+
+        </div>
+
+        <a class="course-link"
+           href="{{ base_path }}{{ post.url }}">
+          View Course →
+        </a>
+
       </div>
+
     {% endfor %}
+
   </div>
 
 </section>
+
 {% endif %}
+
 
 {% if masters.size > 0 %}
-<section style="margin-bottom:2.75rem;">
 
-  <h2 style="
-    margin-top:0;
-    margin-bottom:1.25rem;
-    padding-bottom:0.5rem;
-    border-bottom:1px solid rgba(128,128,128,0.35);
-    font-weight:600;
-    letter-spacing:0.01em;">
-    Master's Courses
-  </h2>
+<section class="teaching-section">
 
-  <div>
+  <div class="teaching-section-header">
+
+    <h2>Master's Courses</h2>
+
+    <p>
+      Interdisciplinary and analytical courses addressing Islamic family law,
+      socio-legal studies, human rights, and advanced research perspectives.
+    </p>
+
+  </div>
+
+  <div class="course-grid">
+
     {% for post in masters %}
-      <div style="margin-bottom:1.35rem;">
-        {% include archive-single.html %}
+
+      <div class="course-card">
+
+        <div>
+
+          <span class="course-level">
+            Master's Course
+          </span>
+
+          <h3>
+            <a href="{{ base_path }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+          <div class="course-meta">
+
+            {% if post.venue %}
+              {{ post.venue }}
+            {% endif %}
+
+            {% if post.date %}
+              <br>
+              {{ post.date | date: "%Y" }}
+            {% endif %}
+
+          </div>
+
+        </div>
+
+        <a class="course-link"
+           href="{{ base_path }}{{ post.url }}">
+          View Course →
+        </a>
+
       </div>
+
     {% endfor %}
+
   </div>
 
 </section>
+
 {% endif %}
 
+
 {% if doctoral.size > 0 %}
-<section style="margin-bottom:2rem;">
 
-  <h2 style="
-    margin-top:0;
-    margin-bottom:1.25rem;
-    padding-bottom:0.5rem;
-    border-bottom:1px solid rgba(128,128,128,0.35);
-    font-weight:600;
-    letter-spacing:0.01em;">
-    Doctoral Courses
-  </h2>
+<section class="teaching-section">
 
-  <div>
+  <div class="teaching-section-header">
+
+    <h2>Doctoral Courses</h2>
+
+    <p>
+      Advanced courses emphasizing theoretical development, contemporary issues,
+      doctoral research, academic writing, and international scholarly publication.
+    </p>
+
+  </div>
+
+  <div class="course-grid">
+
     {% for post in doctoral %}
-      <div style="margin-bottom:1.35rem;">
-        {% include archive-single.html %}
+
+      <div class="course-card">
+
+        <div>
+
+          <span class="course-level">
+            Doctoral Course
+          </span>
+
+          <h3>
+            <a href="{{ base_path }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+          <div class="course-meta">
+
+            {% if post.venue %}
+              {{ post.venue }}
+            {% endif %}
+
+            {% if post.date %}
+              <br>
+              {{ post.date | date: "%Y" }}
+            {% endif %}
+
+          </div>
+
+        </div>
+
+        <a class="course-link"
+           href="{{ base_path }}{{ post.url }}">
+          View Course →
+        </a>
+
       </div>
+
     {% endfor %}
+
   </div>
 
 </section>
+
 {% endif %}
