@@ -253,7 +253,9 @@ author_profile: true
   <h2>Four Research Themes</h2>
 
   <p class="research-intro">
-    My current research is organized around four interconnected areas.
+    My research is organized around four interconnected themes linking
+    crescent observation, quantitative image analysis, Hijri calendar studies,
+    and digital methods in contemporary Islamic astronomy.
   </p>
 
   <div class="research-grid">
@@ -266,7 +268,7 @@ author_profile: true
          rel="noopener noreferrer">
 
         <img src="{{ base_path }}/images/hilal-twilight.jpg"
-             alt="Crescent visibility and twilight observation">
+             alt="Young crescent Moon observed during twilight">
 
       </a>
 
@@ -275,15 +277,16 @@ author_profile: true
         <h3>Crescent Visibility and Twilight</h3>
 
         <p>
-          Investigating the visibility of the young crescent Moon under changing
-          twilight conditions, atmospheric brightness, lunar geometry, and
-          observational environments.
+          Investigating the visibility of the young crescent Moon during
+          twilight, with particular attention to sky brightness, solar
+          depression, atmospheric conditions, lunar geometry, and the
+          changing contrast between the crescent and its background.
         </p>
 
         <span class="research-tag">Hilal</span>
         <span class="research-tag">Twilight</span>
         <span class="research-tag">Sky Brightness</span>
-        <span class="research-tag">Visibility Criteria</span>
+        <span class="research-tag">Visibility</span>
 
       </div>
 
@@ -297,7 +300,7 @@ author_profile: true
          rel="noopener noreferrer">
 
         <img src="{{ base_path }}/images/Analisis-IRIS.png"
-             alt="Astronomical photometry and digital image processing">
+             alt="IRIS-based analysis of crescent Moon images">
 
       </a>
 
@@ -306,14 +309,15 @@ author_profile: true
         <h3>Astronomical Photometry and Digital Imaging</h3>
 
         <p>
-          Applying aperture photometry, digital imaging, image processing,
-          and quantitative contrast analysis to evaluate faint astronomical
-          objects such as the crescent Moon during twilight.
+          Measuring the intensity of the crescent and the surrounding
+          twilight background through digital imaging and aperture-based
+          analysis. This approach is used to quantify signal, background
+          brightness, and contrast under difficult observational conditions.
         </p>
 
         <span class="research-tag">Photometry</span>
+        <span class="research-tag">IRIS</span>
         <span class="research-tag">Digital Imaging</span>
-        <span class="research-tag">Image Analysis</span>
         <span class="research-tag">Contrast</span>
 
       </div>
@@ -328,7 +332,7 @@ author_profile: true
          rel="noopener noreferrer">
 
         <img src="{{ base_path }}/images/Picture11.png"
-             alt="Hijri calendar and hisab-rukyat integration">
+             alt="Astronomical parameters for Hijri calendar studies">
 
       </a>
 
@@ -337,10 +341,10 @@ author_profile: true
         <h3>Hijri Calendar and Hisab–Rukyat Integration</h3>
 
         <p>
-          Examining the scientific and juridical foundations of Hijri calendar
-          determination, including astronomical criteria, observational evidence,
-          institutional authority, and the integration of <em>hisab</em> and
-          <em>rukyat</em>.
+          Examining astronomical parameters and observational criteria used
+          in determining the beginning of Hijri months, while addressing the
+          relationship between <em>hisab</em>, <em>rukyat</em>, crescent
+          visibility criteria, and Islamic legal reasoning.
         </p>
 
         <span class="research-tag">Hijri Calendar</span>
@@ -360,25 +364,25 @@ author_profile: true
          rel="noopener noreferrer">
 
         <img src="{{ base_path }}/images/olah-citra.jpg"
-             alt="Image processing for astronomy and Islamic religious applications">
+             alt="Digital image processing for crescent Moon analysis">
 
       </a>
 
       <div class="research-card-content">
 
-        <h3>Astronomy for Islamic Religious Practices</h3>
+        <h3>Digital Image Processing for Crescent Detection</h3>
 
         <p>
-          Developing astronomical observation and image-processing approaches
-          for religious applications, including lunar observation, Hijri calendar
-          determination, qibla direction, prayer times, and scientifically informed
-          Islamic legal practice.
+          Exploring computational image-processing techniques to enhance,
+          identify, and analyze faint crescent signals embedded in strong
+          twilight illumination. Digital processing supports more objective
+          detection and quantitative evaluation of the young Moon.
         </p>
 
         <span class="research-tag">Image Processing</span>
+        <span class="research-tag">Crescent Detection</span>
+        <span class="research-tag">Digital Astronomy</span>
         <span class="research-tag">Ilmu Falak</span>
-        <span class="research-tag">Religious Practice</span>
-        <span class="research-tag">Islamic Law</span>
 
       </div>
 
@@ -394,11 +398,12 @@ author_profile: true
 
   <div class="research-kicker">Methodology</div>
 
-  <h2>From Observation to Legal Interpretation</h2>
+  <h2>From Observation to Quantitative Evidence</h2>
 
   <p class="research-intro">
-    My research combines observational astronomy, digital imaging,
-    quantitative image analysis, astronomical modeling, and Islamic legal reasoning.
+    My methodological approach connects direct astronomical observation
+    with digital image processing, photometric measurement, quantitative
+    interpretation, and Islamic legal analysis.
   </p>
 
   <div class="method-box">
@@ -406,13 +411,13 @@ author_profile: true
     <div class="method-flow">
 
       <div class="method-step">
-        Astronomical Observation
+        Crescent Observation
       </div>
 
       <div class="method-arrow">→</div>
 
       <div class="method-step">
-        Image Acquisition
+        Digital Image Acquisition
       </div>
 
       <div class="method-arrow">→</div>
@@ -424,25 +429,25 @@ author_profile: true
       <div class="method-arrow">→</div>
 
       <div class="method-step">
-        Photometric Analysis
+        Aperture Photometry
       </div>
 
       <div class="method-arrow">→</div>
 
       <div class="method-step">
-        Astronomical Modeling
+        Contrast Analysis
       </div>
 
       <div class="method-arrow">→</div>
 
       <div class="method-step">
-        Islamic Legal Interpretation
+        Astronomical Interpretation
       </div>
 
       <div class="method-arrow">→</div>
 
       <div class="method-step">
-        Religious and Calendar Application
+        Islamic Legal Analysis
       </div>
 
     </div>
@@ -457,36 +462,38 @@ author_profile: true
        rel="noopener noreferrer">
 
       <img src="{{ base_path }}/images/Analisis-IRIS.png"
-           alt="IRIS analysis of crescent Moon image during twilight">
+           alt="IRIS-based photometric analysis of crescent Moon and twilight background">
 
     </a>
 
     <div class="method-image-content">
 
-      <h3>IRIS-Based Crescent Image Processing</h3>
+      <h3>IRIS-Based Crescent Image Analysis</h3>
 
       <p>
-        One of the image-processing approaches used in my crescent visibility
-        research is <strong>IRIS</strong>, an astronomical image-processing
-        environment applied to digital images of the young crescent Moon
-        obtained under twilight conditions.
+        Digital images of the young crescent Moon are processed using
+        <strong>IRIS</strong> to examine the crescent signal against the
+        brightness of the surrounding <em>syafaq</em> or twilight background.
+        The analysis focuses on separating the relatively faint lunar signal
+        from the stronger background illumination that often limits crescent
+        detectability.
       </p>
 
       <p>
-        IRIS is used to process and analyze the faint crescent signal in the
-        presence of strong <em>syafaq</em> or twilight background illumination.
-        The processing helps distinguish the lunar crescent signal from the
-        surrounding sky background, enabling the crescent to be examined more
-        systematically despite interference from twilight brightness.
+        Aperture-based measurements are applied to selected regions of the
+        crescent and adjacent twilight sky. These measurements provide
+        quantitative information on crescent intensity, background intensity,
+        and their relative difference rather than relying solely on visual
+        identification.
       </p>
 
       <p style="margin-bottom:0;">
-        The processed images are subsequently used for photometric measurements,
-        comparison of crescent and sky-background intensity, and quantitative
-        contrast analysis. This approach supports the evaluation of crescent
-        detectability under varying twilight conditions and provides empirical
-        evidence for the development of scientifically grounded crescent
-        visibility criteria.
+        The resulting measurements are used for contrast analysis and for
+        evaluating how changes in twilight brightness affect crescent
+        visibility. This methodological sequence links observational evidence
+        with quantitative astronomical analysis and, subsequently, with the
+        assessment of crescent-visibility criteria used in Hijri calendar
+        determination.
       </p>
 
     </div>
@@ -506,16 +513,17 @@ author_profile: true
     My current research focuses on the relationship between
     <strong>twilight conditions, sky brightness, atmospheric conditions,
     and crescent visibility in tropical and low-latitude environments</strong>.
-    This work investigates how changes in background sky brightness affect the
-    detectability and contrast of the young crescent Moon.
+    This work investigates how variations in background sky brightness influence
+    the detectability of the young crescent Moon and the measurable contrast
+    between the crescent signal and its surrounding twilight background.
   </p>
 
   <p>
     The research integrates observational astronomy, digital imaging,
-    aperture photometry, astronomical modeling, and legal interpretation.
-    Its broader objective is to contribute to the development of
-    <strong>scientifically grounded crescent visibility criteria and
-    evidence-based Hijri calendar systems</strong>.
+    aperture photometry, contrast analysis, astronomical modeling, and
+    Islamic legal interpretation. Its broader objective is to contribute to
+    the development of <strong>scientifically grounded crescent visibility
+    criteria and evidence-based Hijri calendar systems</strong>.
   </p>
 
 </div>
@@ -536,8 +544,8 @@ author_profile: true
 
     <strong>1. How does tropical twilight influence crescent visibility?</strong>
 
-    Understanding the relationship between atmospheric brightness,
-    solar depression, lunar geometry, and visual or digital crescent detection.
+    Understanding the relationship between sky brightness, solar depression,
+    atmospheric conditions, lunar geometry, and visual or digital crescent detection.
 
   </div>
 
@@ -547,7 +555,7 @@ author_profile: true
     <strong>2. Can photometric contrast improve crescent visibility criteria?</strong>
 
     Developing quantitative indicators based on crescent intensity,
-    sky background brightness, Weber contrast, and digital image analysis.
+    twilight-background intensity, Weber contrast, and digital image analysis.
 
   </div>
 
@@ -556,8 +564,8 @@ author_profile: true
 
     <strong>3. How can astronomical evidence strengthen Hijri calendar systems?</strong>
 
-    Connecting observational data, computational astronomy,
-    visibility criteria, and calendar unification with Islamic legal reasoning.
+    Connecting observational data, computational astronomy, crescent visibility
+    criteria, and calendar unification with Islamic legal reasoning.
 
   </div>
 
@@ -567,8 +575,8 @@ author_profile: true
     <strong>4. How can astronomy better support Islamic religious practices?</strong>
 
     Expanding the application of observational and computational astronomy
-    to prayer times, qibla direction, Hijri calendar determination,
-    and other dimensions of contemporary <em>Ilmu Falak</em>.
+    to crescent observation, prayer times, qibla direction, Hijri calendar
+    determination, and other dimensions of contemporary <em>Ilmu Falak</em>.
 
   </div>
 
@@ -582,8 +590,9 @@ author_profile: true
   <h2>Long-Term Research Trajectory</h2>
 
   <p class="research-intro">
-    The following roadmap summarizes the development of my research on crescent
-    visibility, lunar observation, Islamic astronomy, Hijri calendar studies,
+    The following roadmap presents the long-term trajectory of my research,
+    linking crescent observation, astronomical measurement, digital imaging,
+    photometric analysis, visibility criteria, Hijri calendar studies,
     and the integration of astronomical evidence with Islamic legal reasoning.
   </p>
 
@@ -614,25 +623,29 @@ author_profile: true
     <li>
       <strong>Crescent Visibility and Twilight Observation at Timau</strong><br>
       Observational study of twilight brightness and crescent visibility using
-      sky brightness measurements, digital imaging, and photometric analysis.
+      sky-brightness measurements, digital imaging, and photometric analysis
+      under dark-sky observational conditions.
     </li>
 
     <li>
       <strong>Lunar Photometry and Digital Imaging</strong><br>
-      Application of aperture photometry and image analysis to compare crescent
-      intensity, twilight background, and visual contrast.
+      Application of aperture photometry and digital image analysis to compare
+      crescent intensity, twilight-background intensity, and quantitative
+      contrast during early lunar visibility.
     </li>
 
     <li>
       <strong>Hijri Calendar and Hisab–Rukyat Integration</strong><br>
-      Study of astronomical criteria, Islamic legal reasoning, institutional
-      authority, and the development of unified Hijri calendar systems.
+      Investigation of astronomical visibility criteria, observational evidence,
+      Islamic legal reasoning, and institutional approaches to the development
+      of Hijri calendar systems.
     </li>
 
     <li>
       <strong>QGIS-Based Visualization of Prayer Times</strong><br>
-      Integration of geographic coordinates and astronomical parameters to
-      visualize spatial variations in prayer times.
+      Integration of geographical coordinates and astronomical parameters
+      to visualize spatial variations in prayer times and their relationship
+      with geographical position.
     </li>
 
   </ul>
@@ -648,14 +661,24 @@ author_profile: true
 
   <p>
     Research outputs are published across the fields of Islamic astronomy,
-    Islamic law, crescent visibility, Hijri calendar studies, and related
-    interdisciplinary areas.
+    crescent visibility, observational astronomy, digital image analysis,
+    Hijri calendar studies, Islamic law, and related interdisciplinary areas.
   </p>
 
   <p>
-    <strong><a href="/main-publications/">View Main Publications →</a></strong>
+    <strong>
+      <a href="/main-publications/">
+        View Main Publications →
+      </a>
+    </strong>
+
     &nbsp;&nbsp;·&nbsp;&nbsp;
-    <strong><a href="/publications/">View Full Publications →</a></strong>
+
+    <strong>
+      <a href="/publications/">
+        View Full Publications →
+      </a>
+    </strong>
   </p>
 
 </div>
