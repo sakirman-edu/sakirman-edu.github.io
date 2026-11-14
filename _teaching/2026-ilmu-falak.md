@@ -11,6 +11,7 @@ description: "Undergraduate course on Islamic astronomy, including celestial coo
 ---
 
 <style>
+  {% include teaching-navigation.html position="top" %}
 .falak-workflow {
   display: flex;
   align-items: stretch;
@@ -501,7 +502,7 @@ Assessment may include:
 
 
 ## Lecture Gallery
-
+{% include teaching-navigation.html position="bottom" %}
 <div style="
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
