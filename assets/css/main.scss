@@ -5,7 +5,7 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -43,10 +43,133 @@
 ========================================= */
 
 .greedy-nav .visible-links a {
-  transition: color 0.2s ease;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .greedy-nav .visible-links a:hover,
 .greedy-nav .visible-links a:focus {
+  color: var(--global-masthead-link-color-hover) !important;
+}
+
+.greedy-nav .visible-links a:hover::before,
+.greedy-nav .visible-links a:focus::before {
+  background: var(--global-masthead-link-color-hover) !important;
+}
+
+
+/* =========================================
+   CUSTOM HOVER - SIDEBAR LINKS
+========================================= */
+
+.author__urls a {
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.author__urls a:hover,
+.author__urls a:focus {
+  color: var(--global-masthead-link-color-hover) !important;
+}
+
+
+/* =========================================
+   CUSTOM HOVER - GENERAL CONTENT LINKS
+========================================= */
+
+.page__content a,
+.archive a {
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.page__content a:hover,
+.page__content a:focus,
+.archive a:hover,
+.archive a:focus {
+  color: var(--global-masthead-link-color-hover);
+}
+
+
+/* =========================================
+   CUSTOM HOVER - BUTTONS AND CLICKABLE LINKS
+========================================= */
+
+.home-button,
+.publication-button,
+.publications-footer-button,
+.fullpub-button,
+.cv-download-button,
+.cv-tag,
+.home-tag,
+.fullpub-profile-link {
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.home-button:hover,
+.home-button:focus,
+.publication-button:hover,
+.publication-button:focus,
+.publications-footer-button:hover,
+.publications-footer-button:focus,
+.fullpub-button:hover,
+.fullpub-button:focus,
+.cv-download-button:hover,
+.cv-download-button:focus,
+.cv-tag:hover,
+.cv-tag:focus,
+.home-tag:hover,
+.home-tag:focus,
+.fullpub-profile-link:hover,
+.fullpub-profile-link:focus {
+  color: var(--global-masthead-link-color-hover) !important;
+  border-color: var(--global-masthead-link-color-hover) !important;
+}
+
+
+/* =========================================
+   CUSTOM HOVER - CLICKABLE CARDS
+========================================= */
+
+.home-link-card {
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-link-card:hover,
+.home-link-card:focus {
+  color: var(--global-masthead-link-color-hover) !important;
+  border-color: var(--global-masthead-link-color-hover) !important;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   CUSTOM HOVER - PUBLICATION TITLES
+========================================= */
+
+.publication-title a,
+.fullpub-title a,
+.archive__item-title a {
+  transition: color 0.2s ease;
+}
+
+.publication-title a:hover,
+.publication-title a:focus,
+.fullpub-title a:hover,
+.fullpub-title a:focus,
+.archive__item-title a:hover,
+.archive__item-title a:focus {
   color: var(--global-masthead-link-color-hover) !important;
 }
