@@ -10,6 +10,76 @@ location: "Metro, Lampung, Indonesia"
 description: "Doctoral course on international academic writing and publication, including research gaps, literature mapping, article structure, journal selection, manuscript preparation, and submission strategies."
 ---
 
+<style>
+.publication-workflow {
+  display: flex;
+  align-items: stretch;
+  gap: 0.65rem;
+  margin: 1.5rem 0 2.2rem 0;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.publication-step {
+  flex: 1 1 155px;
+  min-width: 150px;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.publication-number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.publication-step strong {
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.publication-step span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+.publication-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .publication-workflow {
+    flex-direction: column;
+  }
+
+  .publication-step {
+    min-width: 0;
+  }
+
+  .publication-arrow {
+    transform: rotate(90deg);
+    height: 20px;
+  }
+}
+</style>
+
+
 ## Course Overview
 
 Doctoral course in the **Islamic Law (Ilmu Syariah)** program focusing on advanced academic writing and publication in international journals.
@@ -67,6 +137,88 @@ Particular emphasis is placed on producing academically rigorous manuscripts tha
 
   </tbody>
 </table>
+
+</div>
+
+
+## International Publication Workflow
+
+<div class="publication-workflow">
+
+  <div class="publication-step">
+    <div class="publication-number">1</div>
+    <strong>Research Idea</strong>
+    <span>
+      Identify a focused academic problem and define the article's
+      scholarly direction.
+    </span>
+  </div>
+
+  <div class="publication-arrow">→</div>
+
+  <div class="publication-step">
+    <div class="publication-number">2</div>
+    <strong>Literature Mapping</strong>
+    <span>
+      Search, organize, compare, and map relevant international
+      literature and previous studies.
+    </span>
+  </div>
+
+  <div class="publication-arrow">→</div>
+
+  <div class="publication-step">
+    <div class="publication-number">3</div>
+    <strong>Research Gap & Novelty</strong>
+    <span>
+      Identify unresolved issues and formulate the article's
+      original contribution.
+    </span>
+  </div>
+
+  <div class="publication-arrow">→</div>
+
+  <div class="publication-step">
+    <div class="publication-number">4</div>
+    <strong>Manuscript Development</strong>
+    <span>
+      Develop the introduction, literature review, method,
+      findings, discussion, conclusion, and abstract.
+    </span>
+  </div>
+
+  <div class="publication-arrow">→</div>
+
+  <div class="publication-step">
+    <div class="publication-number">5</div>
+    <strong>Target Journal</strong>
+    <span>
+      Select an appropriate journal based on scope, audience,
+      indexing, format, and author guidelines.
+    </span>
+  </div>
+
+  <div class="publication-arrow">→</div>
+
+  <div class="publication-step">
+    <div class="publication-number">6</div>
+    <strong>Peer Review & Revision</strong>
+    <span>
+      Conduct internal review, peer feedback, editing,
+      formatting, and manuscript refinement.
+    </span>
+  </div>
+
+  <div class="publication-arrow">→</div>
+
+  <div class="publication-step">
+    <div class="publication-number">7</div>
+    <strong>Submission</strong>
+    <span>
+      Prepare the final files and submit the manuscript
+      through the target journal's submission system.
+    </span>
+  </div>
 
 </div>
 
@@ -255,7 +407,7 @@ By the end of the course, students are expected to be able to:
 
 ## Learning Approach
 
-The course is designed as a writing-intensive doctoral workshop. Learning activities include:
+The course is designed as a **writing-intensive doctoral workshop**. Learning activities include:
 
 - Academic writing workshops
 - Critical reading of international journal articles
@@ -274,7 +426,7 @@ The course is designed as a writing-intensive doctoral workshop. Learning activi
 
 ### 1. International Literature Mapping
 
-Students identify and review a minimum set of relevant international articles and construct a structured literature map to identify research trends, gaps, and opportunities for novelty.
+Students identify and review relevant international articles and construct a structured literature map to identify research trends, gaps, and opportunities for novelty.
 
 ### 2. Research Gap and Novelty Statement
 
