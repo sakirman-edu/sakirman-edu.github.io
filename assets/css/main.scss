@@ -254,4 +254,44 @@
     transform: none;
   }
 
+/* =========================================
+   RESEARCH CARDS
+   BORDER ONLY + SLIGHT LIFT
+========================================= */
+
+.research-card,
+.software-card,
+.project-card,
+.future-card,
+.method-box {
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.research-card:hover,
+.software-card:hover,
+.project-card:hover,
+.future-card:hover,
+.method-box:hover {
+  border-color: #00b8d9 !important;
+  box-shadow: none !important;
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .research-card:hover,
+  .software-card:hover,
+  .project-card:hover,
+  .future-card:hover,
+  .method-box:hover {
+    transform: none;
+  }
+
 }
