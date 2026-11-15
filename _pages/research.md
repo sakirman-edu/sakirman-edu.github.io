@@ -818,12 +818,11 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         <div>
 
           <span class="method-center-kicker">
-            Integrated Method
+            RESEARCH LOOP
           </span>
 
           <span class="method-center-title">
-            Observation → Evidence → Astronomical Interpretation → Islamic Legal Analysis
-          </span>
+                  </span>
 
         </div>
 
