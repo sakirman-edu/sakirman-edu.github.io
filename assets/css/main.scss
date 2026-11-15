@@ -172,6 +172,7 @@
 
 /* =========================================
    TEACHING CARDS
+   BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
 .course-card {
@@ -188,6 +189,7 @@
 
 /* =========================================
    MAIN PUBLICATION CARDS
+   BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
 .publication-card {
@@ -204,6 +206,7 @@
 
 /* =========================================
    FULL PUBLICATION CARDS
+   BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
 .fullpub-card {
@@ -240,6 +243,7 @@
 
 /* =========================================
    CV CARDS
+   BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
 .cv-panel,
@@ -260,6 +264,7 @@
 
 /* =========================================
    RESEARCH CARDS
+   BORDER ONLY + SLIGHT LIFT
 ========================================= */
 
 .research-section .research-card,
@@ -284,262 +289,12 @@
 
 /* =========================================
    RESEARCH IMAGE ZOOM
+   KEEP EXISTING EFFECT
 ========================================= */
 
 .research-section .research-card a:hover img,
 .research-section .software-card a:hover img {
   transform: scale(1.02) !important;
-}
-
-
-/* =========================================================
-   DARK MODE REFINEMENT
-========================================================= */
-
-/*
- * AcademicPages already loads a dark theme.
- * These rules only refine contrast and cards.
- */
-
-html[data-theme="dark"],
-body[data-theme="dark"] {
-  background-color: #181a1f !important;
-  color: #e7e9ed !important;
-}
-
-
-/* =========================================
-   DARK MODE NAVIGATION
-========================================= */
-
-html[data-theme="dark"] .masthead,
-html[data-theme="dark"] .greedy-nav,
-body[data-theme="dark"] .masthead,
-body[data-theme="dark"] .greedy-nav {
-  background-color: #181a1f !important;
-  border-color: #343840 !important;
-}
-
-html[data-theme="dark"] .greedy-nav a,
-body[data-theme="dark"] .greedy-nav a {
-  color: #e7e9ed !important;
-}
-
-html[data-theme="dark"] .greedy-nav a:hover,
-html[data-theme="dark"] .greedy-nav a:focus,
-body[data-theme="dark"] .greedy-nav a:hover,
-body[data-theme="dark"] .greedy-nav a:focus {
-  color: #19b9d2 !important;
-}
-
-
-/* =========================================
-   DARK MODE MAIN CONTENT
-========================================= */
-
-html[data-theme="dark"] .page__content,
-html[data-theme="dark"] .archive,
-body[data-theme="dark"] .page__content,
-body[data-theme="dark"] .archive {
-  color: #e3e6ea !important;
-}
-
-html[data-theme="dark"] h1,
-html[data-theme="dark"] h2,
-html[data-theme="dark"] h3,
-html[data-theme="dark"] h4,
-body[data-theme="dark"] h1,
-body[data-theme="dark"] h2,
-body[data-theme="dark"] h3,
-body[data-theme="dark"] h4 {
-  color: #f4f5f6 !important;
-}
-
-
-/* =========================================
-   DARK MODE SIDEBAR
-========================================= */
-
-html[data-theme="dark"] .sidebar,
-body[data-theme="dark"] .sidebar {
-  color: #d4d8df !important;
-}
-
-html[data-theme="dark"] .author__name,
-body[data-theme="dark"] .author__name {
-  color: #f5f6f7 !important;
-}
-
-html[data-theme="dark"] .author__bio,
-html[data-theme="dark"] .author__urls,
-body[data-theme="dark"] .author__bio,
-body[data-theme="dark"] .author__urls {
-  color: #c0c6ce !important;
-}
-
-
-/* =========================================
-   DARK MODE CARDS
-========================================= */
-
-html[data-theme="dark"] .home-summary-card,
-html[data-theme="dark"] .home-link-card,
-html[data-theme="dark"] .course-card,
-html[data-theme="dark"] .publication-card,
-html[data-theme="dark"] .fullpub-card,
-html[data-theme="dark"] .cv-panel,
-html[data-theme="dark"] .cv-item,
-html[data-theme="dark"] .cv-summary-card,
-html[data-theme="dark"] .research-card,
-html[data-theme="dark"] .software-card,
-html[data-theme="dark"] .project-card,
-html[data-theme="dark"] .future-card,
-html[data-theme="dark"] .method-box,
-
-body[data-theme="dark"] .home-summary-card,
-body[data-theme="dark"] .home-link-card,
-body[data-theme="dark"] .course-card,
-body[data-theme="dark"] .publication-card,
-body[data-theme="dark"] .fullpub-card,
-body[data-theme="dark"] .cv-panel,
-body[data-theme="dark"] .cv-item,
-body[data-theme="dark"] .cv-summary-card,
-body[data-theme="dark"] .research-card,
-body[data-theme="dark"] .software-card,
-body[data-theme="dark"] .project-card,
-body[data-theme="dark"] .future-card,
-body[data-theme="dark"] .method-box {
-  background-color: #22252b !important;
-  border-color: #343840 !important;
-}
-
-
-/* =========================================
-   DARK MODE CARD HOVER
-========================================= */
-
-html[data-theme="dark"] .home-summary-card:hover,
-html[data-theme="dark"] .home-link-card:hover,
-html[data-theme="dark"] .course-card:hover,
-html[data-theme="dark"] .publication-card:hover,
-html[data-theme="dark"] .fullpub-card:hover,
-html[data-theme="dark"] .cv-panel:hover,
-html[data-theme="dark"] .cv-item:hover,
-html[data-theme="dark"] .cv-summary-card:hover,
-html[data-theme="dark"] .research-card:hover,
-html[data-theme="dark"] .software-card:hover,
-html[data-theme="dark"] .project-card:hover,
-html[data-theme="dark"] .future-card:hover,
-html[data-theme="dark"] .method-box:hover,
-
-body[data-theme="dark"] .home-summary-card:hover,
-body[data-theme="dark"] .home-link-card:hover,
-body[data-theme="dark"] .course-card:hover,
-body[data-theme="dark"] .publication-card:hover,
-body[data-theme="dark"] .fullpub-card:hover,
-body[data-theme="dark"] .cv-panel:hover,
-body[data-theme="dark"] .cv-item:hover,
-body[data-theme="dark"] .cv-summary-card:hover,
-body[data-theme="dark"] .research-card:hover,
-body[data-theme="dark"] .software-card:hover,
-body[data-theme="dark"] .project-card:hover,
-body[data-theme="dark"] .future-card:hover,
-body[data-theme="dark"] .method-box:hover {
-  border-color: #19b9d2 !important;
-}
-
-
-/* =========================================
-   DARK MODE SECONDARY TEXT
-========================================= */
-
-html[data-theme="dark"] .home-summary-text,
-html[data-theme="dark"] .home-section-intro,
-html[data-theme="dark"] .cv-item-meta,
-html[data-theme="dark"] .course-meta,
-html[data-theme="dark"] .publication-authors,
-html[data-theme="dark"] .fullpub-meta,
-
-body[data-theme="dark"] .home-summary-text,
-body[data-theme="dark"] .home-section-intro,
-body[data-theme="dark"] .cv-item-meta,
-body[data-theme="dark"] .course-meta,
-body[data-theme="dark"] .publication-authors,
-body[data-theme="dark"] .fullpub-meta {
-  color: #b3bac4 !important;
-}
-
-
-/* =========================================
-   DARK MODE TAGS
-========================================= */
-
-html[data-theme="dark"] .home-tag,
-html[data-theme="dark"] .cv-tag,
-html[data-theme="dark"] .research-tag,
-
-body[data-theme="dark"] .home-tag,
-body[data-theme="dark"] .cv-tag,
-body[data-theme="dark"] .research-tag {
-  background-color: #202329 !important;
-  border-color: #3a3f47 !important;
-  color: #19b9d2 !important;
-}
-
-
-/* =========================================
-   DARK MODE BUTTONS
-========================================= */
-
-html[data-theme="dark"] .home-button,
-html[data-theme="dark"] .publication-button,
-html[data-theme="dark"] .fullpub-button,
-html[data-theme="dark"] .cv-download-button,
-
-body[data-theme="dark"] .home-button,
-body[data-theme="dark"] .publication-button,
-body[data-theme="dark"] .fullpub-button,
-body[data-theme="dark"] .cv-download-button {
-  background-color: #202329 !important;
-  border-color: #3a3f47 !important;
-  color: #dce0e5 !important;
-}
-
-html[data-theme="dark"] .home-button:hover,
-html[data-theme="dark"] .publication-button:hover,
-html[data-theme="dark"] .fullpub-button:hover,
-html[data-theme="dark"] .cv-download-button:hover,
-
-body[data-theme="dark"] .home-button:hover,
-body[data-theme="dark"] .publication-button:hover,
-body[data-theme="dark"] .fullpub-button:hover,
-body[data-theme="dark"] .cv-download-button:hover {
-  border-color: #19b9d2 !important;
-  color: #19b9d2 !important;
-}
-
-
-/* =========================================
-   DARK MODE LINKS
-========================================= */
-
-html[data-theme="dark"] .page__content a,
-html[data-theme="dark"] .archive a,
-body[data-theme="dark"] .page__content a,
-body[data-theme="dark"] .archive a {
-  color: #19b9d2;
-}
-
-
-/* =========================================
-   DARK MODE FOOTER
-========================================= */
-
-html[data-theme="dark"] .page__footer,
-body[data-theme="dark"] .page__footer {
-  background-color: #15171b !important;
-  border-top: 1px solid #343840 !important;
-  color: #aeb5be !important;
 }
 
 
