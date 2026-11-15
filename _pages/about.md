@@ -150,21 +150,26 @@ redirect_from:
   margin-top: 1rem;
 }
 
-.home-tag {
+.home-tag,
+.home-tag:link,
+.home-tag:visited {
   display: inline-block;
   padding: 0.48rem 0.72rem;
   border: 1px solid rgba(127,127,127,0.28);
   border-radius: 999px;
   font-size: 0.78rem;
   line-height: 1.2;
-  text-decoration: none;
-  color: inherit;
+  color: #00b8d9 !important;
+  text-decoration: none !important;
   cursor: pointer;
 }
 
 .home-tag:hover,
-.home-tag:focus {
-  text-decoration: none;
+.home-tag:focus,
+.home-tag:active {
+  color: #00d4f0 !important;
+  border-color: #00b8d9 !important;
+  text-decoration: none !important;
 }
 
 
