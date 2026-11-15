@@ -137,32 +137,89 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 
 /* =========================================================
-   INTERACTIVE CIRCULAR METHODOLOGY
+   METHODOLOGY - TWO COLUMN LAYOUT
 ========================================================= */
 
-.method-simulation {
-  margin-top: 2rem;
+.methodology-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(520px, 1.25fr);
+  gap: 2.4rem;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+
+
+/* LEFT SIDE */
+
+.methodology-copy {
+  padding-right: 0.5rem;
+}
+
+.methodology-copy .research-kicker {
+  color: #00b8d9;
+  opacity: 1;
+}
+
+.methodology-copy h2 {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-size: 1.65rem;
+  line-height: 1.3;
+}
+
+.methodology-copy p {
+  line-height: 1.78;
+  margin-bottom: 1.1rem;
+  opacity: 0.9;
+}
+
+.methodology-copy strong {
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   CIRCULAR RESEARCH LOOP
+========================================================= */
+
+.method-loop-panel {
+  position: relative;
+  min-height: 610px;
 }
 
 .method-circle-wrap {
   position: relative;
-  width: 700px;
+  width: 610px;
+  height: 610px;
   max-width: 100%;
-  height: 700px;
-  margin: 2rem auto 1rem auto;
+  margin: 0 auto;
 }
 
 
-/* Animated orbit */
+/* Outer ring */
+
+.method-outer-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(120,145,200,0.20);
+  border-radius: 50%;
+}
+
+
+/* Inner dotted ring */
 
 .method-orbit {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 480px;
-  height: 480px;
+  width: 400px;
+  height: 400px;
   transform: translate(-50%, -50%);
-  border: 1px dashed rgba(0,184,217,0.60);
+  border: 1px dashed rgba(0,184,217,0.55);
   border-radius: 50%;
   animation: methodRotate 28s linear infinite;
 }
@@ -179,6 +236,17 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   transform: translateX(-50%);
 }
 
+.method-inner-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 270px;
+  height: 270px;
+  transform: translate(-50%, -50%);
+  border: 1px dotted rgba(120,145,200,0.18);
+  border-radius: 50%;
+}
+
 @keyframes methodRotate {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
@@ -190,14 +258,16 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 }
 
 
-/* Center */
+/* =========================================================
+   CENTER
+========================================================= */
 
 .method-center {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 210px;
-  height: 210px;
+  width: 190px;
+  height: 190px;
   transform: translate(-50%, -50%);
   border: 2px solid #00b8d9;
   border-radius: 50%;
@@ -205,7 +275,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.3rem;
   background: var(--global-bg-color);
   z-index: 5;
 }
@@ -214,38 +284,40 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   display: block;
   margin-bottom: 0.45rem;
   color: #00b8d9;
-  font-size: 0.68rem;
+  font-size: 0.63rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
 }
 
 .method-center-title {
   display: block;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   font-weight: 700;
-  line-height: 1.45;
+  line-height: 1.38;
 }
 
 
-/* Nodes */
+/* =========================================================
+   METHOD NODES
+========================================================= */
 
 .method-node {
   position: absolute;
-  width: 165px;
-  min-height: 78px;
-  padding: 0.8rem 0.85rem;
-  border: 1px solid rgba(128,128,128,0.32);
+  width: 170px;
+  min-height: 82px;
+  padding: 0.72rem 0.8rem;
+  border: 1px solid rgba(128,128,128,0.34);
   border-radius: 10px;
   background: var(--global-bg-color);
+
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 0.78rem;
-  font-weight: 700;
-  line-height: 1.35;
-  cursor: default;
+  gap: 0.6rem;
+
+  font-size: 0.76rem;
+  line-height: 1.25;
+
   z-index: 10;
 
   transition:
@@ -257,115 +329,106 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 .method-node:hover,
 .method-node:focus {
   border-color: #00b8d9;
-  color: #00b8d9;
+  transform: translateY(-3px);
   outline: none;
 }
 
-
-/* Step numbers */
-
 .method-step-number {
-  display: block;
-  margin-right: 0.4rem;
+  flex: 0 0 auto;
   color: #00b8d9;
   font-size: 0.67rem;
+  font-weight: 700;
+}
+
+.method-node-copy {
+  min-width: 0;
+}
+
+.method-node-title {
+  display: block;
+  font-weight: 700;
+  font-size: 0.79rem;
+  line-height: 1.25;
+}
+
+.method-node-subtitle {
+  display: block;
+  margin-top: 0.28rem;
+  font-size: 0.61rem;
+  line-height: 1.25;
+  opacity: 0.58;
+  font-weight: 500;
 }
 
 
-/* Node positions */
+/* =========================================================
+   NODE POSITIONS
+========================================================= */
 
 .method-node-1 {
-  top: 1%;
+  top: 2%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .method-node-1:hover,
 .method-node-1:focus {
-  transform: translateX(-50%) translateY(-4px);
+  transform: translateX(-50%) translateY(-3px);
 }
 
 .method-node-2 {
-  top: 18%;
-  right: 2%;
-}
-
-.method-node-2:hover,
-.method-node-2:focus {
-  transform: translateY(-4px);
+  top: 21%;
+  right: 0;
 }
 
 .method-node-3 {
-  top: 49%;
+  top: 51%;
   right: -1%;
 }
 
-.method-node-3:hover,
-.method-node-3:focus {
-  transform: translateY(-4px);
-}
-
 .method-node-4 {
-  bottom: 3%;
-  right: 16%;
-}
-
-.method-node-4:hover,
-.method-node-4:focus {
-  transform: translateY(-4px);
+  bottom: 2%;
+  right: 17%;
 }
 
 .method-node-5 {
-  bottom: 3%;
-  left: 16%;
-}
-
-.method-node-5:hover,
-.method-node-5:focus {
-  transform: translateY(-4px);
+  bottom: 2%;
+  left: 17%;
 }
 
 .method-node-6 {
-  top: 49%;
+  top: 51%;
   left: -1%;
 }
 
-.method-node-6:hover,
-.method-node-6:focus {
-  transform: translateY(-4px);
-}
-
 .method-node-7 {
-  top: 18%;
-  left: 2%;
-}
-
-.method-node-7:hover,
-.method-node-7:focus {
-  transform: translateY(-4px);
+  top: 21%;
+  left: 0;
 }
 
 
-/* Tooltip */
+/* =========================================================
+   TOOLTIP
+========================================================= */
 
 .method-node-detail {
   position: absolute;
   bottom: calc(100% + 10px);
   left: 50%;
   width: 245px;
-  padding: 0.75rem 0.85rem;
+  padding: 0.72rem 0.8rem;
 
   transform:
     translateX(-50%)
     translateY(6px);
 
-  border: 1px solid rgba(0,184,217,0.60);
+  border: 1px solid rgba(0,184,217,0.55);
   border-radius: 8px;
   background: var(--global-bg-color);
 
-  font-size: 0.72rem;
+  font-size: 0.69rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.48;
   text-align: left;
   color: var(--global-text-color);
 
@@ -391,11 +454,13 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 }
 
 
-/* Cycle note */
+/* =========================================================
+   CYCLE NOTE
+========================================================= */
 
 .method-cycle-note {
-  max-width: 800px;
-  margin: 1rem auto 2rem auto;
+  max-width: 820px;
+  margin: 1.8rem auto 2.2rem auto;
   padding-top: 1rem;
   border-top: 1px solid rgba(128,128,128,0.25);
   text-align: center;
@@ -502,8 +567,25 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 
 /* =========================================================
-   MOBILE
+   RESPONSIVE
 ========================================================= */
+
+@media (max-width: 1100px) {
+
+  .methodology-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .methodology-copy {
+    padding-right: 0;
+  }
+
+  .method-loop-panel {
+    min-height: 610px;
+  }
+
+}
+
 
 @media (max-width: 760px) {
 
@@ -522,13 +604,23 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     height: 200px;
   }
 
+  .methodology-layout {
+    display: block;
+  }
+
+  .method-loop-panel {
+    min-height: 0;
+  }
+
   .method-circle-wrap {
     width: 100%;
     height: auto;
     margin-top: 1.5rem;
   }
 
-  .method-orbit {
+  .method-outer-ring,
+  .method-orbit,
+  .method-inner-ring {
     display: none;
   }
 
@@ -544,6 +636,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
   .method-node {
     position: relative;
+
     top: auto !important;
     right: auto !important;
     bottom: auto !important;
@@ -554,9 +647,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     margin-bottom: 0.75rem;
 
     transform: none !important;
-
-    justify-content: flex-start;
-    text-align: left;
   }
 
   .method-node:hover,
@@ -566,10 +656,12 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
   .method-node-detail {
     position: relative;
+
     bottom: auto;
     left: auto;
 
     width: 100%;
+
     margin-top: 0.65rem;
 
     transform: none;
@@ -636,6 +728,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     observational astronomy, quantitative measurement, Hijri calendar studies,
     and digital image processing.
   </p>
+
 
   <div class="research-grid">
 
@@ -775,6 +868,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
     </div>
 
+
   </div>
 
 </div>
@@ -786,197 +880,309 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 <div class="research-section">
 
-  <div class="research-kicker">
-    Methodology
-  </div>
-
-  <h2>
-    From Observation to Evidence-Based Islamic Legal Analysis
-  </h2>
-
-  <p class="research-intro">
-    My methodological approach integrates direct astronomical observation,
-    digital image acquisition, image preprocessing, quantitative photometric
-    measurement, contrast analysis, astronomical interpretation, and Islamic
-    legal reasoning. The process is iterative: empirical findings inform
-    interpretation, while astronomical and legal questions generate new
-    observational problems.
-  </p>
+  <div class="methodology-layout">
 
 
-  <div class="method-simulation">
+    <!-- LEFT COLUMN -->
 
-    <div class="method-circle-wrap">
+    <div class="methodology-copy">
 
-      <div class="method-orbit"></div>
+      <div class="research-kicker">
+        Methodology
+      </div>
+
+      <h2>
+        The “Observation to Evidence” Research Loop
+      </h2>
+
+      <p>
+        Astronomical observation begins with the detection of the
+        <strong>young crescent Moon under specific geometric,
+        atmospheric, and twilight conditions</strong>.
+        The observational record is then transformed into digital
+        evidence through image acquisition and preprocessing.
+      </p>
+
+      <p>
+        The processed data are subjected to
+        <strong>aperture photometry and quantitative contrast analysis</strong>
+        to measure crescent intensity, twilight-background intensity,
+        and their relative detectability.
+      </p>
+
+      <p>
+        These measurements are interpreted through astronomical models
+        and subsequently examined within
+        <strong>hisab–rukyat, maqāṣid al-sharī‘ah, and contemporary
+        Islamic legal reasoning</strong>.
+        The resulting conclusions generate new observational questions,
+        returning the process to the next cycle.
+      </p>
+
+    </div>
 
 
-      <!-- CENTER -->
+    <!-- RIGHT COLUMN -->
 
-      <div class="method-center">
+    <div class="method-loop-panel">
 
-        <div>
+      <div class="method-circle-wrap">
 
-          <span class="method-center-kicker">
-            RESEARCH LOOP
+        <div class="method-outer-ring"></div>
+
+        <div class="method-orbit"></div>
+
+        <div class="method-inner-ring"></div>
+
+
+        <!-- CENTER -->
+
+        <div class="method-center">
+
+          <div>
+
+            <span class="method-center-kicker">
+              Research Loop
+            </span>
+
+            <span class="method-center-title">
+              From Observation<br>
+              to Evidence-Based<br>
+              Islamic Legal Analysis
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <!-- NODE 01 -->
+
+        <div class="method-node method-node-1"
+             tabindex="0">
+
+          <span class="method-step-number">
+            01
           </span>
 
-          <span class="method-center-title">
-                  </span>
+          <span class="method-node-copy">
+
+            <span class="method-node-title">
+              Crescent Observation
+            </span>
+
+            <span class="method-node-subtitle">
+              hilal · twilight · geometry
+            </span>
+
+          </span>
+
+          <div class="method-node-detail">
+            Direct observation of the young crescent Moon under
+            defined astronomical and atmospheric conditions,
+            including lunar altitude, elongation, solar depression,
+            horizon condition, and twilight brightness.
+          </div>
 
         </div>
 
-      </div>
 
+        <!-- NODE 02 -->
 
-      <!-- STEP 01 -->
+        <div class="method-node method-node-2"
+             tabindex="0">
 
-      <div class="method-node method-node-1"
-           tabindex="0">
+          <span class="method-step-number">
+            02
+          </span>
 
-        <span class="method-step-number">
-          01
-        </span>
+          <span class="method-node-copy">
 
-        Crescent Observation
+            <span class="method-node-title">
+              Digital Image Acquisition
+            </span>
 
-        <div class="method-node-detail">
-          Direct observation of the young crescent Moon under defined
-          astronomical and atmospheric conditions, including lunar altitude,
-          elongation, solar depression, horizon condition, and twilight brightness.
+            <span class="method-node-subtitle">
+              camera · telescope · RAW
+            </span>
+
+          </span>
+
+          <div class="method-node-detail">
+            Acquisition of astronomical images using digital
+            cameras or observational instruments to create
+            reproducible records of the crescent and surrounding
+            twilight sky.
+          </div>
+
         </div>
 
-      </div>
 
+        <!-- NODE 03 -->
 
-      <!-- STEP 02 -->
+        <div class="method-node method-node-3"
+             tabindex="0">
 
-      <div class="method-node method-node-2"
-           tabindex="0">
+          <span class="method-step-number">
+            03
+          </span>
 
-        <span class="method-step-number">
-          02
-        </span>
+          <span class="method-node-copy">
 
-        Digital Image Acquisition
+            <span class="method-node-title">
+              Image Pre-Processing
+            </span>
 
-        <div class="method-node-detail">
-          Acquisition of astronomical images using digital cameras or
-          observational instruments to create reproducible records of the
-          crescent and surrounding twilight sky.
+            <span class="method-node-subtitle">
+              calibration · Siril
+            </span>
+
+          </span>
+
+          <div class="method-node-detail">
+            Calibration, alignment, noise reduction, enhancement,
+            and contrast adjustment before quantitative
+            photometric measurement.
+          </div>
+
         </div>
 
-      </div>
 
+        <!-- NODE 04 -->
 
-      <!-- STEP 03 -->
+        <div class="method-node method-node-4"
+             tabindex="0">
 
-      <div class="method-node method-node-3"
-           tabindex="0">
+          <span class="method-step-number">
+            04
+          </span>
 
-        <span class="method-step-number">
-          03
-        </span>
+          <span class="method-node-copy">
 
-        Image Pre-Processing
+            <span class="method-node-title">
+              Aperture Photometry
+            </span>
 
-        <div class="method-node-detail">
-          Calibration, alignment, noise reduction, enhancement,
-          and contrast adjustment before quantitative photometric measurement.
+            <span class="method-node-subtitle">
+              IRIS · intensity
+            </span>
+
+          </span>
+
+          <div class="method-node-detail">
+            Measurement of crescent intensity and adjacent
+            twilight-background intensity using aperture-based
+            astronomical photometry.
+          </div>
+
         </div>
 
-      </div>
 
+        <!-- NODE 05 -->
 
-      <!-- STEP 04 -->
+        <div class="method-node method-node-5"
+             tabindex="0">
 
-      <div class="method-node method-node-4"
-           tabindex="0">
+          <span class="method-step-number">
+            05
+          </span>
 
-        <span class="method-step-number">
-          04
-        </span>
+          <span class="method-node-copy">
 
-        Aperture Photometry
+            <span class="method-node-title">
+              Contrast Analysis
+            </span>
 
-        <div class="method-node-detail">
-          Measurement of crescent intensity and adjacent twilight-background
-          intensity using aperture-based astronomical photometry.
+            <span class="method-node-subtitle">
+              Weber contrast
+            </span>
+
+          </span>
+
+          <div class="method-node-detail">
+            Evaluation of crescent detectability by comparing
+            crescent intensity with surrounding sky-background
+            intensity, including Weber contrast.
+          </div>
+
         </div>
 
-      </div>
 
+        <!-- NODE 06 -->
 
-      <!-- STEP 05 -->
+        <div class="method-node method-node-6"
+             tabindex="0">
 
-      <div class="method-node method-node-5"
-           tabindex="0">
+          <span class="method-step-number">
+            06
+          </span>
 
-        <span class="method-step-number">
-          05
-        </span>
+          <span class="method-node-copy">
 
-        Contrast Analysis
+            <span class="method-node-title">
+              Astronomical Interpretation
+            </span>
 
-        <div class="method-node-detail">
-          Evaluation of crescent detectability by comparing crescent intensity
-          with surrounding sky-background intensity, including quantitative
-          indicators such as Weber contrast.
+            <span class="method-node-subtitle">
+              visibility · atmosphere
+            </span>
+
+          </span>
+
+          <div class="method-node-detail">
+            Interpretation of observational and photometric
+            evidence in relation to lunar geometry, solar
+            depression, atmospheric conditions, twilight
+            characteristics, and crescent visibility models.
+          </div>
+
         </div>
 
-      </div>
 
+        <!-- NODE 07 -->
 
-      <!-- STEP 06 -->
+        <div class="method-node method-node-7"
+             tabindex="0">
 
-      <div class="method-node method-node-6"
-           tabindex="0">
+          <span class="method-step-number">
+            07
+          </span>
 
-        <span class="method-step-number">
-          06
-        </span>
+          <span class="method-node-copy">
 
-        Astronomical Interpretation
+            <span class="method-node-title">
+              Islamic Legal Analysis
+            </span>
 
-        <div class="method-node-detail">
-          Interpretation of observational and photometric evidence in relation
-          to lunar geometry, solar depression, atmospheric conditions,
-          twilight characteristics, and crescent visibility models.
+            <span class="method-node-subtitle">
+              hisab–rukyat · maqāṣid
+            </span>
+
+          </span>
+
+          <div class="method-node-detail">
+            Analysis of astronomical evidence within
+            hisab–rukyat, Islamic legal reasoning,
+            maqāṣid al-sharī‘ah, institutional authority,
+            and contemporary Hijri calendar studies.
+          </div>
+
         </div>
 
-      </div>
-
-
-      <!-- STEP 07 -->
-
-      <div class="method-node method-node-7"
-           tabindex="0">
-
-        <span class="method-step-number">
-          07
-        </span>
-
-        Islamic Legal Analysis
-
-        <div class="method-node-detail">
-          Analysis of astronomical evidence within hisab–rukyat,
-          Islamic legal reasoning, maqāṣid al-sharī‘ah,
-          institutional authority, and contemporary Hijri calendar studies.
-        </div>
 
       </div>
 
     </div>
 
+  </div>
 
-    <div class="method-cycle-note">
 
-      <strong>Iterative Research Cycle:</strong>
-      astronomical and Islamic legal questions generate new observational
-      problems, allowing the research process to return to observation
-      and progressively strengthen its empirical evidence.
+  <div class="method-cycle-note">
 
-    </div>
+    <strong>Iterative Research Cycle:</strong>
+    astronomical and Islamic legal questions generate new observational
+    problems, allowing the research process to return to observation and
+    progressively strengthen its empirical evidence.
 
   </div>
 
@@ -1033,9 +1239,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
            href="https://siril.org/"
            target="_blank"
            rel="noopener noreferrer">
-
           Visit Siril Official Website →
-
         </a>
 
       </div>
@@ -1072,14 +1276,13 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
            href="https://buil.astrosurf.com/iris-software.html"
            target="_blank"
            rel="noopener noreferrer">
-
           Visit IRIS Software Page →
-
         </a>
 
       </div>
 
     </div>
+
 
   </div>
 
@@ -1301,6 +1504,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
       </p>
 
     </div>
+
 
   </div>
 
