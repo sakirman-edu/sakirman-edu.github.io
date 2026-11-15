@@ -2,8 +2,13 @@
 title: "Dr. Sakirman Presents Research at AICIS 2026"
 date: 2026-11-15
 category: "Academic News"
+
 image: "/images/logo-aicis-2026.png"
-image_alt: "AICIS 2026"
+
+header:
+  teaser: "/images/logo-aicis-2026.png"
+  og_image: "/images/logo-aicis-2026.png"
+
 excerpt: "Dr. Sakirman presented his research on crescent visibility, twilight, dark skies, and Islamic ecotheology at AICIS 2026, hosted by UIN Siber Syekh Nurjati Cirebon."
 ---
 Dr. Sakirman presented his research at the **Annual International Conference on Islamic Studies (AICIS) 2026**, hosted by **UIN Siber Syekh Nurjati Cirebon**. The paper, entitled *“The Hilal between Shafaq and Dark Skies: An Ecotheological Perspective from Timau Observatory and ITERA,”* explores the relationship between crescent visibility, twilight conditions, dark-sky quality, and Islamic ecotheology.
