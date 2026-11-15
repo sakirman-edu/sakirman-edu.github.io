@@ -528,9 +528,25 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 .roadmap-box img {
   width: 100%;
-  max-width: 680px;
+  max-width: 590px;
   height: auto;
   border-radius: 8px;
+  transition:
+    transform 0.22s ease,
+    opacity 0.22s ease;
+}
+
+.roadmap-box a:hover img {
+  transform: translateY(-3px);
+}
+
+.roadmap-caption {
+  max-width: 650px;
+  margin: 0.9rem auto 0 auto;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  opacity: 0.70;
+  text-align: center;
 }
 
 
@@ -642,6 +658,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
     border: 0;
     border-top: 1px solid rgba(128,128,128,0.25);
+  }
+
+  .roadmap-box img {
+    max-width: 100%;
   }
 
 }
@@ -907,8 +927,9 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
             <span class="method-center-title">
               From Observation<br>
-              to Evidence<br>
-             </span>
+              to Evidence-Based<br>
+              Islamic Legal Analysis
+            </span>
 
           </div>
 
@@ -1351,6 +1372,13 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
            alt="Research roadmap on crescent visibility and Islamic astronomy">
 
     </a>
+
+    <div class="roadmap-caption">
+      <strong>Research roadmap:</strong>
+      long-term development from foundational studies of crescent visibility
+      and Islamic astronomy toward interdisciplinary integration, technological
+      innovation, policy relevance, and future global collaboration.
+    </div>
 
   </div>
 
