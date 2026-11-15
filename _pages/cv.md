@@ -772,7 +772,7 @@ redirect_from:
     </p>
 
     <a class="cv-download-button"
-       href="https://drive.google.com/file/d/1ZNSqKRWUKbAQ9FoTtXTOLo1yhw1XvGwd/view?usp=drive_link"
+       href="https://drive.google.com/file/d/1DisHy7wvDvoXLNJGRCkvuhBwmYhjI6b4/view?usp=drive_link"
        target="_blank"
        rel="noopener noreferrer">
       View Full Curriculum Vitae →
