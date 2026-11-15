@@ -907,9 +907,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
             <span class="method-center-title">
               From Observation<br>
-              to Evidence-Based<br>
-              Islamic Legal Analysis
-            </span>
+              to Evidence<br>
+             </span>
 
           </div>
 
