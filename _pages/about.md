@@ -9,371 +9,117 @@ redirect_from:
 
 <style>
 
-/* =========================================================
-   HOMEPAGE GENERAL
-========================================================= */
+/* ================================
+   HOMEPAGE
+================================ */
 
 .home-hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(390px, 0.95fr);
-  gap: 2.6rem;
-  align-items: center;
-
-  min-height: 540px;
-
-  margin-bottom: 3rem;
-  padding: 2.2rem 0 2.8rem 0;
-}
-
-.home-hero-copy {
-  position: relative;
-  z-index: 5;
+  margin-bottom: 2.4rem;
 }
 
 .home-kicker {
   display: inline-block;
-
-  margin-bottom: 0.8rem;
-
-  color: #00b8d9;
-
+  margin-bottom: 0.7rem;
   font-size: 0.72rem;
   font-weight: 700;
-
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+  opacity: 0.62;
 }
 
 .home-title {
-  margin: 0 0 0.8rem 0;
-
-  font-size: 2.45rem;
-  line-height: 1.08;
-
-  letter-spacing: -0.025em;
+  margin: 0 0 0.75rem 0;
+  font-size: 1.75rem;
+  line-height: 1.25;
 }
 
 .home-subtitle {
-  margin: 0 0 1.15rem 0;
-
+  margin: 0 0 1rem 0;
+  max-width: 780px;
   font-size: 1rem;
+  line-height: 1.7;
   font-weight: 600;
-  line-height: 1.6;
-
   opacity: 0.82;
 }
 
 .home-intro {
-  max-width: 720px;
-
+  max-width: 800px;
   margin: 0;
-
-  font-size: 0.98rem;
-  line-height: 1.82;
-
-  opacity: 0.88;
+  line-height: 1.8;
+  opacity: 0.86;
 }
 
 
-/* =========================================================
-   HERO TAGS
-========================================================= */
-
-.home-hero-tags {
-  display: flex;
-  flex-wrap: wrap;
-
-  gap: 0.5rem;
-
-  margin-top: 1.3rem;
-}
-
-.home-hero-tag {
-  display: inline-block;
-
-  padding: 0.38rem 0.68rem;
-
-  border: 1px solid rgba(0,184,217,0.38);
-  border-radius: 999px;
-
-  color: #00b8d9;
-
-  font-size: 0.7rem;
-  font-weight: 600;
-
-  background: rgba(0,184,217,0.035);
-}
-
-
-/* =========================================================
+/* ================================
    HERO ACTIONS
-========================================================= */
+================================ */
 
 .home-actions {
   display: flex;
   flex-wrap: wrap;
-
-  gap: 0.7rem;
-
-  margin-top: 1.5rem;
+  gap: 0.6rem;
+  margin-top: 1.3rem;
 }
 
 .home-button {
   display: inline-block;
-
-  padding: 0.62rem 0.9rem;
-
-  border: 1px solid rgba(127,127,127,0.34);
+  padding: 0.58rem 0.85rem;
+  border: 1px solid rgba(127,127,127,0.35);
   border-radius: 8px;
-
   font-size: 0.82rem;
   font-weight: 700;
-
-  text-decoration: none !important;
-
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease,
-    color 0.22s ease;
-}
-
-.home-button:hover,
-.home-button:focus {
-  border-color: #00b8d9 !important;
-  color: #00b8d9 !important;
-
-  transform: translateY(-2px);
-
-  text-decoration: none !important;
-}
-
-.home-button-primary {
-  border-color: #00b8d9;
-  color: #00b8d9 !important;
-}
-
-
-/* =========================================================
-   LUNAR IMAGE VISUAL
-========================================================= */
-
-.home-lunar-visual {
-  position: relative;
-
-  width: 100%;
-
-  text-align: center;
-
-  padding: 0.8rem 0;
-}
-
-.home-lunar-frame {
-  position: relative;
-
-  display: inline-block;
-
-  width: 100%;
-  max-width: 520px;
-}
-
-.home-lunar-frame::before {
-  content: "";
-
-  position: absolute;
-
-  top: 50%;
-  left: 50%;
-
-  width: 78%;
-  height: 78%;
-
-  transform: translate(-50%, -50%);
-
-  border-radius: 50%;
-
-  background:
-    radial-gradient(
-      circle,
-      rgba(0,184,217,0.09) 0%,
-      rgba(0,184,217,0.035) 42%,
-      rgba(0,184,217,0) 72%
-    );
-
-  animation: lunarBackgroundGlow 4.5s ease-in-out infinite;
-
-  pointer-events: none;
-}
-
-.home-lunar-visual a {
-  display: block;
-  position: relative;
-  z-index: 2;
-
   text-decoration: none;
 }
 
-.home-lunar-visual img {
-  width: 100%;
-  max-width: 520px;
-  height: auto;
-
-  display: block;
-
-  margin: 0 auto;
-
-  border-radius: 12px;
-
-  animation: lunarVisualFloat 7s ease-in-out infinite;
-
-  filter:
-    drop-shadow(0 0 7px rgba(0,184,217,0.10));
-
-  transition:
-    transform 0.25s ease,
-    filter 0.25s ease;
-}
-
-.home-lunar-visual a:hover img,
-.home-lunar-visual a:focus img {
-  transform: scale(1.025);
-
-  filter:
-    drop-shadow(0 0 15px rgba(0,184,217,0.28));
+.home-button:hover {
+  opacity: 0.75;
 }
 
 
-/* floating animation */
-
-@keyframes lunarVisualFloat {
-
-  0%,
-  100% {
-    transform: translateY(0) scale(1);
-  }
-
-  50% {
-    transform: translateY(-6px) scale(1.018);
-  }
-
-}
-
-
-/* very subtle glow behind visual */
-
-@keyframes lunarBackgroundGlow {
-
-  0%,
-  100% {
-    opacity: 0.35;
-    transform:
-      translate(-50%, -50%)
-      scale(0.96);
-  }
-
-  50% {
-    opacity: 0.75;
-    transform:
-      translate(-50%, -50%)
-      scale(1.04);
-  }
-
-}
-
-
-/* =========================================================
-   LUNAR VISUAL LABEL
-========================================================= */
-
-.home-lunar-caption {
-  margin-top: 0.9rem;
-
-  color: #00b8d9;
-
-  font-size: 0.67rem;
-  font-weight: 700;
-
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-
-  opacity: 0.78;
-}
-
-.home-lunar-description {
-  max-width: 480px;
-
-  margin: 0.45rem auto 0 auto;
-
-  font-size: 0.72rem;
-  line-height: 1.55;
-
-  opacity: 0.62;
-}
-
-
-/* =========================================================
+/* ================================
    SUMMARY CARDS
-========================================================= */
+================================ */
 
 .home-summary-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-
   gap: 0.9rem;
-
   margin: 2.2rem 0 2.8rem 0;
 }
 
 .home-summary-card {
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 12px;
-
   padding: 1rem 1.1rem;
-
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease;
-}
-
-.home-summary-card:hover {
-  border-color: #00b8d9;
-
-  transform: translateY(-3px);
 }
 
 .home-summary-label {
   margin-bottom: 0.4rem;
-
   font-size: 0.67rem;
   font-weight: 700;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   opacity: 0.58;
 }
 
 .home-summary-title {
   margin-bottom: 0.4rem;
-
   font-size: 0.95rem;
   font-weight: 700;
-
   line-height: 1.4;
 }
 
 .home-summary-text {
   margin: 0;
-
   font-size: 0.82rem;
   line-height: 1.6;
-
   opacity: 0.76;
 }
 
 
-/* =========================================================
+/* ================================
    SECTION
-========================================================= */
+================================ */
 
 .home-section {
   margin-top: 2.8rem;
@@ -381,51 +127,26 @@ redirect_from:
 
 .home-section-title {
   margin: 0 0 0.9rem 0;
-
   font-size: 1.25rem;
   line-height: 1.35;
 }
 
 .home-section-intro {
   max-width: 780px;
-
   margin: 0 0 1rem 0;
-
   line-height: 1.7;
-
   opacity: 0.82;
 }
 
 
-/* =========================================================
-   RESEARCH FOCUS
-========================================================= */
-
-.home-focus {
-  border-left: 3px solid #00b8d9;
-
-  padding: 0.2rem 0 0.2rem 1rem;
-
-  margin-top: 1rem;
-}
-
-.home-focus p {
-  margin: 0;
-
-  line-height: 1.75;
-}
-
-
-/* =========================================================
-   RESEARCH INTERESTS
-========================================================= */
+/* ================================
+   RESEARCH TAGS
+================================ */
 
 .home-tags {
   display: flex;
   flex-wrap: wrap;
-
   gap: 0.55rem;
-
   margin-top: 1rem;
 }
 
@@ -433,113 +154,83 @@ redirect_from:
 .home-tag:link,
 .home-tag:visited {
   display: inline-block;
-
   padding: 0.48rem 0.72rem;
-
   border: 1px solid rgba(127,127,127,0.28);
   border-radius: 999px;
-
-  color: #00b8d9 !important;
-
   font-size: 0.78rem;
   line-height: 1.2;
-
+  color: #00b8d9 !important;
   text-decoration: none !important;
-
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease;
+  cursor: pointer;
 }
 
 .home-tag:hover,
-.home-tag:focus {
+.home-tag:focus,
+.home-tag:active {
+  color: #00d4f0 !important;
   border-color: #00b8d9 !important;
-
-  transform: translateY(-2px);
-
   text-decoration: none !important;
 }
 
 
-/* =========================================================
+/* ================================
+   RESEARCH FOCUS
+================================ */
+
+.home-focus {
+  border-left: 3px solid currentColor;
+  padding: 0.2rem 0 0.2rem 1rem;
+  margin-top: 1rem;
+}
+
+.home-focus p {
+  margin: 0;
+  line-height: 1.75;
+}
+
+
+/* ================================
    QUICK LINKS
-========================================================= */
+================================ */
 
 .home-link-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-
   gap: 0.9rem;
-
   margin-top: 1rem;
 }
 
 .home-link-card {
   display: block;
-
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 12px;
-
   padding: 1rem 1.1rem;
-
-  text-decoration: none !important;
-
-  transition:
-    transform 0.22s ease,
-    border-color 0.22s ease;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.home-link-card:hover,
-.home-link-card:focus {
-  border-color: #00b8d9;
-
-  transform: translateY(-3px);
-
-  text-decoration: none !important;
+.home-link-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(0,0,0,0.07);
 }
 
 .home-link-card strong {
   display: block;
-
   margin-bottom: 0.35rem;
-
   font-size: 0.95rem;
 }
 
 .home-link-card span {
   display: block;
-
   font-size: 0.8rem;
   line-height: 1.55;
-
   opacity: 0.72;
 }
 
 
-/* =========================================================
+/* ================================
    RESPONSIVE
-========================================================= */
-
-@media (max-width: 1100px) {
-
-  .home-hero {
-    grid-template-columns: 1fr;
-  }
-
-  .home-lunar-visual {
-    margin-top: 1rem;
-  }
-
-  .home-lunar-frame {
-    max-width: 580px;
-  }
-
-  .home-lunar-visual img {
-    max-width: 580px;
-  }
-
-}
-
+================================ */
 
 @media (max-width: 900px) {
 
@@ -549,182 +240,68 @@ redirect_from:
 
 }
 
-
 @media (max-width: 768px) {
-
-  .home-hero {
-    min-height: auto;
-    padding-top: 1.4rem;
-  }
-
-  .home-title {
-    font-size: 1.9rem;
-  }
 
   .home-link-grid {
     grid-template-columns: 1fr;
   }
 
-  .home-lunar-frame {
-    max-width: 100%;
-  }
-
-  .home-lunar-visual img {
-    max-width: 100%;
-  }
-
-}
-
-
-@media (max-width: 520px) {
-
   .home-title {
-    font-size: 1.65rem;
-  }
-
-  .home-subtitle {
-    font-size: 0.9rem;
-  }
-
-  .home-intro {
-    font-size: 0.9rem;
-  }
-
-  .home-lunar-caption {
-    font-size: 0.58rem;
-  }
-
-}
-
-
-/* =========================================================
-   REDUCED MOTION
-========================================================= */
-
-@media (prefers-reduced-motion: reduce) {
-
-  .home-lunar-visual img,
-  .home-lunar-frame::before {
-    animation: none !important;
+    font-size: 1.5rem;
   }
 
 }
 </style>
 
 
-<!-- ======================================================
-     HERO
-====================================================== -->
-
 <div class="home-hero">
 
-
-  <!-- LEFT SIDE -->
-
-  <div class="home-hero-copy">
-
-    <div class="home-kicker">
-      Islamic Law · Islamic Astronomy
-    </div>
-
-    <h1 class="home-title">
-      Dr. Sakirman, M.S.I.
-    </h1>
-
-    <div class="home-subtitle">
-      Lecturer · Researcher · UIN Jurai Siwo Lampung
-    </div>
-
-    <p class="home-intro">
-      My academic work explores the intersection of
-      <strong>Islamic law and Islamic astronomy (<em>Ilmu Falak</em>)</strong>,
-      with particular attention to crescent visibility, twilight,
-      sky brightness, astronomical photometry, digital imaging,
-      hisab–rukyat, and scientifically informed Hijri calendar studies.
-    </p>
-
-
-    <div class="home-hero-tags">
-
-      <span class="home-hero-tag">
-        Crescent Visibility
-      </span>
-
-      <span class="home-hero-tag">
-        Twilight / Syafaq
-      </span>
-
-      <span class="home-hero-tag">
-        Hisab–Rukyat
-      </span>
-
-      <span class="home-hero-tag">
-        Hijri Calendar
-      </span>
-
-    </div>
-
-
-    <div class="home-actions">
-
-      <a class="home-button home-button-primary"
-         href="/research/">
-        Explore My Research →
-      </a>
-
-      <a class="home-button"
-         href="/main-publications/">
-        Main Publications
-      </a>
-
-      <a class="home-button"
-         href="/cv/">
-        Academic CV
-      </a>
-
-    </div>
-
+  <div class="home-kicker">
+    Academic Profile
   </div>
 
+  <h1 class="home-title">
+    Dr. Sakirman, M.S.I.
+  </h1>
 
-  <!-- RIGHT SIDE -->
+  <div class="home-subtitle">
+    Islamic Law · Islamic Astronomy · Crescent Visibility · Hijri Calendar Studies
+  </div>
 
-  <div class="home-lunar-visual">
+  <p class="home-intro">
+    I am a lecturer and researcher at the
+    <strong>Faculty of Sharia and the Graduate Program of UIN Jurai Siwo Lampung, Indonesia</strong>.
+    My academic work focuses on the intersection of
+    <strong>Islamic law and Islamic astronomy (<em>Ilmu Falak</em>)</strong>,
+    particularly the use of astronomical evidence in Islamic legal reasoning,
+    crescent visibility research, and Hijri calendar determination.
+  </p>
 
-    <div class="home-lunar-frame">
+  <div class="home-actions">
 
-      <a href="/images/lunar-phases.png"
-         target="_blank"
-         rel="noopener noreferrer">
+    <a class="home-button" href="/research/">
+      Research
+    </a>
 
-        <img src="/images/lunar-phases.png"
-             alt="Lunar phases showing the relationship between the Moon, Earth, and sunlight">
+    <a class="home-button" href="/main-publications/">
+      Main Publications
+    </a>
 
-      </a>
+    <a class="home-button" href="/teaching/">
+      Teaching
+    </a>
 
-    </div>
-
-
-    <div class="home-lunar-caption">
-      Lunar Phases · Crescent Visibility · Hijri Calendar
-    </div>
-
-    <div class="home-lunar-description">
-      The lunar cycle provides the astronomical framework for crescent
-      observation, lunar visibility analysis, and Hijri calendar studies.
-    </div>
+    <a class="home-button" href="/cv/">
+      Academic CV
+    </a>
 
   </div>
 
 </div>
 
 
-<!-- ======================================================
-     SUMMARY
-====================================================== -->
 
 <div class="home-summary-grid">
-
 
   <div class="home-summary-card">
 
@@ -782,9 +359,6 @@ redirect_from:
 </div>
 
 
-<!-- ======================================================
-     CURRENT RESEARCH FOCUS
-====================================================== -->
 
 <div class="home-section">
 
@@ -809,9 +383,6 @@ redirect_from:
 </div>
 
 
-<!-- ======================================================
-     RESEARCH INTERESTS
-====================================================== -->
 
 <div class="home-section">
 
@@ -886,9 +457,6 @@ redirect_from:
 </div>
 
 
-<!-- ======================================================
-     EXPLORE ACADEMIC WORK
-====================================================== -->
 
 <div class="home-section">
 
@@ -901,12 +469,10 @@ redirect_from:
     information through the main sections of this website.
   </p>
 
-
   <div class="home-link-grid">
 
 
-    <a class="home-link-card"
-       href="/research/">
+    <a class="home-link-card" href="/research/">
 
       <strong>
         Research →
@@ -920,8 +486,7 @@ redirect_from:
     </a>
 
 
-    <a class="home-link-card"
-       href="/main-publications/">
+    <a class="home-link-card" href="/main-publications/">
 
       <strong>
         Main Publications →
@@ -935,8 +500,7 @@ redirect_from:
     </a>
 
 
-    <a class="home-link-card"
-       href="/publications/">
+    <a class="home-link-card" href="/publications/">
 
       <strong>
         Full Publications →
@@ -950,8 +514,7 @@ redirect_from:
     </a>
 
 
-    <a class="home-link-card"
-       href="/teaching/">
+    <a class="home-link-card" href="/teaching/">
 
       <strong>
         Teaching →
@@ -965,8 +528,7 @@ redirect_from:
     </a>
 
 
-    <a class="home-link-card"
-       href="/cv/">
+    <a class="home-link-card" href="/cv/">
 
       <strong>
         Academic CV →
@@ -995,7 +557,6 @@ redirect_from:
       </span>
 
     </a>
-
 
   </div>
 
