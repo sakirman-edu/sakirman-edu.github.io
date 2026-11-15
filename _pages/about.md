@@ -15,11 +15,11 @@ redirect_from:
 
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(430px, 0.95fr);
+  grid-template-columns: minmax(0, 1.05fr) minmax(390px, 0.95fr);
   gap: 2.6rem;
   align-items: center;
 
-  min-height: 560px;
+  min-height: 540px;
 
   margin-bottom: 3rem;
   padding: 2.2rem 0 2.8rem 0;
@@ -154,592 +154,159 @@ redirect_from:
 
 
 /* =========================================================
-   LUNAR SYSTEM VISUAL
+   LUNAR IMAGE VISUAL
 ========================================================= */
 
-.lunar-system {
+.home-lunar-visual {
   position: relative;
-
-  width: 500px;
-  height: 500px;
-
-  max-width: 100%;
-
-  margin: 0 auto;
-}
-
-
-/* =========================================================
-   EARTH
-========================================================= */
-
-.earth {
-  position: absolute;
-
-  top: 50%;
-  left: 42%;
-
-  width: 116px;
-  height: 116px;
-
-  transform: translate(-50%, -50%);
-
-  border-radius: 50%;
-
-  background:
-    radial-gradient(circle at 38% 35%,
-      #78d9ff 0%,
-      #2779b8 28%,
-      #155083 60%,
-      #0b2844 100%);
-
-  box-shadow:
-    0 0 8px rgba(0,184,217,0.55),
-    0 0 28px rgba(0,184,217,0.28);
-
-  z-index: 5;
-
-  animation: earthPulse 4s ease-in-out infinite;
-}
-
-.earth::before {
-  content: "";
-
-  position: absolute;
-
-  width: 48px;
-  height: 30px;
-
-  top: 25px;
-  left: 22px;
-
-  border-radius: 60% 40% 55% 45%;
-
-  background: rgba(90,180,100,0.8);
-
-  transform: rotate(-20deg);
-}
-
-.earth::after {
-  content: "";
-
-  position: absolute;
-
-  width: 36px;
-  height: 23px;
-
-  bottom: 23px;
-  right: 19px;
-
-  border-radius: 50%;
-
-  background: rgba(90,180,100,0.68);
-
-  transform: rotate(22deg);
-}
-
-@keyframes earthPulse {
-
-  0%,
-  100% {
-    box-shadow:
-      0 0 8px rgba(0,184,217,0.45),
-      0 0 24px rgba(0,184,217,0.20);
-  }
-
-  50% {
-    box-shadow:
-      0 0 14px rgba(0,184,217,0.72),
-      0 0 36px rgba(0,184,217,0.32);
-  }
-
-}
-
-.earth-label {
-  position: absolute;
-
-  top: calc(50% + 72px);
-  left: 42%;
-
-  transform: translateX(-50%);
-
-  font-size: 0.66rem;
-  font-weight: 700;
-
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-
-  opacity: 0.72;
-}
-
-
-/* =========================================================
-   SUN
-========================================================= */
-
-.sun {
-  position: absolute;
-
-  top: 50%;
-  right: 1%;
-
-  width: 92px;
-  height: 92px;
-
-  transform: translateY(-50%);
-
-  border-radius: 50%;
-
-  background:
-    radial-gradient(circle at 35% 35%,
-      #fff7a6 0%,
-      #ffd12f 22%,
-      #ff9814 55%,
-      #e85b00 100%);
-
-  box-shadow:
-    0 0 15px rgba(255,187,0,0.70),
-    0 0 38px rgba(255,137,0,0.40);
-
-  animation: sunGlow 3s ease-in-out infinite;
-}
-
-@keyframes sunGlow {
-
-  0%,
-  100% {
-    box-shadow:
-      0 0 13px rgba(255,187,0,0.55),
-      0 0 28px rgba(255,137,0,0.30);
-  }
-
-  50% {
-    box-shadow:
-      0 0 22px rgba(255,205,60,0.85),
-      0 0 48px rgba(255,137,0,0.52);
-  }
-
-}
-
-.sun-label {
-  position: absolute;
-
-  top: calc(50% + 58px);
-  right: 24px;
-
-  font-size: 0.64rem;
-  font-weight: 700;
-
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-
-  opacity: 0.72;
-}
-
-
-/* =========================================================
-   LUNAR ORBIT
-========================================================= */
-
-.lunar-orbit {
-  position: absolute;
-
-  top: 50%;
-  left: 42%;
-
-  width: 350px;
-  height: 350px;
-
-  transform: translate(-50%, -50%);
-
-  border: 1px solid rgba(200,220,255,0.22);
-  border-radius: 50%;
-
-  z-index: 1;
-}
-
-.lunar-orbit::after {
-  content: "";
-
-  position: absolute;
-
-  inset: 34px;
-
-  border: 1px dashed rgba(0,184,217,0.16);
-  border-radius: 50%;
-
-  animation: innerOrbit 28s linear infinite;
-}
-
-@keyframes innerOrbit {
-
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-
-}
-
-
-/* =========================================================
-   PHASE NODE
-========================================================= */
-
-.moon-phase {
-  position: absolute;
-
-  width: 62px;
-  height: 62px;
-
-  margin-left: -31px;
-  margin-top: -31px;
-
-  border-radius: 50%;
-
-  z-index: 10;
-
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    border-color 0.25s ease;
-
-  animation: phaseGlow 16s linear infinite;
-}
-
-.moon-phase:hover {
-  transform: scale(1.12);
-}
-
-
-/* moon base */
-
-.moon-disc {
-  position: absolute;
-
-  inset: 0;
-
-  overflow: hidden;
-
-  border-radius: 50%;
-
-  background:
-    radial-gradient(circle at 35% 28%,
-      #d7dbe3 0%,
-      #a7adba 42%,
-      #727986 75%,
-      #444a54 100%);
-
-  box-shadow:
-    inset -7px -5px 12px rgba(0,0,0,0.30);
-}
-
-
-/* =========================================================
-   PHASE SHADOWS
-========================================================= */
-
-.moon-new .moon-disc {
-  background: #151922;
-  box-shadow:
-    inset 0 0 12px rgba(255,255,255,0.04);
-}
-
-.moon-waxing-crescent .moon-disc::after {
-  content: "";
-
-  position: absolute;
-
-  width: 58px;
-  height: 58px;
-
-  top: 2px;
-  left: -7px;
-
-  border-radius: 50%;
-
-  background: #151922;
-}
-
-.moon-first-quarter .moon-disc::after {
-  content: "";
-
-  position: absolute;
-
-  width: 50%;
-  height: 100%;
-
-  left: 0;
-  top: 0;
-
-  background: #151922;
-}
-
-.moon-waxing-gibbous .moon-disc::after {
-  content: "";
-
-  position: absolute;
-
-  width: 40px;
-  height: 58px;
-
-  left: -17px;
-  top: 2px;
-
-  border-radius: 50%;
-
-  background: #151922;
-}
-
-.moon-full .moon-disc {
-  background:
-    radial-gradient(circle at 35% 28%,
-      #eceff3 0%,
-      #c5cad2 42%,
-      #969da8 76%,
-      #686f79 100%);
-}
-
-.moon-waning-gibbous .moon-disc::after {
-  content: "";
-
-  position: absolute;
-
-  width: 40px;
-  height: 58px;
-
-  right: -17px;
-  top: 2px;
-
-  border-radius: 50%;
-
-  background: #151922;
-}
-
-.moon-last-quarter .moon-disc::after {
-  content: "";
-
-  position: absolute;
-
-  width: 50%;
-  height: 100%;
-
-  right: 0;
-  top: 0;
-
-  background: #151922;
-}
-
-.moon-waning-crescent .moon-disc::after {
-  content: "";
-
-  position: absolute;
-
-  width: 58px;
-  height: 58px;
-
-  top: 2px;
-  right: -7px;
-
-  border-radius: 50%;
-
-  background: #151922;
-}
-
-
-/* =========================================================
-   MOON POSITIONS
-========================================================= */
-
-.phase-new {
-  top: 50%;
-  left: calc(42% + 175px);
-
-  animation-delay: 0s;
-}
-
-.phase-waxing-crescent {
-  top: calc(50% - 124px);
-  left: calc(42% + 124px);
-
-  animation-delay: -2s;
-}
-
-.phase-first-quarter {
-  top: calc(50% - 175px);
-  left: 42%;
-
-  animation-delay: -4s;
-}
-
-.phase-waxing-gibbous {
-  top: calc(50% - 124px);
-  left: calc(42% - 124px);
-
-  animation-delay: -6s;
-}
-
-.phase-full {
-  top: 50%;
-  left: calc(42% - 175px);
-
-  animation-delay: -8s;
-}
-
-.phase-waning-gibbous {
-  top: calc(50% + 124px);
-  left: calc(42% - 124px);
-
-  animation-delay: -10s;
-}
-
-.phase-last-quarter {
-  top: calc(50% + 175px);
-  left: 42%;
-
-  animation-delay: -12s;
-}
-
-.phase-waning-crescent {
-  top: calc(50% + 124px);
-  left: calc(42% + 124px);
-
-  animation-delay: -14s;
-}
-
-
-/* =========================================================
-   ACTIVE PHASE ANIMATION
-========================================================= */
-
-@keyframes phaseGlow {
-
-  0%,
-  9%,
-  100% {
-    box-shadow:
-      0 0 0 1px rgba(0,184,217,0.10);
-
-    transform: scale(1);
-  }
-
-  12.5%,
-  20% {
-    box-shadow:
-      0 0 0 2px rgba(0,184,217,0.85),
-      0 0 16px rgba(0,184,217,0.70),
-      0 0 30px rgba(0,184,217,0.30);
-
-    transform: scale(1.08);
-  }
-
-  24%,
-  100% {
-    box-shadow:
-      0 0 0 1px rgba(0,184,217,0.10);
-
-    transform: scale(1);
-  }
-
-}
-
-
-/* stronger emphasis on hilal */
-
-.phase-waxing-crescent {
-  filter: drop-shadow(0 0 4px rgba(0,184,217,0.28));
-}
-
-
-/* =========================================================
-   PHASE LABELS
-========================================================= */
-
-.phase-label {
-  position: absolute;
-
-  white-space: nowrap;
-
-  font-size: 0.56rem;
-  font-weight: 600;
-
-  letter-spacing: 0.03em;
-
-  opacity: 0.68;
-}
-
-.phase-new .phase-label {
-  left: 72px;
-  top: 22px;
-}
-
-.phase-waxing-crescent .phase-label {
-  left: 70px;
-  top: -1px;
-}
-
-.phase-first-quarter .phase-label {
-  top: -24px;
-  left: 50%;
-
-  transform: translateX(-50%);
-}
-
-.phase-waxing-gibbous .phase-label {
-  right: 70px;
-  top: -2px;
-}
-
-.phase-full .phase-label {
-  right: 72px;
-  top: 22px;
-}
-
-.phase-waning-gibbous .phase-label {
-  right: 70px;
-  top: 46px;
-}
-
-.phase-last-quarter .phase-label {
-  top: 72px;
-  left: 50%;
-
-  transform: translateX(-50%);
-}
-
-.phase-waning-crescent .phase-label {
-  left: 70px;
-  top: 47px;
-}
-
-
-/* =========================================================
-   VISUAL CAPTION
-========================================================= */
-
-.lunar-caption {
-  position: absolute;
-
-  left: 42%;
-  bottom: -5px;
-
-  transform: translateX(-50%);
 
   width: 100%;
 
-  color: #00b8d9;
-
   text-align: center;
 
-  font-size: 0.64rem;
+  padding: 0.8rem 0;
+}
+
+.home-lunar-frame {
+  position: relative;
+
+  display: inline-block;
+
+  width: 100%;
+  max-width: 520px;
+}
+
+.home-lunar-frame::before {
+  content: "";
+
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 78%;
+  height: 78%;
+
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(0,184,217,0.09) 0%,
+      rgba(0,184,217,0.035) 42%,
+      rgba(0,184,217,0) 72%
+    );
+
+  animation: lunarBackgroundGlow 4.5s ease-in-out infinite;
+
+  pointer-events: none;
+}
+
+.home-lunar-visual a {
+  display: block;
+  position: relative;
+  z-index: 2;
+
+  text-decoration: none;
+}
+
+.home-lunar-visual img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+
+  display: block;
+
+  margin: 0 auto;
+
+  border-radius: 12px;
+
+  animation: lunarVisualFloat 7s ease-in-out infinite;
+
+  filter:
+    drop-shadow(0 0 7px rgba(0,184,217,0.10));
+
+  transition:
+    transform 0.25s ease,
+    filter 0.25s ease;
+}
+
+.home-lunar-visual a:hover img,
+.home-lunar-visual a:focus img {
+  transform: scale(1.025);
+
+  filter:
+    drop-shadow(0 0 15px rgba(0,184,217,0.28));
+}
+
+
+/* floating animation */
+
+@keyframes lunarVisualFloat {
+
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-6px) scale(1.018);
+  }
+
+}
+
+
+/* very subtle glow behind visual */
+
+@keyframes lunarBackgroundGlow {
+
+  0%,
+  100% {
+    opacity: 0.35;
+    transform:
+      translate(-50%, -50%)
+      scale(0.96);
+  }
+
+  50% {
+    opacity: 0.75;
+    transform:
+      translate(-50%, -50%)
+      scale(1.04);
+  }
+
+}
+
+
+/* =========================================================
+   LUNAR VISUAL LABEL
+========================================================= */
+
+.home-lunar-caption {
+  margin-top: 0.9rem;
+
+  color: #00b8d9;
+
+  font-size: 0.67rem;
   font-weight: 700;
 
-  letter-spacing: 0.09em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 
-  opacity: 0.76;
+  opacity: 0.78;
+}
+
+.home-lunar-description {
+  max-width: 480px;
+
+  margin: 0.45rem auto 0 auto;
+
+  font-size: 0.72rem;
+  line-height: 1.55;
+
+  opacity: 0.62;
 }
 
 
@@ -769,6 +336,7 @@ redirect_from:
 
 .home-summary-card:hover {
   border-color: #00b8d9;
+
   transform: translateY(-3px);
 }
 
@@ -921,7 +489,8 @@ redirect_from:
     border-color 0.22s ease;
 }
 
-.home-link-card:hover {
+.home-link-card:hover,
+.home-link-card:focus {
   border-color: #00b8d9;
 
   transform: translateY(-3px);
@@ -957,8 +526,16 @@ redirect_from:
     grid-template-columns: 1fr;
   }
 
-  .lunar-system {
+  .home-lunar-visual {
     margin-top: 1rem;
+  }
+
+  .home-lunar-frame {
+    max-width: 580px;
+  }
+
+  .home-lunar-visual img {
+    max-width: 580px;
   }
 
 }
@@ -975,6 +552,11 @@ redirect_from:
 
 @media (max-width: 768px) {
 
+  .home-hero {
+    min-height: auto;
+    padding-top: 1.4rem;
+  }
+
   .home-title {
     font-size: 1.9rem;
   }
@@ -983,11 +565,12 @@ redirect_from:
     grid-template-columns: 1fr;
   }
 
-  .lunar-system {
-    transform: scale(0.78);
-    transform-origin: top center;
+  .home-lunar-frame {
+    max-width: 100%;
+  }
 
-    margin-bottom: -90px;
+  .home-lunar-visual img {
+    max-width: 100%;
   }
 
 }
@@ -995,11 +578,20 @@ redirect_from:
 
 @media (max-width: 520px) {
 
-  .lunar-system {
-    transform: scale(0.62);
+  .home-title {
+    font-size: 1.65rem;
+  }
 
-    margin-left: -55px;
-    margin-bottom: -165px;
+  .home-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .home-intro {
+    font-size: 0.9rem;
+  }
+
+  .home-lunar-caption {
+    font-size: 0.58rem;
   }
 
 }
@@ -1011,15 +603,12 @@ redirect_from:
 
 @media (prefers-reduced-motion: reduce) {
 
-  .moon-phase,
-  .lunar-orbit::after,
-  .sun,
-  .earth {
+  .home-lunar-visual img,
+  .home-lunar-frame::before {
     animation: none !important;
   }
 
 }
-
 </style>
 
 
@@ -1098,140 +687,32 @@ redirect_from:
   </div>
 
 
-  <!-- RIGHT SIDE : LUNAR PHASE SYSTEM -->
+  <!-- RIGHT SIDE -->
 
-  <div class="lunar-system">
+  <div class="home-lunar-visual">
 
+    <div class="home-lunar-frame">
 
-    <div class="lunar-orbit"></div>
+      <a href="/images/lunar-phases.png"
+         target="_blank"
+         rel="noopener noreferrer">
 
+        <img src="/images/lunar-phases.png"
+             alt="Lunar phases showing the relationship between the Moon, Earth, and sunlight">
 
-    <!-- EARTH -->
-
-    <div class="earth"></div>
-
-    <div class="earth-label">
-      Earth
-    </div>
-
-
-    <!-- SUN -->
-
-    <div class="sun"></div>
-
-    <div class="sun-label">
-      Sun
-    </div>
-
-
-    <!-- 1 NEW MOON -->
-
-    <div class="moon-phase moon-new phase-new">
-
-      <div class="moon-disc"></div>
-
-      <span class="phase-label">
-        New Moon
-      </span>
+      </a>
 
     </div>
 
 
-    <!-- 2 WAXING CRESCENT -->
-
-    <div class="moon-phase moon-waxing-crescent phase-waxing-crescent">
-
-      <div class="moon-disc"></div>
-
-      <span class="phase-label">
-        Waxing Crescent / Hilal
-      </span>
-
+    <div class="home-lunar-caption">
+      Lunar Phases · Crescent Visibility · Hijri Calendar
     </div>
 
-
-    <!-- 3 FIRST QUARTER -->
-
-    <div class="moon-phase moon-first-quarter phase-first-quarter">
-
-      <div class="moon-disc"></div>
-
-      <span class="phase-label">
-        First Quarter
-      </span>
-
+    <div class="home-lunar-description">
+      The lunar cycle provides the astronomical framework for crescent
+      observation, lunar visibility analysis, and Hijri calendar studies.
     </div>
-
-
-    <!-- 4 WAXING GIBBOUS -->
-
-    <div class="moon-phase moon-waxing-gibbous phase-waxing-gibbous">
-
-      <div class="moon-disc"></div>
-
-      <span class="phase-label">
-        Waxing Gibbous
-      </span>
-
-    </div>
-
-
-    <!-- 5 FULL MOON -->
-
-    <div class="moon-phase moon-full phase-full">
-
-      <div class="moon-disc"></div>
-
-      <span class="phase-label">
-        Full Moon
-      </span>
-
-    </div>
-
-
-    <!-- 6 WANING GIBBOUS -->
-
-    <div class="moon-phase moon-waning-gibbous phase-waning-gibbous">
-
-      <div class="moon-disc"></div>
-
-      <span class="phase-label">
-        Waning Gibbous
-      </span>
-
-    </div>
-
-
-    <!-- 7 LAST QUARTER -->
-
-    <div class="moon-phase moon-last-quarter phase-last-quarter">
-
-      <div class="moon-disc"></div>
-
-      <span class="phase-label">
-        Last Quarter
-      </span>
-
-    </div>
-
-
-    <!-- 8 WANING CRESCENT -->
-
-    <div class="moon-phase moon-waning-crescent phase-waning-crescent">
-
-      <div class="moon-disc"></div>
-
-      <span class="phase-label">
-        Waning Crescent
-      </span>
-
-    </div>
-
-
-    <div class="lunar-caption">
-      Lunar Cycle · Crescent Visibility · Hijri Calendar
-    </div>
-
 
   </div>
 
@@ -1297,7 +778,6 @@ redirect_from:
     </p>
 
   </div>
-
 
 </div>
 
