@@ -137,22 +137,18 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 
 /* =========================================================
-   METHODOLOGY - TWO COLUMN LAYOUT
+   METHODOLOGY
 ========================================================= */
 
 .methodology-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(520px, 1.25fr);
-  gap: 2.4rem;
-  align-items: center;
+  display: block;
   margin-top: 1.8rem;
 }
 
-
-/* LEFT SIDE */
-
 .methodology-copy {
-  padding-right: 0.5rem;
+  max-width: 850px;
+  margin-bottom: 2rem;
+  padding-right: 0;
 }
 
 .methodology-copy .research-kicker {
@@ -162,19 +158,15 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 .methodology-copy h2 {
   margin-top: 0;
-  margin-bottom: 1.2rem;
-  font-size: 1.65rem;
-  line-height: 1.3;
+  margin-bottom: 1rem;
+  font-size: 1.55rem;
+  line-height: 1.35;
 }
 
 .methodology-copy p {
-  line-height: 1.78;
-  margin-bottom: 1.1rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
   opacity: 0.9;
-}
-
-.methodology-copy strong {
-  font-weight: 700;
 }
 
 
@@ -183,14 +175,15 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 ========================================================= */
 
 .method-loop-panel {
-  position: relative;
-  min-height: 610px;
+  width: 100%;
+  min-height: 640px;
+  margin-top: 1rem;
 }
 
 .method-circle-wrap {
   position: relative;
-  width: 610px;
-  height: 610px;
+  width: 620px;
+  height: 620px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -210,14 +203,14 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 }
 
 
-/* Inner dotted ring */
+/* Animated orbit */
 
 .method-orbit {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
-  height: 400px;
+  width: 410px;
+  height: 410px;
   transform: translate(-50%, -50%);
   border: 1px dashed rgba(0,184,217,0.55);
   border-radius: 50%;
@@ -366,7 +359,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 ========================================================= */
 
 .method-node-1 {
-  top: 2%;
+  top: 1%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -377,32 +370,32 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 }
 
 .method-node-2 {
-  top: 21%;
+  top: 20%;
   right: 0;
 }
 
 .method-node-3 {
-  top: 51%;
+  top: 50%;
   right: -1%;
 }
 
 .method-node-4 {
-  bottom: 2%;
-  right: 17%;
+  bottom: 1%;
+  right: 16%;
 }
 
 .method-node-5 {
-  bottom: 2%;
-  left: 17%;
+  bottom: 1%;
+  left: 16%;
 }
 
 .method-node-6 {
-  top: 51%;
+  top: 50%;
   left: -1%;
 }
 
 .method-node-7 {
-  top: 21%;
+  top: 20%;
   left: 0;
 }
 
@@ -460,7 +453,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 .method-cycle-note {
   max-width: 820px;
-  margin: 1.8rem auto 2.2rem auto;
+  margin: 1.5rem auto 2.2rem auto;
   padding-top: 1rem;
   border-top: 1px solid rgba(128,128,128,0.25);
   text-align: center;
@@ -570,23 +563,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
    RESPONSIVE
 ========================================================= */
 
-@media (max-width: 1100px) {
-
-  .methodology-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .methodology-copy {
-    padding-right: 0;
-  }
-
-  .method-loop-panel {
-    min-height: 610px;
-  }
-
-}
-
-
 @media (max-width: 760px) {
 
   .research-grid,
@@ -602,10 +578,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   .research-card img,
   .software-card img {
     height: 200px;
-  }
-
-  .methodology-layout {
-    display: block;
   }
 
   .method-loop-panel {
@@ -661,7 +633,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     left: auto;
 
     width: 100%;
-
     margin-top: 0.65rem;
 
     transform: none;
@@ -728,7 +699,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     observational astronomy, quantitative measurement, Hijri calendar studies,
     and digital image processing.
   </p>
-
 
   <div class="research-grid">
 
@@ -868,7 +838,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
     </div>
 
-
   </div>
 
 </div>
@@ -881,9 +850,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 <div class="research-section">
 
   <div class="methodology-layout">
-
-
-    <!-- LEFT COLUMN -->
 
     <div class="methodology-copy">
 
@@ -922,20 +888,14 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     </div>
 
 
-    <!-- RIGHT COLUMN -->
-
     <div class="method-loop-panel">
 
       <div class="method-circle-wrap">
 
         <div class="method-outer-ring"></div>
-
         <div class="method-orbit"></div>
-
         <div class="method-inner-ring"></div>
 
-
-        <!-- CENTER -->
 
         <div class="method-center">
 
@@ -956,14 +916,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
-        <!-- NODE 01 -->
-
         <div class="method-node method-node-1"
              tabindex="0">
 
-          <span class="method-step-number">
-            01
-          </span>
+          <span class="method-step-number">01</span>
 
           <span class="method-node-copy">
 
@@ -987,14 +943,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
-        <!-- NODE 02 -->
-
         <div class="method-node method-node-2"
              tabindex="0">
 
-          <span class="method-step-number">
-            02
-          </span>
+          <span class="method-step-number">02</span>
 
           <span class="method-node-copy">
 
@@ -1018,14 +970,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
-        <!-- NODE 03 -->
-
         <div class="method-node method-node-3"
              tabindex="0">
 
-          <span class="method-step-number">
-            03
-          </span>
+          <span class="method-step-number">03</span>
 
           <span class="method-node-copy">
 
@@ -1048,14 +996,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
-        <!-- NODE 04 -->
-
         <div class="method-node method-node-4"
              tabindex="0">
 
-          <span class="method-step-number">
-            04
-          </span>
+          <span class="method-step-number">04</span>
 
           <span class="method-node-copy">
 
@@ -1078,14 +1022,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
-        <!-- NODE 05 -->
-
         <div class="method-node method-node-5"
              tabindex="0">
 
-          <span class="method-step-number">
-            05
-          </span>
+          <span class="method-step-number">05</span>
 
           <span class="method-node-copy">
 
@@ -1108,14 +1048,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
-        <!-- NODE 06 -->
-
         <div class="method-node method-node-6"
              tabindex="0">
 
-          <span class="method-step-number">
-            06
-          </span>
+          <span class="method-step-number">06</span>
 
           <span class="method-node-copy">
 
@@ -1139,14 +1075,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
-        <!-- NODE 07 -->
-
         <div class="method-node method-node-7"
              tabindex="0">
 
-          <span class="method-step-number">
-            07
-          </span>
+          <span class="method-step-number">07</span>
 
           <span class="method-node-copy">
 
@@ -1168,7 +1100,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
           </div>
 
         </div>
-
 
       </div>
 
@@ -1205,7 +1136,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     methodological workflow. Siril supports image preprocessing, while
     IRIS is used for aperture-based quantitative measurement.
   </p>
-
 
   <div class="software-grid">
 
@@ -1282,7 +1212,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
       </div>
 
     </div>
-
 
   </div>
 
@@ -1504,7 +1433,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
       </p>
 
     </div>
-
 
   </div>
 
