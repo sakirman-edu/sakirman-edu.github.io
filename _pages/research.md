@@ -178,6 +178,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   width: 100%;
   min-height: 640px;
   margin-top: 1rem;
+  overflow: visible !important;
 }
 
 .method-circle-wrap {
@@ -186,6 +187,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   height: 620px;
   max-width: 100%;
   margin: 0 auto;
+  overflow: visible !important;
 }
 
 
@@ -353,7 +355,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   font-size: 0.76rem;
   line-height: 1.25;
 
-  z-index: 10;
+  z-index: 20;
 
   transition:
     transform 0.22s ease,
@@ -366,6 +368,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   border-color: #00b8d9;
   transform: translateY(-3px);
   outline: none;
+  z-index: 80;
 }
 
 .method-step-number {
@@ -443,27 +446,21 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 
 /* =========================================================
-   TOOLTIP
+   TOOLTIP - OUTWARD POSITION
 ========================================================= */
 
 .method-node-detail {
   position: absolute;
-  bottom: calc(100% + 10px);
-  left: 50%;
   width: 245px;
-  padding: 0.72rem 0.8rem;
+  padding: 0.75rem 0.85rem;
 
-  transform:
-    translateX(-50%)
-    translateY(6px);
-
-  border: 1px solid rgba(0,184,217,0.55);
+  border: 1px solid rgba(0,184,217,0.65);
   border-radius: 8px;
   background: var(--global-bg-color);
 
   font-size: 0.69rem;
   font-weight: 400;
-  line-height: 1.48;
+  line-height: 1.5;
   text-align: left;
   color: var(--global-text-color);
 
@@ -475,17 +472,99 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     opacity 0.2s ease,
     transform 0.2s ease;
 
-  z-index: 40;
+  z-index: 100;
 }
 
 .method-node:hover .method-node-detail,
 .method-node:focus .method-node-detail {
   opacity: 1;
   visibility: visible;
+}
+
+
+/* NODE 01 - ABOVE */
+
+.method-node-1 .method-node-detail {
+  bottom: calc(100% + 12px);
+  left: 50%;
 
   transform:
     translateX(-50%)
+    translateY(6px);
+}
+
+.method-node-1:hover .method-node-detail,
+.method-node-1:focus .method-node-detail {
+  transform:
+    translateX(-50%)
     translateY(0);
+}
+
+
+/* NODE 02 & 03 - RIGHT */
+
+.method-node-2 .method-node-detail,
+.method-node-3 .method-node-detail {
+  top: 50%;
+  left: calc(100% + 12px);
+
+  transform:
+    translateY(-50%)
+    translateX(-6px);
+}
+
+.method-node-2:hover .method-node-detail,
+.method-node-2:focus .method-node-detail,
+.method-node-3:hover .method-node-detail,
+.method-node-3:focus .method-node-detail {
+  transform:
+    translateY(-50%)
+    translateX(0);
+}
+
+
+/* NODE 04 & 05 - BELOW */
+
+.method-node-4 .method-node-detail,
+.method-node-5 .method-node-detail {
+  top: calc(100% + 12px);
+  left: 50%;
+
+  transform:
+    translateX(-50%)
+    translateY(-6px);
+}
+
+.method-node-4:hover .method-node-detail,
+.method-node-4:focus .method-node-detail,
+.method-node-5:hover .method-node-detail,
+.method-node-5:focus .method-node-detail {
+  transform:
+    translateX(-50%)
+    translateY(0);
+}
+
+
+/* NODE 06 & 07 - LEFT */
+
+.method-node-6 .method-node-detail,
+.method-node-7 .method-node-detail {
+  top: 50%;
+  right: calc(100% + 12px);
+  left: auto;
+
+  transform:
+    translateY(-50%)
+    translateX(6px);
+}
+
+.method-node-6:hover .method-node-detail,
+.method-node-6:focus .method-node-detail,
+.method-node-7:hover .method-node-detail,
+.method-node-7:focus .method-node-detail {
+  transform:
+    translateY(-50%)
+    translateX(0);
 }
 
 
@@ -684,9 +763,18 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     transform: translateY(-2px) !important;
   }
 
-  .method-node-detail {
+  .method-node-detail,
+  .method-node-1 .method-node-detail,
+  .method-node-2 .method-node-detail,
+  .method-node-3 .method-node-detail,
+  .method-node-4 .method-node-detail,
+  .method-node-5 .method-node-detail,
+  .method-node-6 .method-node-detail,
+  .method-node-7 .method-node-detail {
     position: relative;
 
+    top: auto;
+    right: auto;
     bottom: auto;
     left: auto;
 
@@ -984,7 +1072,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
             <span class="method-center-title">
               From Observation<br>
-              to Evidence<br>
+              to Evidence-Based<br>
+              Islamic Legal Analysis
             </span>
 
           </div>
@@ -1194,10 +1283,6 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   </div>
 
 
-  <!-- ====================================================
-       ANALYTICAL TOOLS
-  ===================================================== -->
-
   <div class="research-kicker method-tools-heading">
     Analytical Tools
   </div>
@@ -1236,9 +1321,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         <p>
           <strong>Siril</strong> is used for astronomical image preprocessing,
           including calibration, enhancement, alignment, noise reduction, and
-          contrast adjustment. These procedures improve image quality and help
-          separate faint lunar features from strong twilight background
-          illumination before quantitative analysis.
+          contrast adjustment.
         </p>
 
         <a class="software-link"
@@ -1272,10 +1355,7 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
         <p>
           <strong>IRIS</strong> is used for aperture-based photometric analysis
-          of the crescent and adjacent twilight sky. The measurements provide
-          quantitative values of crescent intensity, background intensity, and
-          relative contrast, supporting objective evaluation of crescent
-          detectability and visibility criteria.
+          of the crescent and adjacent twilight sky.
         </p>
 
         <a class="software-link"
@@ -1311,18 +1391,13 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   <p>
     My current research focuses on the relationship between
     <strong>tropical twilight conditions, sky brightness, atmospheric conditions,
-    and low-altitude crescent visibility</strong>. Particular attention is given
-    to how variations in background sky brightness influence the detectability
-    of the young crescent Moon and the measurable contrast between the crescent
-    signal and its surrounding twilight background.
+    and low-altitude crescent visibility</strong>.
   </p>
 
   <p>
     The research integrates observational astronomy, digital image processing,
     aperture photometry, contrast analysis, astronomical modeling, and Islamic
-    legal interpretation. Its broader objective is to contribute to the
-    development of <strong>scientifically grounded crescent visibility criteria
-    and evidence-based Hijri calendar systems</strong>.
+    legal interpretation.
   </p>
 
 </div>
@@ -1346,52 +1421,36 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
     Several questions guide the next phase of my research.
   </p>
 
-
   <div class="future-card">
-
     <strong>
       1. How does tropical twilight influence crescent visibility?
     </strong>
-
     Understanding the relationship between sky brightness, solar depression,
     atmospheric conditions, lunar geometry, and visual or digital crescent detection.
-
   </div>
 
-
   <div class="future-card">
-
     <strong>
       2. Can photometric contrast improve crescent visibility criteria?
     </strong>
-
     Developing quantitative indicators based on crescent intensity,
     twilight-background intensity, Weber contrast, and digital image analysis.
-
   </div>
 
-
   <div class="future-card">
-
     <strong>
       3. How can astronomical evidence strengthen Hijri calendar systems?
     </strong>
-
     Connecting observational evidence and crescent visibility criteria with
     calendar development and Islamic legal reasoning.
-
   </div>
 
-
   <div class="future-card">
-
     <strong>
       4. How can astronomy better support Islamic religious practices?
     </strong>
-
     Extending observational and computational astronomy to crescent observation,
     prayer times, qibla direction, and Hijri calendar determination.
-
   </div>
 
 </div>
@@ -1457,64 +1516,48 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
   <div class="project-grid">
 
-
     <div class="project-card">
-
       <h3>
         Crescent Visibility and Twilight Observation at Timau
       </h3>
-
       <p>
         Observational study of twilight brightness and crescent visibility
         using sky-brightness measurements, digital imaging, and photometric
         analysis under dark-sky observational conditions.
       </p>
-
     </div>
 
-
     <div class="project-card">
-
       <h3>
         Lunar Photometry and Digital Imaging
       </h3>
-
       <p>
         Application of aperture photometry and digital image analysis to
         compare crescent intensity, twilight-background intensity, and
         quantitative contrast during early lunar visibility.
       </p>
-
     </div>
 
-
     <div class="project-card">
-
       <h3>
         Hijri Calendar and Hisab–Rukyat Integration
       </h3>
-
       <p>
         Investigation of astronomical visibility criteria, observational
         evidence, Islamic legal reasoning, and institutional approaches to
         the development of Hijri calendar systems.
       </p>
-
     </div>
 
-
     <div class="project-card">
-
       <h3>
         QGIS-Based Visualization of Prayer Times
       </h3>
-
       <p>
         Integration of geographical coordinates and astronomical parameters
         to visualize spatial variations in prayer times and their relationship
         with geographical position.
       </p>
-
     </div>
 
   </div>
