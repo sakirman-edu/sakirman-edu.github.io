@@ -300,9 +300,9 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 .method-center-kicker {
   display: block;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.5rem;
   color: #00b8d9;
-  font-size: 0.63rem;
+  font-size: 0.61rem;
   font-weight: 700;
   letter-spacing: 0.10em;
   text-transform: uppercase;
@@ -329,9 +329,9 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
 .method-center-title {
   display: block;
-  font-size: 0.98rem;
+  font-size: 0.88rem;
   font-weight: 700;
-  line-height: 1.38;
+  line-height: 1.35;
 }
 
 
@@ -1062,6 +1062,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         <div class="method-inner-ring"></div>
 
 
+        <!-- CENTER -->
+
         <div class="method-center">
 
           <div>
@@ -1071,15 +1073,16 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
             </span>
 
             <span class="method-center-title">
-              From Observation<br>
-              to Evidence-Based<br>
-              Islamic Legal Analysis
+              Observation<br>
+              to Evidence
             </span>
 
           </div>
 
         </div>
 
+
+        <!-- NODE 01 -->
 
         <div class="method-node method-node-1"
              tabindex="0">
@@ -1108,6 +1111,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
+        <!-- NODE 02 -->
+
         <div class="method-node method-node-2"
              tabindex="0">
 
@@ -1135,6 +1140,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
+        <!-- NODE 03 -->
+
         <div class="method-node method-node-3"
              tabindex="0">
 
@@ -1160,6 +1167,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
         </div>
 
+
+        <!-- NODE 04 -->
 
         <div class="method-node method-node-4"
              tabindex="0">
@@ -1187,6 +1196,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
         </div>
 
 
+        <!-- NODE 05 -->
+
         <div class="method-node method-node-5"
              tabindex="0">
 
@@ -1212,6 +1223,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
         </div>
 
+
+        <!-- NODE 06 -->
 
         <div class="method-node method-node-6"
              tabindex="0">
@@ -1239,6 +1252,8 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
         </div>
 
+
+        <!-- NODE 07 -->
 
         <div class="method-node method-node-7"
              tabindex="0">
@@ -1282,6 +1297,10 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
   </div>
 
+
+  <!-- ====================================================
+       ANALYTICAL TOOLS
+  ===================================================== -->
 
   <div class="research-kicker method-tools-heading">
     Analytical Tools
