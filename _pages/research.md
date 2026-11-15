@@ -271,6 +271,29 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   padding: 1.3rem;
   background: var(--global-bg-color);
   z-index: 5;
+
+  animation: researchLoopPulse 2.8s ease-in-out infinite;
+}
+
+@keyframes researchLoopPulse {
+
+  0%,
+  100% {
+    border-color: #00b8d9;
+
+    box-shadow:
+      0 0 0 0 rgba(0,184,217,0.10),
+      0 0 10px rgba(0,184,217,0.16);
+  }
+
+  50% {
+    border-color: #00d4f0;
+
+    box-shadow:
+      0 0 0 12px rgba(0,184,217,0.035),
+      0 0 30px rgba(0,184,217,0.42);
+  }
+
 }
 
 .method-center-kicker {
@@ -281,6 +304,25 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
   font-weight: 700;
   letter-spacing: 0.10em;
   text-transform: uppercase;
+
+  animation: researchLoopText 2.8s ease-in-out infinite;
+}
+
+@keyframes researchLoopText {
+
+  0%,
+  100% {
+    opacity: 0.72;
+    text-shadow: none;
+  }
+
+  50% {
+    opacity: 1;
+    text-shadow:
+      0 0 8px rgba(0,184,217,0.65),
+      0 0 14px rgba(0,184,217,0.28);
+  }
+
 }
 
 .method-center-title {
@@ -662,6 +704,21 @@ description: "Research on Islamic astronomy, crescent visibility, tropical twili
 
   .roadmap-box img {
     max-width: 100%;
+  }
+
+}
+
+
+/* =========================================================
+   REDUCED MOTION ACCESSIBILITY
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .method-orbit,
+  .method-center,
+  .method-center-kicker {
+    animation: none !important;
   }
 
 }
