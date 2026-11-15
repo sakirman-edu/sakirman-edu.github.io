@@ -352,4 +352,225 @@
     transform: none !important;
   }
 
+/* =========================================
+   DARK MODE REFINEMENT
+========================================= */
+
+html[data-theme="dark"],
+body[data-theme="dark"] {
+
+  --global-bg-color: #181a1f;
+  --global-text-color: #e7e9ed;
+  --global-text-color-light: #b3bac4;
+  --global-border-color: #343840;
+  --global-link-color: #19b9d2;
+}
+
+
+/* MAIN BACKGROUND */
+
+html[data-theme="dark"] body,
+body[data-theme="dark"] {
+  background-color: #181a1f !important;
+  color: #e7e9ed !important;
+}
+
+
+/* NAVIGATION */
+
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .greedy-nav,
+body[data-theme="dark"] .masthead,
+body[data-theme="dark"] .greedy-nav {
+  background: #181a1f !important;
+  border-color: #343840 !important;
+}
+
+html[data-theme="dark"] .greedy-nav a,
+body[data-theme="dark"] .greedy-nav a {
+  color: #e7e9ed !important;
+}
+
+
+/* SIDEBAR */
+
+html[data-theme="dark"] .sidebar,
+body[data-theme="dark"] .sidebar {
+  color: #d4d8df !important;
+}
+
+html[data-theme="dark"] .author__name,
+body[data-theme="dark"] .author__name {
+  color: #f5f6f7 !important;
+}
+
+html[data-theme="dark"] .author__bio,
+html[data-theme="dark"] .author__urls,
+body[data-theme="dark"] .author__bio,
+body[data-theme="dark"] .author__urls {
+  color: #c0c6ce !important;
+}
+
+
+/* PAGE TEXT */
+
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .archive,
+body[data-theme="dark"] .page__content,
+body[data-theme="dark"] .archive {
+  color: #e3e6ea !important;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+body[data-theme="dark"] h1,
+body[data-theme="dark"] h2,
+body[data-theme="dark"] h3,
+body[data-theme="dark"] h4 {
+  color: #f4f5f6 !important;
+}
+
+
+/* CARDS */
+
+html[data-theme="dark"] .home-summary-card,
+html[data-theme="dark"] .home-link-card,
+html[data-theme="dark"] .course-card,
+html[data-theme="dark"] .publication-card,
+html[data-theme="dark"] .fullpub-card,
+html[data-theme="dark"] .cv-panel,
+html[data-theme="dark"] .cv-item,
+html[data-theme="dark"] .cv-summary-card,
+html[data-theme="dark"] .research-card,
+html[data-theme="dark"] .software-card,
+html[data-theme="dark"] .project-card,
+html[data-theme="dark"] .future-card,
+html[data-theme="dark"] .method-box,
+body[data-theme="dark"] .home-summary-card,
+body[data-theme="dark"] .home-link-card,
+body[data-theme="dark"] .course-card,
+body[data-theme="dark"] .publication-card,
+body[data-theme="dark"] .fullpub-card,
+body[data-theme="dark"] .cv-panel,
+body[data-theme="dark"] .cv-item,
+body[data-theme="dark"] .cv-summary-card,
+body[data-theme="dark"] .research-card,
+body[data-theme="dark"] .software-card,
+body[data-theme="dark"] .project-card,
+body[data-theme="dark"] .future-card,
+body[data-theme="dark"] .method-box {
+  background: #22252b !important;
+  border-color: #343840 !important;
+}
+
+
+/* CARD HOVER */
+
+html[data-theme="dark"] .home-summary-card:hover,
+html[data-theme="dark"] .home-link-card:hover,
+html[data-theme="dark"] .course-card:hover,
+html[data-theme="dark"] .publication-card:hover,
+html[data-theme="dark"] .fullpub-card:hover,
+html[data-theme="dark"] .cv-panel:hover,
+html[data-theme="dark"] .cv-item:hover,
+html[data-theme="dark"] .cv-summary-card:hover,
+html[data-theme="dark"] .research-card:hover,
+html[data-theme="dark"] .software-card:hover,
+html[data-theme="dark"] .project-card:hover,
+html[data-theme="dark"] .future-card:hover,
+html[data-theme="dark"] .method-box:hover,
+body[data-theme="dark"] .home-summary-card:hover,
+body[data-theme="dark"] .home-link-card:hover,
+body[data-theme="dark"] .course-card:hover,
+body[data-theme="dark"] .publication-card:hover,
+body[data-theme="dark"] .fullpub-card:hover,
+body[data-theme="dark"] .cv-panel:hover,
+body[data-theme="dark"] .cv-item:hover,
+body[data-theme="dark"] .cv-summary-card:hover,
+body[data-theme="dark"] .research-card:hover,
+body[data-theme="dark"] .software-card:hover,
+body[data-theme="dark"] .project-card:hover,
+body[data-theme="dark"] .future-card:hover,
+body[data-theme="dark"] .method-box:hover {
+  border-color: #19b9d2 !important;
+}
+
+
+/* SECONDARY TEXT */
+
+html[data-theme="dark"] .home-summary-text,
+html[data-theme="dark"] .home-section-intro,
+html[data-theme="dark"] .cv-item-meta,
+html[data-theme="dark"] .course-meta,
+html[data-theme="dark"] .publication-authors,
+html[data-theme="dark"] .fullpub-meta,
+body[data-theme="dark"] .home-summary-text,
+body[data-theme="dark"] .home-section-intro,
+body[data-theme="dark"] .cv-item-meta,
+body[data-theme="dark"] .course-meta,
+body[data-theme="dark"] .publication-authors,
+body[data-theme="dark"] .fullpub-meta {
+  color: #b3bac4 !important;
+}
+
+
+/* TAGS */
+
+html[data-theme="dark"] .home-tag,
+html[data-theme="dark"] .cv-tag,
+html[data-theme="dark"] .research-tag,
+body[data-theme="dark"] .home-tag,
+body[data-theme="dark"] .cv-tag,
+body[data-theme="dark"] .research-tag {
+  background: #202329 !important;
+  border-color: #3a3f47 !important;
+  color: #19b9d2 !important;
+}
+
+
+/* BUTTONS */
+
+html[data-theme="dark"] .home-button,
+html[data-theme="dark"] .publication-button,
+html[data-theme="dark"] .fullpub-button,
+html[data-theme="dark"] .cv-download-button,
+body[data-theme="dark"] .home-button,
+body[data-theme="dark"] .publication-button,
+body[data-theme="dark"] .fullpub-button,
+body[data-theme="dark"] .cv-download-button {
+  background: #202329 !important;
+  border-color: #3a3f47 !important;
+  color: #dce0e5 !important;
+}
+
+html[data-theme="dark"] .home-button:hover,
+html[data-theme="dark"] .publication-button:hover,
+html[data-theme="dark"] .fullpub-button:hover,
+html[data-theme="dark"] .cv-download-button:hover,
+body[data-theme="dark"] .home-button:hover,
+body[data-theme="dark"] .publication-button:hover,
+body[data-theme="dark"] .fullpub-button:hover,
+body[data-theme="dark"] .cv-download-button:hover {
+  border-color: #19b9d2 !important;
+  color: #19b9d2 !important;
+}
+
+
+/* LINKS */
+
+html[data-theme="dark"] a,
+body[data-theme="dark"] a {
+  color: #19b9d2;
+}
+
+
+/* FOOTER */
+
+html[data-theme="dark"] .page__footer,
+body[data-theme="dark"] .page__footer {
+  background: #15171b !important;
+  border-top: 1px solid #343840 !important;
+  color: #aeb5be !important;
 }
