@@ -44,8 +44,8 @@ redirect_from:
 
 .home-intro {
   max-width: 800px;
-  margin: 0;
-  line-height: 1.8;
+  margin: 0 0 0.85rem 0;
+  line-height: 1.75;
   opacity: 0.86;
 }
 
@@ -251,6 +251,7 @@ redirect_from:
   }
 
 }
+
 </style>
 
 
@@ -270,11 +271,24 @@ redirect_from:
 
   <p class="home-intro">
     I am a lecturer and researcher at the
-    <strong>Faculty of Sharia and the Graduate Program of UIN Jurai Siwo Lampung, Indonesia</strong>.
-    My academic work focuses on the intersection of
-    <strong>Islamic law and Islamic astronomy (<em>Ilmu Falak</em>)</strong>,
-    particularly the use of astronomical evidence in Islamic legal reasoning,
-    crescent visibility research, and Hijri calendar determination.
+    <strong>Faculty of Sharia and the Graduate Program of UIN Jurai Siwo Lampung, Indonesia</strong>,
+    with academic interests in
+    <strong>Islamic law and Islamic astronomy (<em>Ilmu Falak</em>)</strong>.
+    I completed my undergraduate studies at UIN Sunan Kalijaga Yogyakarta,
+    followed by postgraduate and doctoral studies in Islamic Studies at
+    UIN Walisongo Semarang. My academic work focuses on the intersection of
+    Islamic jurisprudence and contemporary astronomical science, particularly
+    crescent visibility, twilight, sky brightness, digital imaging,
+    astronomical evidence, and Hijri calendar studies.
+  </p>
+
+  <p class="home-intro">
+    Alongside teaching at undergraduate and postgraduate levels, I am actively
+    engaged in research, academic supervision, curriculum development,
+    scholarly publishing, journal management, and community engagement.
+    My research has been published in reputable academic journals, and I
+    regularly contribute to national and international academic forums through
+    research presentations, scholarly discussions, and professional service.
   </p>
 
   <div class="home-actions">
@@ -557,6 +571,7 @@ redirect_from:
       </span>
 
     </a>
+
 
   </div>
 
