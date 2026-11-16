@@ -148,6 +148,42 @@ description: "Academic insights, commentary, research notes, and updates by Dr. 
 
 
 /* =========================================
+   FOOTER NAVIGATION
+========================================= */
+
+.insights-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 2.8rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(127,127,127,0.22);
+}
+
+.insights-nav-button {
+  display: inline-block;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid rgba(127,127,127,0.30);
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.insights-nav-button:hover,
+.insights-nav-button:focus {
+  color: #00b8d9 !important;
+  border-color: #00b8d9 !important;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
    RESPONSIVE
 ========================================= */
 
@@ -166,6 +202,14 @@ description: "Academic insights, commentary, research notes, and updates by Dr. 
   }
 
   .insight-card:hover {
+    transform: none;
+  }
+
+  .insights-footer-nav {
+    justify-content: flex-start;
+  }
+
+  .insights-nav-button:hover {
     transform: none;
   }
 
@@ -300,5 +344,31 @@ description: "Academic insights, commentary, research notes, and updates by Dr. 
   </div>
 
   {% endif %}
+
+
+  <div class="insights-footer-nav">
+
+    <a
+      href="/"
+      class="insights-nav-button"
+    >
+      ← Back to Home
+    </a>
+
+    <a
+      href="/research/"
+      class="insights-nav-button"
+    >
+      Explore Research
+    </a>
+
+    <a
+      href="/main-publications/"
+      class="insights-nav-button"
+    >
+      View Publications →
+    </a>
+
+  </div>
 
 </section>
