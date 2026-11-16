@@ -11,13 +11,13 @@ After nearly five months of waiting, **Istinbath: Jurnal Hukum** has officially 
 
 Istinbath: Jurnal Hukum had previously received acceptance from the **Scopus Content Selection and Advisory Board (CSAB)** on **12 July 2026**. Following the acceptance, the journal entered the Scopus onboarding and content-processing stages. The waiting period involved a series of administrative and technical processes before the journal could finally be displayed and discoverable in the Scopus database.
 
-<figure style="margin: 1.5rem 0 1.8rem 0;">
+<figure style="margin: 1.6rem 0 1.8rem 0; text-align: center;">
   <img
     src="/images/cover_istinbath.png"
     alt="Cover of Istinbath: Jurnal Hukum"
-    style="width: 100%; max-width: 760px; display: block; margin: 0 auto; border-radius: 10px;"
+    style="width: 100%; max-width: 540px; height: auto; display: block; margin: 0 auto; border-radius: 10px;"
   >
-  <figcaption style="margin-top: 0.6rem; font-size: 0.82rem; opacity: 0.7; text-align: center;">
+  <figcaption style="margin-top: 0.7rem; font-size: 0.82rem; opacity: 0.68; text-align: center;">
     Istinbath: Jurnal Hukum, Faculty of Sharia, UIN Jurai Siwo Lampung.
   </figcaption>
 </figure>
