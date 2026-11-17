@@ -3,134 +3,166 @@ layout: archive
 title: "Main Publications"
 permalink: /main-publications/
 author_profile: true
-description: "Selected publications by Dr. Sakirman in Islamic astronomy, crescent visibility, Hijri calendar studies, and contemporary Islamic law."
+description: "Selected publications of Dr. Sakirman in Islamic astronomy, crescent visibility, Hijri calendar studies, hisab-rukyat, astronomical technology, and Islamic law."
 ---
 
 <style>
 
-/* ================================
-   MAIN PUBLICATIONS
-================================ */
+/* =========================================================
+   MAIN PUBLICATIONS PAGE
+========================================================= */
 
-.publications-intro {
-  margin-bottom: 2.2rem;
+.publications-section {
+  width: 100%;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.publications-hero {
+  margin-bottom: 2.8rem;
 }
 
 .publications-kicker {
   display: inline-block;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.55rem;
   font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   opacity: 0.62;
 }
 
-.publications-intro h2 {
-  margin: 0 0 0.8rem 0;
-  font-size: 1.55rem;
+.publications-title {
+  margin: 0 0 0.85rem 0;
+  font-size: 1.75rem;
   line-height: 1.3;
+  font-weight: 700;
 }
 
-.publications-intro p {
-  max-width: 780px;
+.publications-subtitle {
+  margin: 0 0 0.9rem 0;
+  max-width: 900px;
+  font-size: 1.18rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.publications-intro {
+  max-width: 880px;
   margin: 0;
-  line-height: 1.75;
-  opacity: 0.85;
+  font-size: 0.94rem;
+  line-height: 1.8;
+  opacity: 0.84;
 }
 
 
-/* ================================
+/* =========================================================
    SECTION
-================================ */
+========================================================= */
 
-.publication-section {
+.publication-section-block {
   margin-top: 2.8rem;
 }
 
 .publication-section-title {
-  margin: 0 0 1.1rem 0;
-  font-size: 1.25rem;
-  line-height: 1.35;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid rgba(127,127,127,0.30);
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 
-/* ================================
-   GRID
-================================ */
-
-.publication-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-
-/* ================================
-   CARD
-================================ */
+/* =========================================================
+   PUBLICATION CARDS
+========================================================= */
 
 .publication-card {
+  margin-bottom: 1rem;
+  padding: 1.15rem 1.2rem;
+
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 12px;
-  padding: 1.2rem 1.25rem;
+
   background: transparent;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
 }
 
 .publication-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 14px rgba(0,0,0,0.07);
+  border-color: #00b8d9 !important;
+  transform: translateY(-3px);
 }
 
 .publication-year {
-  display: inline-block;
+  display: block;
   margin-bottom: 0.55rem;
-  font-size: 0.7rem;
+
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  opacity: 0.6;
+
+  opacity: 0.58;
 }
 
 .publication-title {
   margin: 0 0 0.45rem 0;
+
   font-size: 1rem;
-  line-height: 1.45;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 .publication-title a {
+  color: #00b8d9;
   text-decoration: none;
 }
 
-.publication-title a:hover {
-  text-decoration: underline;
+.publication-title a:hover,
+.publication-title a:focus {
+  color: #00d4f0;
 }
 
 .publication-journal {
-  margin-bottom: 0.45rem;
-  font-size: 0.85rem;
+  margin: 0 0 0.35rem 0;
+
+  font-size: 0.84rem;
   font-weight: 600;
-  line-height: 1.5;
-  opacity: 0.8;
+  line-height: 1.6;
+
+  opacity: 0.86;
 }
 
 .publication-authors {
-  margin-bottom: 0.7rem;
+  margin: 0 0 0.65rem 0;
+
   font-size: 0.82rem;
-  line-height: 1.55;
+  line-height: 1.6;
+
   opacity: 0.72;
 }
 
 .publication-description {
-  margin: 0;
-  font-size: 0.88rem;
+  margin: 0 0 0.85rem 0;
+
+  font-size: 0.86rem;
   line-height: 1.7;
-  opacity: 0.85;
+
+  opacity: 0.82;
 }
 
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
 .publication-actions {
-  margin-top: 0.85rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
@@ -138,444 +170,338 @@ description: "Selected publications by Dr. Sakirman in Islamic astronomy, cresce
 
 .publication-button {
   display: inline-block;
+
   padding: 0.45rem 0.7rem;
-  border: 1px solid rgba(127,127,127,0.35);
+
+  border: 1px solid rgba(127,127,127,0.30);
   border-radius: 7px;
+
   font-size: 0.76rem;
-  font-weight: 600;
-  text-decoration: none;
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
-.publication-button:hover {
-  opacity: 0.75;
+.publication-button:hover,
+.publication-button:focus {
+  color: #00b8d9 !important;
+  border-color: #00b8d9 !important;
 }
 
 
-/* ================================
-   FOOTER
-================================ */
+/* =========================================================
+   FOOTER NAVIGATION
+========================================================= */
 
-.publications-footer {
+.publications-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+
   margin-top: 2.8rem;
-  padding-top: 1.4rem;
-  padding-bottom: 1rem;
-  border-top: 1px solid rgba(127,127,127,0.25);
-}
+  padding-top: 1.5rem;
 
-.publications-footer p {
-  max-width: 760px;
-  margin: 0 0 1rem 0;
-  line-height: 1.7;
-  opacity: 0.85;
+  border-top: 1px solid rgba(127,127,127,0.22);
 }
 
 .publications-footer-button {
   display: inline-block;
-  padding: 0.55rem 0.8rem;
-  border: 1px solid rgba(127,127,127,0.35);
-  border-radius: 7px;
-  font-size: 0.82rem;
+
+  padding: 0.55rem 0.85rem;
+
+  border: 1px solid rgba(127,127,127,0.30);
+  border-radius: 8px;
+
+  font-size: 0.78rem;
   font-weight: 700;
-  text-decoration: none;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
-.publications-footer-button:hover {
-  opacity: 0.75;
+.publications-footer-button:hover,
+.publications-footer-button:focus {
+  color: #00b8d9 !important;
+  border-color: #00b8d9 !important;
+  transform: translateY(-2px);
 }
 
 
-/* ================================
+/* =========================================================
    RESPONSIVE
-================================ */
+========================================================= */
 
 @media (max-width: 768px) {
 
-  .publication-card {
-    padding: 1rem;
+  .publications-title {
+    font-size: 1.5rem;
   }
 
-  .publications-intro h2 {
-    font-size: 1.35rem;
+  .publications-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .publication-card:hover,
+  .publications-footer-button:hover {
+    transform: none;
   }
 
 }
+
 </style>
 
 
-<div class="publications-intro">
+<div class="publications-section">
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="publications-hero">
 
   <div class="publications-kicker">
     Selected Academic Works
   </div>
 
-  <h2>
+  <h1 class="publications-title">
+    Main Publications
+  </h1>
+
+  <h2 class="publications-subtitle">
     Selected Publications in Islamic Astronomy and Islamic Law
   </h2>
 
-  <p>
+  <p class="publications-intro">
     Selected publications representing my research in
     <strong>Islamic astronomy, crescent visibility, Hijri calendar studies,
     hisab–rukyat, astronomical technology, and contemporary Islamic law</strong>.
   </p>
 
-</div>
+</section>
 
 
 
-<div class="publication-section">
+<!-- =====================================================
+     ISLAMIC ASTRONOMY AND HIJRI CALENDAR
+===================================================== -->
+
+<section class="publication-section-block">
 
   <h2 class="publication-section-title">
     Islamic Astronomy and Hijri Calendar
   </h2>
 
-  <div class="publication-grid">
 
+  <article class="publication-card">
 
-    <article class="publication-card">
+    <span class="publication-year">
+      2025
+    </span>
 
-      <div class="publication-year">
-        2025
-      </div>
+    <h3 class="publication-title">
+      <a href="#">
+        The Transformation of Rukyah Al-Hilal: Integrating Digital Imaging Technology in Islamic Moon Sighting Practices
+      </a>
+    </h3>
 
-      <h3 class="publication-title">
-        <a href="/publication/2025-transformation-rukyah-al-hilal">
-          The Transformation of Rukyah Al-Hilal: Integrating Digital Imaging Technology in Islamic Moon Sighting Practices
-        </a>
-      </h3>
+    <p class="publication-journal">
+      Malaysian Journal of Syariah and Law, 13(1), 314–324
+    </p>
 
-      <div class="publication-journal">
-        Malaysian Journal of Syariah and Law, 13(1), 314–324
-      </div>
+    <p class="publication-authors">
+      Muhammad Rasywan Syarif, Sakirman, Abdul Syatar, and Nur Lela
+    </p>
 
-      <div class="publication-authors">
-        Muhammad Rasywan Syarif, Sakirman, Abdul Syatar, and Nur Lela
-      </div>
+    <p class="publication-description">
+      This study examines the transformation of <em>rukyah al-hilal</em>
+      through the integration of digital imaging technology in contemporary
+      Islamic lunar observation.
+    </p>
 
-      <p class="publication-description">
-        This study examines the transformation of <em>rukyah al-hilal</em>
-        through the integration of digital imaging technology in contemporary
-        Islamic lunar observation.
-      </p>
+    <div class="publication-actions">
 
-      <div class="publication-actions">
+      <a class="publication-button" href="#">
+        Publication Details
+      </a>
 
-        <a class="publication-button"
-           href="/publication/2025-transformation-rukyah-al-hilal">
-          Publication Details
-        </a>
+      <a class="publication-button" href="#">
+        DOI
+      </a>
 
-        <a class="publication-button"
-           href="https://doi.org/10.33102/mjsl.vol13no1.751"
-           target="_blank"
-           rel="noopener noreferrer">
-          DOI
-        </a>
+    </div>
 
-      </div>
+  </article>
 
-    </article>
 
 
+  <article class="publication-card">
 
-    <article class="publication-card">
+    <span class="publication-year">
+      2025
+    </span>
 
-      <div class="publication-year">
-        2025
-      </div>
+    <h3 class="publication-title">
+      <a href="#">
+        A Semantic Literature Review on Crescent Visibility
+      </a>
+    </h3>
 
-      <h3 class="publication-title">
-        <a href="/publication/2025-semantic-literature-review-crescent-visibility">
-          A Semantic Literature Review on Crescent Visibility: Trends, Models, and Implications for the Islamic Calendar
-        </a>
-      </h3>
+    <p class="publication-journal">
+      Al-Hilal: Journal of Islamic Astronomy
+    </p>
 
-      <div class="publication-journal">
-        Al-Hilal: Journal of Islamic Astronomy, 7(1), 67–88
-      </div>
+    <p class="publication-authors">
+      Muhammad Rasywan Syarif and Sakirman
+    </p>
 
-      <div class="publication-authors">
-        Muh Rasywan Syarif, Sakirman Sakirman, and Muhammad Fazlurrahman Syarif
-      </div>
+    <p class="publication-description">
+      This study reviews the development of crescent visibility research
+      through semantic and literature-based analysis, highlighting major
+      concepts, criteria, and scholarly developments in contemporary
+      Islamic astronomy.
+    </p>
 
-      <p class="publication-description">
-        This article reviews major developments in crescent visibility research,
-        including visibility models and their implications for Islamic calendar
-        determination.
-      </p>
+    <div class="publication-actions">
 
-      <div class="publication-actions">
+      <a class="publication-button" href="#">
+        Publication Details
+      </a>
 
-        <a class="publication-button"
-           href="/publication/2025-semantic-literature-review-crescent-visibility">
-          Publication Details
-        </a>
+    </div>
 
-        <a class="publication-button"
-           href="https://doi.org/10.21580/al-hilal.2025.7.1.26099"
-           target="_blank"
-           rel="noopener noreferrer">
-          DOI
-        </a>
+  </article>
 
-      </div>
 
-    </article>
 
+  <article class="publication-card">
 
+    <span class="publication-year">
+      2024
+    </span>
 
-    <article class="publication-card">
+    <h3 class="publication-title">
+      <a href="#">
+        The Concept of the Meeting Point of Hisab and Rukyat in Determining the Beginning of the Hijri Month
+      </a>
+    </h3>
 
-      <div class="publication-year">
-        2024
-      </div>
+    <p class="publication-journal">
+      Nizham: Journal of Islamic Studies
+    </p>
 
-      <h3 class="publication-title">
-        <a href="/publication/2024-meeting-point-hisab-rukyat">
-          The Concept of the Meeting Point of Hisab and Rukyat of the Beginning of the Hijri Month
-        </a>
-      </h3>
+    <p class="publication-authors">
+      Sakirman and Jamil
+    </p>
 
-      <div class="publication-journal">
-        Nizham: Jurnal Studi Keislaman, 12(1), 122–138
-      </div>
+    <p class="publication-description">
+      This article examines the relationship between astronomical calculation
+      and crescent observation in the determination of the beginning of the
+      Hijri month.
+    </p>
 
-      <div class="publication-authors">
-        Sakirman Sakirman and A Jamil
-      </div>
+    <div class="publication-actions">
 
-      <p class="publication-description">
-        This study discusses the conceptual and methodological meeting point
-        between <em>hisab</em> and <em>rukyat</em> in determining the beginning
-        of the Hijri month.
-      </p>
+      <a class="publication-button" href="#">
+        Publication Details
+      </a>
 
-      <div class="publication-actions">
+    </div>
 
-        <a class="publication-button"
-           href="/publication/2024-meeting-point-hisab-rukyat">
-          Publication Details
-        </a>
+  </article>
 
-        <a class="publication-button"
-           href="https://doi.org/10.32332/nizham.v12i01.9117"
-           target="_blank"
-           rel="noopener noreferrer">
-          DOI
-        </a>
+</section>
 
-      </div>
 
-    </article>
 
+<!-- =====================================================
+     ISLAMIC LAW AND TECHNOLOGY
+===================================================== -->
 
-
-    <article class="publication-card">
-
-      <div class="publication-year">
-        2022
-      </div>
-
-      <h3 class="publication-title">
-        <a href="/publication/2022-integrasi-hisab-rukyat-kastner">
-          Integrasi Hisab Rukyat Awal Ramadan 1442 H dengan Model Visibilitas Kastner
-        </a>
-      </h3>
-
-      <div class="publication-journal">
-        ELFALAKY: Jurnal Ilmu Falak, 6(2), 278–297
-      </div>
-
-      <div class="publication-authors">
-        Sakirman Sakirman, Judhistira Aria Utama, and Othman bin Zainon
-      </div>
-
-      <p class="publication-description">
-        This study integrates <em>hisab</em> and <em>rukyat</em> through
-        Kastner's crescent visibility model to evaluate the astronomical
-        feasibility of crescent observations.
-      </p>
-
-      <div class="publication-actions">
-
-        <a class="publication-button"
-           href="/publication/2022-integrasi-hisab-rukyat-kastner">
-          Publication Details
-        </a>
-
-        <a class="publication-button"
-           href="https://doi.org/10.24252/ifk.v6i2.30766"
-           target="_blank"
-           rel="noopener noreferrer">
-          DOI
-        </a>
-
-      </div>
-
-    </article>
-
-
-
-    <article class="publication-card">
-
-      <div class="publication-year">
-        2020
-      </div>
-
-      <h3 class="publication-title">
-        <a href="/publication/2020-respon-fikih-teknologi-rukyat">
-          Respon Fikih terhadap Perkembangan Teknologi Rukyat
-        </a>
-      </h3>
-
-      <div class="publication-journal">
-        Al-Manahij: Jurnal Kajian Hukum Islam, 14(1), 69–86
-      </div>
-
-      <div class="publication-authors">
-        Sakirman
-      </div>
-
-      <p class="publication-description">
-        This article examines Islamic legal responses to telescopes,
-        digital imaging, and other technological developments in
-        contemporary crescent observation.
-      </p>
-
-      <div class="publication-actions">
-
-        <a class="publication-button"
-           href="/publication/2020-respon-fikih-teknologi-rukyat">
-          Publication Details
-        </a>
-
-        <a class="publication-button"
-           href="https://doi.org/10.24090/mnh.v14i1.3190"
-           target="_blank"
-           rel="noopener noreferrer">
-          DOI
-        </a>
-
-      </div>
-
-    </article>
-
-
-  </div>
-
-</div>
-
-
-
-<div class="publication-section">
+<section class="publication-section-block">
 
   <h2 class="publication-section-title">
-    Islamic Law and Family Law
+    Islamic Law and Astronomical Technology
   </h2>
 
-  <div class="publication-grid">
 
+  <article class="publication-card">
 
-    <article class="publication-card">
+    <span class="publication-year">
+      Selected Work
+    </span>
 
-      <div class="publication-year">
-        2025
-      </div>
+    <h3 class="publication-title">
+      <a href="#">
+        Respon Fikih terhadap Perkembangan Teknologi Rukyat
+      </a>
+    </h3>
 
-      <h3 class="publication-title">
-        <a href="/publication/2025-reforming-islamic-family-law">
-          Reforming Islamic Family Law: The Relevance of Ibn Qayyim al-Jawziyyah's Concept of Legal Change
-        </a>
-      </h3>
+    <p class="publication-journal">
+      Islamic Law and Contemporary Astronomy
+    </p>
 
-      <div class="publication-journal">
-        Jurnal Ilmiah Mizani: Wacana Hukum, Ekonomi dan Keagamaan, 12(2), 392–405
-      </div>
+    <p class="publication-authors">
+      Sakirman
+    </p>
 
-      <div class="publication-authors">
-        Ayu Sari Ningsih, Nawa Angkasa, Nency Dela Oktora,
-        Sakirman Sakirman, Nyimas Lidya Putri Pertiwi, and Ananto Triwibowo
-      </div>
+    <p class="publication-description">
+      This study discusses Islamic legal responses to technological
+      developments in contemporary crescent observation and their implications
+      for the interpretation of astronomical evidence in Islamic law.
+    </p>
 
-      <p class="publication-description">
-        This article examines the relevance of Ibn Qayyim al-Jawziyyah's
-        theory of legal change for contemporary reform of Islamic family law.
-      </p>
+    <div class="publication-actions">
 
-      <div class="publication-actions">
+      <a class="publication-button" href="#">
+        Publication Details
+      </a>
 
-        <a class="publication-button"
-           href="/publication/2025-reforming-islamic-family-law">
-          Publication Details
-        </a>
+    </div>
 
-        <a class="publication-button"
-           href="https://doi.org/10.29300/mzn.v12i1.7087"
-           target="_blank"
-           rel="noopener noreferrer">
-          DOI
-        </a>
+  </article>
 
-      </div>
-
-    </article>
+</section>
 
 
 
-    <article class="publication-card">
+<!-- =====================================================
+     FOOTER NAVIGATION
+===================================================== -->
 
-      <div class="publication-year">
-        2025
-      </div>
+<div class="publications-footer-nav">
 
-      <h3 class="publication-title">
-        <a href="/publication/2025-reconstructing-philosophy-divorce">
-          Reconstructing the Philosophy of Divorce in Islamic Family Law: A Maqāṣid al-Sharī‘ah Approach to Justice
-        </a>
-      </h3>
+  <a
+    href="/"
+    class="publications-footer-button"
+  >
+    ← Back to Home
+  </a>
 
-      <div class="publication-journal">
-        Conference Paper · 5th INCOILS 2025 · Yogyakarta
-      </div>
+  <a
+    href="/publications/"
+    class="publications-footer-button"
+  >
+    Full Publications
+  </a>
 
-      <div class="publication-authors">
-        Sakirman, Evy Septiana Rachman, and Wastahnul Karim
-      </div>
-
-      <p class="publication-description">
-        This paper reconstructs the philosophy of divorce in Islamic family law
-        through the framework of <em>maqāṣid al-sharī‘ah</em>, with particular
-        attention to substantive justice and family protection.
-      </p>
-
-      <div class="publication-actions">
-
-        <a class="publication-button"
-           href="/publication/2025-reconstructing-philosophy-divorce">
-          Publication Details
-        </a>
-
-      </div>
-
-    </article>
-
-
-  </div>
+  <a
+    href="/research/"
+    class="publications-footer-button"
+  >
+    Explore Research →
+  </a>
 
 </div>
 
-
-
-<div class="publications-footer">
-
-  <p>
-    This page presents a selected group of publications representing
-    major themes in my academic research. The complete publication record
-    is available on the full publications page.
-  </p>
-
-  <a class="publications-footer-button"
-     href="/publications/">
-    View Full Publications →
-  </a>
 
 </div>
