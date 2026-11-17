@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Main Publications"
+title: ""
 permalink: /main-publications/
 author_profile: true
 description: "Selected publications of Dr. Sakirman in Islamic astronomy, crescent visibility, Hijri calendar studies, hisab-rukyat, astronomical technology, and Islamic law."
