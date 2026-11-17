@@ -9,6 +9,15 @@ description: "Selected publications of Dr. Sakirman in Islamic astronomy, cresce
 <style>
 
 /* =========================================================
+   HIDE AUTOMATIC ARCHIVE TITLE
+========================================================= */
+
+.page__title {
+  display: none !important;
+}
+
+
+/* =========================================================
    MAIN PUBLICATIONS PAGE
 ========================================================= */
 
