@@ -285,7 +285,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 /* =========================================================
    CENTER RESEARCH LOOP
-   SOLID RING + BLINKING GLOW
 ========================================================= */
 
 .loop-center {
@@ -324,87 +323,58 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     researchCenterGlow 2.4s ease-in-out infinite;
 }
 
-
-/* SECOND GLOW RING */
-
 .loop-center::before {
   content: "";
-
   position: absolute;
   inset: -7px;
-
   border: 1px solid rgba(0,184,217,0.18);
   border-radius: 50%;
-
   pointer-events: none;
 
   animation:
     researchCenterPulse 2.4s ease-in-out infinite;
 }
 
-
-/* SOLID RING BLINK */
-
 @keyframes researchCenterGlow {
 
   0%,
   100% {
-
-    border-color:
-      rgba(0,184,217,0.45);
+    border-color: rgba(0,184,217,0.45);
 
     box-shadow:
       0 0 8px rgba(0,184,217,0.05),
       0 0 15px rgba(0,184,217,0.05),
       inset 0 0 12px rgba(0,184,217,0.02);
-
   }
 
   50% {
-
-    border-color:
-      rgba(0,220,255,1);
+    border-color: rgba(0,220,255,1);
 
     box-shadow:
       0 0 10px rgba(0,220,255,0.40),
       0 0 24px rgba(0,210,245,0.32),
       0 0 38px rgba(0,184,217,0.16),
       inset 0 0 22px rgba(0,184,217,0.07);
-
   }
 
 }
-
-
-/* OUTER PULSE */
 
 @keyframes researchCenterPulse {
 
   0%,
   100% {
-
     opacity: 0.15;
-
     transform: scale(0.98);
-
-    border-color:
-      rgba(0,184,217,0.16);
-
+    border-color: rgba(0,184,217,0.16);
   }
 
   50% {
-
     opacity: 0.85;
-
     transform: scale(1.045);
-
-    border-color:
-      rgba(0,220,255,0.58);
-
+    border-color: rgba(0,220,255,0.58);
   }
 
 }
-
 
 .loop-center-label {
   position: relative;
@@ -462,9 +432,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 .loop-node.active {
   min-height: 108px;
-
   border-color: #00b8d9;
-
   background: rgba(0,184,217,0.055);
 
   box-shadow:
@@ -536,7 +504,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     translateY(-2px);
 }
 
-
 .loop-node-2 {
   top: 123px;
   right: 0;
@@ -546,7 +513,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   transform: translateX(4px);
 }
 
-
 .loop-node-3 {
   bottom: 123px;
   right: 0;
@@ -555,7 +521,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 .loop-node-3.active {
   transform: translateX(4px);
 }
-
 
 .loop-node-4 {
   bottom: 10px;
@@ -569,7 +534,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     translateY(2px);
 }
 
-
 .loop-node-5 {
   bottom: 123px;
   left: 0;
@@ -578,7 +542,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 .loop-node-5.active {
   transform: translateX(-4px);
 }
-
 
 .loop-node-6 {
   top: 123px;
@@ -622,22 +585,67 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   transform: translateY(-3px);
 }
 
+
+/* SOFTWARE IMAGE — SAME STYLE AS THEME */
+
+.software-image-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(127,127,127,0.20);
+}
+
 .software-card img {
   display: block;
   width: 100%;
-  height: 220px;
-  object-fit: contain;
-  padding: 1rem;
+  height: 230px;
+
+  object-fit: cover;
+  object-position: center;
+
+  padding: 0;
 
   transition:
     transform 0.45s ease;
 }
 
 .software-card:hover img {
-  transform: scale(1.04);
+  transform: scale(1.055);
 }
 
-.software-content,
+
+/* SOFTWARE BADGE */
+
+.software-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 5;
+
+  display: inline-block;
+  padding: 0.38rem 0.58rem;
+
+  border: 1px solid rgba(255,255,255,0.30);
+  border-radius: 6px;
+
+  background: rgba(20,20,20,0.72);
+  color: #ffffff !important;
+
+  font-size: 0.66rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.software-content {
+  padding: 1.15rem 1.2rem 1.3rem;
+}
+
 .project-card,
 .future-card {
   padding: 1rem 1.2rem 1.2rem;
@@ -648,6 +656,15 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 .future-card h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
+}
+
+.software-content h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.software-content h3 a:hover {
+  color: #00b8d9;
 }
 
 .software-content p,
@@ -768,6 +785,18 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     width: 150px;
   }
 
+  .software-card img {
+    height: 210px;
+  }
+
+  .software-card:hover {
+    transform: none;
+  }
+
+  .software-card:hover img {
+    transform: none;
+  }
+
   .research-footer-nav {
     justify-content: flex-start;
   }
@@ -778,6 +807,21 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   .research-loop-wrap {
     display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .software-card img {
+    height: 190px;
+  }
+
+  .software-badge {
+    top: 10px;
+    left: 10px;
+    padding: 0.34rem 0.5rem;
+    font-size: 0.62rem;
   }
 
 }
@@ -1023,18 +1067,15 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="research-loop-wrap">
 
-
       <div class="loop-outer-ring"></div>
 
       <div class="loop-inner-ring"></div>
 
       <div class="loop-orbit-track"></div>
 
-
       <div class="loop-sun-orbit">
         <div class="loop-sun"></div>
       </div>
-
 
       <div class="loop-center">
 
@@ -1049,8 +1090,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
       </div>
 
-
-      <!-- 01 -->
 
       <div class="loop-node loop-node-1 active" data-step="1">
 
@@ -1074,8 +1113,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
       </div>
 
 
-      <!-- 02 -->
-
       <div class="loop-node loop-node-2" data-step="2">
 
         <span class="loop-node-number">
@@ -1097,8 +1134,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
       </div>
 
-
-      <!-- 03 -->
 
       <div class="loop-node loop-node-3" data-step="3">
 
@@ -1122,8 +1157,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
       </div>
 
 
-      <!-- 04 -->
-
       <div class="loop-node loop-node-4" data-step="4">
 
         <span class="loop-node-number">
@@ -1146,8 +1179,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
       </div>
 
 
-      <!-- 05 -->
-
       <div class="loop-node loop-node-5" data-step="5">
 
         <span class="loop-node-number">
@@ -1169,8 +1200,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
       </div>
 
-
-      <!-- 06 -->
 
       <div class="loop-node loop-node-6" data-step="6">
 
@@ -1224,13 +1253,20 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   <div class="software-grid">
 
 
+    <!-- SOFTWARE 01 — SIRIL -->
+
     <article class="software-card">
 
       <a
         href="https://siril.org/"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
+        class="software-image-link"
       >
+
+        <span class="software-badge">
+          SOFTWARE 01
+        </span>
 
         <img
           src="/images/software-siril.png"
@@ -1242,7 +1278,13 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
       <div class="software-content">
 
         <h3>
-          Siril
+          <a
+            href="https://siril.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Siril
+          </a>
         </h3>
 
         <p>
@@ -1256,13 +1298,20 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     </article>
 
 
+    <!-- SOFTWARE 02 — IRIS -->
+
     <article class="software-card">
 
       <a
         href="https://buil.astrosurf.com/iris-software.html"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
+        class="software-image-link"
       >
+
+        <span class="software-badge">
+          SOFTWARE 02
+        </span>
 
         <img
           src="/images/software-iris.png"
@@ -1274,7 +1323,13 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
       <div class="software-content">
 
         <h3>
-          IRIS
+          <a
+            href="https://buil.astrosurf.com/iris-software.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IRIS
+          </a>
         </h3>
 
         <p>
