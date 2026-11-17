@@ -3,37 +3,97 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-description: "Selected undergraduate, master's, and doctoral courses in Islamic law, Islamic astronomy, Islamic economics, and interdisciplinary Islamic studies."
+description: "Teaching activities of Dr. Sakirman at undergraduate, master's, and doctoral levels in Islamic law, Islamic astronomy, research methodology, and interdisciplinary Islamic studies."
 ---
 
 <style>
-.teaching-intro {
-  margin: 0 0 1.8rem 0;
-  max-width: 850px;
+
+/* =========================================================
+   HIDE AUTOMATIC ARCHIVE TITLE
+========================================================= */
+
+.page__title {
+  display: none !important;
 }
 
-.teaching-intro p {
-  font-size: 1.02rem;
-  line-height: 1.75;
-  margin-bottom: 0.75rem;
+
+/* =========================================================
+   TEACHING PAGE
+========================================================= */
+
+.teaching-section {
+  width: 100%;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.teaching-hero {
+  margin-bottom: 2.8rem;
 }
 
 .teaching-kicker {
-  font-size: 0.78rem;
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+
+.teaching-title {
+  margin: 0 0 0.85rem 0;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.teaching-intro {
+  max-width: 880px;
+  margin: 0 0 0.9rem 0;
+  font-size: 0.94rem;
+  line-height: 1.8;
+  opacity: 0.86;
+}
+
+.teaching-intro:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   LEVEL SECTION
+========================================================= */
+
+.teaching-level {
+  margin-top: 2.8rem;
+}
+
+.teaching-level-label {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  opacity: 0.7;
-  margin-bottom: 0.35rem;
+  opacity: 0.62;
 }
 
-.teaching-section {
-  margin-top: 2rem;
+.teaching-level-title {
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid rgba(127,127,127,0.28);
+  font-size: 1.25rem;
+  line-height: 1.4;
 }
 
-.teaching-section h2 {
-  margin-bottom: 1.1rem;
-}
+
+/* =========================================================
+   COURSE GRID
+========================================================= */
 
 .course-grid {
   display: grid;
@@ -41,268 +101,416 @@ description: "Selected undergraduate, master's, and doctoral courses in Islamic 
   gap: 1rem;
 }
 
+
+/* =========================================================
+   COURSE CARD
+========================================================= */
+
 .course-card {
-  border: 1px solid rgba(127, 127, 127, 0.25);
+  padding: 1.15rem 1.2rem 1.25rem;
+
+  border: 1px solid rgba(127,127,127,0.25);
   border-radius: 12px;
-  padding: 1.25rem 1.3rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
   background: transparent;
+
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
 }
 
 .course-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  border-color: #00b8d9 !important;
+  transform: translateY(-3px);
 }
 
-.course-level {
-  display: inline-block;
-  font-size: 0.72rem;
+.course-type {
+  display: block;
+  margin-bottom: 0.65rem;
+
+  font-size: 0.67rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 0.7rem;
-  opacity: 0.68;
+
+  opacity: 0.60;
 }
 
-.course-card h3 {
-  margin: 0 0 0.55rem 0;
-  font-size: 1.08rem;
-  line-height: 1.4;
-  min-height: 2.8em;
+.course-title {
+  margin: 0 0 0.7rem 0;
+
+  font-size: 1rem;
+  line-height: 1.45;
+  font-weight: 700;
 }
 
-.course-card h3 a {
+.course-title a {
+  color: #00b8d9;
   text-decoration: none;
 }
 
-.course-card h3 a:hover {
-  text-decoration: underline;
+.course-title a:hover,
+.course-title a:focus {
+  color: #00d4f0;
 }
 
 .course-field {
-  font-size: 0.9rem;
+  margin: 0 0 0.35rem 0;
+
+  font-size: 0.84rem;
   font-weight: 600;
-  margin-bottom: 0.65rem;
-  line-height: 1.45;
-  opacity: 0.9;
+  line-height: 1.55;
+
+  opacity: 0.86;
 }
 
-.course-meta {
-  font-size: 0.84rem;
+.course-institution {
+  margin: 0 0 0.8rem 0;
+
+  font-size: 0.82rem;
   line-height: 1.55;
-  opacity: 0.72;
-  margin-bottom: 0.9rem;
+
+  opacity: 0.68;
 }
 
 .course-link {
-  font-size: 0.88rem;
-  font-weight: 600;
-  text-decoration: none;
+  display: inline-block;
+
+  font-size: 0.78rem;
+  font-weight: 700;
+
+  text-decoration: none !important;
 }
 
-.course-link:hover {
-  text-decoration: underline;
+.course-link:hover,
+.course-link:focus {
+  color: #00b8d9 !important;
 }
+
+
+/* =========================================================
+   FOOTER NAVIGATION
+========================================================= */
+
+.teaching-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+
+  border-top: 1px solid rgba(127,127,127,0.22);
+}
+
+.teaching-footer-button {
+  display: inline-block;
+
+  padding: 0.55rem 0.85rem;
+
+  border: 1px solid rgba(127,127,127,0.30);
+  border-radius: 8px;
+
+  font-size: 0.78rem;
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.teaching-footer-button:hover,
+.teaching-footer-button:focus {
+  color: #00b8d9 !important;
+  border-color: #00b8d9 !important;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
 
 @media (max-width: 768px) {
+
+  .teaching-title {
+    font-size: 1.5rem;
+  }
+
   .course-grid {
     grid-template-columns: 1fr;
   }
 
-  .course-card {
-    padding: 1.1rem;
+  .course-card:hover,
+  .teaching-footer-button:hover {
+    transform: none;
   }
 
-  .course-card h3 {
-    min-height: auto;
-  }
 }
+
 </style>
 
 
-<div class="teaching-intro">
+<div class="teaching-section">
 
-  <div class="teaching-kicker">Academic Teaching</div>
 
-  <p>
-    My teaching spans Islamic law, Islamic astronomy, research methodology,
-    academic writing, and interdisciplinary Islamic studies at undergraduate,
-    master's, and doctoral levels.
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="teaching-hero">
+
+  <div class="teaching-kicker">
+    Academic Teaching
+  </div>
+
+  <h1 class="teaching-title">
+    Teaching
+  </h1>
+
+  <p class="teaching-intro">
+    My teaching spans
+    <strong>Islamic law, Islamic astronomy, research methodology,
+    academic writing, and interdisciplinary Islamic studies</strong>
+    at undergraduate, master's, and doctoral levels.
   </p>
 
-  <p>
-    Courses combine theoretical foundations, critical inquiry, practical training,
-    and research-based learning.
+  <p class="teaching-intro">
+    Courses combine theoretical foundations, critical inquiry,
+    practical training, and research-based learning.
   </p>
+
+</section>
+
+
+
+<!-- =====================================================
+     UNDERGRADUATE
+===================================================== -->
+
+<section class="teaching-level">
+
+  <div class="teaching-level-label">
+    Undergraduate
+  </div>
+
+  <h2 class="teaching-level-title">
+    Undergraduate Courses
+  </h2>
+
+
+  <div class="course-grid">
+
+    {% assign undergraduate_courses = site.teaching | where: "type", "Undergraduate Course" | sort: "title" %}
+
+    {% for post in undergraduate_courses %}
+
+    <article class="course-card">
+
+      <span class="course-type">
+        Undergraduate Course
+      </span>
+
+      <h3 class="course-title">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+
+      {% if post.field %}
+      <p class="course-field">
+        {{ post.field }}
+      </p>
+      {% endif %}
+
+      {% if post.venue %}
+      <p class="course-institution">
+        {{ post.venue }}
+        {% if post.date %}
+        · {{ post.date | date: "%Y" }}
+        {% endif %}
+      </p>
+      {% endif %}
+
+      <a
+        class="course-link"
+        href="{{ post.url | relative_url }}"
+      >
+        View Course →
+      </a>
+
+    </article>
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MASTER'S
+===================================================== -->
+
+<section class="teaching-level">
+
+  <div class="teaching-level-label">
+    Master's
+  </div>
+
+  <h2 class="teaching-level-title">
+    Master's Courses
+  </h2>
+
+
+  <div class="course-grid">
+
+    {% assign masters_courses = site.teaching | where: "type", "Master's Course" | sort: "title" %}
+
+    {% for post in masters_courses %}
+
+    <article class="course-card">
+
+      <span class="course-type">
+        Master's Course
+      </span>
+
+      <h3 class="course-title">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+
+      {% if post.field %}
+      <p class="course-field">
+        {{ post.field }}
+      </p>
+      {% endif %}
+
+      {% if post.venue %}
+      <p class="course-institution">
+        {{ post.venue }}
+        {% if post.date %}
+        · {{ post.date | date: "%Y" }}
+        {% endif %}
+      </p>
+      {% endif %}
+
+      <a
+        class="course-link"
+        href="{{ post.url | relative_url }}"
+      >
+        View Course →
+      </a>
+
+    </article>
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     DOCTORAL
+===================================================== -->
+
+<section class="teaching-level">
+
+  <div class="teaching-level-label">
+    Doctoral
+  </div>
+
+  <h2 class="teaching-level-title">
+    Doctoral Courses
+  </h2>
+
+
+  <div class="course-grid">
+
+    {% assign doctoral_courses = site.teaching | where: "type", "Doctoral Course" | sort: "title" %}
+
+    {% for post in doctoral_courses %}
+
+    <article class="course-card">
+
+      <span class="course-type">
+        Doctoral Course
+      </span>
+
+      <h3 class="course-title">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+
+      {% if post.field %}
+      <p class="course-field">
+        {{ post.field }}
+      </p>
+      {% endif %}
+
+      {% if post.venue %}
+      <p class="course-institution">
+        {{ post.venue }}
+        {% if post.date %}
+        · {{ post.date | date: "%Y" }}
+        {% endif %}
+      </p>
+      {% endif %}
+
+      <a
+        class="course-link"
+        href="{{ post.url | relative_url }}"
+      >
+        View Course →
+      </a>
+
+    </article>
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER NAVIGATION
+===================================================== -->
+
+<div class="teaching-footer-nav">
+
+  <a
+    href="/"
+    class="teaching-footer-button"
+  >
+    ← Back to Home
+  </a>
+
+  <a
+    href="/research/"
+    class="teaching-footer-button"
+  >
+    Explore Research
+  </a>
+
+  <a
+    href="/cv/"
+    class="teaching-footer-button"
+  >
+    Academic CV →
+  </a>
 
 </div>
 
 
-{% assign undergraduate = site.teaching | where: "type", "Undergraduate Course" | sort: "title" %}
-{% assign masters = site.teaching | where: "type", "Master's Course" | sort: "title" %}
-{% assign doctoral = site.teaching | where: "type", "Doctoral Course" | sort: "title" %}
-
-
-{% if undergraduate.size > 0 %}
-
-<section class="teaching-section">
-
-  <div class="teaching-kicker">Undergraduate</div>
-  <h2>Undergraduate Courses</h2>
-
-  <div class="course-grid">
-
-    {% for course in undergraduate %}
-
-    <article class="course-card">
-
-      <div class="course-level">
-        {{ course.type }}
-      </div>
-
-      <h3>
-        <a href="{{ course.url | relative_url }}">
-          {{ course.title }}
-        </a>
-      </h3>
-
-      {% if course.field %}
-      <div class="course-field">
-        {{ course.field }}
-      </div>
-      {% endif %}
-
-      <div class="course-meta">
-        {% if course.venue %}
-          {{ course.venue }}
-        {% endif %}
-
-        {% if course.date %}
-          · {{ course.date | date: "%Y" }}
-        {% endif %}
-      </div>
-
-      <a class="course-link"
-         href="{{ course.url | relative_url }}">
-        View Course →
-      </a>
-
-    </article>
-
-    {% endfor %}
-
-  </div>
-
-</section>
-
-{% endif %}
-
-
-{% if masters.size > 0 %}
-
-<section class="teaching-section">
-
-  <div class="teaching-kicker">Master's</div>
-  <h2>Master's Courses</h2>
-
-  <div class="course-grid">
-
-    {% for course in masters %}
-
-    <article class="course-card">
-
-      <div class="course-level">
-        {{ course.type }}
-      </div>
-
-      <h3>
-        <a href="{{ course.url | relative_url }}">
-          {{ course.title }}
-        </a>
-      </h3>
-
-      {% if course.field %}
-      <div class="course-field">
-        {{ course.field }}
-      </div>
-      {% endif %}
-
-      <div class="course-meta">
-        {% if course.venue %}
-          {{ course.venue }}
-        {% endif %}
-
-        {% if course.date %}
-          · {{ course.date | date: "%Y" }}
-        {% endif %}
-      </div>
-
-      <a class="course-link"
-         href="{{ course.url | relative_url }}">
-        View Course →
-      </a>
-
-    </article>
-
-    {% endfor %}
-
-  </div>
-
-</section>
-
-{% endif %}
-
-
-{% if doctoral.size > 0 %}
-
-<section class="teaching-section">
-
-  <div class="teaching-kicker">Doctoral</div>
-  <h2>Doctoral Courses</h2>
-
-  <div class="course-grid">
-
-    {% for course in doctoral %}
-
-    <article class="course-card">
-
-      <div class="course-level">
-        {{ course.type }}
-      </div>
-
-      <h3>
-        <a href="{{ course.url | relative_url }}">
-          {{ course.title }}
-        </a>
-      </h3>
-
-      {% if course.field %}
-      <div class="course-field">
-        {{ course.field }}
-      </div>
-      {% endif %}
-
-      <div class="course-meta">
-        {% if course.venue %}
-          {{ course.venue }}
-        {% endif %}
-
-        {% if course.date %}
-          · {{ course.date | date: "%Y" }}
-        {% endif %}
-      </div>
-
-      <a class="course-link"
-         href="{{ course.url | relative_url }}">
-        View Course →
-      </a>
-
-    </article>
-
-    {% endfor %}
-
-  </div>
-
-</section>
-
-{% endif %}
+</div>
