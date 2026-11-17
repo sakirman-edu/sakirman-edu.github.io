@@ -9,6 +9,15 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 <style>
 
 /* =========================================================
+   HIDE AUTOMATIC ARCHIVE TITLE
+========================================================= */
+
+.page__title {
+  display: none !important;
+}
+
+
+/* =========================================================
    RESEARCH PAGE
 ========================================================= */
 
@@ -35,18 +44,25 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   opacity: 0.62;
 }
 
-.research-hero-title {
+.research-title {
   margin: 0 0 0.85rem 0;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.research-subtitle {
+  margin: 0 0 0.9rem 0;
   max-width: 900px;
-  font-size: 1.65rem;
-  line-height: 1.35;
+  font-size: 1.18rem;
+  line-height: 1.5;
   font-weight: 700;
 }
 
 .research-hero-text {
   max-width: 880px;
   margin: 0 0 1rem 0;
-  font-size: 0.96rem;
+  font-size: 0.94rem;
   line-height: 1.8;
 }
 
@@ -116,9 +132,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   transform: translateY(-3px);
 }
 
-
-/* IMAGE */
-
 .research-image-link {
   position: relative;
   display: block;
@@ -132,9 +145,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   width: 100%;
   height: 230px;
   object-fit: cover;
-
-  transition:
-    transform 0.45s ease;
+  transition: transform 0.45s ease;
 }
 
 .research-card:hover img {
@@ -142,7 +153,9 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 }
 
 
-/* THEME BADGE */
+/* =========================================================
+   THEME BADGE
+========================================================= */
 
 .research-theme-badge {
   position: absolute;
@@ -170,9 +183,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
-
-
-/* CARD CONTENT */
 
 .research-card-content {
   padding: 1.15rem 1.2rem 1.3rem;
@@ -276,7 +286,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   }
 
 }
-
 
 .method-box {
   position: absolute;
@@ -401,7 +410,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   height: 220px;
   object-fit: contain;
   padding: 1rem;
-
   transition: transform 0.45s ease;
 }
 
@@ -428,7 +436,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 
 /* =========================================================
-   CURRENT RESEARCH / PROJECT CARDS
+   PROJECT / FUTURE CARDS
 ========================================================= */
 
 .project-card,
@@ -587,8 +595,12 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 @media (max-width: 768px) {
 
-  .research-hero-title {
-    font-size: 1.45rem;
+  .research-title {
+    font-size: 1.5rem;
+  }
+
+  .research-subtitle {
+    font-size: 1.05rem;
   }
 
   .research-grid,
@@ -618,10 +630,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 
 @media (max-width: 480px) {
-
-  .research-hero-title {
-    font-size: 1.35rem;
-  }
 
   .research-card img {
     height: 190px;
@@ -653,9 +661,13 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     Research Program
   </div>
 
-  <h1 class="research-hero-title">
-    From astronomical observation to Islamic legal reasoning
+  <h1 class="research-title">
+    Research
   </h1>
+
+  <h2 class="research-subtitle">
+    From astronomical observation to Islamic legal reasoning
+  </h2>
 
   <p class="research-hero-text">
     My research explores the intersection of
@@ -700,8 +712,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   <div class="research-grid">
 
 
-    <!-- THEME 01 -->
-
     <article class="research-card">
 
       <a
@@ -738,8 +748,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     </article>
 
 
-
-    <!-- THEME 02 -->
 
     <article class="research-card">
 
@@ -778,8 +786,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 
 
-    <!-- THEME 03 -->
-
     <article class="research-card">
 
       <a
@@ -816,8 +822,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     </article>
 
 
-
-    <!-- THEME 04 -->
 
     <article class="research-card">
 
@@ -888,7 +892,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   <div class="research-loop-wrapper">
 
-
     <div class="research-loop-center">
 
       <small>
@@ -903,89 +906,53 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     </div>
 
 
-
     <div class="method-box method-1">
-
       <span class="method-number">01</span>
-
       <strong>Crescent Observation</strong>
-
       <span>hilal · twilight · geometry</span>
-
     </div>
-
 
 
     <div class="method-box method-2">
-
       <span class="method-number">02</span>
-
       <strong>Digital Image Acquisition</strong>
-
       <span>camera · telescope · RAW</span>
-
     </div>
-
 
 
     <div class="method-box method-3">
-
       <span class="method-number">03</span>
-
       <strong>Image Pre-Processing</strong>
-
       <span>calibration · Siril</span>
-
     </div>
-
 
 
     <div class="method-box method-4">
-
       <span class="method-number">04</span>
-
       <strong>Aperture Photometry</strong>
-
       <span>IRIS · intensity</span>
-
     </div>
-
 
 
     <div class="method-box method-5">
-
       <span class="method-number">05</span>
-
       <strong>Contrast Analysis</strong>
-
       <span>Weber contrast</span>
-
     </div>
-
 
 
     <div class="method-box method-6">
-
       <span class="method-number">06</span>
-
       <strong>Astronomical Interpretation</strong>
-
       <span>visibility · atmosphere</span>
-
     </div>
-
 
 
     <div class="method-box method-7">
-
       <span class="method-number">07</span>
-
       <strong>Islamic Legal Analysis</strong>
-
       <span>hisab–rukyat · maqāṣid</span>
-
     </div>
-
 
   </div>
 
@@ -1015,7 +982,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   <div class="software-grid">
 
-
     <article class="software-card">
 
       <a
@@ -1031,9 +997,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
       <div class="software-content">
 
-        <h3>
-          Siril
-        </h3>
+        <h3>Siril</h3>
 
         <p>
           Used for astronomical image calibration, preprocessing, stacking,
@@ -1043,7 +1007,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
       </div>
 
     </article>
-
 
 
     <article class="software-card">
@@ -1061,9 +1024,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
       <div class="software-content">
 
-        <h3>
-          IRIS
-        </h3>
+        <h3>IRIS</h3>
 
         <p>
           Used for aperture photometry, pixel intensity measurement, and
@@ -1074,7 +1035,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
       </div>
 
     </article>
-
 
   </div>
 
@@ -1131,62 +1091,42 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   <div class="future-grid">
 
     <div class="future-card">
-
-      <h3>
-        Dark-Sky and Environmental Astronomy
-      </h3>
-
+      <h3>Dark-Sky and Environmental Astronomy</h3>
       <p>
         Investigation of light pollution, sky quality, atmospheric
         transparency, and their implications for Islamic astronomical
         observation.
       </p>
-
     </div>
 
 
     <div class="future-card">
-
-      <h3>
-        Digital Crescent Detection
-      </h3>
-
+      <h3>Digital Crescent Detection</h3>
       <p>
         Development of quantitative and imaging-based approaches for
         identifying faint lunar crescents under challenging twilight
         conditions.
       </p>
-
     </div>
 
 
     <div class="future-card">
-
-      <h3>
-        Hijri Calendar Integration
-      </h3>
-
+      <h3>Hijri Calendar Integration</h3>
       <p>
         Integration of observational astronomy, visibility models, legal
         reasoning, institutional authority, and social acceptance in Hijri
         calendar studies.
       </p>
-
     </div>
 
 
     <div class="future-card">
-
-      <h3>
-        Islamic Law and Astronomical Evidence
-      </h3>
-
+      <h3>Islamic Law and Astronomical Evidence</h3>
       <p>
         Development of interdisciplinary frameworks connecting empirical
         astronomical evidence with Islamic legal methodology and maqāṣid
         al-sharīʿah.
       </p>
-
     </div>
 
   </div>
@@ -1255,9 +1195,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="project-card">
 
-      <h3>
-        Crescent Visibility and Twilight Photometry
-      </h3>
+      <h3>Crescent Visibility and Twilight Photometry</h3>
 
       <p>
         Quantitative investigation of crescent intensity, twilight background,
@@ -1269,9 +1207,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="project-card">
 
-      <h3>
-        Timau Observatory Dark-Sky Studies
-      </h3>
+      <h3>Timau Observatory Dark-Sky Studies</h3>
 
       <p>
         Investigation of twilight thresholds, sky brightness, environmental
@@ -1283,9 +1219,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="project-card">
 
-      <h3>
-        Digital Imaging for Rukyat al-Hilal
-      </h3>
+      <h3>Digital Imaging for Rukyat al-Hilal</h3>
 
       <p>
         Application of digital cameras, telescopes, image processing, and
@@ -1297,9 +1231,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="project-card">
 
-      <h3>
-        Hijri Calendar and Islamic Legal Reasoning
-      </h3>
+      <h3>Hijri Calendar and Islamic Legal Reasoning</h3>
 
       <p>
         Study of astronomical criteria, hisab–rukyat, Islamic jurisprudence,
