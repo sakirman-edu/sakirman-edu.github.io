@@ -2,8 +2,8 @@
 title: "Ekoteologi Astronomi"
 date: 2026-11-15
 category: "Academic News"
-image: ""
-image_alt: "AICIS 2026"
+image: "https://sakirman-edu.github.io/images/ekoteologi-astronomi.png"
+image_alt: "Ekoteologi Astronomi"
 excerpt: "Ekoteologi Astronomi."
 ---
 Di antara semburat cahaya senja dan gelapnya malam, terdapat persoalan astronomis yang menentukan keberhasilan pengamatan hilal: seberapa besar cahaya langit masih mampu menyamarkan cahaya tipis Bulan sabit muda? Pertanyaan ilmiah tersebut menjadi titik berangkat penelitian kolektif bertajuk “The Hilal between Shafaq and Dark Skies: An Ecotheological Perspective from Timau Observatory and ITERA” yang ditulis oleh Dr. Sakirman bersama empat peneliti lintas institusi dan disiplin keilmuan. Penelitian ini berhasil lolos untuk dipresentasikan dalam ajang Annual International Conference on Islamic Studies (AICIS+) 2026 di UIN Cirebon (17-20/11/2026) .
