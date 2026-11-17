@@ -98,7 +98,9 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 12px;
   background: transparent;
-  transition: transform 0.22s ease, border-color 0.22s ease;
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
 }
 
 .research-card:hover {
@@ -136,12 +138,13 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   border: 1px solid rgba(255,255,255,0.30);
   border-radius: 6px;
   background: rgba(20,20,20,0.72);
-  color: #fff !important;
+  color: #ffffff !important;
   font-size: 0.66rem;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 .research-card-content {
@@ -151,6 +154,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 .research-card h3 {
   margin: 0 0 0.6rem 0;
   font-size: 1.05rem;
+  line-height: 1.4;
 }
 
 .research-card p {
@@ -162,51 +166,115 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 
 /* =========================================================
-   ELEGANT RESEARCH LOOP
+   COMPACT RESEARCH LOOP
 ========================================================= */
+
+.research-loop-stage {
+  width: 100%;
+  margin: 1.8rem auto 2rem;
+}
 
 .research-loop-wrap {
   position: relative;
-  width: min(100%, 760px);
-  aspect-ratio: 1 / 1;
-  margin: 2.2rem auto 2.5rem;
+  width: 590px;
+  max-width: 100%;
+  height: 590px;
+  margin: 0 auto;
 }
+
+
+/* STATIC OUTER RING */
 
 .loop-outer-ring {
   position: absolute;
-  inset: 7%;
-  border: 1px solid rgba(80,130,190,0.22);
+  top: 50%;
+  left: 50%;
+  width: 420px;
+  height: 420px;
+  border: 1px solid rgba(110,140,190,0.20);
   border-radius: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.loop-mid-ring {
-  position: absolute;
-  inset: 17%;
-  border-radius: 50%;
-  border: 3px dashed rgba(0,184,217,0.78);
-  animation: rotateLoop 16s linear infinite;
-  box-shadow: 0 0 28px rgba(0,184,217,0.08);
-}
 
-.loop-mid-ring::before {
-  content: "";
-  position: absolute;
-  inset: -3px;
-  border-radius: 50%;
-  border: 3px dashed rgba(166,98,255,0.34);
-  transform: rotate(40deg);
-}
+/* STATIC INNER RING */
 
 .loop-inner-ring {
   position: absolute;
-  inset: 29%;
-  border: 1px dashed rgba(120,140,190,0.18);
+  top: 50%;
+  left: 50%;
+  width: 255px;
+  height: 255px;
+  border: 1px dashed rgba(110,140,190,0.18);
   border-radius: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@keyframes rotateLoop {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
+
+/* ROTATING DASHED ORBIT */
+
+.loop-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 345px;
+  height: 345px;
+  border: 2px dashed rgba(0,184,217,0.80);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotateOrbit 17s linear infinite;
+  filter: drop-shadow(0 0 4px rgba(0,184,217,0.18));
+  pointer-events: none;
+}
+
+.loop-orbit::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border: 2px dashed rgba(160,105,255,0.30);
+  border-radius: 50%;
+  transform: rotate(38deg);
+}
+
+
+/* SUN DOT */
+
+.loop-sun {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  border: 2px solid rgba(255,255,255,0.78);
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle,
+      #ffffff 0%,
+      #bdf7ff 20%,
+      #00d4f0 48%,
+      #008fa8 70%,
+      transparent 74%
+    );
+  box-shadow:
+    0 0 8px rgba(0,210,245,0.95),
+    0 0 18px rgba(0,210,245,0.65),
+    0 0 30px rgba(0,184,217,0.35);
+  z-index: 10;
+}
+
+@keyframes rotateOrbit {
+  from {
+    transform:
+      translate(-50%, -50%)
+      rotate(0deg);
+  }
+  to {
+    transform:
+      translate(-50%, -50%)
+      rotate(360deg);
+  }
 }
 
 
@@ -216,53 +284,58 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 255px;
-  height: 255px;
-  transform: translate(-50%, -50%);
+  width: 205px;
+  height: 205px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  border: 1px solid rgba(0,184,217,0.62);
+  padding: 1rem;
+  border: 1px solid rgba(0,184,217,0.55);
   border-radius: 50%;
   background:
-    radial-gradient(circle,
-      rgba(62,78,145,0.12) 0%,
-      rgba(0,184,217,0.035) 60%,
-      transparent 100%);
+    radial-gradient(
+      circle,
+      rgba(0,184,217,0.09) 0%,
+      rgba(0,184,217,0.025) 62%,
+      transparent 100%
+    );
+  text-align: center;
+  transform: translate(-50%, -50%);
   box-shadow:
-    0 0 25px rgba(0,184,217,0.10),
-    inset 0 0 24px rgba(0,184,217,0.03);
-  animation: loopPulse 3.4s ease-in-out infinite;
+    0 0 25px rgba(0,184,217,0.08),
+    inset 0 0 22px rgba(0,184,217,0.025);
+  animation: centerGlow 3.2s ease-in-out infinite;
   z-index: 3;
 }
 
-@keyframes loopPulse {
-  0%, 100% {
+@keyframes centerGlow {
+  0%,
+  100% {
     box-shadow:
-      0 0 22px rgba(0,184,217,0.08),
-      inset 0 0 20px rgba(0,184,217,0.02);
+      0 0 18px rgba(0,184,217,0.07),
+      inset 0 0 18px rgba(0,184,217,0.02);
   }
+
   50% {
     box-shadow:
-      0 0 42px rgba(0,184,217,0.18),
-      inset 0 0 28px rgba(0,184,217,0.05);
+      0 0 35px rgba(0,184,217,0.17),
+      inset 0 0 26px rgba(0,184,217,0.05);
   }
 }
 
 .loop-center-label {
-  margin-bottom: 0.55rem;
-  font-size: 0.66rem;
+  margin-bottom: 0.45rem;
+  font-size: 0.62rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   opacity: 0.58;
 }
 
 .loop-center-title {
-  font-size: 1.4rem;
-  line-height: 1.35;
+  font-size: 1.15rem;
+  line-height: 1.4;
   font-weight: 700;
 }
 
@@ -273,153 +346,197 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 .loop-node {
   position: absolute;
-  z-index: 5;
-  width: 190px;
-  padding: 0.85rem 0.95rem;
-  border: 1px solid rgba(110,140,210,0.34);
-  border-radius: 11px;
-  background: rgba(30,35,45,0.12);
+  z-index: 6;
+  width: 165px;
+  min-height: 78px;
+  padding: 0.68rem 0.78rem;
+  border: 1px solid rgba(115,140,195,0.32);
+  border-radius: 10px;
+  background: rgba(45,45,45,0.92);
   cursor: pointer;
   transition:
-    transform 0.22s ease,
-    border-color 0.22s ease,
-    box-shadow 0.22s ease,
-    background 0.22s ease;
+    border-color 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
 }
 
 .loop-node:hover,
 .loop-node.active {
   border-color: #00b8d9;
-  background: rgba(0,184,217,0.055);
-  box-shadow: 0 0 20px rgba(0,184,217,0.12);
+  background: rgba(0,184,217,0.065);
+  box-shadow: 0 0 16px rgba(0,184,217,0.13);
 }
 
-.loop-number {
+.loop-node-number {
   display: inline-block;
-  margin-right: 0.45rem;
-  color: #00c8eb;
-  font-size: 0.69rem;
+  margin-right: 0.38rem;
+  color: #00cbea;
+  font-size: 0.65rem;
   font-weight: 700;
 }
 
-.loop-title {
-  font-size: 0.8rem;
+.loop-node-title {
+  font-size: 0.73rem;
+  line-height: 1.35;
   font-weight: 700;
 }
 
-.loop-meta {
+.loop-node-meta {
   display: block;
-  margin-top: 0.35rem;
-  font-size: 0.66rem;
-  line-height: 1.4;
-  opacity: 0.6;
+  margin-top: 0.28rem;
+  font-size: 0.61rem;
+  line-height: 1.35;
+  opacity: 0.58;
 }
 
 
-/* =========================================================
-   6 NODE POSITIONS
-========================================================= */
+/* SIX POSITIONS */
 
 .loop-node-1 {
-  top: 5%;
+  top: 7px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .loop-node-1:hover,
 .loop-node-1.active {
-  transform: translateX(-50%) translateY(-3px);
+  transform:
+    translateX(-50%)
+    translateY(-2px);
 }
 
 .loop-node-2 {
-  top: 24%;
-  right: 1%;
+  top: 113px;
+  right: 15px;
 }
 
 .loop-node-3 {
-  bottom: 19%;
-  right: 5%;
+  bottom: 113px;
+  right: 15px;
 }
 
 .loop-node-4 {
-  bottom: 4%;
+  bottom: 7px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .loop-node-4:hover,
 .loop-node-4.active {
-  transform: translateX(-50%) translateY(-3px);
+  transform:
+    translateX(-50%)
+    translateY(-2px);
 }
 
 .loop-node-5 {
-  bottom: 19%;
-  left: 5%;
+  bottom: 113px;
+  left: 15px;
 }
 
 .loop-node-6 {
-  top: 24%;
-  left: 1%;
+  top: 113px;
+  left: 15px;
 }
 
 
 /* =========================================================
-   METHOD DETAILS BELOW
+   METHOD DETAILS
 ========================================================= */
+
+.method-details-heading {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  opacity: 0.58;
+}
 
 .method-details-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1.5rem;
+  gap: 0.85rem;
+  margin-top: 1rem;
 }
+
+
+/* DETAIL CARD */
 
 .method-detail {
-  display: flex;
-  gap: 0.9rem;
-  padding: 1.1rem 1.15rem;
-  border: 1px solid rgba(127,127,127,0.23);
-  border-radius: 11px;
-  background: transparent;
+  position: relative;
+  min-height: 66px;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(127,127,127,0.22);
+  border-radius: 10px;
   cursor: pointer;
-  opacity: 0.72;
+  overflow: hidden;
   transition:
-    opacity 0.2s ease,
-    border-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+    border-color 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
-.method-detail:hover,
+.method-detail:hover {
+  border-color: rgba(0,184,217,0.58);
+}
+
 .method-detail.active {
-  opacity: 1;
   border-color: #00b8d9;
-  box-shadow: 0 0 16px rgba(0,184,217,0.07);
-  transform: translateY(-2px);
+  background: rgba(0,184,217,0.035);
+  box-shadow: 0 0 15px rgba(0,184,217,0.07);
+}
+
+
+/* DETAIL HEADER */
+
+.method-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
 }
 
 .method-detail-number {
   flex: 0 0 auto;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 30px;
-  border: 1px solid rgba(0,184,217,0.55);
-  border-radius: 7px;
-  color: #00c9ee;
-  font-size: 0.72rem;
+  width: 33px;
+  height: 27px;
+  border: 1px solid rgba(0,184,217,0.48);
+  border-radius: 6px;
+  color: #00c9e8;
+  font-size: 0.67rem;
   font-weight: 700;
 }
 
-.method-detail p {
+.method-detail-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+
+/* HIDDEN DESCRIPTION */
+
+.method-detail-description {
+  max-height: 0;
   margin: 0;
-  font-size: 0.86rem;
-  line-height: 1.7;
+  padding-left: 2.75rem;
+  overflow: hidden;
+  opacity: 0;
+  font-size: 0.82rem;
+  line-height: 1.65;
+  transition:
+    max-height 0.40s ease,
+    opacity 0.30s ease,
+    margin-top 0.30s ease;
 }
 
-.method-detail strong {
-  font-weight: 700;
+.method-detail.active .method-detail-description {
+  max-height: 180px;
+  margin-top: 0.65rem;
+  opacity: 0.82;
 }
 
 
@@ -442,7 +559,9 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 12px;
   background: transparent;
-  transition: transform 0.22s ease, border-color 0.22s ease;
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease;
 }
 
 .software-card:hover,
@@ -567,15 +686,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
    RESPONSIVE
 ========================================================= */
 
-@media (max-width: 900px) {
-
-  .research-loop-wrap {
-    width: 680px;
-    max-width: 100%;
-  }
-
-}
-
 @media (max-width: 768px) {
 
   .research-grid,
@@ -587,15 +697,58 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   }
 
   .research-loop-wrap {
-    display: none;
+    width: 500px;
+    height: 500px;
   }
 
-  .method-detail {
-    opacity: 1;
+  .loop-outer-ring {
+    width: 350px;
+    height: 350px;
+  }
+
+  .loop-orbit {
+    width: 290px;
+    height: 290px;
+  }
+
+  .loop-inner-ring {
+    width: 215px;
+    height: 215px;
+  }
+
+  .loop-center {
+    width: 175px;
+    height: 175px;
+  }
+
+  .loop-center-title {
+    font-size: 1rem;
+  }
+
+  .loop-node {
+    width: 145px;
+  }
+
+  .loop-node-2,
+  .loop-node-3 {
+    right: 0;
+  }
+
+  .loop-node-5,
+  .loop-node-6 {
+    left: 0;
   }
 
   .research-footer-nav {
     justify-content: flex-start;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .research-loop-wrap {
+    display: none;
   }
 
 }
@@ -666,65 +819,145 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   <div class="research-grid">
 
     <article class="research-card">
-      <a href="/images/hilal-twilight.jpg" target="_blank" class="research-image-link">
-        <span class="research-theme-badge">THEME 01</span>
-        <img src="/images/hilal-twilight.jpg" alt="Crescent visibility and twilight research">
+
+      <a
+        href="/images/hilal-twilight.jpg"
+        target="_blank"
+        class="research-image-link"
+      >
+
+        <span class="research-theme-badge">
+          THEME 01
+        </span>
+
+        <img
+          src="/images/hilal-twilight.jpg"
+          alt="Crescent visibility and twilight research"
+        >
+
       </a>
+
       <div class="research-card-content">
-        <h3>Crescent Visibility and Twilight</h3>
+
+        <h3>
+          Crescent Visibility and Twilight
+        </h3>
+
         <p>
           Investigation of young crescent visibility in relation to solar
           depression, twilight intensity, atmospheric conditions, lunar
           geometry, and observational constraints.
         </p>
+
       </div>
+
     </article>
 
 
     <article class="research-card">
-      <a href="/images/Analisis-IRIS.png" target="_blank" class="research-image-link">
-        <span class="research-theme-badge">THEME 02</span>
-        <img src="/images/Analisis-IRIS.png" alt="Astronomical photometry and sky brightness analysis">
+
+      <a
+        href="/images/Analisis-IRIS.png"
+        target="_blank"
+        class="research-image-link"
+      >
+
+        <span class="research-theme-badge">
+          THEME 02
+        </span>
+
+        <img
+          src="/images/Analisis-IRIS.png"
+          alt="Astronomical photometry and sky brightness analysis"
+        >
+
       </a>
+
       <div class="research-card-content">
-        <h3>Astronomical Photometry and Sky Brightness</h3>
+
+        <h3>
+          Astronomical Photometry and Sky Brightness
+        </h3>
+
         <p>
           Quantitative analysis of crescent intensity, twilight brightness,
           aperture photometry, Weber contrast, sky quality, and observational thresholds.
         </p>
+
       </div>
+
     </article>
 
 
     <article class="research-card">
-      <a href="/images/kalender-hijriyah-2027.jpg" target="_blank" class="research-image-link">
-        <span class="research-theme-badge">THEME 03</span>
-        <img src="/images/kalender-hijriyah-2027.jpg" alt="Hijri calendar and hisab rukyat studies">
+
+      <a
+        href="/images/kalender-hijriyah-2027.jpg"
+        target="_blank"
+        class="research-image-link"
+      >
+
+        <span class="research-theme-badge">
+          THEME 03
+        </span>
+
+        <img
+          src="/images/kalender-hijriyah-2027.jpg"
+          alt="Hijri calendar and hisab rukyat studies"
+        >
+
       </a>
+
       <div class="research-card-content">
-        <h3>Hijri Calendar and Hisab–Rukyat</h3>
+
+        <h3>
+          Hijri Calendar and Hisab–Rukyat
+        </h3>
+
         <p>
           Study of lunar calendrical systems, crescent visibility criteria,
           astronomical calculation, observational evidence, institutional
           authority, and Islamic legal reasoning.
         </p>
+
       </div>
+
     </article>
 
 
     <article class="research-card">
-      <a href="/images/olah-citra.jpg" target="_blank" class="research-image-link">
-        <span class="research-theme-badge">THEME 04</span>
-        <img src="/images/olah-citra.jpg" alt="Digital imaging for crescent observation">
+
+      <a
+        href="/images/olah-citra.jpg"
+        target="_blank"
+        class="research-image-link"
+      >
+
+        <span class="research-theme-badge">
+          THEME 04
+        </span>
+
+        <img
+          src="/images/olah-citra.jpg"
+          alt="Digital imaging for crescent observation"
+        >
+
       </a>
+
       <div class="research-card-content">
-        <h3>Digital Imaging and Astronomical Evidence</h3>
+
+        <h3>
+          Digital Imaging and Astronomical Evidence
+        </h3>
+
         <p>
           Application of digital cameras, telescopes, image processing,
           calibration, enhancement, and quantitative analysis to improve
           crescent detection and astronomical documentation.
         </p>
+
       </div>
+
     </article>
 
   </div>
@@ -747,140 +980,295 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   </h2>
 
   <p class="research-section-intro">
-    The research workflow integrates astronomical observation, digital imaging,
-    image processing, quantitative measurement, astronomical interpretation,
-    and Islamic legal reasoning.
+    The research workflow integrates astronomical observation,
+    digital imaging, image processing, quantitative measurement,
+    astronomical interpretation, and Islamic legal reasoning.
   </p>
 
 
-  <!-- LOOP -->
+  <div class="research-loop-stage">
 
-  <div class="research-loop-wrap">
-
-    <div class="loop-outer-ring"></div>
-    <div class="loop-mid-ring"></div>
-    <div class="loop-inner-ring"></div>
+    <div class="research-loop-wrap">
 
 
-    <div class="loop-center">
-      <span class="loop-center-label">
-        Research Loop
-      </span>
+      <div class="loop-outer-ring"></div>
 
-      <div class="loop-center-title">
-        From Observation<br>
-        to Evidence
+      <div class="loop-inner-ring"></div>
+
+
+      <div class="loop-orbit">
+
+        <div class="loop-sun"></div>
+
       </div>
-    </div>
 
 
-    <div class="loop-node loop-node-1 active" data-step="1">
-      <span class="loop-number">01</span>
-      <span class="loop-title">Crescent Observation</span>
-      <span class="loop-meta">hilal · twilight · geometry</span>
-    </div>
+      <div class="loop-center">
+
+        <span class="loop-center-label">
+          Research Loop
+        </span>
+
+        <div class="loop-center-title">
+          From Observation<br>
+          to Evidence
+        </div>
+
+      </div>
 
 
-    <div class="loop-node loop-node-2" data-step="2">
-      <span class="loop-number">02</span>
-      <span class="loop-title">Digital Image Acquisition</span>
-      <span class="loop-meta">camera · telescope · RAW</span>
-    </div>
+      <div class="loop-node loop-node-1 active" data-step="1">
+
+        <span class="loop-node-number">
+          01
+        </span>
+
+        <span class="loop-node-title">
+          Crescent Observation
+        </span>
+
+        <span class="loop-node-meta">
+          hilal · twilight · geometry
+        </span>
+
+      </div>
 
 
-    <div class="loop-node loop-node-3" data-step="3">
-      <span class="loop-number">03</span>
-      <span class="loop-title">Image Pre-Processing</span>
-      <span class="loop-meta">calibration · Siril</span>
-    </div>
+      <div class="loop-node loop-node-2" data-step="2">
+
+        <span class="loop-node-number">
+          02
+        </span>
+
+        <span class="loop-node-title">
+          Digital Image Acquisition
+        </span>
+
+        <span class="loop-node-meta">
+          camera · telescope · RAW
+        </span>
+
+      </div>
 
 
-    <div class="loop-node loop-node-4" data-step="4">
-      <span class="loop-number">04</span>
-      <span class="loop-title">Photometry & Contrast</span>
-      <span class="loop-meta">IRIS · Weber contrast</span>
-    </div>
+      <div class="loop-node loop-node-3" data-step="3">
+
+        <span class="loop-node-number">
+          03
+        </span>
+
+        <span class="loop-node-title">
+          Image Pre-Processing
+        </span>
+
+        <span class="loop-node-meta">
+          calibration · Siril
+        </span>
+
+      </div>
 
 
-    <div class="loop-node loop-node-5" data-step="5">
-      <span class="loop-number">05</span>
-      <span class="loop-title">Astronomical Interpretation</span>
-      <span class="loop-meta">visibility · atmosphere</span>
-    </div>
+      <div class="loop-node loop-node-4" data-step="4">
+
+        <span class="loop-node-number">
+          04
+        </span>
+
+        <span class="loop-node-title">
+          Photometry & Contrast
+        </span>
+
+        <span class="loop-node-meta">
+          IRIS · Weber contrast
+        </span>
+
+      </div>
 
 
-    <div class="loop-node loop-node-6" data-step="6">
-      <span class="loop-number">06</span>
-      <span class="loop-title">Islamic Legal Analysis</span>
-      <span class="loop-meta">hisab–rukyat · maqāṣid</span>
+      <div class="loop-node loop-node-5" data-step="5">
+
+        <span class="loop-node-number">
+          05
+        </span>
+
+        <span class="loop-node-title">
+          Astronomical Interpretation
+        </span>
+
+        <span class="loop-node-meta">
+          visibility · atmosphere
+        </span>
+
+      </div>
+
+
+      <div class="loop-node loop-node-6" data-step="6">
+
+        <span class="loop-node-number">
+          06
+        </span>
+
+        <span class="loop-node-title">
+          Islamic Legal Analysis
+        </span>
+
+        <span class="loop-node-meta">
+          hisab–rukyat · maqāṣid
+        </span>
+
+      </div>
+
+
     </div>
 
   </div>
 
 
-  <!-- DETAILS BELOW -->
+  <div class="method-details-heading">
+    Select a stage to explore the research process
+  </div>
+
 
   <div class="method-details-grid">
 
 
     <div class="method-detail active" data-step="1">
-      <span class="method-detail-number">01</span>
-      <p>
-        <strong>Crescent Observation</strong> establishes the empirical basis
-        through observation of the <em>hilal</em>, twilight conditions,
-        lunar geometry, and atmospheric circumstances.
+
+      <div class="method-detail-header">
+
+        <span class="method-detail-number">
+          01
+        </span>
+
+        <span class="method-detail-title">
+          Crescent Observation
+        </span>
+
+      </div>
+
+      <p class="method-detail-description">
+        Establishes the empirical basis through direct observation
+        of the <em>hilal</em>, twilight conditions, lunar geometry,
+        and atmospheric circumstances.
       </p>
+
     </div>
 
 
     <div class="method-detail" data-step="2">
-      <span class="method-detail-number">02</span>
-      <p>
-        <strong>Digital Image Acquisition</strong> records astronomical
-        observations using cameras and telescopes while preserving RAW image
-        data for quantitative analysis.
+
+      <div class="method-detail-header">
+
+        <span class="method-detail-number">
+          02
+        </span>
+
+        <span class="method-detail-title">
+          Digital Image Acquisition
+        </span>
+
+      </div>
+
+      <p class="method-detail-description">
+        Records astronomical observations using digital cameras
+        and telescopes while preserving RAW image data for
+        subsequent quantitative analysis.
       </p>
+
     </div>
 
 
     <div class="method-detail" data-step="3">
-      <span class="method-detail-number">03</span>
-      <p>
-        <strong>Image Pre-Processing</strong> prepares observational data
-        through calibration, correction, enhancement, and astronomical
-        image processing using Siril.
+
+      <div class="method-detail-header">
+
+        <span class="method-detail-number">
+          03
+        </span>
+
+        <span class="method-detail-title">
+          Image Pre-Processing
+        </span>
+
+      </div>
+
+      <p class="method-detail-description">
+        Prepares observational data through calibration,
+        correction, enhancement, and astronomical image
+        processing using software such as Siril.
       </p>
+
     </div>
 
 
     <div class="method-detail" data-step="4">
-      <span class="method-detail-number">04</span>
-      <p>
-        <strong>Photometry and Contrast</strong> measures crescent intensity,
-        twilight brightness, and visual separation between the crescent
-        and background sky using IRIS and Weber contrast.
+
+      <div class="method-detail-header">
+
+        <span class="method-detail-number">
+          04
+        </span>
+
+        <span class="method-detail-title">
+          Photometry & Contrast
+        </span>
+
+      </div>
+
+      <p class="method-detail-description">
+        Measures crescent intensity, twilight brightness,
+        and visual separation between the crescent and the
+        background sky using IRIS and Weber contrast.
       </p>
+
     </div>
 
 
     <div class="method-detail" data-step="5">
-      <span class="method-detail-number">05</span>
-      <p>
-        <strong>Astronomical Interpretation</strong> connects quantitative
-        measurements with atmospheric conditions, lunar geometry,
-        twilight brightness, and crescent visibility criteria.
+
+      <div class="method-detail-header">
+
+        <span class="method-detail-number">
+          05
+        </span>
+
+        <span class="method-detail-title">
+          Astronomical Interpretation
+        </span>
+
+      </div>
+
+      <p class="method-detail-description">
+        Connects quantitative measurements with atmospheric
+        conditions, lunar geometry, twilight brightness,
+        and crescent visibility criteria.
       </p>
+
     </div>
 
 
     <div class="method-detail" data-step="6">
-      <span class="method-detail-number">06</span>
-      <p>
-        <strong>Islamic Legal Analysis</strong> interprets astronomical evidence
-        through <em>hisab–rukyat</em>, Islamic jurisprudence,
+
+      <div class="method-detail-header">
+
+        <span class="method-detail-number">
+          06
+        </span>
+
+        <span class="method-detail-title">
+          Islamic Legal Analysis
+        </span>
+
+      </div>
+
+      <p class="method-detail-description">
+        Interprets astronomical evidence through
+        <em>hisab–rukyat</em>, Islamic jurisprudence,
         and maqāṣid al-sharīʿah.
       </p>
+
     </div>
+
 
   </div>
 
@@ -906,37 +1294,72 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     of the observational research workflow.
   </p>
 
+
   <div class="software-grid">
 
+
     <article class="software-card">
-      <a href="https://siril.org/" target="_blank" rel="noopener">
-        <img src="/images/software-siril.png" alt="Siril astronomical image processing software">
+
+      <a
+        href="https://siril.org/"
+        target="_blank"
+        rel="noopener"
+      >
+
+        <img
+          src="/images/software-siril.png"
+          alt="Siril astronomical image processing software"
+        >
+
       </a>
 
       <div class="software-content">
-        <h3>Siril</h3>
+
+        <h3>
+          Siril
+        </h3>
+
         <p>
-          Used for astronomical image calibration, preprocessing, stacking,
-          enhancement, and preparation of observational image data.
+          Used for astronomical image calibration, preprocessing,
+          stacking, enhancement, and preparation of observational image data.
         </p>
+
       </div>
+
     </article>
 
 
     <article class="software-card">
-      <a href="https://buil.astrosurf.com/iris-software.html" target="_blank" rel="noopener">
-        <img src="/images/software-iris.png" alt="IRIS astronomical image analysis software">
+
+      <a
+        href="https://buil.astrosurf.com/iris-software.html"
+        target="_blank"
+        rel="noopener"
+      >
+
+        <img
+          src="/images/software-iris.png"
+          alt="IRIS astronomical image analysis software"
+        >
+
       </a>
 
       <div class="software-content">
-        <h3>IRIS</h3>
+
+        <h3>
+          IRIS
+        </h3>
+
         <p>
           Used for aperture photometry, pixel intensity measurement,
           and quantitative comparison between crescent brightness
           and twilight background.
         </p>
+
       </div>
+
     </article>
+
 
   </div>
 
@@ -958,6 +1381,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   </h2>
 
   <div class="project-card">
+
     <p>
       Current research examines the relationship between tropical twilight,
       sky brightness, atmospheric conditions, and the visibility of the young
@@ -965,6 +1389,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
       aperture photometry, and contrast analysis to strengthen empirical
       understanding of crescent detection under tropical atmospheric conditions.
     </p>
+
   </div>
 
 </section>
@@ -984,39 +1409,65 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     Developing Evidence-Based Islamic Astronomy
   </h2>
 
+
   <div class="future-grid">
 
+
     <div class="future-card">
-      <h3>Dark-Sky and Environmental Astronomy</h3>
+
+      <h3>
+        Dark-Sky and Environmental Astronomy
+      </h3>
+
       <p>
         Investigation of light pollution, sky quality, atmospheric transparency,
         and their implications for Islamic astronomical observation.
       </p>
+
     </div>
 
+
     <div class="future-card">
-      <h3>Digital Crescent Detection</h3>
+
+      <h3>
+        Digital Crescent Detection
+      </h3>
+
       <p>
-        Development of quantitative and imaging-based approaches for identifying
-        faint lunar crescents under challenging twilight conditions.
+        Development of quantitative and imaging-based approaches
+        for identifying faint lunar crescents under challenging twilight conditions.
       </p>
+
     </div>
 
+
     <div class="future-card">
-      <h3>Hijri Calendar Integration</h3>
+
+      <h3>
+        Hijri Calendar Integration
+      </h3>
+
       <p>
         Integration of observational astronomy, visibility models,
         legal reasoning, institutional authority, and social acceptance.
       </p>
+
     </div>
 
+
     <div class="future-card">
-      <h3>Islamic Law and Astronomical Evidence</h3>
+
+      <h3>
+        Islamic Law and Astronomical Evidence
+      </h3>
+
       <p>
         Development of interdisciplinary frameworks connecting empirical
         astronomical evidence with Islamic legal methodology and maqāṣid al-sharīʿah.
       </p>
+
     </div>
+
 
   </div>
 
@@ -1043,13 +1494,21 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     integration between astronomy, environmental studies, and Islamic law.
   </p>
 
+
   <div class="roadmap-wrapper">
-    <a href="/images/roadmap-penelitian-hilal.png" target="_blank">
+
+    <a
+      href="/images/roadmap-penelitian-hilal.png"
+      target="_blank"
+    >
+
       <img
         src="/images/roadmap-penelitian-hilal.png"
         alt="Research roadmap on crescent visibility and Islamic astronomy"
       >
+
     </a>
+
   </div>
 
 </section>
@@ -1069,39 +1528,67 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
     Research Projects
   </h2>
 
+
   <div class="project-grid">
 
-    <div class="project-card">
-      <h3>Crescent Visibility and Twilight Photometry</h3>
-      <p>
-        Quantitative investigation of crescent intensity, twilight background,
-        and Weber contrast using digital astronomical images.
-      </p>
-    </div>
 
     <div class="project-card">
-      <h3>Timau Observatory Dark-Sky Studies</h3>
+
+      <h3>
+        Crescent Visibility and Twilight Photometry
+      </h3>
+
       <p>
-        Investigation of twilight thresholds, sky brightness, environmental
-        conditions, and their relevance to astronomical observation.
+        Quantitative investigation of crescent intensity,
+        twilight background, and Weber contrast using digital astronomical images.
       </p>
+
     </div>
 
-    <div class="project-card">
-      <h3>Digital Imaging for Rukyat al-Hilal</h3>
-      <p>
-        Application of digital cameras, telescopes, image processing,
-        and photometric analysis to contemporary crescent observation.
-      </p>
-    </div>
 
     <div class="project-card">
-      <h3>Hijri Calendar and Islamic Legal Reasoning</h3>
+
+      <h3>
+        Timau Observatory Dark-Sky Studies
+      </h3>
+
       <p>
-        Study of astronomical criteria, hisab–rukyat, Islamic jurisprudence,
-        institutional authority, and social acceptance of Hijri calendar systems.
+        Investigation of twilight thresholds, sky brightness,
+        environmental conditions, and their relevance to astronomical observation.
       </p>
+
     </div>
+
+
+    <div class="project-card">
+
+      <h3>
+        Digital Imaging for Rukyat al-Hilal
+      </h3>
+
+      <p>
+        Application of digital cameras, telescopes,
+        image processing, and photometric analysis
+        to contemporary crescent observation.
+      </p>
+
+    </div>
+
+
+    <div class="project-card">
+
+      <h3>
+        Hijri Calendar and Islamic Legal Reasoning
+      </h3>
+
+      <p>
+        Study of astronomical criteria, hisab–rukyat,
+        Islamic jurisprudence, institutional authority,
+        and social acceptance of Hijri calendar systems.
+      </p>
+
+    </div>
+
 
   </div>
 
@@ -1123,11 +1610,33 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   </h2>
 
   <ul class="research-output-list">
-    <li>Peer-reviewed journal articles in Islamic astronomy, Islamic law, crescent visibility, and Hijri calendar studies.</li>
-    <li>Astronomical observation and photometric analysis of the hilal and twilight.</li>
-    <li>Research on digital imaging technology for contemporary <em>rukyat al-hilal</em>.</li>
-    <li>Interdisciplinary studies connecting astronomy, environmental science, Islamic jurisprudence, and maqāṣid al-sharīʿah.</li>
-    <li>Academic books, conference papers, research reports, and teaching materials in Islamic astronomy and Islamic law.</li>
+
+    <li>
+      Peer-reviewed journal articles in Islamic astronomy,
+      Islamic law, crescent visibility, and Hijri calendar studies.
+    </li>
+
+    <li>
+      Astronomical observation and photometric analysis
+      of the hilal and twilight.
+    </li>
+
+    <li>
+      Research on digital imaging technology for contemporary
+      <em>rukyat al-hilal</em>.
+    </li>
+
+    <li>
+      Interdisciplinary studies connecting astronomy,
+      environmental science, Islamic jurisprudence,
+      and maqāṣid al-sharīʿah.
+    </li>
+
+    <li>
+      Academic books, conference papers, research reports,
+      and teaching materials in Islamic astronomy and Islamic law.
+    </li>
+
   </ul>
 
 </section>
@@ -1139,15 +1648,24 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 <div class="research-footer-nav">
 
-  <a href="/" class="research-footer-button">
+  <a
+    href="/"
+    class="research-footer-button"
+  >
     ← Back to Home
   </a>
 
-  <a href="/main-publications/" class="research-footer-button">
+  <a
+    href="/main-publications/"
+    class="research-footer-button"
+  >
     Main Publications
   </a>
 
-  <a href="/cv/" class="research-footer-button">
+  <a
+    href="/cv/"
+    class="research-footer-button"
+  >
     Academic CV →
   </a>
 
@@ -1157,43 +1675,133 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 </div>
 
 
+<!-- =====================================================
+     INTERACTIVE SCRIPT
+===================================================== -->
+
 <script>
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
 
-  const nodes = document.querySelectorAll(".loop-node");
-  const details = document.querySelectorAll(".method-detail");
+    const nodes =
+      document.querySelectorAll(".loop-node");
 
-  function activateStep(step) {
+    const details =
+      document.querySelectorAll(".method-detail");
 
-    nodes.forEach(function (node) {
-      node.classList.toggle(
-        "active",
-        node.dataset.step === step
+    let currentStep = 1;
+
+    let autoPlay = null;
+
+
+    function activateStep(step) {
+
+      const stepString =
+        String(step);
+
+
+      nodes.forEach(
+        function (node) {
+
+          node.classList.toggle(
+            "active",
+            node.dataset.step === stepString
+          );
+
+        }
       );
-    });
 
-    details.forEach(function (detail) {
-      detail.classList.toggle(
-        "active",
-        detail.dataset.step === step
+
+      details.forEach(
+        function (detail) {
+
+          detail.classList.toggle(
+            "active",
+            detail.dataset.step === stepString
+          );
+
+        }
       );
-    });
+
+
+      currentStep =
+        Number(step);
+
+    }
+
+
+    function startAutoPlay() {
+
+      clearInterval(autoPlay);
+
+      autoPlay =
+        setInterval(
+          function () {
+
+            currentStep++;
+
+            if (currentStep > 6) {
+              currentStep = 1;
+            }
+
+            activateStep(
+              currentStep
+            );
+
+          },
+          4500
+        );
+
+    }
+
+
+    nodes.forEach(
+      function (node) {
+
+        node.addEventListener(
+          "click",
+          function () {
+
+            activateStep(
+              this.dataset.step
+            );
+
+            startAutoPlay();
+
+          }
+        );
+
+      }
+    );
+
+
+    details.forEach(
+      function (detail) {
+
+        detail.addEventListener(
+          "click",
+          function () {
+
+            activateStep(
+              this.dataset.step
+            );
+
+            startAutoPlay();
+
+          }
+        );
+
+      }
+    );
+
+
+    activateStep(1);
+
+    startAutoPlay();
 
   }
-
-  nodes.forEach(function (node) {
-    node.addEventListener("click", function () {
-      activateStep(this.dataset.step);
-    });
-  });
-
-  details.forEach(function (detail) {
-    detail.addEventListener("click", function () {
-      activateStep(this.dataset.step);
-    });
-  });
-
-});
+);
 
 </script>
