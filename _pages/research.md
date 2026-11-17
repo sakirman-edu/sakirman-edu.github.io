@@ -284,13 +284,15 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 
 /* =========================================================
-   CENTER
+   CENTER RESEARCH LOOP
+   SOLID RING + BLINKING GLOW
 ========================================================= */
 
 .loop-center {
   position: absolute;
   top: 50%;
   left: 50%;
+
   width: 195px;
   height: 195px;
 
@@ -301,14 +303,14 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   padding: 1rem;
 
-  border: 1px solid rgba(0,184,217,0.55);
+  border: 1.5px solid rgba(0,184,217,0.55);
   border-radius: 50%;
 
   background:
     radial-gradient(
       circle,
       rgba(0,184,217,0.08) 0%,
-      rgba(0,184,217,0.02) 62%,
+      rgba(0,184,217,0.025) 58%,
       transparent 100%
     );
 
@@ -316,33 +318,97 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   transform: translate(-50%, -50%);
 
-  box-shadow:
-    0 0 22px rgba(0,184,217,0.08),
-    inset 0 0 20px rgba(0,184,217,0.03);
-
-  animation: centerGlow 3.2s ease-in-out infinite;
-
   z-index: 3;
+
+  animation:
+    researchCenterGlow 2.4s ease-in-out infinite;
 }
 
-@keyframes centerGlow {
+
+/* SECOND GLOW RING */
+
+.loop-center::before {
+  content: "";
+
+  position: absolute;
+  inset: -7px;
+
+  border: 1px solid rgba(0,184,217,0.18);
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  animation:
+    researchCenterPulse 2.4s ease-in-out infinite;
+}
+
+
+/* SOLID RING BLINK */
+
+@keyframes researchCenterGlow {
 
   0%,
   100% {
+
+    border-color:
+      rgba(0,184,217,0.45);
+
     box-shadow:
-      0 0 16px rgba(0,184,217,0.07),
-      inset 0 0 16px rgba(0,184,217,0.02);
+      0 0 8px rgba(0,184,217,0.05),
+      0 0 15px rgba(0,184,217,0.05),
+      inset 0 0 12px rgba(0,184,217,0.02);
+
   }
 
   50% {
+
+    border-color:
+      rgba(0,220,255,1);
+
     box-shadow:
-      0 0 30px rgba(0,184,217,0.16),
-      inset 0 0 22px rgba(0,184,217,0.04);
+      0 0 10px rgba(0,220,255,0.40),
+      0 0 24px rgba(0,210,245,0.32),
+      0 0 38px rgba(0,184,217,0.16),
+      inset 0 0 22px rgba(0,184,217,0.07);
+
   }
 
 }
 
+
+/* OUTER PULSE */
+
+@keyframes researchCenterPulse {
+
+  0%,
+  100% {
+
+    opacity: 0.15;
+
+    transform: scale(0.98);
+
+    border-color:
+      rgba(0,184,217,0.16);
+
+  }
+
+  50% {
+
+    opacity: 0.85;
+
+    transform: scale(1.045);
+
+    border-color:
+      rgba(0,220,255,0.58);
+
+  }
+
+}
+
+
 .loop-center-label {
+  position: relative;
+  z-index: 2;
   margin-bottom: 0.45rem;
   font-size: 0.61rem;
   font-weight: 700;
@@ -352,6 +418,8 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 }
 
 .loop-center-title {
+  position: relative;
+  z-index: 2;
   font-size: 1.10rem;
   line-height: 1.4;
   font-weight: 700;
