@@ -136,7 +136,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   position: relative;
   display: block;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden !important;
   border-bottom: 1px solid rgba(127,127,127,0.20);
 }
 
@@ -145,11 +145,14 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   width: 100%;
   height: 230px;
   object-fit: cover;
-  transition: transform 0.45s ease;
+
+  transition:
+    transform 0.45s ease !important,
+    filter 0.45s ease;
 }
 
 .research-card:hover img {
-  transform: scale(1.055);
+  transform: scale(1.06) !important;
 }
 
 
@@ -170,7 +173,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   border-radius: 6px;
 
   background: rgba(20,20,20,0.72);
-
   color: #ffffff !important;
 
   font-size: 0.66rem;
@@ -241,6 +243,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   height: 210px;
 
   padding: 1.2rem;
+
   border: 1px solid #00b8d9;
   border-radius: 50%;
 
@@ -248,19 +251,19 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   transform: translate(-50%, -50%);
 
-  box-shadow:
-    0 0 0 8px rgba(0,184,217,0.04),
-    0 0 25px rgba(0,184,217,0.13);
+  animation: researchLoopGlow 2.6s ease-in-out infinite !important;
 
-  animation: researchLoopGlow 3s ease-in-out infinite;
+  will-change: box-shadow;
 }
 
 .research-loop-center small {
   margin-bottom: 0.35rem;
+
   font-size: 0.66rem;
   font-weight: 700;
   letter-spacing: 0.11em;
   text-transform: uppercase;
+
   opacity: 0.6;
 }
 
@@ -269,26 +272,42 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   line-height: 1.45;
 }
 
+
+/* =========================================================
+   LOOP GLOW ANIMATION
+========================================================= */
+
 @keyframes researchLoopGlow {
 
-  0%,
-  100% {
+  0% {
     box-shadow:
-      0 0 0 8px rgba(0,184,217,0.04),
-      0 0 18px rgba(0,184,217,0.10);
+      0 0 0 6px rgba(0,184,217,0.03),
+      0 0 12px rgba(0,184,217,0.10);
   }
 
   50% {
     box-shadow:
-      0 0 0 11px rgba(0,184,217,0.06),
-      0 0 30px rgba(0,184,217,0.22);
+      0 0 0 14px rgba(0,184,217,0.08),
+      0 0 36px rgba(0,184,217,0.32);
+  }
+
+  100% {
+    box-shadow:
+      0 0 0 6px rgba(0,184,217,0.03),
+      0 0 12px rgba(0,184,217,0.10);
   }
 
 }
 
+
+/* =========================================================
+   LOOP BOXES
+========================================================= */
+
 .method-box {
   position: absolute;
   width: 225px;
+
   padding: 0.8rem 0.9rem;
 
   border: 1px solid rgba(127,127,127,0.25);
@@ -298,38 +317,50 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   transition:
     transform 0.22s ease,
-    border-color 0.22s ease;
+    border-color 0.22s ease,
+    box-shadow 0.22s ease;
 }
 
 .method-box:hover {
   border-color: #00b8d9;
+
+  box-shadow:
+    0 6px 20px rgba(0,184,217,0.08);
+
   transform: translateY(-3px);
 }
 
 .method-number {
   display: block;
   margin-bottom: 0.25rem;
+
   font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.08em;
+
   opacity: 0.5;
 }
 
 .method-box strong {
   display: block;
   margin-bottom: 0.2rem;
+
   font-size: 0.84rem;
 }
 
 .method-box span {
   display: block;
+
   font-size: 0.72rem;
   line-height: 1.45;
+
   opacity: 0.7;
 }
 
 
-/* LOOP POSITIONS */
+/* =========================================================
+   LOOP POSITIONS
+========================================================= */
 
 .method-1 {
   top: 2%;
@@ -384,8 +415,10 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 .software-card {
   overflow: hidden;
+
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 12px;
+
   background: transparent;
 
   transition:
@@ -405,10 +438,14 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 .software-card img {
   display: block;
+
   width: 100%;
   height: 220px;
+
   object-fit: contain;
+
   padding: 1rem;
+
   transition: transform 0.45s ease;
 }
 
@@ -418,18 +455,22 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 .software-content {
   padding: 1rem 1.2rem 1.2rem;
+
   border-top: 1px solid rgba(127,127,127,0.18);
 }
 
 .software-content h3 {
   margin: 0 0 0.45rem 0;
+
   font-size: 1rem;
 }
 
 .software-content p {
   margin: 0;
+
   font-size: 0.84rem;
   line-height: 1.65;
+
   opacity: 0.78;
 }
 
@@ -441,8 +482,10 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 .project-card,
 .future-card {
   padding: 1.2rem 1.25rem;
+
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 12px;
+
   background: transparent;
 
   transition:
@@ -459,14 +502,17 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 .project-card h3,
 .future-card h3 {
   margin: 0 0 0.55rem 0;
+
   font-size: 1rem;
 }
 
 .project-card p,
 .future-card p {
   margin: 0;
+
   font-size: 0.86rem;
   line-height: 1.7;
+
   opacity: 0.8;
 }
 
@@ -494,14 +540,17 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 .roadmap-wrapper a {
   display: inline-block;
   overflow: hidden;
+
   border-radius: 10px;
 }
 
 .roadmap-wrapper img {
   display: block;
+
   width: 100%;
   max-width: 680px;
   height: auto;
+
   margin: 0 auto;
 
   border: 1px solid rgba(127,127,127,0.20);
@@ -537,6 +586,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 .research-output-list li {
   margin-bottom: 0.65rem;
+
   line-height: 1.65;
 }
 
@@ -549,6 +599,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   gap: 0.7rem;
 
   margin-top: 3rem;
@@ -580,6 +631,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 .research-footer-button:focus {
   color: #00b8d9 !important;
   border-color: #00b8d9 !important;
+
   transform: translateY(-2px);
 }
 
@@ -596,6 +648,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   .research-loop-center {
     position: relative;
+
     top: auto;
     left: auto;
 
@@ -616,12 +669,14 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   .method-6,
   .method-7 {
     position: relative;
+
     top: auto;
     right: auto;
     bottom: auto;
     left: auto;
 
     width: 100%;
+
     margin-bottom: 0.65rem;
 
     transform: none;
@@ -666,7 +721,7 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
   .research-card:hover img,
   .software-card:hover img {
-    transform: none;
+    transform: none !important;
   }
 
   .research-footer-nav {
@@ -685,7 +740,9 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   .research-theme-badge {
     top: 10px;
     left: 10px;
+
     padding: 0.34rem 0.5rem;
+
     font-size: 0.62rem;
   }
 
@@ -1036,10 +1093,12 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
         target="_blank"
         rel="noopener"
       >
+
         <img
           src="/images/software-siril.png"
           alt="Siril astronomical image processing software"
         >
+
       </a>
 
       <div class="software-content">
@@ -1063,10 +1122,12 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
         target="_blank"
         rel="noopener"
       >
+
         <img
           src="/images/software-iris.png"
           alt="IRIS astronomical image analysis software"
         >
+
       </a>
 
       <div class="software-content">
@@ -1138,42 +1199,62 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   <div class="future-grid">
 
     <div class="future-card">
-      <h3>Dark-Sky and Environmental Astronomy</h3>
+
+      <h3>
+        Dark-Sky and Environmental Astronomy
+      </h3>
+
       <p>
         Investigation of light pollution, sky quality, atmospheric
         transparency, and their implications for Islamic astronomical
         observation.
       </p>
+
     </div>
 
 
     <div class="future-card">
-      <h3>Digital Crescent Detection</h3>
+
+      <h3>
+        Digital Crescent Detection
+      </h3>
+
       <p>
         Development of quantitative and imaging-based approaches for
         identifying faint lunar crescents under challenging twilight
         conditions.
       </p>
+
     </div>
 
 
     <div class="future-card">
-      <h3>Hijri Calendar Integration</h3>
+
+      <h3>
+        Hijri Calendar Integration
+      </h3>
+
       <p>
         Integration of observational astronomy, visibility models, legal
         reasoning, institutional authority, and social acceptance in Hijri
         calendar studies.
       </p>
+
     </div>
 
 
     <div class="future-card">
-      <h3>Islamic Law and Astronomical Evidence</h3>
+
+      <h3>
+        Islamic Law and Astronomical Evidence
+      </h3>
+
       <p>
         Development of interdisciplinary frameworks connecting empirical
         astronomical evidence with Islamic legal methodology and maqāṣid
         al-sharīʿah.
       </p>
+
     </div>
 
   </div>
@@ -1242,7 +1323,9 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="project-card">
 
-      <h3>Crescent Visibility and Twilight Photometry</h3>
+      <h3>
+        Crescent Visibility and Twilight Photometry
+      </h3>
 
       <p>
         Quantitative investigation of crescent intensity, twilight background,
@@ -1254,7 +1337,9 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="project-card">
 
-      <h3>Timau Observatory Dark-Sky Studies</h3>
+      <h3>
+        Timau Observatory Dark-Sky Studies
+      </h3>
 
       <p>
         Investigation of twilight thresholds, sky brightness, environmental
@@ -1266,7 +1351,9 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="project-card">
 
-      <h3>Digital Imaging for Rukyat al-Hilal</h3>
+      <h3>
+        Digital Imaging for Rukyat al-Hilal
+      </h3>
 
       <p>
         Application of digital cameras, telescopes, image processing, and
@@ -1278,7 +1365,9 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
     <div class="project-card">
 
-      <h3>Hijri Calendar and Islamic Legal Reasoning</h3>
+      <h3>
+        Hijri Calendar and Islamic Legal Reasoning
+      </h3>
 
       <p>
         Study of astronomical criteria, hisab–rukyat, Islamic jurisprudence,
