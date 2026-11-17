@@ -164,7 +164,6 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   z-index: 5;
 
   display: inline-block;
-
   padding: 0.38rem 0.58rem;
 
   border: 1px solid rgba(255,255,255,0.30);
@@ -543,6 +542,49 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
 
 
 /* =========================================================
+   FOOTER NAVIGATION
+========================================================= */
+
+.research-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+
+  border-top: 1px solid rgba(127,127,127,0.22);
+}
+
+.research-footer-button {
+  display: inline-block;
+
+  padding: 0.55rem 0.85rem;
+
+  border: 1px solid rgba(127,127,127,0.30);
+  border-radius: 8px;
+
+  font-size: 0.78rem;
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.research-footer-button:hover,
+.research-footer-button:focus {
+  color: #00b8d9 !important;
+  border-color: #00b8d9 !important;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
    RESPONSIVE
 ========================================================= */
 
@@ -617,13 +659,18 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   .research-card:hover,
   .software-card:hover,
   .project-card:hover,
-  .future-card:hover {
+  .future-card:hover,
+  .research-footer-button:hover {
     transform: none;
   }
 
   .research-card:hover img,
   .software-card:hover img {
     transform: none;
+  }
+
+  .research-footer-nav {
+    justify-content: flex-start;
   }
 
 }
@@ -1291,6 +1338,37 @@ description: "Research program of Dr. Sakirman in Islamic astronomy, crescent vi
   </ul>
 
 </section>
+
+
+
+<!-- =====================================================
+     FOOTER NAVIGATION
+===================================================== -->
+
+<div class="research-footer-nav">
+
+  <a
+    href="/"
+    class="research-footer-button"
+  >
+    ← Back to Home
+  </a>
+
+  <a
+    href="/main-publications/"
+    class="research-footer-button"
+  >
+    Main Publications
+  </a>
+
+  <a
+    href="/cv/"
+    class="research-footer-button"
+  >
+    Academic CV →
+  </a>
+
+</div>
 
 
 </div>
