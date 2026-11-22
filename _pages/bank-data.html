@@ -65,6 +65,41 @@ description: "Private academic document index for personal records, education, r
 
 
 /* =========================================================
+   UPLOAD BUTTON
+========================================================= */
+
+.bank-upload-wrap {
+  margin-top: 1.2rem;
+}
+
+.bank-upload {
+  display: inline-block;
+  padding: 0.62rem 0.95rem;
+  border: 1px solid #00b8d9;
+  border-radius: 8px;
+  color: #00b8d9 !important;
+  font-size: 0.80rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  background: rgba(0,184,217,0.04);
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.bank-upload:hover,
+.bank-upload:focus {
+  color: #ffffff !important;
+  background: #00b8d9;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgba(0,184,217,0.18);
+}
+
+
+/* =========================================================
    SECURITY NOTICE
 ========================================================= */
 
@@ -143,8 +178,7 @@ description: "Private academic document index for personal records, education, r
 .bank-card:hover {
   border-color: #00b8d9;
   transform: translateY(-3px);
-  box-shadow:
-    0 8px 22px rgba(0,184,217,0.06);
+  box-shadow: 0 8px 22px rgba(0,184,217,0.06);
 }
 
 .bank-number {
@@ -297,6 +331,7 @@ description: "Private academic document index for personal records, education, r
 
   .bank-card:hover,
   .bank-open:hover,
+  .bank-upload:hover,
   .bank-footer-button:hover {
     transform: none;
   }
@@ -332,6 +367,20 @@ description: "Private academic document index for personal records, education, r
     personal records, educational documents, research files, community service
     evidence, academic recognition, and professional certificates.
   </p>
+
+
+  <div class="bank-upload-wrap">
+
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSclIZoBW-PaV_Dth3vYot978UeW6eQT67leTmN9T-IoNjqfrg/viewform?usp=sharing&amp;ouid=104763393773222668428"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="bank-upload"
+    >
+      + Upload Document
+    </a>
+
+  </div>
 
 </section>
 
