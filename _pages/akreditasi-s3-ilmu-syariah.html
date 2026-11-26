@@ -76,25 +76,54 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 }
 
 .program-info-card {
+  display: block;
+
   padding: 0.95rem 1rem;
+
   border: 1px solid rgba(127,127,127,0.23);
   border-radius: 10px;
+
+  color: inherit !important;
+  text-decoration: none !important;
+
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    box-shadow 0.22s ease,
+    color 0.22s ease;
+}
+
+.program-info-card:hover {
+  border-color: #00b8d9;
+
+  color: #00b8d9 !important;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 22px rgba(0,184,217,0.06);
 }
 
 .program-info-card span {
   display: block;
+
   margin-bottom: 0.3rem;
+
   font-size: 0.63rem;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+
   opacity: 0.55;
 }
 
 .program-info-card strong {
   display: block;
+
   font-size: 0.84rem;
   line-height: 1.5;
+
+  color: inherit;
 }
 
 
@@ -109,7 +138,9 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 .akreditasi-section-title {
   margin: 0 0 1.2rem 0;
   padding-bottom: 0.55rem;
+
   border-bottom: 1px solid rgba(127,127,127,0.28);
+
   font-size: 1.25rem;
   line-height: 1.4;
 }
@@ -117,8 +148,10 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 .akreditasi-section-intro {
   max-width: 880px;
   margin: 0 0 1.5rem 0;
+
   font-size: 0.88rem;
   line-height: 1.75;
+
   opacity: 0.80;
 }
 
@@ -135,8 +168,10 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
 .core-card {
   padding: 1.1rem;
+
   border: 1px solid rgba(0,184,217,0.28);
   border-radius: 11px;
+
   transition:
     transform 0.22s ease,
     border-color 0.22s ease,
@@ -145,17 +180,24 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
 .core-card:hover {
   border-color: #00b8d9;
+
   transform: translateY(-3px);
-  box-shadow: 0 8px 22px rgba(0,184,217,0.06);
+
+  box-shadow:
+    0 8px 22px rgba(0,184,217,0.06);
 }
 
 .core-badge {
   display: inline-block;
+
   margin-bottom: 0.6rem;
   padding: 0.28rem 0.45rem;
+
   border: 1px solid rgba(0,184,217,0.50);
   border-radius: 6px;
+
   color: #00c9e8;
+
   font-size: 0.62rem;
   font-weight: 700;
 }
@@ -185,8 +227,10 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
 .cram-card {
   padding: 1.25rem;
+
   border: 1px solid rgba(127,127,127,0.24);
   border-radius: 12px;
+
   transition:
     transform 0.22s ease,
     border-color 0.22s ease,
@@ -195,17 +239,24 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
 .cram-card:hover {
   border-color: #00b8d9;
+
   transform: translateY(-3px);
-  box-shadow: 0 8px 22px rgba(0,184,217,0.06);
+
+  box-shadow:
+    0 8px 22px rgba(0,184,217,0.06);
 }
 
 .cram-number {
   display: inline-block;
+
   margin-bottom: 0.65rem;
   padding: 0.30rem 0.48rem;
+
   border: 1px solid rgba(0,184,217,0.50);
   border-radius: 6px;
+
   color: #00c9e8;
+
   font-size: 0.66rem;
   font-weight: 700;
   letter-spacing: 0.07em;
@@ -234,11 +285,15 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
 .tag {
   display: inline-block;
+
   margin: 0 0.25rem 0.3rem 0;
   padding: 0.25rem 0.45rem;
+
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 999px;
+
   font-size: 0.64rem;
+
   opacity: 0.72;
 }
 
@@ -249,21 +304,29 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
 .open-button {
   display: inline-block;
+
   padding: 0.50rem 0.72rem;
+
   border: 1px solid rgba(127,127,127,0.30);
   border-radius: 7px;
+
   font-size: 0.74rem;
   font-weight: 700;
+
   text-decoration: none !important;
+
   transition:
     border-color 0.2s ease,
     color 0.2s ease,
     transform 0.2s ease;
 }
 
-.open-button:hover {
+.open-button:hover,
+.open-button:focus {
   color: #00b8d9 !important;
+
   border-color: #00b8d9 !important;
+
   transform: translateY(-2px);
 }
 
@@ -279,22 +342,54 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 }
 
 .distinctive-card {
+  display: block;
+
   padding: 1.1rem;
+
   border: 1px solid rgba(127,127,127,0.23);
   border-radius: 10px;
+
   text-align: center;
+
+  color: inherit !important;
+  text-decoration: none !important;
+
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    box-shadow 0.22s ease,
+    color 0.22s ease;
+}
+
+.distinctive-card:hover {
+  border-color: #00b8d9;
+
+  color: #00b8d9 !important;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 22px rgba(0,184,217,0.06);
 }
 
 .distinctive-card strong {
   display: block;
+
   margin-bottom: 0.4rem;
+
   font-size: 0.88rem;
+
+  color: inherit;
 }
 
 .distinctive-card p {
   margin: 0;
+
   font-size: 0.72rem;
   line-height: 1.6;
+
+  color: inherit;
+
   opacity: 0.72;
 }
 
@@ -307,25 +402,38 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   gap: 0.7rem;
+
   margin-top: 3rem;
   padding-top: 1.5rem;
+
   border-top: 1px solid rgba(127,127,127,0.22);
 }
 
 .footer-button {
   display: inline-block;
+
   padding: 0.55rem 0.85rem;
+
   border: 1px solid rgba(127,127,127,0.30);
   border-radius: 8px;
+
   font-size: 0.78rem;
   font-weight: 700;
+
   text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .footer-button:hover {
   color: #00b8d9 !important;
   border-color: #00b8d9 !important;
+  transform: translateY(-2px);
 }
 
 
@@ -342,11 +450,21 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
 }
 
+
 @media (max-width: 768px) {
 
   .program-info,
   .cram-grid {
     grid-template-columns: 1fr;
+  }
+
+  .program-info-card:hover,
+  .core-card:hover,
+  .cram-card:hover,
+  .distinctive-card:hover,
+  .open-button:hover,
+  .footer-button:hover {
+    transform: none;
   }
 
 }
@@ -385,24 +503,65 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
   <div class="program-info">
 
-    <div class="program-info-card">
-      <span>Program Studi</span>
-      <strong>Doktor Ilmu Syariah</strong>
-    </div>
 
-    <div class="program-info-card">
-      <span>UPPS</span>
-      <strong>Pascasarjana UIN Jurai Siwo Lampung</strong>
-    </div>
+    <a
+      href="PASTE-LINK-PROGRAM-STUDI"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="program-info-card"
+    >
 
-    <div class="program-info-card">
-      <span>Kerangka Akreditasi</span>
-      <strong>APS 1.0 LAMGAMA · CRAM</strong>
-    </div>
+      <span>
+        Program Studi
+      </span>
+
+      <strong>
+        Doktor Ilmu Syariah
+      </strong>
+
+    </a>
+
+
+    <a
+      href="PASTE-LINK-UPPS"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="program-info-card"
+    >
+
+      <span>
+        UPPS
+      </span>
+
+      <strong>
+        Pascasarjana UIN Jurai Siwo Lampung
+      </strong>
+
+    </a>
+
+
+    <a
+      href="PASTE-LINK-INSTRUMEN-LAMGAMA"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="program-info-card"
+    >
+
+      <span>
+        Kerangka Akreditasi
+      </span>
+
+      <strong>
+        APS 1.0 LAMGAMA · CRAM
+      </strong>
+
+    </a>
+
 
   </div>
 
 </section>
+
 
 
 <!-- =====================================================
@@ -419,14 +578,19 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
     Dokumen Utama Akreditasi
   </h2>
 
+
   <div class="core-grid">
 
 
     <article class="core-card">
 
-      <span class="core-badge">DOC 01</span>
+      <span class="core-badge">
+        DOC 01
+      </span>
 
-      <h3>Laporan Evaluasi Diri (LED)</h3>
+      <h3>
+        Laporan Evaluasi Diri (LED)
+      </h3>
 
       <p>
         Dokumen evaluasi diri yang memuat analisis kinerja,
@@ -434,10 +598,12 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
         dan strategi pengembangan program studi.
       </p>
 
-      <a href="PASTE-LINK-LED"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-LED"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open LED →
       </a>
 
@@ -446,19 +612,25 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="core-card">
 
-      <span class="core-badge">DOC 02</span>
+      <span class="core-badge">
+        DOC 02
+      </span>
 
-      <h3>Laporan Kinerja Program Studi (LKPS)</h3>
+      <h3>
+        Laporan Kinerja Program Studi (LKPS)
+      </h3>
 
       <p>
         Data kuantitatif kinerja program studi yang menjadi
         dasar penilaian indikator akreditasi.
       </p>
 
-      <a href="PASTE-LINK-LKPS"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-LKPS"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open LKPS →
       </a>
 
@@ -467,27 +639,35 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="core-card">
 
-      <span class="core-badge">DOC 03</span>
+      <span class="core-badge">
+        DOC 03
+      </span>
 
-      <h3>Matriks Bukti Pendukung</h3>
+      <h3>
+        Matriks Bukti Pendukung
+      </h3>
 
       <p>
         Indeks yang menghubungkan setiap narasi LED dan data
         LKPS dengan bukti dokumen yang relevan.
       </p>
 
-      <a href="PASTE-LINK-MATRIKS-BUKTI"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-MATRIKS-BUKTI"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Evidence Matrix →
       </a>
 
     </article>
 
+
   </div>
 
 </section>
+
 
 
 <!-- =====================================================
@@ -519,9 +699,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">01</span>
+      <span class="cram-number">
+        01
+      </span>
 
-      <h3>Diferensiasi Misi</h3>
+      <h3>
+        Diferensiasi Misi
+      </h3>
 
       <p>
         Bukti keselarasan arah pengembangan Program Studi Doktor
@@ -532,23 +716,43 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
       <div class="tags">
 
-        <span class="tag">VMTS</span>
-        <span class="tag">Visi Keilmuan</span>
-        <span class="tag">RIP</span>
-        <span class="tag">Renstra</span>
-        <span class="tag">Renop</span>
-        <span class="tag">Benchmarking</span>
+        <span class="tag">
+          VMTS
+        </span>
+
+        <span class="tag">
+          Visi Keilmuan
+        </span>
+
+        <span class="tag">
+          RIP
+        </span>
+
+        <span class="tag">
+          Renstra
+        </span>
+
+        <span class="tag">
+          Renop
+        </span>
+
+        <span class="tag">
+          Benchmarking
+        </span>
 
       </div>
 
-      <a href="PASTE-LINK-01-DIFERENSIASI-MISI"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-01-DIFERENSIASI-MISI"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
     </article>
+
 
 
     <!-- =====================================================
@@ -557,9 +761,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">02</span>
+      <span class="cram-number">
+        02
+      </span>
 
-      <h3>Akuntabilitas</h3>
+      <h3>
+        Akuntabilitas
+      </h3>
 
       <p>
         Bukti tata kelola, kepemimpinan, pengelolaan program studi,
@@ -570,24 +778,47 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
       <div class="tags">
 
-        <span class="tag">Tata Pamong</span>
-        <span class="tag">Organisasi</span>
-        <span class="tag">SDM</span>
-        <span class="tag">EWMP DPR</span>
-        <span class="tag">Keuangan</span>
-        <span class="tag">Sarpras</span>
-        <span class="tag">Integritas Akademik</span>
+        <span class="tag">
+          Tata Pamong
+        </span>
+
+        <span class="tag">
+          Organisasi
+        </span>
+
+        <span class="tag">
+          SDM
+        </span>
+
+        <span class="tag">
+          EWMP DPR
+        </span>
+
+        <span class="tag">
+          Keuangan
+        </span>
+
+        <span class="tag">
+          Sarpras
+        </span>
+
+        <span class="tag">
+          Integritas Akademik
+        </span>
 
       </div>
 
-      <a href="PASTE-LINK-02-AKUNTABILITAS"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-02-AKUNTABILITAS"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
     </article>
+
 
 
     <!-- =====================================================
@@ -596,9 +827,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">03</span>
+      <span class="cram-number">
+        03
+      </span>
 
-      <h3>Budaya Mutu</h3>
+      <h3>
+        Budaya Mutu
+      </h3>
 
       <p>
         Bukti implementasi sistem penjaminan mutu internal
@@ -609,23 +844,43 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
       <div class="tags">
 
-        <span class="tag">SPMI</span>
-        <span class="tag">PPEPP</span>
-        <span class="tag">AMI</span>
-        <span class="tag">Monev</span>
-        <span class="tag">Survei Kepuasan</span>
-        <span class="tag">RTL</span>
+        <span class="tag">
+          SPMI
+        </span>
+
+        <span class="tag">
+          PPEPP
+        </span>
+
+        <span class="tag">
+          AMI
+        </span>
+
+        <span class="tag">
+          Monev
+        </span>
+
+        <span class="tag">
+          Survei Kepuasan
+        </span>
+
+        <span class="tag">
+          RTL
+        </span>
 
       </div>
 
-      <a href="PASTE-LINK-03-BUDAYA-MUTU"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-03-BUDAYA-MUTU"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
     </article>
+
 
 
     <!-- =====================================================
@@ -634,9 +889,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">04</span>
+      <span class="cram-number">
+        04
+      </span>
 
-      <h3>Relevansi Pendidikan</h3>
+      <h3>
+        Relevansi Pendidikan
+      </h3>
 
       <p>
         Bukti relevansi kurikulum, profil lulusan, Body of Knowledge,
@@ -647,25 +906,51 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
       <div class="tags">
 
-        <span class="tag">Kurikulum OBE</span>
-        <span class="tag">Profil Lulusan</span>
-        <span class="tag">BoK</span>
-        <span class="tag">CPL</span>
-        <span class="tag">RPS</span>
-        <span class="tag">Mahasiswa</span>
-        <span class="tag">Disertasi</span>
-        <span class="tag">PDDIKTI</span>
+        <span class="tag">
+          Kurikulum OBE
+        </span>
+
+        <span class="tag">
+          Profil Lulusan
+        </span>
+
+        <span class="tag">
+          BoK
+        </span>
+
+        <span class="tag">
+          CPL
+        </span>
+
+        <span class="tag">
+          RPS
+        </span>
+
+        <span class="tag">
+          Mahasiswa
+        </span>
+
+        <span class="tag">
+          Disertasi
+        </span>
+
+        <span class="tag">
+          PDDIKTI
+        </span>
 
       </div>
 
-      <a href="PASTE-LINK-04-PENDIDIKAN"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-04-PENDIDIKAN"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
     </article>
+
 
 
     <!-- =====================================================
@@ -674,9 +959,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">05</span>
+      <span class="cram-number">
+        05
+      </span>
 
-      <h3>Relevansi Penelitian</h3>
+      <h3>
+        Relevansi Penelitian
+      </h3>
 
       <p>
         Bukti roadmap penelitian, kesesuaian penelitian dengan
@@ -687,24 +976,47 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
       <div class="tags">
 
-        <span class="tag">Roadmap</span>
-        <span class="tag">Penelitian DTPS</span>
-        <span class="tag">Mahasiswa</span>
-        <span class="tag">Kolaborasi</span>
-        <span class="tag">Scopus</span>
-        <span class="tag">Sinta</span>
-        <span class="tag">HKI</span>
+        <span class="tag">
+          Roadmap
+        </span>
+
+        <span class="tag">
+          Penelitian DTPS
+        </span>
+
+        <span class="tag">
+          Mahasiswa
+        </span>
+
+        <span class="tag">
+          Kolaborasi
+        </span>
+
+        <span class="tag">
+          Scopus
+        </span>
+
+        <span class="tag">
+          Sinta
+        </span>
+
+        <span class="tag">
+          HKI
+        </span>
 
       </div>
 
-      <a href="PASTE-LINK-05-PENELITIAN"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-05-PENELITIAN"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
     </article>
+
 
 
     <!-- =====================================================
@@ -713,9 +1025,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">06</span>
+      <span class="cram-number">
+        06
+      </span>
 
-      <h3>Relevansi Pengabdian kepada Masyarakat</h3>
+      <h3>
+        Relevansi Pengabdian kepada Masyarakat
+      </h3>
 
       <p>
         Bukti roadmap PkM, pelaksanaan pengabdian berbasis
@@ -725,19 +1041,38 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
       <div class="tags">
 
-        <span class="tag">Roadmap PkM</span>
-        <span class="tag">PkM DTPS</span>
-        <span class="tag">Mahasiswa</span>
-        <span class="tag">Mitra</span>
-        <span class="tag">Publikasi</span>
-        <span class="tag">Dampak</span>
+        <span class="tag">
+          Roadmap PkM
+        </span>
+
+        <span class="tag">
+          PkM DTPS
+        </span>
+
+        <span class="tag">
+          Mahasiswa
+        </span>
+
+        <span class="tag">
+          Mitra
+        </span>
+
+        <span class="tag">
+          Publikasi
+        </span>
+
+        <span class="tag">
+          Dampak
+        </span>
 
       </div>
 
-      <a href="PASTE-LINK-06-PENGABDIAN"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-06-PENGABDIAN"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
@@ -747,6 +1082,7 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
   </div>
 
 </section>
+
 
 
 <!-- =====================================================
@@ -773,7 +1109,12 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
   <div class="distinctive-grid">
 
 
-    <div class="distinctive-card">
+    <a
+      href="PASTE-LINK-INTEGRASI-ILMU"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="distinctive-card"
+    >
 
       <strong>
         Integrasi Ilmu
@@ -785,10 +1126,15 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
         keilmuan kontemporer.
       </p>
 
-    </div>
+    </a>
 
 
-    <div class="distinctive-card">
+    <a
+      href="PASTE-LINK-MODERASI-BERAGAMA"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="distinctive-card"
+    >
 
       <strong>
         Moderasi Beragama
@@ -800,10 +1146,15 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
         pengabdian, dan kehidupan akademik.
       </p>
 
-    </div>
+    </a>
 
 
-    <div class="distinctive-card">
+    <a
+      href="PASTE-LINK-SARANA-KEAGAMAAN"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="distinctive-card"
+    >
 
       <strong>
         Sarana Keagamaan
@@ -815,12 +1166,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
         pendukung penyelenggaraan pendidikan keagamaan.
       </p>
 
-    </div>
+    </a>
 
 
   </div>
 
 </section>
+
 
 
 <!-- =====================================================
@@ -837,14 +1189,19 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
     Data Pendukung Lintas Kriteria
   </h2>
 
+
   <div class="cram-grid">
 
 
     <article class="cram-card">
 
-      <span class="cram-number">A</span>
+      <span class="cram-number">
+        A
+      </span>
 
-      <h3>Kerja Sama</h3>
+      <h3>
+        Kerja Sama
+      </h3>
 
       <p>
         MoU, MoA, IA, kerja sama nasional dan internasional,
@@ -853,16 +1210,31 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
       </p>
 
       <div class="tags">
-        <span class="tag">MoU</span>
-        <span class="tag">MoA</span>
-        <span class="tag">IA</span>
-        <span class="tag">International</span>
+
+        <span class="tag">
+          MoU
+        </span>
+
+        <span class="tag">
+          MoA
+        </span>
+
+        <span class="tag">
+          IA
+        </span>
+
+        <span class="tag">
+          International
+        </span>
+
       </div>
 
-      <a href="PASTE-LINK-KERJASAMA"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-KERJASAMA"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
@@ -871,9 +1243,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">B</span>
+      <span class="cram-number">
+        B
+      </span>
 
-      <h3>Rekognisi dan Luaran</h3>
+      <h3>
+        Rekognisi dan Luaran
+      </h3>
 
       <p>
         Rekognisi dosen, narasumber, reviewer, editor,
@@ -882,16 +1258,31 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
       </p>
 
       <div class="tags">
-        <span class="tag">Rekognisi</span>
-        <span class="tag">Reviewer</span>
-        <span class="tag">Editor</span>
-        <span class="tag">Publikasi</span>
+
+        <span class="tag">
+          Rekognisi
+        </span>
+
+        <span class="tag">
+          Reviewer
+        </span>
+
+        <span class="tag">
+          Editor
+        </span>
+
+        <span class="tag">
+          Publikasi
+        </span>
+
       </div>
 
-      <a href="PASTE-LINK-REKOGNISI"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-REKOGNISI"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
@@ -900,9 +1291,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">C</span>
+      <span class="cram-number">
+        C
+      </span>
 
-      <h3>Kepuasan Pemangku Kepentingan</h3>
+      <h3>
+        Kepuasan Pemangku Kepentingan
+      </h3>
 
       <p>
         Instrumen survei, hasil survei dosen, mahasiswa,
@@ -911,16 +1306,31 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
       </p>
 
       <div class="tags">
-        <span class="tag">Dosen</span>
-        <span class="tag">Mahasiswa</span>
-        <span class="tag">Alumni</span>
-        <span class="tag">Pengguna</span>
+
+        <span class="tag">
+          Dosen
+        </span>
+
+        <span class="tag">
+          Mahasiswa
+        </span>
+
+        <span class="tag">
+          Alumni
+        </span>
+
+        <span class="tag">
+          Pengguna
+        </span>
+
       </div>
 
-      <a href="PASTE-LINK-KEPUASAN"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-KEPUASAN"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
@@ -929,9 +1339,13 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 
     <article class="cram-card">
 
-      <span class="cram-number">D</span>
+      <span class="cram-number">
+        D
+      </span>
 
-      <h3>Data PDDIKTI dan Dokumen Formal</h3>
+      <h3>
+        Data PDDIKTI dan Dokumen Formal
+      </h3>
 
       <p>
         Data mahasiswa, dosen, homebase, kelulusan,
@@ -940,16 +1354,31 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
       </p>
 
       <div class="tags">
-        <span class="tag">PDDIKTI</span>
-        <span class="tag">SK Prodi</span>
-        <span class="tag">Homebase</span>
-        <span class="tag">Legalitas</span>
+
+        <span class="tag">
+          PDDIKTI
+        </span>
+
+        <span class="tag">
+          SK Prodi
+        </span>
+
+        <span class="tag">
+          Homebase
+        </span>
+
+        <span class="tag">
+          Legalitas
+        </span>
+
       </div>
 
-      <a href="PASTE-LINK-PDDIKTI"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="open-button">
+      <a
+        href="PASTE-LINK-PDDIKTI"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="open-button"
+      >
         Open Folder →
       </a>
 
@@ -961,24 +1390,31 @@ description: "Accreditation data repository for the Doctoral Program in Islamic 
 </section>
 
 
+
 <!-- =====================================================
      FOOTER
 ========================================================= -->
 
 <div class="akreditasi-footer">
 
-  <a href="/"
-     class="footer-button">
+  <a
+    href="/"
+    class="footer-button"
+  >
     ← Back to Home
   </a>
 
-  <a href="/bank-data/"
-     class="footer-button">
+  <a
+    href="/bank-data/"
+    class="footer-button"
+  >
     Bank Data
   </a>
 
-  <a href="/research/"
-     class="footer-button">
+  <a
+    href="/research/"
+    class="footer-button"
+  >
     Research →
   </a>
 
