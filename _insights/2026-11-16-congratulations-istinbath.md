@@ -1,10 +1,12 @@
 ---
-title: "Congratulations! Istinbath: Jurnal Hukum Is Now Indexed in Scopus"
-date: 2026-11-15
-category: "Academic News"
-image: "https://sakirman-edu.github.io/images/cover_istinbath.png"
-image_alt: "Cover of Istinbath: Jurnal Hukum"
-excerpt: "After nearly five months of waiting following its acceptance by the Scopus Content Selection and Advisory Board, Istinbath: Jurnal Hukum has officially appeared in the Scopus database."
+title: "Elsevier Confirms Completion of the Permission Form for Istinbath: Jurnal Hukum"
+date: 2026-11-25
+category: "Journal Development"
+excerpt: "Elsevier has confirmed that the Permission Form – Single Title for Istinbath: Jurnal Hukum has been fully executed, marking another important milestone in the journal’s Scopus onboarding process."
+image: "/images/elsevier-signing-complete.jpg"
+image_alt: "Elsevier Signing Complete confirmation for Istinbath Jurnal Hukum"
+permalink: /insights/elsevier-permission-form-istinbath/
+author_profile: true
 ---
 
 After nearly five months of waiting, **Istinbath: Jurnal Hukum** has officially appeared in the **Scopus database**. This milestone marks an important stage in the journal’s long academic journey and represents a significant achievement for the editorial team, reviewers, authors, Faculty of Sharia, and UIN Jurai Siwo Lampung.
