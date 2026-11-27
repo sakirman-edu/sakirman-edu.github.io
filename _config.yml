@@ -1,371 +1,801 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
+# Global configuration for:
+# https://sakirman-edu.github.io/
+#
+# Academic profile of Dr. Sakirman, M.S.I.
 
-# Basic Site Settings
+
+# =========================================================
+# BASIC SITE SETTINGS
+# =========================================================
+
 locale                   : "en-US"
 site_theme               : "default"
+
 title                    : "Dr. Sakirman, M.S.I."
 title_separator          : "-"
 name                     : &name "Dr. Sakirman, M.S.I."
-description              : &description "Academic profile in Islamic Law and Islamic Astronomy"
+
+description              : &description "Academic profile of Dr. Sakirman, M.S.I., researcher in Islamic Law and Islamic Astronomy, focusing on crescent visibility, twilight, hisab-rukyat, Hijri calendar studies, and contemporary Islamic law."
+
 url                      : "https://sakirman-edu.github.io"
 baseurl                  : ""
+
 repository               : "sakirman-edu/sakirman-edu.github.io"
 
 
-# Site Author
-# The following control what appears as part of the author content on the sidebar.
+# =========================================================
+# SITE AUTHOR
+# =========================================================
+
 author:
-  # Biographic information
+
   avatar           : "sakirman-profile.jpg"
+
   name             : "Dr. Sakirman, M.S.I."
+
   pronouns         :
-  bio              : "Researcher in Islamic Law and Islamic Astronomy, focusing on crescent visibility, twilight (syafaq), hisab–rukyat, and Hijri calendar studies."
+
+  bio              : "Researcher in Islamic Law and Islamic Astronomy, focusing on crescent visibility, twilight (syafaq), hisab-rukyat, and Hijri calendar studies."
+
   location         : "Metro, Lampung, Indonesia"
+
   employer         : "UIN Jurai Siwo Lampung"
-  uri              : "https://sakirmanweb.blogspot.com/"
+
+  uri              : "https://sakirman-edu.github.io/"
+
   email            : "sakirman@metrouniv.ac.id"
 
-  # Academic websites
+
+  # =======================================================
+  # ACADEMIC PROFILES
+  # =======================================================
+
   academia         :
+
   arxiv            :
+
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=eCtpuO8AAAAJ"
+
   inspire-hep      :
+
   impactstory      :
+
   orcid            : "https://orcid.org/0000-0002-9867-6505"
+
   semantic         :
+
   ssrn             :
+
   pubmed           :
+
   researchgate     : "https://www.researchgate.net/profile/Sakirman-Msi"
+
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=58665475300"
+
   zotero           :
 
-  # Repositories and software development
+
+  # =======================================================
+  # REPOSITORIES
+  # =======================================================
+
   bitbucket        :
+
   codepen          :
+
   dribbble         :
+
   github           : "sakirman-edu"
+
   kaggle           :
+
   stackoverflow    :
 
-  # Social media
+
+  # =======================================================
+  # SOCIAL MEDIA
+  # =======================================================
+
   artstation       :
+
   bluesky          :
+
   facebook         :
+
   flickr           :
+
   foursquare       :
+
   goodreads        :
+
   google_plus      :
+
   keybase          :
+
   instagram        :
+
   lastfm           :
+
   linkedin         :
+
   mastodon         :
+
   medium           :
+
   pinterest        :
+
   soundcloud       :
+
   steam            :
+
   telegram         :
+
   tumblr           :
+
   twitter          :
+
   vine             :
+
   weibo            :
+
   wikipedia        :
+
   xing             :
+
   youtube          :
+
   zhihu            :
 
-# Publication Category
-# The following lists publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
 
-# Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
+
+# =========================================================
+# PUBLICATION CATEGORY
+# =========================================================
+
+publication_category:
+
+  books:
+    title: "Books"
+
+  manuscripts:
+    title: "Journal Articles"
+
+  conferences:
+    title: "Conference Papers"
+
+
+
+# =========================================================
+# GENERAL SITE SETTINGS
+# =========================================================
+
+teaser                   : imagesog-sakirman.jpg
+
+breadcrumbs              : false
+
 words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+
+# Do not publish future-dated template/example posts
+future                   : false
+
+read_more                : "disabled"
+
+talkmap_link             : false
+
+
+
+# =========================================================
+# COMMENTS
+# =========================================================
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+
+  provider               :
+
   disqus:
     shortname            :
+
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server               :
+
   facebook:
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            :
+    colorscheme          :
+
+
+
+# =========================================================
+# STATICMAN
+# =========================================================
 
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+
+  allowedFields          :
+    - name
+    - email
+    - url
+    - message
+
+  branch                 : "gh-pages"
+
   commitMessage          : "New comment."
+
   filename               : comment-{@timestamp}
+
   format                 : "yml"
+
   moderation             : true
+
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+
+  requiredFields         :
+    - name
+    - email
+    - message
+
   transforms:
+
     email                : "md5"
+
   generatedFields:
+
     date:
+
       type               : "date"
+
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
+        format           : "iso8601"
+
+
+
+# =========================================================
+# ATOM FEED
+# =========================================================
 
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+
+  hide                   : false
+
+  path                   :
 
 
-# SEO Related
+
+# =========================================================
+# SEO VERIFICATION
+# =========================================================
+
+# Google Search Console is currently verified
+# using the HTML verification file in repository root.
+#
+# Keep the verification HTML file in the repository.
+
 google_site_verification :
+
 bing_site_verification   :
+
 alexa_site_verification  :
+
 yandex_site_verification :
 
 
-# Social Sharing
+
+# =========================================================
+# SOCIAL SHARING / OPEN GRAPH
+# =========================================================
+
 twitter:
+
   username               : &twitter
+
+
 facebook:
+
   username               :
+
   app_id                 :
+
   publisher              :
 
-og_image                 : og-image.png
-og_description           :
+
+# Default image used when a page has no specific image.
+# File location:
+# /images/imagesog-sakirman.jpg
+
+og_image                 : imagesog-sakirman.jpg
+
+og_description           : "Academic profile of Dr. Sakirman, M.S.I. in Islamic Law and Islamic Astronomy."
+
+
+
+# =========================================================
+# SOCIAL / PERSON ENTITY
+# =========================================================
 
 social:
-  type                   :
-  name                   :
+
+  type                   : Person
+
+  name                   : "Dr. Sakirman, M.S.I."
+
   links:
 
+    - "https://scholar.google.com/citations?hl=en&user=eCtpuO8AAAAJ"
 
-# Analytics
+    - "https://orcid.org/0000-0002-9867-6505"
+
+    - "https://www.researchgate.net/profile/Sakirman-Msi"
+
+    - "https://www.scopus.com/authid/detail.uri?authorId=58665475300"
+
+    - "https://github.com/sakirman-edu"
+
+
+
+# =========================================================
+# ANALYTICS
+# =========================================================
+
 analytics:
+
   provider               : "false"
+
   google:
+
     tracking_id          :
 
 
-# Reading Files
+
+# =========================================================
+# READING FILES
+# =========================================================
+
 include:
+
   - .htaccess
+
   - _pages
+
   - files
 
+
+
 exclude:
+
   - "*.sublime-project"
+
   - "*.sublime-workspace"
+
   - .asset-cache
+
   - .bundle
+
   - .github
+
   - .jekyll-assets-cache
+
   - .sass-cache
+
   - assets/js/_main.js
+
   - assets/js/plugins
+
   - assets/js/vendor
+
   - CHANGELOG
+
   - Capfile
+
   - config
+
   - Dockerfile
+
   - Gemfile
+
   - Gruntfile.js
+
   - gulpfile.js
+
   - LICENSE
+
   - local
+
   - log
+
   - node_modules
+
   - package.json*
+
   - Rakefile
+
   - README
+
   - tmp
+
   - vendor
 
+
+
 keep_files:
+
   - .git
+
   - .svn
 
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+encoding                 : "utf-8"
+
+markdown_ext             : "markdown,mkdown,mkdn,mkd,md"
 
 
-# Markdown Processing
+
+# =========================================================
+# CONVERSION
+# =========================================================
+
+markdown                  : kramdown
+
+highlighter               : rouge
+
+lsi                       : false
+
+excerpt_separator         : "\n\n"
+
+incremental               : false
+
+
+
+# =========================================================
+# MARKDOWN PROCESSING
+# =========================================================
+
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+
+  input                   : GFM
+
+  hard_wrap               : false
+
+  auto_ids                : true
+
+  footnote_nr             : 1
+
+  entity_output           : as_char
+
+  toc_levels              : 1..6
+
+  smart_quotes            : lsquo,rsquo,ldquo,rdquo
+
+  enable_coderay          : false
 
 
-# These settings control the types of collections used by the template
+
+# =========================================================
+# COLLECTIONS
+# =========================================================
+
 collections:
+
+
   teaching:
-    output: true
-    permalink: /:collection/:path/
+
+    output                : true
+
+    permalink             : /:collection/:path/
+
 
   publications:
-    output: true
-    permalink: /:collection/:path/
+
+    output                : true
+
+    permalink             : /:collection/:path/
+
 
   insights:
-    output: true
-    permalink: /insights/:path/
+
+    output                : true
+
+    permalink             : /insights/:path/
+
+
+  # Retained for AcademicPages compatibility.
+  # Content is prevented from appearing in sitemap
+  # through defaults below.
 
   portfolio:
-    output: true
-    permalink: /:collection/:path/
+
+    output                : true
+
+    permalink             : /:collection/:path/
+
 
   talks:
-    output: true
-    permalink: /:collection/:path/
+
+    output                : true
+
+    permalink             : /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
+
+# =========================================================
+# DEFAULTS
+# =========================================================
+
 defaults:
 
-  # _posts
+
+  # =======================================================
+  # POSTS
+  # =======================================================
+
+  # Template/blog posts are not part of the current
+  # academic website and should not appear in sitemap.
+
   - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
 
-  # _pages
+      path                : ""
+
+      type                : posts
+
+    values:
+
+      layout              : single
+
+      author_profile      : true
+
+      read_time           : true
+
+      comments            : true
+
+      share               : true
+
+      related             : true
+
+      sitemap             : false
+
+
+
+  # =======================================================
+  # PAGES
+  # =======================================================
+
   - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
-  # _teaching
+      path                : ""
+
+      type                : pages
+
+    values:
+
+      layout              : single
+
+      author_profile      : true
+
+
+
+  # =======================================================
+  # TEACHING
+  # =======================================================
+
   - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
 
-  # _publications
+      path                : ""
+
+      type                : teaching
+
+    values:
+
+      layout              : single
+
+      author_profile      : true
+
+      share               : true
+
+      comments            : true
+
+
+
+  # =======================================================
+  # PUBLICATIONS
+  # =======================================================
+
   - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
 
-  # _insights
+      path                : ""
+
+      type                : publications
+
+    values:
+
+      layout              : single
+
+      author_profile      : true
+
+      share               : true
+
+      comments            : true
+
+
+
+  # =======================================================
+  # INSIGHTS
+  # =======================================================
+
   - scope:
-      path: ""
-      type: insights
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      comments: false
 
-  # _portfolio
+      path                : ""
+
+      type                : insights
+
+    values:
+
+      layout              : single
+
+      author_profile      : true
+
+      read_time           : true
+
+      share               : true
+
+      comments            : false
+
+
+
+  # =======================================================
+  # PORTFOLIO
+  # =======================================================
+
+  # AcademicPages template portfolio is retained
+  # for compatibility but excluded from sitemap.
+
   - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
 
-  # _talks
+      path                : ""
+
+      type                : portfolio
+
+    values:
+
+      layout              : single
+
+      author_profile      : true
+
+      share               : true
+
+      comment             : true
+
+      sitemap             : false
+
+
+
+  # =======================================================
+  # TALKS
+  # =======================================================
+
+  # Template talks are retained for compatibility
+  # but excluded from sitemap.
+
   - scope:
-      path: ""
-      type: talks
+
+      path                : ""
+
+      type                : talks
+
     values:
-      layout: talk
-      author_profile: true
-      share: true
+
+      layout              : talk
+
+      author_profile      : true
+
+      share               : true
+
+      sitemap             : false
 
 
-# Sass/SCSS
+
+# =========================================================
+# SASS / SCSS
+# =========================================================
+
 sass:
-  sass_dir: _sass
-  style: compressed
+
+  sass_dir                : _sass
+
+  style                   : compressed
 
 
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5
-# paginate_path: /page:num/
-timezone: Asia/Jakarta
+
+# =========================================================
+# OUTPUTTING
+# =========================================================
+
+permalink                 : /:categories/:title/
+
+# paginate                : 5
+
+# paginate_path           : /page:num/
 
 
-# Plugins
+timezone                  : Asia/Jakarta
+
+
+
+# =========================================================
+# PLUGINS
+# =========================================================
+
 plugins:
+
   - jekyll-feed
+
   - jekyll-gist
+
   - jekyll-paginate
+
   - jekyll-sitemap
+
   - jekyll-redirect-from
+
   - jemoji
 
 
-# Mimic GitHub Pages with --safe
+
+# =========================================================
+# GITHUB PAGES SAFE MODE
+# =========================================================
+
 whitelist:
+
   - jekyll-feed
+
   - jekyll-gist
+
   - jekyll-paginate
+
   - jekyll-sitemap
+
   - jekyll-redirect-from
+
   - jemoji
 
 
-# Archives
+
+# =========================================================
+# ARCHIVES
+# =========================================================
+
 category_archive:
-  type: liquid
-  path: /categories/
+
+  type                    : liquid
+
+  path                    : /categories/
+
 
 tag_archive:
-  type: liquid
-  path: /tags/
+
+  type                    : liquid
+
+  path                    : /tags/
 
 
-# HTML Compression
+
+# =========================================================
+# HTML COMPRESSION
+# =========================================================
+
 compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
+
+  clippings               : all
+
+  comments                :
+
+    - "<!-- "
+
+    - " -->"
+
   ignore:
-    envs: development
+
+    envs                  : development
