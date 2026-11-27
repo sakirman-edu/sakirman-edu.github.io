@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 author_profile: true
-image: "/images/og-profile-sakirman.jpg"
+image: "/images/sakirman-profile.jpg"
 description: "Academic profile in Islamic Law and Islamic Astronomy"
 redirect_from:
   - /about/
