@@ -3,6 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+image: "/images/sakirman-profile.jpg"
 description: "Academic curriculum vitae of Dr. Sakirman, M.S.I., researcher and lecturer in Islamic law and Islamic astronomy at UIN Jurai Siwo Lampung."
 redirect_from:
   - /resume
